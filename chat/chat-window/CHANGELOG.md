@@ -1,5 +1,11 @@
 # @lg-chat/chat-window
 
+## 4.1.6
+
+### Patch Changes
+
+- 9b2d156: [LG-5486](https://jira.mongodb.org/browse/LG-5486) reverts style changes from [v4.1.4](https://github.com/mongodb/leafygreen-ui/blob/main/chat/chat-window/CHANGELOG.md#414)
+
 ## 4.1.5
 
 ### Patch Changes

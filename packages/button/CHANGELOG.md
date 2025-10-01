@@ -1,5 +1,11 @@
 # @leafygreen-ui/button
 
+## 25.1.0
+
+### Minor Changes
+
+- d027d4c: Mark default export as deprecated and add named export if missing. See [named-exports codemod documentation](https://github.com/mongodb/leafygreen-ui/tree/main/tools/codemods#named-exports) for migration assistance.
+
 ## 25.0.4
 
 ### Patch Changes
