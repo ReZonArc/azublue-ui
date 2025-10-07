@@ -7,11 +7,11 @@ async function getBatchBuildOptions(
   batch: Array<string>,
 ): Promise<Array<MergedRollupOptions>> {
   const { constructUMDGlobalName } = await import(
-    '@lg-tools/build/config/utils/constructUMDGlobalName.mjs'
+    '@az-tools/build/config/utils/constructUMDGlobalName.mjs'
   );
 
   const { esmConfig, umdConfig } = await import(
-    '@lg-tools/build/config/rollup.config.mjs'
+    '@az-tools/build/config/rollup.config.mjs'
   );
 
   return [

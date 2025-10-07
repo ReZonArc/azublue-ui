@@ -5,19 +5,19 @@ import { act, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { Cell, HeaderCell } from '../Cell';
 import { HeaderRow, Row } from '../Row';
 import TableBody from '../TableBody';
 import TableHead from '../TableHead';
 import { getTestUtils } from '../testing';
-import useLeafyGreenTable, {
+import useAzuBlueTable, {
   LeafyGreenTable,
   LeafyGreenTableCell,
   LeafyGreenTableRow,
-} from '../useLeafyGreenTable';
-import useLeafyGreenVirtualTable from '../useLeafyGreenVirtualTable';
+} from '../useAzuBlueTable';
+import useAzuBlueVirtualTable from '../useAzuBlueVirtualTable';
 import { Person } from '../utils/makeData.testutils';
 import {
   getDefaultTestColumns,
@@ -221,7 +221,7 @@ describe('packages/table/Table', () => {
       const columns = getDefaultTestColumns({}) || [];
 
       const { result } = renderHook(() =>
-        useLeafyGreenTable<any>({
+        useAzuBlueTable<any>({
           data,
           columns,
         }),
@@ -238,7 +238,7 @@ describe('packages/table/Table', () => {
       const columns = getDefaultTestColumns({}) || [];
 
       const { rerender: rerenderHook, result } = renderHook(() =>
-        useLeafyGreenTable<any>({
+        useAzuBlueTable<any>({
           data,
           columns,
         }),
@@ -269,7 +269,7 @@ describe('packages/table/Table', () => {
       const columns = getDefaultTestColumns({}) || [];
 
       const { rerender: rerenderHook, result } = renderHook(() =>
-        useLeafyGreenTable<any>({
+        useAzuBlueTable<any>({
           data,
           columns,
         }),
@@ -351,7 +351,7 @@ describe('packages/table/Table', () => {
     const ref = React.createRef<HTMLTableElement>();
 
     const { result: tableResults } = renderHook(() =>
-      useLeafyGreenTable<any>({
+      useAzuBlueTable<any>({
         data: [],
         columns: [
           {
@@ -363,7 +363,7 @@ describe('packages/table/Table', () => {
     );
 
     const { result: virtualTableResults } = renderHook(() =>
-      useLeafyGreenVirtualTable<any>({
+      useAzuBlueVirtualTable<any>({
         containerRef: React.createRef<HTMLDivElement>(),
         data: [],
         columns: [

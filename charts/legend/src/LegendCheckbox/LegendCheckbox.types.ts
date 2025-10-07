@@ -1,7 +1,7 @@
-import { SeriesName } from '@lg-charts/series-provider';
+import { SeriesName } from '@az-charts/series-provider';
 
-import { CheckboxProps } from '@leafygreen-ui/checkbox';
-import { Either } from '@leafygreen-ui/lib';
+import { CheckboxProps } from '@azublue-ui/checkbox';
+import { Either } from '@azublue-ui/lib';
 
 type OmittedCheckboxProps = Omit<
   CheckboxProps,

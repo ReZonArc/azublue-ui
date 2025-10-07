@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/toolbar",
+  "name": "@azublue-ui/toolbar",
   "version": "1.1.0",
   "description": "LeafyGreen UI Kit Toolbar",
   "main": "./dist/umd/index.js",
@@ -28,24 +28,24 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/descendants": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/tooltip": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^"
+    "@azublue-ui/descendants": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/tooltip": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/typography": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/toolbar",
   "repository": {

@@ -1,16 +1,16 @@
 import React, { useRef, useState } from 'react';
 
-import { useBackdropClick } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { keyMap } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color } from '@leafygreen-ui/tokens';
+import { useBackdropClick } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { keyMap } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color } from '@azublue-ui/tokens';
 import Tooltip, {
   Align,
   hoverDelay,
   Justify,
   RenderMode,
-} from '@leafygreen-ui/tooltip';
+} from '@azublue-ui/tooltip';
 
 import { CopyButtonTrigger } from '../CodeEditorCopyButtonTrigger';
 

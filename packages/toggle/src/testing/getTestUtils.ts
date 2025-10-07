@@ -1,6 +1,6 @@
-import { getByLgId } from '@lg-tools/test-harnesses';
+import { getByLgId } from '@az-tools/test-harnesses';
 
-import { LgIdString } from '@leafygreen-ui/lib';
+import { LgIdString } from '@azublue-ui/lib';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../utils/getLgIds';
 

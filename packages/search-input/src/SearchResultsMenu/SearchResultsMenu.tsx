@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useAvailableSpace } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import Popover, { DismissMode, RenderMode } from '@leafygreen-ui/popover';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { useAvailableSpace } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import Popover, { DismissMode, RenderMode } from '@azublue-ui/popover';
+import { spacing } from '@azublue-ui/tokens';
 
 import { useSearchInputContext } from '../SearchInputContext';
 

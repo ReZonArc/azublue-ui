@@ -5,7 +5,7 @@
 * @checksum fae4d3bd54d52655f04beb481a121b0d
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface GaugeProps extends LGGlyph.ComponentProps {}

@@ -3,10 +3,10 @@ import { fireEvent, getByText, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import Button from '@leafygreen-ui/button';
-import Icon from '@leafygreen-ui/icon';
-import { typeIs } from '@leafygreen-ui/lib';
-import { H1 } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import Icon from '@azublue-ui/icon';
+import { typeIs } from '@azublue-ui/lib';
+import { H1 } from '@azublue-ui/typography';
 
 import { SegmentedControlOption } from '../SegmentedControlOption/SegmentedControlOption';
 

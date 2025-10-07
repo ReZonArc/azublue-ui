@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/polymorphic",
+  "name": "@azublue-ui/polymorphic",
   "version": "3.1.0",
   "description": "LeafyGreen UI Kit Polymorphic",
   "main": "./dist/umd/index.js",
@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@emotion/styled": "^11.10.5",
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "dependencies": {
-    "@leafygreen-ui/lib": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
     "lodash": "^4.17.21"
   },
   "exports": {

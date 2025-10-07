@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { AriaLabelPropsWithLabel } from '@leafygreen-ui/a11y';
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+import { AriaLabelPropsWithLabel } from '@azublue-ui/a11y';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 
 export const Size = {
   Small: 'small',

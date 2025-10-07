@@ -1,10 +1,10 @@
 import React from 'react';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Code from '@leafygreen-ui/code';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Link } from '@leafygreen-ui/typography';
+import Code from '@azublue-ui/code';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Link } from '@azublue-ui/typography';
 
 import Callout, { CalloutProps, Variant } from '.';
 

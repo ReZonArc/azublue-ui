@@ -1,4 +1,4 @@
-import { BaseButtonProps } from '@leafygreen-ui/button';
+import { BaseButtonProps } from '@azublue-ui/button';
 
 import { UnitSelectProps } from '../UnitSelect/UnitSelect.types';
 

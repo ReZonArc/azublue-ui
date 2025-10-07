@@ -5,7 +5,7 @@
 * @checksum b38fe171af2489e14639cf28ce6f82a9
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface BiometricProps extends LGGlyph.ComponentProps {}

@@ -5,11 +5,11 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Icon, { glyphs } from '@leafygreen-ui/icon';
-import { Link } from '@leafygreen-ui/typography';
+import Icon, { glyphs } from '@azublue-ui/icon';
+import { Link } from '@azublue-ui/typography';
 
 import Banner, { BannerProps, Variant } from '.';
 

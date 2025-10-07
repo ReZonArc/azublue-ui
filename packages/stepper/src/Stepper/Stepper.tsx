@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { EllipsesStep } from '../EllipsesStep';
 import { InternalStep } from '../InternalStep';
@@ -67,7 +67,7 @@ export const Stepper = ({
   };
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <ol className={cx(baseStyles, className)} aria-label="progress" {...rest}>
         {hasPriorSteps && (
           <EllipsesStep
@@ -104,7 +104,7 @@ export const Stepper = ({
           </EllipsesStep>
         )}
       </ol>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

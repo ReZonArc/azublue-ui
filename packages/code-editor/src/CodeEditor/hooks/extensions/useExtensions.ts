@@ -1,6 +1,6 @@
 import { type EditorView } from 'codemirror';
 
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { type CodeEditorProps } from '../../CodeEditor.types';
 import { type CodeEditorModules } from '../moduleLoaders.types';

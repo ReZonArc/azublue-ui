@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { leftGlyphClassName } from '@leafygreen-ui/input-option';
+import { css } from '@azublue-ui/emotion';
+import { leftGlyphClassName } from '@azublue-ui/input-option';
 import {
   descriptionClassName,
   titleClassName,
-} from '@leafygreen-ui/input-option';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { fontWeights, spacing, typeScales } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/input-option';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { fontWeights, spacing, typeScales } from '@azublue-ui/tokens';
 
 import { ComboboxSize } from '../types';
 

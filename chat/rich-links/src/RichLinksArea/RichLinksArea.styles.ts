@@ -1,5 +1,5 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
 
 const baseContainerStyles = css`
   display: flex;

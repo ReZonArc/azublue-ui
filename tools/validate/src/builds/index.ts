@@ -3,7 +3,7 @@
  */
 
 /* eslint-disable no-console */
-import { getAllPackages, getPackageJson } from '@lg-tools/meta';
+import { getAllPackages, getPackageJson } from '@az-tools/meta';
 import chalk from 'chalk';
 import fse from 'fs-extra';
 import path from 'path';

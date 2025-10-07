@@ -10,11 +10,11 @@ describe('tools/validate:dependencies', () => {
     test('Returns empty array when all dependencies are OK', () => {
       const pkgJson = {
         dependencies: {
-          '@leafygreen-ui/lib': '*',
+          '@azublue-ui/lib': '*',
         },
       };
       const importedPackages = {
-        '@leafygreen-ui/lib': ['someFile.tsx'],
+        '@azublue-ui/lib': ['someFile.tsx'],
       };
 
       const result = validateListedDependencies({
@@ -30,12 +30,12 @@ describe('tools/validate:dependencies', () => {
       const pkgJson = {
         dependencies: {
           // Listed as a dependency...
-          '@leafygreen-ui/lib': '*',
+          '@azublue-ui/lib': '*',
         },
       };
       const importedPackages = {
         // ...Used as a devDependency
-        '@leafygreen-ui/lib': ['test.spec.tsx'],
+        '@azublue-ui/lib': ['test.spec.tsx'],
       };
 
       const result = validateListedDependencies({
@@ -44,7 +44,7 @@ describe('tools/validate:dependencies', () => {
         importedPackages,
       });
 
-      expect(result).toEqual(expect.arrayContaining(['@leafygreen-ui/lib']));
+      expect(result).toEqual(expect.arrayContaining(['@azublue-ui/lib']));
     });
   });
 
@@ -53,11 +53,11 @@ describe('tools/validate:dependencies', () => {
     test('Returns an empty array when devDependencies are OK', () => {
       const pkgJson = {
         devDependencies: {
-          '@leafygreen-ui/lib': '*',
+          '@azublue-ui/lib': '*',
         },
       };
       const importedPackages = {
-        '@leafygreen-ui/lib': ['test.spec.tsx'],
+        '@azublue-ui/lib': ['test.spec.tsx'],
       };
 
       const result = validateListedDevDependencies({
@@ -73,12 +73,12 @@ describe('tools/validate:dependencies', () => {
       const pkgJson = {
         devDependencies: {
           // Listed as dev...
-          '@leafygreen-ui/lib': '*',
+          '@azublue-ui/lib': '*',
         },
       };
       const importedPackages = {
         // but used in a source file
-        '@leafygreen-ui/lib': ['sourceFile.tsx'],
+        '@azublue-ui/lib': ['sourceFile.tsx'],
       };
 
       const result = validateListedDevDependencies({
@@ -87,7 +87,7 @@ describe('tools/validate:dependencies', () => {
         importedPackages,
       });
 
-      expect(result).toEqual(expect.arrayContaining(['@leafygreen-ui/lib']));
+      expect(result).toEqual(expect.arrayContaining(['@azublue-ui/lib']));
     });
   });
 

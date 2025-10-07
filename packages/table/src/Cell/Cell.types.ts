@@ -7,7 +7,7 @@ import {
   WeakValidationMap,
 } from 'react';
 
-import { LeafyGreenTableCell, LGRowData } from '../useLeafyGreenTable';
+import { LeafyGreenTableCell, LGRowData } from '../useAzuBlueTable';
 
 export type Align = Extract<
   ComponentPropsWithRef<'td'>['align'],
@@ -30,7 +30,7 @@ interface BaseCellProps extends ComponentPropsWithRef<'td'> {
 
 export interface CellProps<T extends LGRowData> extends BaseCellProps {
   /**
-   * The cell object that is returned when mapping through a row passed from the `useLeafyGreenTable` or `useLeafyGreenVirtualTable` hook.
+   * The cell object that is returned when mapping through a row passed from the `useAzuBlueTable` or `useAzuBlueVirtualTable` hook.
    */
   cell?: LeafyGreenTableCell<T>;
 }

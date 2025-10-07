@@ -5,7 +5,7 @@
 * @checksum 543c08fb00bf1c1d2c2b4f041d804f59
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface EraserProps extends LGGlyph.ComponentProps {}

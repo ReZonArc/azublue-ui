@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { render } from '@testing-library/react';
 
-import { PolymorphicAs } from '@leafygreen-ui/polymorphic';
+import { PolymorphicAs } from '@azublue-ui/polymorphic';
 
 import Description from './Description';
 

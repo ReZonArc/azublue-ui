@@ -1,4 +1,4 @@
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 /**
  * Returns an emotion CSS instance for rendering styles that respect

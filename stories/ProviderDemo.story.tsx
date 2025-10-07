@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
-import Badge from '@leafygreen-ui/badge';
-import Button from '@leafygreen-ui/button';
-import Card from '@leafygreen-ui/card';
-import LeafyGreenProvider, {
+import Badge from '@azublue-ui/badge';
+import Button from '@azublue-ui/button';
+import Card from '@azublue-ui/card';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/azublue-provider';
+import { Body } from '@azublue-ui/typography';
 
 export default {
-  title: 'LeafyGreen Provider/DarkMode',
+  title: 'AzuBlue Provider/DarkMode',
   parameters: {
     chromatic: { disableSnapshot: true },
   },
@@ -34,9 +34,9 @@ export const DarkModeDemo = () => {
 
   return (
     <>
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <DarkModeComponent />
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
       <br />
       <Button onClick={() => setDarkMode(!darkMode)}>Toggle outer state</Button>
       <br />

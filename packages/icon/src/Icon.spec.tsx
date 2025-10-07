@@ -5,7 +5,7 @@ import { axe } from 'jest-axe';
 import path from 'path';
 import { toJson } from 'xml2json';
 
-import { typeIs } from '@leafygreen-ui/lib';
+import { typeIs } from '@azublue-ui/lib';
 
 import EditIcon from './generated/Edit';
 import { Size } from './glyphCommon';

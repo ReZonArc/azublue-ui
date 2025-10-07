@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 import DarkModeFeature1 from './DarkModeFeature1.svg';
 import DarkModeFeature2 from './DarkModeFeature2.svg';

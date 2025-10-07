@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "comment": "This config extends @lg-tools/build/config/script.tsconfig.json, but is written explicitly to not depend on that package",
+  "comment": "This config extends @az-tools/build/config/script.tsconfig.json, but is written explicitly to not depend on that package",
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "nodenext",

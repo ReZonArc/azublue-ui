@@ -9,4 +9,4 @@ export {
   type SelectValueType,
   State,
 } from './Combobox.types';
-export { TruncationLocation } from '@leafygreen-ui/chip';
+export { TruncationLocation } from '@azublue-ui/chip';

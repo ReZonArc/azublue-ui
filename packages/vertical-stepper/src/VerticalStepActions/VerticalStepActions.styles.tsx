@@ -1,9 +1,9 @@
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   breakpoints,
   spacing,
   transitionDuration,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 export const innerStyles = css`
   overflow: hidden;

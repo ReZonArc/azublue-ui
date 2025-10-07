@@ -6,8 +6,8 @@ import {
   getISODateTZ,
   Month,
   newUTC,
-} from '@leafygreen-ui/date-utils';
-import { mockTimeZone, testTimeZones } from '@leafygreen-ui/date-utils/testing';
+} from '@azublue-ui/date-utils';
+import { mockTimeZone, testTimeZones } from '@azublue-ui/date-utils/testing';
 
 import {
   SharedDatePickerProvider,

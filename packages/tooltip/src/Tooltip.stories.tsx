@@ -4,7 +4,7 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { type StoryObj } from '@storybook/react';
 import {
   expect,
@@ -14,12 +14,12 @@ import {
   waitForElementToBeRemoved,
 } from '@storybook/test';
 
-import Button, { Size } from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import { RenderMode, TestUtils } from '@leafygreen-ui/popover';
-import { BaseFontSize, transitionDuration } from '@leafygreen-ui/tokens';
-import { Body, InlineCode, Subtitle } from '@leafygreen-ui/typography';
+import Button, { Size } from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import { RenderMode, TestUtils } from '@azublue-ui/popover';
+import { BaseFontSize, transitionDuration } from '@azublue-ui/tokens';
+import { Body, InlineCode, Subtitle } from '@azublue-ui/typography';
 
 import Tooltip, { Align, Justify, TooltipProps, TriggerEvent } from '.';
 
@@ -227,7 +227,7 @@ export const WithLeafyGreenChildren: StoryObj<TooltipProps> = {
       <>
         <Subtitle>Example</Subtitle>
         <Body>Use Tooltip in your codebase:</Body>
-        <InlineCode>@leafygreen-ui/tooltip</InlineCode>
+        <InlineCode>@azublue-ui/tooltip</InlineCode>
       </>
     ),
   },

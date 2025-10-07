@@ -5,18 +5,18 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   type StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 import { userEvent, within } from '@storybook/test';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import CaretDown from '@leafygreen-ui/icon/dist/CaretDown';
-import CloudIcon from '@leafygreen-ui/icon/dist/Cloud';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Align, Justify, RenderMode } from '@leafygreen-ui/popover';
-import { TestUtils } from '@leafygreen-ui/popover';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import CaretDown from '@azublue-ui/icon/dist/CaretDown';
+import CloudIcon from '@azublue-ui/icon/dist/Cloud';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Align, Justify, RenderMode } from '@azublue-ui/popover';
+import { TestUtils } from '@azublue-ui/popover';
 
 const { getAlign, getJustify } = TestUtils;
 
@@ -47,9 +47,9 @@ const meta: StoryMetaType<typeof Menu> = {
   component: Menu,
   decorators: [
     (StoryFn, _ctx) => (
-      <LeafyGreenProvider darkMode={_ctx?.args?.darkMode}>
+      <AzuBlueProvider darkMode={_ctx?.args?.darkMode}>
         <StoryFn />
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     ),
   ],
   parameters: {
@@ -86,11 +86,11 @@ const meta: StoryMetaType<typeof Menu> = {
         },
       ],
       decorator: (Instance, ctx) => (
-        <LeafyGreenProvider darkMode={ctx?.args?.darkMode}>
+        <AzuBlueProvider darkMode={ctx?.args?.darkMode}>
           <div className={getDecoratorStyles(ctx?.args ?? {})}>
             <Instance />
           </div>
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       ),
     },
   },

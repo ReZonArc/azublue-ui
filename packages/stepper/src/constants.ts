@@ -1,4 +1,4 @@
-import { createUniqueClassName } from '@leafygreen-ui/lib';
+import { createUniqueClassName } from '@azublue-ui/lib';
 
 export const stepLabelClassName = createUniqueClassName();
 export const stepIconClassName = createUniqueClassName();

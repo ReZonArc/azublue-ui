@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { getAllPackages } from '@lg-tools/meta';
+import { getAllPackages } from '@az-tools/meta';
 
 import { ValidateCommandOptions } from '../validate.types';
 

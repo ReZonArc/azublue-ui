@@ -1,10 +1,10 @@
 import React from 'react';
 import range from 'lodash/range';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Size } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { Size } from '@azublue-ui/tokens';
 
 import { Skeleton } from '../Skeleton';
 
@@ -24,7 +24,7 @@ export function ListSkeleton({
   const { darkMode } = useDarkMode(darkModeProp);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <ul
         className={skeletonListWrapperStyles}
         data-testid="lg-skeleton-list"
@@ -42,7 +42,7 @@ export function ListSkeleton({
           </li>
         ))}
       </ul>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

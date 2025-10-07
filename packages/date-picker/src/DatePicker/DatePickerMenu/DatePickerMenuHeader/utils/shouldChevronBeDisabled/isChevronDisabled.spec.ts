@@ -1,4 +1,4 @@
-import { Month } from '@leafygreen-ui/date-utils';
+import { Month } from '@azublue-ui/date-utils';
 
 import { shouldChevronBeDisabled } from '.';
 

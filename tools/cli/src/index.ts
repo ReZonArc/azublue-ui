@@ -1,23 +1,23 @@
-import { buildPackage, buildTSDoc, buildTypescript } from '@lg-tools/build';
-import { migrator } from '@lg-tools/codemods';
-import { createPackage } from '@lg-tools/create';
-import { installLeafyGreen } from '@lg-tools/install';
-import { linkPackages, unlinkPackages } from '@lg-tools/link';
-import { lint } from '@lg-tools/lint';
-import { mergePromptsVSCode } from '@lg-tools/prompt-kit';
-import { releaseBot } from '@lg-tools/slackbot';
-import { test } from '@lg-tools/test';
-import { update } from '@lg-tools/update';
-import { validate } from '@lg-tools/validate';
+import { buildPackage, buildTSDoc, buildTypescript } from '@az-tools/build';
+import { migrator } from '@az-tools/codemods';
+import { createPackage } from '@az-tools/create';
+import { installAzuBlue } from '@az-tools/install';
+import { linkPackages, unlinkPackages } from '@az-tools/link';
+import { lint } from '@az-tools/lint';
+import { mergePromptsVSCode } from '@az-tools/prompt-kit';
+import { releaseBot } from '@az-tools/slackbot';
+import { test } from '@az-tools/test';
+import { update } from '@az-tools/update';
+import { validate } from '@az-tools/validate';
 import { Command } from 'commander';
 import { sync as readPackageUpSync } from 'read-pkg-up';
 
 const pkg = readPackageUpSync({ cwd: __dirname })?.packageJson;
 
-const cli = new Command('lg');
+const cli = new Command('az');
 cli
   .version(pkg?.version ?? '0.0.0')
-  .description('Command line tools for the LeafyGreen UI library by MongoDB')
+  .description('Command line tools for the AzuBlue UI library by MongoDB')
   .enablePositionalOptions(true);
 
 /** Create */
@@ -52,13 +52,13 @@ cli
 /** Install */
 cli
   .command('install')
-  .description('Installs LeafyGreen packages to the current app')
+  .description('Installs AzuBlue packages to the current app')
   .argument('[packages...]', 'A list of packages to install')
   .option('-v --verbose', 'Prints additional information to the console', false)
   .option('-d, --dry', 'Dry run. Does not install any packages.', false)
   .option(
     '-e, --essentials',
-    'Install only essential packages (includes `leafygreen-provider`, `lg-emotion` and `lib`)',
+    'Install only essential packages (includes `azublue-provider`, `az-emotion` and `lib`)',
     false,
   )
   .option(
@@ -66,16 +66,16 @@ cli
     'Install only basic packages. (Essentials, plus some select core components)',
     false,
   )
-  .option('--ui', 'Install all `@leafygreen-ui` scoped packages', true)
-  .option('--charts', 'Install all `@lg-charts` packages', false)
-  .option('--chat', 'Install all `@lg-chat` packages', false)
+  .option('--ui', 'Install all `@azublue-ui` scoped packages', true)
+  .option('--charts', 'Install all `@az-charts` packages', false)
+  .option('--chat', 'Install all `@az-chat` packages', false)
   .allowUnknownOption(true)
-  .action(installLeafyGreen);
+  .action(installAzuBlue);
 
 /** Link & Unlink */
 cli
   .command('link')
-  .description('Link local LeafyGreen packages to a destination app.')
+  .description('Link local AzuBlue packages to a destination app.')
   .argument('[destination]', 'The destination app path')
   .option('--to <destination>', 'Alias for `destination`')
   .option(
@@ -109,7 +109,7 @@ const slackbotCmd = cli.command('slackbot');
  * This is the "Bot User OAuth Token" found at https://api.slack.com/apps/A02H2UGAMDM/oauth, and should start with "xoxb-"
  *
  * To run this automatically, pass in an array of updates (in the format output by \`changeset\`) as the first argument.
- * i.e. \`pnpm slackbot '[{"name": "@leafygreen-ui/sample", "version": "0.1.0"}]' \`
+ * i.e. \`pnpm slackbot '[{"name": "@azublue-ui/sample", "version": "0.1.0"}]' \`
  *
  * Optionally pass in a channel name (defaults to 'leafygreen-ui-releases').
  * Valid channels are: \`${Object.keys(Channels).join('`, `')}\`.
@@ -144,13 +144,13 @@ cli
 /** Test */
 cli
   .command('test')
-  .description('Tests leafygreen-ui packages with unified config.')
+  .description('Tests azublue-ui packages with unified config.')
   .argument('[pass-through...]', 'Pass-through options for `jest`')
   .option('--watch', 'Watch all files you intend to test', false)
   .option('--ci', 'Runs tests with CI configuration', false)
   .option(
     '--config',
-    'Specify a jest config file. By default will look for `jest.config.js` at the root, or use `@lg-tools/test/config`',
+    'Specify a jest config file. By default will look for `jest.config.js` at the root, or use `@az-tools/test/config`',
   )
   .option('--react17', 'Runs tests in a React17 environment', false)
   .allowUnknownOption(true)
@@ -162,10 +162,10 @@ cli
   .command('update')
   .alias('upgrade')
   .description(
-    'Updates installed LeafyGreen packages based on the specified range',
+    'Updates installed AzuBlue packages based on the specified range',
   )
   .argument('[packages...]', 'A list of packages to update')
-  .option('--scope', 'The npm scope of the packages', '@leafygreen-ui')
+  .option('--scope', 'The npm scope of the packages', '@azublue-ui')
   .option(
     '--latest',
     'Ignores the version range specified in `package.json`',
@@ -219,7 +219,7 @@ cli
   )
   .option(
     '--packages <packages...>',
-    'Specific package names to transform. E.g. --packages @leafygreen-ui/button @leafygreen-ui/menu',
+    'Specific package names to transform. E.g. --packages @azublue-ui/button @azublue-ui/menu',
   )
   .action(migrator);
 

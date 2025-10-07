@@ -16,7 +16,7 @@ interface BuildPackageOptions {
   /**
    * Pass this option if the function is called directly, and not via Commander.action.
    * We use this option in this package's `bin/build-packages.js` command,
-   * in order to log a warning to consumers to use the `lg` command from @lg-tools/cli
+   * in order to log a warning to consumers to use the `lg` command from @az-tools/cli
    */
   direct?: boolean;
   verbose?: boolean;

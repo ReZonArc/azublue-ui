@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { RowContextProvider } from '../Row/RowContext';
-import useLeafyGreenTable, { LeafyGreenTableCell } from '../useLeafyGreenTable';
+import useAzuBlueTable, { LeafyGreenTableCell } from '../useAzuBlueTable';
 import { Person } from '../utils/makeData.testutils';
 import {
   getDefaultTestColumns,
@@ -23,7 +23,7 @@ const defaultProps: CellProps<unknown> = {
 
 /** Returns the first Cell from the first Row */
 const useMockTestCellData = (): LeafyGreenTableCell<Person> => {
-  const table = useLeafyGreenTable({
+  const table = useAzuBlueTable({
     data: getDefaultTestData({}),
     columns: getDefaultTestColumns({}),
   });

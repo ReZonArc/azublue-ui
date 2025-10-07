@@ -3,21 +3,21 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import type { StoryFn } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { CodeEditorTooltip } from './CodeEditorTooltip';
 
 const EditorTooltipRoot = (Story: StoryFn, context: any) => (
-  <LeafyGreenProvider
+  <AzuBlueProvider
     darkMode={context?.args.darkMode}
     baseFontSize={context?.args.baseFontSize}
   >
     <Story />
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 
 const meta: StoryMetaType<typeof CodeEditorTooltip> = {

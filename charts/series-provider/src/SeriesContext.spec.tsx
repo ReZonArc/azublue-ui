@@ -3,7 +3,7 @@ import {
   colors as defaultColors,
   type DarkColor,
   type LightColor,
-} from '@lg-charts/colors';
+} from '@az-charts/colors';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

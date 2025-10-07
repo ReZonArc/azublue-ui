@@ -4,9 +4,9 @@ import {
   FormEventHandler,
 } from 'react';
 
-import { AriaLabelProps } from '@leafygreen-ui/a11y';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { Size } from '@leafygreen-ui/tokens';
+import { AriaLabelProps } from '@azublue-ui/a11y';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { Size } from '@azublue-ui/tokens';
 
 export const State = {
   Unset: 'unset',

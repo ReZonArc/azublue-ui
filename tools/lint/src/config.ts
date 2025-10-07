@@ -1,4 +1,4 @@
-import { getPackageRoot } from '@lg-tools/meta';
+import { getPackageRoot } from '@az-tools/meta';
 import { ESLint } from 'eslint';
 import path from 'path';
 

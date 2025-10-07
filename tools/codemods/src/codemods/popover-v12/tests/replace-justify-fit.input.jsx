@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { DatePicker as LGDatePicker } from '@leafygreen-ui/date-picker';
-import { InfoSprinkle } from '@leafygreen-ui/info-sprinkle';
-import InlineDefinition from '@leafygreen-ui/inline-definition';
-import { Menu } from '@leafygreen-ui/menu';
-import Popover from '@leafygreen-ui/popover';
-import LeafyGreenTooltip from '@leafygreen-ui/tooltip';
+import { DatePicker as LGDatePicker } from '@azublue-ui/date-picker';
+import { InfoSprinkle } from '@azublue-ui/info-sprinkle';
+import InlineDefinition from '@azublue-ui/inline-definition';
+import { Menu } from '@azublue-ui/menu';
+import Popover from '@azublue-ui/popover';
+import LeafyGreenTooltip from '@azublue-ui/tooltip';
 
 export const App = () => {
   return (

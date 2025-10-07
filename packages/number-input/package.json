@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/number-input",
+  "name": "@azublue-ui/number-input",
   "version": "5.0.7",
   "description": "leafyGreen UI Kit Number Input",
   "main": "./dist/umd/index.js",
@@ -23,25 +23,25 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/a11y": "workspace:^",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/form-field": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/select": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/tooltip": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
+    "@azublue-ui/a11y": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/form-field": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/select": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/tooltip": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

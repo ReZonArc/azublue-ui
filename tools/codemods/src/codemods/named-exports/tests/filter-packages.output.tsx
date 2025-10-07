@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Button } from '@leafygreen-ui/button';
-import Card from '@leafygreen-ui/card';
-import { Modal } from '@leafygreen-ui/modal';
+import { Button } from '@azublue-ui/button';
+import Card from '@azublue-ui/card';
+import { Modal } from '@azublue-ui/modal';
 
 const App = () => {
   return (

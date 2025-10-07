@@ -1,14 +1,14 @@
 import { existsSync, lstatSync, readdirSync } from 'fs-extra';
 import path from 'path';
 
-import { getLGConfig } from '../getLGConfig';
+import { getAzuBlueConfig } from '../getAzuBlueConfig';
 import { getPackageName } from '../getPackageName';
 import { getRepositoryRoot } from '../getRepositoryRoot';
 
 /** @returns the absolute paths of all packages in the current repository */
 export const getAllPackages = () => {
   const rootDir = getRepositoryRoot();
-  const { scopes } = getLGConfig();
+  const { scopes } = getAzuBlueConfig();
 
   const paths: Array<string> = [];
 

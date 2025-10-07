@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
 
 import { Size } from '../types';
 

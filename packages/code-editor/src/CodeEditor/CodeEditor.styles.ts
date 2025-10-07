@@ -1,9 +1,9 @@
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   createUniqueClassName,
   getMobileMediaQuery,
   Theme,
-} from '@leafygreen-ui/lib';
+} from '@azublue-ui/lib';
 import {
   borderRadius,
   breakpoints,
@@ -12,7 +12,7 @@ import {
   spacing,
   transitionDuration,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { CodeEditorSelectors, CopyButtonAppearance } from './CodeEditor.types';
 

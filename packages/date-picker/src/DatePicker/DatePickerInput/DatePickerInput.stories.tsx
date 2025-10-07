@@ -1,10 +1,10 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { SupportedLocales } from '@leafygreen-ui/date-utils';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Size } from '@leafygreen-ui/tokens';
+import { SupportedLocales } from '@azublue-ui/date-utils';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Size } from '@azublue-ui/tokens';
 
 import {
   SharedDatePickerContextProps,
@@ -24,13 +24,13 @@ const ProviderWrapper = (Story: StoryFn, ctx: any) => {
     getProviderPropsFromStoryContext<DatePickerProps>(ctx?.args);
 
   return (
-    <LeafyGreenProvider {...leafyGreenProviderProps}>
+    <AzuBlueProvider {...leafyGreenProviderProps}>
       <SharedDatePickerProvider {...datePickerProviderProps}>
         <DatePickerProvider value={storyProps.value} setValue={() => {}}>
           <Story {...storyProps} />
         </DatePickerProvider>
       </SharedDatePickerProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

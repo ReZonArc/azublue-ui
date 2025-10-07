@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 require('dotenv').config();
-import { isValidJSON } from '@lg-tools/meta';
+import { isValidJSON } from '@az-tools/meta';
 import { WebClient } from '@slack/web-api';
 import chalk from 'chalk';
 

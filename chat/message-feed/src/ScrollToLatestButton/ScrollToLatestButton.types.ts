@@ -1,4 +1,4 @@
-import { BaseButtonProps } from '@leafygreen-ui/button';
+import { BaseButtonProps } from '@azublue-ui/button';
 
 export interface ScrollToLatestButtonProps extends BaseButtonProps {
   /**

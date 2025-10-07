@@ -7,7 +7,7 @@ import { StoryArgType } from './storybookArgTypes';
 
 // Re-defining LG provider prop keys here since importing from the package
 // will cause circular dependencies
-export interface LeafyGreenProviderProps {
+export interface AzuBlueProviderProps {
   darkMode?: boolean;
   baseFontSize?: number;
 }
@@ -84,7 +84,7 @@ type ArgTypes<
       [key in keyof ComponentProps<T>]: StoryArgType;
     }
   | {
-      [key in keyof LeafyGreenProviderProps]: StoryArgType;
+      [key in keyof AzuBlueProviderProps]: StoryArgType;
     }
   | {
       [key in keyof XP]: StoryArgType;
@@ -104,7 +104,7 @@ export type StoryMetaType<
   component?: T;
   parameters: StoryParameters<T, XP>;
   argTypes?: ArgTypes<T, XP>;
-  args?: Partial<ComponentProps<T> | LeafyGreenProviderProps | XP>;
+  args?: Partial<ComponentProps<T> | AzuBlueProviderProps | XP>;
 };
 
 export type StoryType<
@@ -115,7 +115,7 @@ export type StoryType<
 > = StoryFn<ComponentProps<T> & XP> & {
   parameters?: Omit<StoryParameters<T, XP>, 'default'>;
   argTypes?: ArgTypes<T, XP>;
-  args?: Partial<ComponentProps<T> | LeafyGreenProviderProps | XP>;
+  args?: Partial<ComponentProps<T> | AzuBlueProviderProps | XP>;
   play?: PlayFn<T, XP>;
 };
 

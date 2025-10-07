@@ -1,6 +1,6 @@
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { Align, Justify } from '@leafygreen-ui/popover';
-import { TooltipProps } from '@leafygreen-ui/tooltip';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { Align, Justify } from '@azublue-ui/popover';
+import { TooltipProps } from '@azublue-ui/tooltip';
 
 export const TooltipAlign = {
   Top: Align.Top,

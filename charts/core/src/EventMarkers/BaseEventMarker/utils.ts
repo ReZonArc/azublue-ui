@@ -1,4 +1,4 @@
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
@@ -7,7 +7,7 @@ import {
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { SeriesOption } from '../../Chart';
 

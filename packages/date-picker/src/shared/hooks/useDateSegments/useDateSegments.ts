@@ -2,8 +2,8 @@ import { useEffect, useReducer } from 'react';
 import isNull from 'lodash/isNull';
 import isUndefined from 'lodash/isUndefined';
 
-import { DateType, isSameUTCDay, isValidDate } from '@leafygreen-ui/date-utils';
-import { usePrevious } from '@leafygreen-ui/hooks';
+import { DateType, isSameUTCDay, isValidDate } from '@azublue-ui/date-utils';
+import { usePrevious } from '@azublue-ui/hooks';
 
 import { DateSegment, DateSegmentsState, DateSegmentValue } from '../../types';
 import { getFormattedSegmentsFromDate } from '../../utils';

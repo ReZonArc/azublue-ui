@@ -3,12 +3,12 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import { spacing } from '@azublue-ui/tokens';
 
 import { LegendCheckbox } from './LegendCheckbox';
 import { LegendCheckboxProps } from './LegendCheckbox.types';

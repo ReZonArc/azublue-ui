@@ -4,13 +4,13 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Badge from '@leafygreen-ui/badge';
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import Tooltip from '@leafygreen-ui/tooltip';
+import Badge from '@azublue-ui/badge';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import Tooltip from '@azublue-ui/tooltip';
 
 import {
   KitchenSink,
@@ -36,7 +36,7 @@ import {
   TableBody,
   TableHead,
   type TableProps,
-  useLeafyGreenVirtualTable,
+  useAzuBlueVirtualTable,
 } from '..';
 
 import { VerticalAlignment } from './Table.types';
@@ -129,7 +129,7 @@ export const Basic: StoryFn<StoryTableProps> = args => {
 
   const columns = useMemo(() => basicColumnDefs, []);
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -239,7 +239,7 @@ export const DynamicData: StoryFn<StoryTableProps> = args => {
     [showEmoji],
   );
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -315,7 +315,7 @@ export const NestedRows: StoryFn<StoryTableProps> = args => {
 
   const columns = useMemo(() => basicColumnDefs, []);
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -426,7 +426,7 @@ export const SortableRows: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -500,7 +500,7 @@ export const SelectableRows: StoryFn<StoryTableProps> = args => {
 
   const columns = useMemo(() => basicColumnDefs, []);
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -574,7 +574,7 @@ export const ExpandableContent: StoryFn<StoryTableProps> = args => {
 
   const columns = useMemo(() => basicColumnDefs, []);
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -714,7 +714,7 @@ export const TallRows: StoryFn<StoryTableProps> = args => {
   const columns = useMemo(() => columnDefs, []);
   const estimateSize = useCallback(() => 68, []);
 
-  const table = useLeafyGreenVirtualTable<Person>({
+  const table = useAzuBlueVirtualTable<Person>({
     containerRef: tableContainerRef,
     data,
     columns,
@@ -859,7 +859,7 @@ export const WithLeafyGreenComponents: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenVirtualTable<KitchenSink>({
+  const table = useAzuBlueVirtualTable<KitchenSink>({
     containerRef: tableContainerRef,
     data,
     columns,

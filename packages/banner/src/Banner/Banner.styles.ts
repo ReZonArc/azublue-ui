@@ -1,11 +1,11 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { BaseFontSize, fontFamilies, fontWeights } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { BaseFontSize, fontFamilies, fontWeights } from '@azublue-ui/tokens';
 import {
   anchorClassName,
   bodyTypeScaleStyles,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { Variant } from '../shared.types';
 

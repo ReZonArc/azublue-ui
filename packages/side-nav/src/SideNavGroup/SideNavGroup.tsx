@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import { isComponentGlyph } from '@leafygreen-ui/icon';
-import { isComponentType } from '@leafygreen-ui/lib';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import { isComponentGlyph } from '@azublue-ui/icon';
+import { isComponentType } from '@azublue-ui/lib';
 
 import { SideNavGroupCollapsed } from '../SideNavGroupCollapsed';
 import { SideNavGroupOpen } from '../SideNavGroupOpen';

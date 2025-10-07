@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { SharedSkeletonProps } from '../Skeleton/Skeleton.types';
 

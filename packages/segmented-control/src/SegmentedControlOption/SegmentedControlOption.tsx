@@ -1,16 +1,16 @@
 import React, { useContext, useEffect, useRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { isComponentGlyph } from '@leafygreen-ui/icon';
+import { cx } from '@azublue-ui/emotion';
+import { isComponentGlyph } from '@azublue-ui/icon';
 import {
   useBaseFontSize,
   useUsingKeyboardContext,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 import {
   Polymorphic,
   PolymorphicAs,
   usePolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { SegmentedControlContext } from '../SegmentedControlContext';
 

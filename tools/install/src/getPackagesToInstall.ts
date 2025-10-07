@@ -32,9 +32,9 @@ export function getPackagesToInstall(
   }
 
   const scopeFilters: Record<string, boolean> = {
-    '@leafygreen-ui/': ui ?? false,
-    '@lg-charts/': charts ?? false,
-    '@lg-chat/': chat ?? false,
+    '@azublue-ui/': ui ?? false,
+    '@az-charts/': charts ?? false,
+    '@az-chat/': chat ?? false,
   };
   const hasScopeFilters = Object.values(scopeFilters).some(Boolean);
   const hasFilterFlags = hasScopeFilters || essentials || basic;

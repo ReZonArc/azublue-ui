@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 
 import { RichLink, type RichLinkVariantName } from '.';
 
-describe('@lg-chat/rich-links', () => {
+describe('@az-chat/rich-links', () => {
   describe('RichLink', () => {
     it('renders a basic RichLink component', () => {
       render(<RichLink href="javascript:;">Basic rich link</RichLink>);

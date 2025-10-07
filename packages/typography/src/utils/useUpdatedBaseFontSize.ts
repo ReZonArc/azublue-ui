@@ -1,5 +1,5 @@
-import { useBaseFontSize } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { useBaseFontSize } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 /**
  * A temporary wrapper around {@link useBaseFontSize}

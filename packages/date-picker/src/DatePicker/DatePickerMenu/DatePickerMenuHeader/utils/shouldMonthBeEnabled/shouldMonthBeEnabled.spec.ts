@@ -1,4 +1,4 @@
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
+import { Month, newUTC } from '@azublue-ui/date-utils';
 
 import { shouldMonthBeEnabled } from '.';
 

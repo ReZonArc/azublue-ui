@@ -1,4 +1,4 @@
-import { findByLgId, getByLgId, queryByLgId } from '@lg-tools/test-harnesses';
+import { findByLgId, getByLgId, queryByLgId } from '@az-tools/test-harnesses';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../utils/getLgIds';
 

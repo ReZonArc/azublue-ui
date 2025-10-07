@@ -5,7 +5,7 @@ import * as CodeMirrorViewModule from '@codemirror/view';
 import { waitFor } from '@testing-library/react';
 import * as CodeMirrorModule from 'codemirror';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { useModules } from './useModules';
 

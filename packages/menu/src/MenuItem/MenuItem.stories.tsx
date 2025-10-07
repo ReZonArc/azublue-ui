@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import Icon, { glyphs } from '@leafygreen-ui/icon';
+import Icon, { glyphs } from '@azublue-ui/icon';
 
 import { MenuProps } from '../Menu';
 import { withMenuContext } from '../testUtils/withMenuContextDecorator.testutils';

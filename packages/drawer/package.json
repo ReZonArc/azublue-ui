@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/drawer",
+  "name": "@azublue-ui/drawer",
   "version": "5.1.0",
   "description": "LeafyGreen UI Kit Drawer",
   "main": "./dist/umd/index.js",
@@ -28,31 +28,31 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/polymorphic": "workspace:^",
-    "@leafygreen-ui/resizable": "workspace:^",
-    "@leafygreen-ui/tabs": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/toolbar": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/polymorphic": "workspace:^",
+    "@azublue-ui/resizable": "workspace:^",
+    "@azublue-ui/tabs": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/toolbar": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "polished": "^4.2.2",
     "react-intersection-observer": "^8.25.1"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
     "@storybook/test": "8.5.3",
-    "@leafygreen-ui/guide-cue": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/guide-cue": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/drawer",
   "repository": {

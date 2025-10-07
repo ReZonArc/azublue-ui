@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react';
 
-import Checkbox from '@leafygreen-ui/checkbox';
-import { cx } from '@leafygreen-ui/emotion';
-import Icon, { isComponentGlyph } from '@leafygreen-ui/icon';
-import { Theme } from '@leafygreen-ui/lib';
+import Checkbox from '@azublue-ui/checkbox';
+import { cx } from '@azublue-ui/emotion';
+import Icon, { isComponentGlyph } from '@azublue-ui/icon';
+import { Theme } from '@azublue-ui/lib';
 
 import { ComboboxSize } from '../types';
 

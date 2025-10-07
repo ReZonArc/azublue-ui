@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 export const baseStyles = css`
   position: relative;

@@ -3,11 +3,11 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafygreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { css } from '@azublue-ui/emotion';
+import LeafygreenProvider from '@azublue-ui/leafygreen-provider';
 
 import Checkbox, { CheckboxProps } from '.';
 

@@ -1,6 +1,6 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { color, Size, spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { color, Size, spacing } from '@azublue-ui/tokens';
 
 import { colorSets, sizeSets } from '../styleSets';
 

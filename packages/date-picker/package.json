@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/date-picker",
+  "name": "@azublue-ui/date-picker",
   "version": "4.0.8",
   "description": "LeafyGreen UI Kit Date Picker",
   "license": "Apache-2.0",
@@ -15,32 +15,32 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/a11y": "workspace:^",
-    "@leafygreen-ui/date-utils": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/form-field": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/popover": "workspace:^",
-    "@leafygreen-ui/select": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
+    "@azublue-ui/a11y": "workspace:^",
+    "@azublue-ui/date-utils": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/form-field": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/popover": "workspace:^",
+    "@azublue-ui/select": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
     "date-fns": "^2.30.0",
     "lodash": "^4.17.21",
     "polished": "^4.2.2",
     "weekstart": "^2.0.0"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/modal": "workspace:^",
-    "@lg-tools/build": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/modal": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@storybook/test": "^8.6.12",
     "mockdate": "^3.0.5"
   },

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { useSectionNavContext } from '../Context/SectionNavContext';
 import {

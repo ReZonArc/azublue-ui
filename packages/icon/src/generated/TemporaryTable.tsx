@@ -5,7 +5,7 @@
 * @checksum 165f652d98c2d6a4c0b7bdbadf0a7e1e
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface TemporaryTableProps extends LGGlyph.ComponentProps {}

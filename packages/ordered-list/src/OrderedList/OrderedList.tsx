@@ -3,11 +3,11 @@ import React from 'react';
 import {
   DescendantsProvider,
   useInitDescendants,
-} from '@leafygreen-ui/descendants';
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+} from '@azublue-ui/descendants';
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { OrderedListContext } from '../OrderedListContext';
 
@@ -25,7 +25,7 @@ const OrderedList = React.forwardRef(
     const { darkMode } = useDarkMode(darkModeProp);
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <DescendantsProvider
           context={OrderedListContext}
           descendants={descendants}
@@ -35,7 +35,7 @@ const OrderedList = React.forwardRef(
             {children}
           </ol>
         </DescendantsProvider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

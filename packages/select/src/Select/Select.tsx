@@ -6,22 +6,22 @@ import React, {
   useState,
 } from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { DEFAULT_MESSAGES, FormFieldFeedback } from '@leafygreen-ui/form-field';
+import { css, cx } from '@azublue-ui/emotion';
+import { DEFAULT_MESSAGES, FormFieldFeedback } from '@azublue-ui/form-field';
 import {
   useEventListener,
   useForwardedRef,
   useIdAllocator,
   useViewportSize,
-} from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   PopoverPropsProvider,
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { isDefined, keyMap } from '@leafygreen-ui/lib';
-import { getPopoverRenderModeProps } from '@leafygreen-ui/popover';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Description, Label } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { isDefined, keyMap } from '@azublue-ui/lib';
+import { getPopoverRenderModeProps } from '@azublue-ui/popover';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Description, Label } from '@azublue-ui/typography';
 
 import ListMenu from '../ListMenu';
 import MenuButton from '../MenuButton';
@@ -531,7 +531,7 @@ export const Select = forwardRef<HTMLDivElement, SelectProps>(
     } as const;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           ref={containerRef}
           className={cx(wrapperStyle, className)}
@@ -656,7 +656,7 @@ export const Select = forwardRef<HTMLDivElement, SelectProps>(
             successMessage={successMessage}
           />
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

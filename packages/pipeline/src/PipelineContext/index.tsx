@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 import { Size } from '../types';
 

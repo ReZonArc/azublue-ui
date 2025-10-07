@@ -4,15 +4,15 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { Option, Select, Size } from '@leafygreen-ui/select';
-import { Body, H1 } from '@leafygreen-ui/typography';
+import { css, cx } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { Option, Select, Size } from '@azublue-ui/select';
+import { Body, H1 } from '@azublue-ui/typography';
 
 import {
   CollapsedSideNavItem,
@@ -171,7 +171,7 @@ export const InLayout = ({
   const textHeader = 'States';
 
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <div className={appContainer}>
         <MongoNavPlaceholder darkMode={darkMode} />
         <SideNav
@@ -217,7 +217,7 @@ export const InLayout = ({
         </SideNav>
         {content}
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 InLayout.args = {
@@ -238,7 +238,7 @@ export const OrgSettings = ({
   ...rest
 }: SideNavProps) => {
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <div className={appContainer}>
         <MongoNavPlaceholder darkMode={darkMode} />
         <SideNav
@@ -307,7 +307,7 @@ export const OrgSettings = ({
 
         {content}
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 OrgSettings.args = {
@@ -320,7 +320,7 @@ OrgSettings.parameters = {
 
 export const Nested = ({ darkMode, ...rest }: SideNavProps) => {
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <div className={appContainer}>
         <MongoNavPlaceholder darkMode={darkMode} />
         <SideNav widthOverride={300} darkMode={darkMode} {...rest}>
@@ -348,7 +348,7 @@ export const Nested = ({ darkMode, ...rest }: SideNavProps) => {
 
         {content}
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 Nested.parameters = {

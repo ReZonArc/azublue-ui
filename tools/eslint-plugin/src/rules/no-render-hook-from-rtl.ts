@@ -26,9 +26,9 @@ export const noRenderHookFromRtlRule = createRule({
     },
     messages: {
       'issue:noRenderHookFromRTL':
-        'Importing `renderHook` or related types from `@testing-library/react` is not allowed. Please import from `@leafygreen-ui/testing-lib` instead.',
+        'Importing `renderHook` or related types from `@testing-library/react` is not allowed. Please import from `@azublue-ui/testing-lib` instead.',
       'issue:noRenderHookFromRTLHooks':
-        'Importing `renderHook` or related types from `@testing-library/react-hooks` is not allowed. Please import from `@leafygreen-ui/testing-lib` instead.',
+        'Importing `renderHook` or related types from `@testing-library/react-hooks` is not allowed. Please import from `@azublue-ui/testing-lib` instead.',
     },
     schema: [],
   },
@@ -68,7 +68,7 @@ export const noRenderHookFromRtlRule = createRule({
                 // If all imports are disallowed, replace the import source
                 return fixer.replaceText(
                   node.source,
-                  `'@leafygreen-ui/testing-lib'`,
+                  `'@azublue-ui/testing-lib'`,
                 );
               } else {
                 // If there are other imports, keep them and add a separate import for disallowed ones
@@ -104,7 +104,7 @@ export const noRenderHookFromRtlRule = createRule({
                   })
                   .join(', ');
 
-                const newImportStatement = `import { ${allowedImports} } from ${node.source.raw};\nimport { ${disallowedImports} } from '@leafygreen-ui/testing-lib';`;
+                const newImportStatement = `import { ${allowedImports} } from ${node.source.raw};\nimport { ${disallowedImports} } from '@azublue-ui/testing-lib';`;
                 return fixer.replaceText(node, newImportStatement);
               }
             },

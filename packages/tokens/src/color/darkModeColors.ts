@@ -1,4 +1,4 @@
-import { palette } from '@leafygreen-ui/palette';
+import { palette } from '@azublue-ui/palette';
 
 import {
   InteractionState,

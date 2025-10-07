@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Copyable from '@leafygreen-ui/copyable';
+import Copyable from '@azublue-ui/copyable';
 
 const Child = (props) => {
   return <div>{props.children}</div>;

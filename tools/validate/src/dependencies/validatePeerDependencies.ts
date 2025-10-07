@@ -1,6 +1,6 @@
 import { DepCheckFunctionProps } from './config';
 
-export const lgProvider = '@leafygreen-ui/leafygreen-provider';
+export const lgProvider = '@azublue-ui/leafygreen-provider';
 
 export function isMissingProviderPeer({
   pkgJson,

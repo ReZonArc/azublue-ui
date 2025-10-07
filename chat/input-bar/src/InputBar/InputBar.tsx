@@ -19,11 +19,11 @@ import TextareaAutosize from 'react-textarea-autosize';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import isUndefined from 'lodash/isUndefined';
 
-import { AssistantAvatar } from '@leafygreen-ui/avatar';
-import Badge from '@leafygreen-ui/badge';
+import { AssistantAvatar } from '@azublue-ui/avatar';
+import Badge from '@azublue-ui/badge';
 import {
   useAutoScroll,
   useBackdropClick,
@@ -33,17 +33,17 @@ import {
   useForwardedRef,
   useMergeRefs,
   usePrevious,
-} from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 import {
   consoleOnce,
   getNodeTextContent,
   isComponentType,
-} from '@leafygreen-ui/lib';
-import { SearchResultsMenu } from '@leafygreen-ui/search-input';
-import { breakpoints } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/lib';
+import { SearchResultsMenu } from '@azublue-ui/search-input';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import { DisclaimerText } from '../DisclaimerText';
 import { InputBarFeedback } from '../InputBarFeedback';
@@ -96,13 +96,13 @@ export const InputBar = forwardRef<HTMLFormElement, InputBarProps>(
       (shouldRenderHotkeyIndicator || shouldRenderGradientProp || badgeText)
     ) {
       consoleOnce.warn(
-        `@lg-chat/input-bar: The InputBar component's props 'shouldRenderHotkeyIndicator', 'shouldRenderGradient', and 'badgeText' are only used in the 'spacious' variant. They will not be rendered in the 'compact' variant set by the provider.`,
+        `@az-chat/input-bar: The InputBar component's props 'shouldRenderHotkeyIndicator', 'shouldRenderGradient', and 'badgeText' are only used in the 'spacious' variant. They will not be rendered in the 'compact' variant set by the provider.`,
       );
     }
 
     if (!isCompact && (errorMessage || state)) {
       consoleOnce.warn(
-        `@lg-chat/input-bar: The InputBar component's props 'errorMessage' and 'state' are only used in the 'compact' variant. They will not be rendered in the 'spacious' variant set by the provider.`,
+        `@az-chat/input-bar: The InputBar component's props 'errorMessage' and 'state' are only used in the 'compact' variant. They will not be rendered in the 'spacious' variant set by the provider.`,
       );
     }
 
@@ -427,7 +427,7 @@ export const InputBar = forwardRef<HTMLFormElement, InputBarProps>(
     }, [state, prevState, isControlled, prevMessageBody, updateValue]);
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <form
           className={getFormStyles(className)}
           onSubmit={handleSubmit}
@@ -513,7 +513,7 @@ export const InputBar = forwardRef<HTMLFormElement, InputBarProps>(
             </SearchResultsMenu>
           )}
         </form>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

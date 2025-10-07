@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Icon from '@leafygreen-ui/icon';
+import Icon from '@azublue-ui/icon';
 
 import { SegmentedControlOption } from './SegmentedControlOption';
 

@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import packageConfig from '@lg-tools/build/config/package.tsconfig.json';
+import packageConfig from '@az-tools/build/config/package.tsconfig.json';
 import fs from 'fs';
 import path from 'path';
 

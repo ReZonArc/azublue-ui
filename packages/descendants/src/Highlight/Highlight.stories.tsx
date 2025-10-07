@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { ElementType, PropsWithChildren, useCallback, useEffect } from 'react';
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { useEventListener } from '@leafygreen-ui/hooks';
+import { useEventListener } from '@azublue-ui/hooks';
 
 import { useDescendant, useInitDescendants } from '../Descendants';
 import { TestDescendantContext } from '../testUtils/components.testutils';

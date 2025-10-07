@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/input-option",
+  "name": "@azublue-ui/input-option",
   "version": "4.0.5",
   "description": "leafyGreen UI Kit Internal Input Option",
   "main": "./dist/umd/index.js",
@@ -23,20 +23,20 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/a11y": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/polymorphic": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^"
+    "@azublue-ui/a11y": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/polymorphic": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^"
   },
   "devDependencies": {
-    "@leafygreen-ui/icon": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/icon": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "exports": {
     ".": {

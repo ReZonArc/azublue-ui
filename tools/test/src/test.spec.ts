@@ -7,7 +7,7 @@ const spawnSpy = jest.spyOn(child_process, 'spawn');
 
 const defaultConfigPath = path.resolve(
   process.cwd(),
-  'node_modules/@lg-tools/test/config/jest.config.js',
+  'node_modules/@az-tools/test/config/jest.config.js',
 );
 
 describe('tools/test', () => {

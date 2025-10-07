@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   color,
   InteractionState,
   spacing,
   transitionDuration,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 const CONTAINER_MAX_WIDTH = 400;
 

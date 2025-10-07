@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { VisuallyHidden } from '@leafygreen-ui/a11y';
-import { cx } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
+import { VisuallyHidden } from '@azublue-ui/a11y';
+import { cx } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
 
 import { baseStyles, sizeStyles } from './PasswordToggle.styles';
 import { PasswordToggleProps } from './PasswordToggle.types';

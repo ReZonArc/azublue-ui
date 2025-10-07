@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/palette",
+  "name": "@azublue-ui/palette",
   "version": "5.0.2",
   "description": "LeafyGreen UI Palettes",
   "main": "./dist/umd/index.js",
@@ -16,9 +16,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@lg-tools/build": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@rollup/plugin-url": "8.0.2",
     "polished": "^4.2.2"
   },

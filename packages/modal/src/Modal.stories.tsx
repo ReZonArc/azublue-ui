@@ -5,18 +5,18 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 import { expect, userEvent, within } from '@storybook/test';
 
-import Button from '@leafygreen-ui/button';
-import Code, { Panel } from '@leafygreen-ui/code';
-import Copyable from '@leafygreen-ui/copyable';
-import { css } from '@leafygreen-ui/emotion';
-import { Option, OptionGroup, RenderMode, Select } from '@leafygreen-ui/select';
-import { ToastProvider, useToast } from '@leafygreen-ui/toast';
-import { spacing } from '@leafygreen-ui/tokens';
-import { Body, H3, Subtitle } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import Code, { Panel } from '@azublue-ui/code';
+import Copyable from '@azublue-ui/copyable';
+import { css } from '@azublue-ui/emotion';
+import { Option, OptionGroup, RenderMode, Select } from '@azublue-ui/select';
+import { ToastProvider, useToast } from '@azublue-ui/toast';
+import { spacing } from '@azublue-ui/tokens';
+import { Body, H3, Subtitle } from '@azublue-ui/typography';
 
 import Modal, { CloseIconColor, ModalProps, ModalSize } from '.';
 

@@ -2,16 +2,16 @@ import React, { ChangeEvent, useState } from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import {
   MessageRating,
   MessageRatingProps,
   MessageRatingValue,
-} from '@lg-chat/message-rating';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+} from '@az-chat/message-rating';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 
 import {
   FormState,

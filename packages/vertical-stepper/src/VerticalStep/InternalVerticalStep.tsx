@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body, Description } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body, Description } from '@azublue-ui/typography';
 
 import { LGIDS_VERTICAL_STEPPER } from '../constants';
 import { StepIcon } from '../StepIcon';

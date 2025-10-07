@@ -1,9 +1,9 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import TextInput from '@leafygreen-ui/text-input';
+import Button from '@azublue-ui/button';
+import TextInput from '@azublue-ui/text-input';
 
 import { Menu } from '../Menu';
 import { MenuItem } from '../MenuItem';

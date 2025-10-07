@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { getLGConfig } from '@lg-tools/meta';
+import { getLGConfig } from '@az-tools/meta';
 import chalk from 'chalk';
 
 import { getParentScope } from './getParentScope';

@@ -1,15 +1,15 @@
 import { mix, transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { getTheme, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { getTheme, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   BaseFontSize,
   fontFamilies,
   fontWeights,
   transitionDuration,
   typeScales,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { PRIMARY_BUTTON_INTERACTIVE_GREEN } from '../constants';
 import { ButtonProps, Size, Variant } from '../types';

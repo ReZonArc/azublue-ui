@@ -3,10 +3,10 @@ import React, { useMemo } from 'react';
 import { faker } from '@faker-js/faker';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { color, spacing } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { color, spacing } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import { Toolbar, ToolbarIconButton, ToolbarProps } from '.';
 

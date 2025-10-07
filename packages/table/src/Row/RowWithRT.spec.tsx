@@ -3,12 +3,12 @@ import { flexRender } from '@tanstack/react-table';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { Cell } from '../Cell';
 import TableBody from '../TableBody';
 import { getTestUtils } from '../testing';
-import { LeafyGreenTableRow } from '../useLeafyGreenTable';
+import { LeafyGreenTableRow } from '../useAzuBlueTable';
 import { Person } from '../utils/makeData.testutils';
 import {
   useMockTestRowData,

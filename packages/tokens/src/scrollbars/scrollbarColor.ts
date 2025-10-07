@@ -1,5 +1,5 @@
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 import { InteractionState, Variant } from '../color/color.types';
 const { black, gray, white } = palette;
@@ -78,7 +78,7 @@ const lightModeScrollbarColors = {
  *
  * Usage:
  * ```tsx
- * import { scrollbarColor } from '@leafygreen-ui/tokens'
+ * import { scrollbarColor } from '@azublue-ui/tokens'
  *
  * css`
  *   scrollbar-color: ${scrollbarColor[theme].thumb.primary.default} ${scrollbarColor[theme].track.primary.default};

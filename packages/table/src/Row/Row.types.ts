@@ -9,9 +9,9 @@ import {
 } from 'react';
 import { VirtualItem, Virtualizer } from '@tanstack/react-virtual';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
-import { LeafyGreenTableRow, LGRowData } from '../useLeafyGreenTable';
+import { LeafyGreenTableRow, LGRowData } from '../useAzuBlueTable';
 
 export interface InternalRowBaseProps extends ComponentPropsWithoutRef<'tr'> {
   /**
@@ -25,12 +25,12 @@ export interface InternalRowWithoutRTProps extends InternalRowBaseProps {}
 export interface InternalRowWithRTBaseProps<T extends LGRowData>
   extends InternalRowBaseProps {
   /**
-   * Row object passed from the `useLeafyGreenTable` or `useLeafyGreenVirtualTable` hook.
+   * Row object passed from the `useAzuBlueTable` or `useAzuBlueVirtualTable` hook.
    */
   row: LeafyGreenTableRow<T>;
 
   /**
-   * Virtual row object passed from the `useLeafyGreenVirtualTable` hook
+   * Virtual row object passed from the `useAzuBlueVirtualTable` hook
    */
   virtualRow?: VirtualItem;
 }

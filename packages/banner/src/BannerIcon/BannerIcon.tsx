@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import CheckmarkWithCircleIcon from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
-import ImportantWithCircleIcon from '@leafygreen-ui/icon/dist/ImportantWithCircle';
-import InfoWithCircleIcon from '@leafygreen-ui/icon/dist/InfoWithCircle';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
+import { cx } from '@azublue-ui/emotion';
+import CheckmarkWithCircleIcon from '@azublue-ui/icon/dist/CheckmarkWithCircle';
+import ImportantWithCircleIcon from '@azublue-ui/icon/dist/ImportantWithCircle';
+import InfoWithCircleIcon from '@azublue-ui/icon/dist/InfoWithCircle';
+import WarningIcon from '@azublue-ui/icon/dist/Warning';
 
 import { Variant } from '../shared.types';
 

@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 
 // @ts-ignore LG icons don't currently support TS
-import DownloadIcon from '@leafygreen-ui/icon/dist/Download';
+import DownloadIcon from '@azublue-ui/icon/dist/Download';
 // @ts-ignore LG icons don't currently support TS
-import EllipsisIcon from '@leafygreen-ui/icon/dist/Ellipsis';
+import EllipsisIcon from '@azublue-ui/icon/dist/Ellipsis';
 // @ts-ignore LG icons don't currently support TS
-import FormatIcon from '@leafygreen-ui/icon/dist/Format';
+import FormatIcon from '@azublue-ui/icon/dist/Format';
 // @ts-ignore LG icons don't currently support TS
-import QuestionMarkWithCircleIcon from '@leafygreen-ui/icon/dist/QuestionMarkWithCircle';
+import QuestionMarkWithCircleIcon from '@azublue-ui/icon/dist/QuestionMarkWithCircle';
 // @ts-ignore LG icons don't currently support TS
-import RedoIcon from '@leafygreen-ui/icon/dist/Redo';
+import RedoIcon from '@azublue-ui/icon/dist/Redo';
 // @ts-ignore LG icons don't currently support TS
-import UndoIcon from '@leafygreen-ui/icon/dist/Undo';
-import IconButton from '@leafygreen-ui/icon-button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Menu, MenuItem, MenuVariant } from '@leafygreen-ui/menu';
-import Modal from '@leafygreen-ui/modal';
-import Tooltip from '@leafygreen-ui/tooltip';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import UndoIcon from '@azublue-ui/icon/dist/Undo';
+import IconButton from '@azublue-ui/icon-button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Menu, MenuItem, MenuVariant } from '@azublue-ui/menu';
+import Modal from '@azublue-ui/modal';
+import Tooltip from '@azublue-ui/tooltip';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { useCodeEditorContext } from '../CodeEditor/CodeEditorContext';
 import { CodeEditorCopyButton } from '../CodeEditorCopyButton';

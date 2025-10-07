@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PopoverProvider } from '@leafygreen-ui/leafygreen-provider';
+import { PopoverProvider } from '@azublue-ui/leafygreen-provider';
 
 import { ModalProps } from './Modal.types';
 import ModalView from './ModalView';

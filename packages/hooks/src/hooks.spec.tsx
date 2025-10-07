@@ -1,6 +1,6 @@
 import { waitFor } from '@testing-library/react';
 
-import { act, renderHook, renderHookServer } from '@leafygreen-ui/testing-lib';
+import { act, renderHook, renderHookServer } from '@azublue-ui/testing-lib';
 
 import {
   useEventListener,

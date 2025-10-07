@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Banner, { Variant as BannerVariant } from '@leafygreen-ui/banner';
-import Button, { Variant as ButtonVariant } from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import ArrowLeftIcon from '@leafygreen-ui/icon/dist/ArrowLeft';
-import LeafyGreenProvider, {
+import Banner, { Variant as BannerVariant } from '@azublue-ui/banner';
+import Button, { Variant as ButtonVariant } from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import ArrowLeftIcon from '@azublue-ui/icon/dist/ArrowLeft';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { SplitButton } from '@leafygreen-ui/split-button';
+} from '@azublue-ui/leafygreen-provider';
+import { SplitButton } from '@azublue-ui/split-button';
 
 import {
   bannerStyle,
@@ -45,7 +45,7 @@ export default function FormFooter({
   const isStandardPrimaryButton = !('menuItems' in primaryButtonProps);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <footer
         data-testid={lgIds.root}
         className={cx(footerBaseStyle, footerThemeStyle[theme], className)}
@@ -107,7 +107,7 @@ export default function FormFooter({
           </div>
         </div>
       </footer>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

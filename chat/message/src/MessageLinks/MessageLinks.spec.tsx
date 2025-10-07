@@ -2,7 +2,7 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
@@ -11,7 +11,7 @@ import { MessageLinks } from './MessageLinks';
 import { MessageLinksProps } from './MessageLinks.types';
 
 // Mock RichLinksArea component
-jest.mock('@lg-chat/rich-links', () => ({
+jest.mock('@az-chat/rich-links', () => ({
   RichLinksArea: jest.fn(({ links, onLinkClick, ...props }) => (
     <div data-testid="rich-links-area" {...props}>
       {links.map((link: any, index: number) => (

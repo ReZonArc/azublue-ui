@@ -1,6 +1,6 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { color, focusRing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { color, focusRing } from '@azublue-ui/tokens';
 
 import { TOOLBAR_WIDTH } from '../constants';
 

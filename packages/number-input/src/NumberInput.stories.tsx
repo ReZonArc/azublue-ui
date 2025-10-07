@@ -3,10 +3,10 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 import { Size, State, UnitOption } from './NumberInput/NumberInput.types';
 import { NumberInput, NumberInputProps } from '.';

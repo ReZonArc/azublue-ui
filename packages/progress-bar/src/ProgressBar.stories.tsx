@@ -1,9 +1,9 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { color } from '@leafygreen-ui/tokens';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { color } from '@azublue-ui/tokens';
 
 import { isAnimatedVariant } from './ProgressBar/utils';
 import { requiredA11yArgs, storyValues } from './test.constants';
@@ -168,9 +168,9 @@ export const WithProviderDarkMode: StoryObj<typeof ProgressBar> = {
     },
   },
   render: () => (
-    <LeafyGreenProvider darkMode>
+    <AzuBlueProvider darkMode>
       <ProgressBar label="Label" isIndeterminate />
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   ),
   ...disableDarkModeControl,
 };

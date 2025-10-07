@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Size } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Size } from '@azublue-ui/tokens';
 
 export const calendarButtonSize: Record<Size, number> = {
   [Size.XSmall]: 20,

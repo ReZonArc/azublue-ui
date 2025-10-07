@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
-import { BaseButtonProps } from '@leafygreen-ui/button';
-import { ModalProps } from '@leafygreen-ui/modal';
+import { BaseButtonProps } from '@azublue-ui/button';
+import { ModalProps } from '@azublue-ui/modal';
 
 export const BlobPosition = {
   TopLeft: 'top left',

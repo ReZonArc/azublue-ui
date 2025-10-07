@@ -1,10 +1,10 @@
-import { prefersReducedMotion } from '@leafygreen-ui/a11y';
-import { css, cx, keyframes } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { prefersReducedMotion } from '@azublue-ui/a11y';
+import { css, cx, keyframes } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   color as colorToken,
   spacing as spacingToken,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import {
   barColorStyles,

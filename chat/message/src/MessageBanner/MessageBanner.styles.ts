@@ -1,6 +1,6 @@
-import { bannerChildrenContainerClassName } from '@leafygreen-ui/banner';
-import { css, cx } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
+import { bannerChildrenContainerClassName } from '@azublue-ui/banner';
+import { css, cx } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
 
 /**
  * These base styles override the default styles of the LG Banner component.

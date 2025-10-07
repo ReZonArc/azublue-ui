@@ -1,7 +1,7 @@
 import { Options as ReactMarkdownOptions } from 'react-markdown';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export interface LGMarkdownProps extends DarkModeProps, ReactMarkdownOptions {
   baseFontSize?: BaseFontSize;

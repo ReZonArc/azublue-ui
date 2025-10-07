@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import InlineDefinition from '@leafygreen-ui/inline-definition';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { cx } from '@azublue-ui/emotion';
+import InlineDefinition from '@azublue-ui/inline-definition';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { DismissButton } from '../DismissButton';
 import { getTruncatedName } from '../utils/getTruncatedName';

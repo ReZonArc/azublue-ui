@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { DarkModeProps, Either, LgIdProps } from '@leafygreen-ui/lib';
-import { PolymorphicAs } from '@leafygreen-ui/polymorphic';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { DarkModeProps, Either, LgIdProps } from '@azublue-ui/lib';
+import { PolymorphicAs } from '@azublue-ui/polymorphic';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 /**
  * Size variants

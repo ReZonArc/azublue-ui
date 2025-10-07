@@ -2,13 +2,13 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { Message } from '@lg-chat/message';
+} from '@az-chat/leafygreen-chat-provider';
+import { Message } from '@az-chat/message';
 import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 import { expect, userEvent, within } from '@storybook/test';
 

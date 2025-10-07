@@ -3,11 +3,11 @@ import {
   storybookArgTypes,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
-import { Body, InlineCode } from '@leafygreen-ui/typography';
+import { css } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
+import { Body, InlineCode } from '@azublue-ui/typography';
 
 import { SharedSkeletonProps } from './Skeleton/Skeleton.types';
 import {

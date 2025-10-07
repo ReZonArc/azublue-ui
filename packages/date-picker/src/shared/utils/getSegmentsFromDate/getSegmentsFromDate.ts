@@ -1,4 +1,4 @@
-import { DateType, isValidDate } from '@leafygreen-ui/date-utils';
+import { DateType, isValidDate } from '@azublue-ui/date-utils';
 
 import { DateSegmentsState } from '../../types';
 

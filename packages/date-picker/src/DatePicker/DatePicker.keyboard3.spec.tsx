@@ -1,9 +1,9 @@
 import { waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
-import { getLgIds as getLgFormFieldIds } from '@leafygreen-ui/form-field';
-import { eventContainingTargetValue } from '@leafygreen-ui/testing-lib';
+import { Month, newUTC } from '@azublue-ui/date-utils';
+import { getLgIds as getLgFormFieldIds } from '@azublue-ui/form-field';
+import { eventContainingTargetValue } from '@azublue-ui/testing-lib';
 
 import { DateSegment } from '../shared';
 import { defaultMax, defaultMin } from '../shared/constants';

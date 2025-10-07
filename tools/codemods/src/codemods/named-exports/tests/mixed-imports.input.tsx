@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Button, { Size } from '@leafygreen-ui/button';
-import Popover, { RenderMode } from '@leafygreen-ui/popover';
+import Button, { Size } from '@azublue-ui/button';
+import Popover, { RenderMode } from '@azublue-ui/popover';
 
 const App = () => {
   return (

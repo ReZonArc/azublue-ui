@@ -1,8 +1,8 @@
 import React from 'react';
 import { StoryFn } from '@storybook/react';
 
-import { glyphs } from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { glyphs } from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { Toolbar } from '../Toolbar/Toolbar';
 
@@ -26,11 +26,11 @@ export default {
       },
       decorator: (Story, ctx) => {
         return (
-          <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+          <AzuBlueProvider darkMode={ctx?.args.darkMode}>
             <Toolbar>
               <Story glyph={ctx?.args.glyph} />
             </Toolbar>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

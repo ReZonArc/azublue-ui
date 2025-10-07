@@ -4,11 +4,11 @@ import {
   useEscapeKey,
   useIdAllocator,
   useMergeRefs,
-} from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
   usePopoverContext,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { CloseButton } from '../CloseButton';
 import { CloseIconColor } from '../shared.types';
@@ -82,7 +82,7 @@ const ModalView = React.forwardRef<HTMLDialogElement, ModalProps>(
     const size = allowedSize ? sizeProp : ModalSize.Default;
 
     return (
-      <LeafyGreenProvider
+      <AzuBlueProvider
         darkMode={darkMode}
         popoverPortalContainer={{
           portalContainer: portalContainerEl,
@@ -120,7 +120,7 @@ const ModalView = React.forwardRef<HTMLDialogElement, ModalProps>(
             <div className={portalContainerStyles} ref={setPortalContainerEl} />
           )}
         </dialog>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

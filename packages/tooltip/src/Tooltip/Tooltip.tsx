@@ -6,21 +6,21 @@ import React, {
   useState,
 } from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   useBackdropClick,
   useEscapeKey,
   useIdAllocator,
-} from '@leafygreen-ui/hooks';
-import { isComponentGlyph } from '@leafygreen-ui/icon';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import { isComponentGlyph } from '@azublue-ui/icon';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import Popover, { getPopoverRenderModeProps } from '@leafygreen-ui/popover';
+} from '@azublue-ui/leafygreen-provider';
+import Popover, { getPopoverRenderModeProps } from '@azublue-ui/popover';
 import {
   bodyTypeScaleStyles,
   useUpdatedBaseFontSize,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import SvgNotch from '../Notch';
 
@@ -194,7 +194,7 @@ function Tooltip({
         return (
           // Establish a new DarkMode context so any LG components inherit the correct value
           // (since tooltip backgrounds are inverse to the outer context's theme)
-          <LeafyGreenProvider darkMode={!localDarkMode}>
+          <AzuBlueProvider darkMode={!localDarkMode}>
             <div
               role="tooltip"
               {...rest}
@@ -227,7 +227,7 @@ function Tooltip({
                 />
               </div>
             </div>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       }}
     </Popover>

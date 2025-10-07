@@ -10,8 +10,8 @@ import {
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { getLgIds as getMenuLgIds, MenuItem } from '@leafygreen-ui/menu';
-import { RenderMode } from '@leafygreen-ui/popover';
+import { getLgIds as getMenuLgIds, MenuItem } from '@azublue-ui/menu';
+import { RenderMode } from '@azublue-ui/popover';
 
 import { getLgIds } from '../utils/getLgIds';
 

@@ -1,14 +1,14 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { TableContextProvider } from '../TableContext';
-import { LGRowData } from '../useLeafyGreenTable';
-import { LeafyGreenVirtualTable } from '../useLeafyGreenVirtualTable/useLeafyGreenVirtualTable.types';
+import { LGRowData } from '../useAzuBlueTable';
+import { LeafyGreenVirtualTable } from '../useAzuBlueVirtualTable/useAzuBlueVirtualTable.types';
 import { getLgIds } from '../utils';
 
 import {

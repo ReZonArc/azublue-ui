@@ -1,10 +1,10 @@
 import React, { forwardRef, Ref } from 'react';
 
-import Button from '@leafygreen-ui/button';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
-import { Body, H3, Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
+import { Body, H3, Link } from '@azublue-ui/typography';
 
 import {
   buttonContainerStyles,
@@ -57,7 +57,7 @@ export const FeaturesEmptyState = forwardRef(
     }
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div className={rootStyles} ref={ref}>
           <H3 className={titleStyles}>{title}</H3>
           <div className={featuresContainerStyles}>
@@ -90,7 +90,7 @@ export const FeaturesEmptyState = forwardRef(
             </div>
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

@@ -1,4 +1,4 @@
-import { getLGConfig } from '@lg-tools/meta';
+import { getLGConfig } from '@az-tools/meta';
 import path from 'path';
 
 import { getComponentPath } from './getComponentPath';

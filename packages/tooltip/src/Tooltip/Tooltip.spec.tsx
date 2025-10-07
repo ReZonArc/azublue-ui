@@ -10,11 +10,11 @@ import {
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import Icon from '@leafygreen-ui/icon';
-import CloudIcon from '@leafygreen-ui/icon/dist/Cloud';
-import { HTMLElementProps, OneOf } from '@leafygreen-ui/lib';
-import { RenderMode } from '@leafygreen-ui/popover';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import Icon from '@azublue-ui/icon';
+import CloudIcon from '@azublue-ui/icon/dist/Cloud';
+import { HTMLElementProps, OneOf } from '@azublue-ui/lib';
+import { RenderMode } from '@azublue-ui/popover';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import Tooltip from './Tooltip';
 import { TooltipProps } from './Tooltip.types';

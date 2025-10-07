@@ -3,12 +3,12 @@ import styled from '@emotion/styled';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+} from '@az-chat/leafygreen-chat-provider';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 import { userEvent, within } from '@storybook/test';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { Message, MessageProps, MessageSourceType } from '..';
 
@@ -185,11 +185,11 @@ const meta: StoryMetaType<typeof Message> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <LeafyGreenChatProvider variant={context?.args.variant}>
               <Instance glyph={context?.args.glyph} />
             </LeafyGreenChatProvider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

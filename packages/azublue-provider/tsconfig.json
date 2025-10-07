@@ -1,0 +1,30 @@
+{
+  "extends": "@az-tools/build/config/package.tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@azublue-ui/icon/dist/*": [
+        "../icon/src/generated/*"
+      ],
+      "@azublue-ui/*": [
+        "../*/src"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "**/*.stories.*"
+  ],
+  "references": [
+    {
+      "path": "../lib"
+    },
+    {
+      "path": "../hooks"
+    },
+    {
+      "path": "../testing-lib"
+    }
+  ]
+}

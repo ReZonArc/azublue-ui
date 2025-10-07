@@ -1,6 +1,6 @@
 import { createRef } from 'react';
 
-import { SupportedLocales } from '@leafygreen-ui/date-utils';
+import { SupportedLocales } from '@azublue-ui/date-utils';
 
 import { SegmentRefs } from '../../../shared/hooks';
 import { getFormatParts } from '../../../shared/utils';

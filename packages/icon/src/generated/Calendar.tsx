@@ -5,7 +5,7 @@
 * @checksum 7112ff5b67ee7b683204ef6c2ef8f4bc
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface CalendarProps extends LGGlyph.ComponentProps {}

@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
+import Button from '@azublue-ui/button';
 import {
   type DateType,
   Month,
   newUTC,
   SupportedLocales,
-} from '@leafygreen-ui/date-utils';
+} from '@azublue-ui/date-utils';
 import {
   testLocales,
   testTimeZoneLabels,
-} from '@leafygreen-ui/date-utils/testing';
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import Modal from '@leafygreen-ui/modal';
-import { Size } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/date-utils/testing';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import Modal from '@azublue-ui/modal';
+import { Size } from '@azublue-ui/tokens';
 
 import { MAX_DATE, MIN_DATE } from './shared/constants';
 import {
@@ -32,11 +32,11 @@ const ProviderWrapper = (Story: StoryFn, ctx: any) => {
     getProviderPropsFromStoryContext(ctx?.args);
 
   return (
-    <LeafyGreenProvider {...leafyGreenProviderProps}>
+    <AzuBlueProvider {...leafyGreenProviderProps}>
       <SharedDatePickerProvider {...datePickerProviderProps}>
         <Story {...storyProps} />
       </SharedDatePickerProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

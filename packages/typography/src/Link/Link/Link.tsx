@@ -1,14 +1,14 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import ArrowRightIcon from '@leafygreen-ui/icon/dist/ArrowRight';
-import OpenNewTabIcon from '@leafygreen-ui/icon/dist/OpenNewTab';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import ArrowRightIcon from '@azublue-ui/icon/dist/ArrowRight';
+import OpenNewTabIcon from '@azublue-ui/icon/dist/OpenNewTab';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 import {
   hasAnchorProps,
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { useUpdatedBaseFontSize } from '../../utils/useUpdatedBaseFontSize';
 import {

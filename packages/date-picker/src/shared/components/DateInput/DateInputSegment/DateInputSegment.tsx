@@ -1,11 +1,11 @@
 import React, { ChangeEventHandler, KeyboardEventHandler } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useForwardedRef } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { keyMap } from '@leafygreen-ui/lib';
-import { Size } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useForwardedRef } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { keyMap } from '@azublue-ui/lib';
+import { Size } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import {
   charsPerSegment,

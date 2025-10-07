@@ -4,10 +4,10 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import Icon from '@leafygreen-ui/icon';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import Icon from '@azublue-ui/icon';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import IconButton, { AccessibleIconButtonProps, Size } from './IconButton';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/form-field",
+  "name": "@azublue-ui/form-field",
   "version": "4.0.4",
   "description": "LeafyGreen UI Kit Form Field",
   "main": "./dist/umd/index.js",
@@ -15,21 +15,21 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/form-field",
   "repository": {

@@ -3,13 +3,13 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import type { StoryFn, StoryObj } from '@storybook/react';
 import { expect, waitFor } from '@storybook/test';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import {
   CodeEditorTooltipSeverity,
@@ -29,11 +29,11 @@ const meta: StoryMetaType<typeof CodeEditor> = {
   },
   decorators: [
     (Story: StoryFn, context) => (
-      <LeafyGreenProvider
+      <AzuBlueProvider
         darkMode={context?.args.darkMode}
         /**
          * useUpdatedBaseFontSize, which is used in the CodeEditor, returns 13 for 14 and 16 for 16.
-         * We need to convert it to 14 for 14 and 16 for 16 to be accepted by the LeafyGreenProvider.
+         * We need to convert it to 14 for 14 and 16 for 16 to be accepted by the AzuBlueProvider.
          */
         baseFontSize={
           context?.args.baseFontSize === BaseFontSize.Body1 ? 14 : 16
@@ -47,7 +47,7 @@ const meta: StoryMetaType<typeof CodeEditor> = {
         >
           <Story />
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     ),
   ],
   args: {

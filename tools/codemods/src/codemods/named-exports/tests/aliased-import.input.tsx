@@ -1,7 +1,7 @@
 import React from 'react';
 
-import LGButton from '@leafygreen-ui/button';
-import LGModal from '@leafygreen-ui/modal';
+import LGButton from '@azublue-ui/button';
+import LGModal from '@azublue-ui/modal';
 
 const App = () => {
   return (

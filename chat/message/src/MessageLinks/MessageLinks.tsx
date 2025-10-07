@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { RichLinksArea } from '@lg-chat/rich-links';
+import { RichLinksArea } from '@az-chat/rich-links';
 
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronDownIcon from '@leafygreen-ui/icon/dist/ChevronDown';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import { useIdAllocator } from '@azublue-ui/hooks';
+import ChevronDownIcon from '@azublue-ui/icon/dist/ChevronDown';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import {
   containerStyles,
@@ -41,7 +41,7 @@ export function MessageLinks({
   }
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div className={containerStyles} {...divProps}>
         <div className={headerStyles}>
           <Body id={headingId}>{headingText}</Body>
@@ -68,7 +68,7 @@ export function MessageLinks({
           />
         </div>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

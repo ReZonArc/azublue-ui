@@ -1,11 +1,11 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   BaseFontSize,
   color,
   fontFamilies,
   typeScales,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 export const baseTypographyStyles = css`
   margin: unset;

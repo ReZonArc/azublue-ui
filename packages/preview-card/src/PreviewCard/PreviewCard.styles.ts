@@ -1,7 +1,7 @@
 import { transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
 import {
   BaseFontSize,
   borderRadius,
@@ -11,7 +11,7 @@ import {
   spacing,
   transitionDuration,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 export const contentWrapperClassName = createUniqueClassName(
   'preview_card-content_wrapper',

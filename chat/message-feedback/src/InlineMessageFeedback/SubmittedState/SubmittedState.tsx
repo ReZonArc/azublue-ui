@@ -1,8 +1,8 @@
 import React from 'react';
 
-import CheckmarkWithCircle from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+import CheckmarkWithCircle from '@azublue-ui/icon/dist/CheckmarkWithCircle';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import { InlineMessageFeedbackProps } from '..';
 

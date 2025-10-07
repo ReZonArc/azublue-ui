@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/confirmation-modal",
+  "name": "@azublue-ui/confirmation-modal",
   "version": "10.0.2",
   "description": "leafyGreen UI Kit Confirmation Modal",
   "main": "./dist/umd/index.js",
@@ -15,18 +15,18 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/modal": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/text-input": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/modal": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/text-input": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/confirmation-modal",
   "repository": {
@@ -37,7 +37,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

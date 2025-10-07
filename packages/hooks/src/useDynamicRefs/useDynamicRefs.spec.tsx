@@ -1,5 +1,5 @@
-import { consoleOnce } from '@leafygreen-ui/lib';
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { consoleOnce } from '@azublue-ui/lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { DynamicRefGetter, useDynamicRefs } from '.';
 

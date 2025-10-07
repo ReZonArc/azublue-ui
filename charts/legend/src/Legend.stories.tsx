@@ -1,15 +1,15 @@
 import React from 'react';
-import { Chart, Line } from '@lg-charts/core';
-import { SeriesName, SeriesProvider } from '@lg-charts/series-provider';
+import { Chart, Line } from '@az-charts/core';
+import { SeriesName, SeriesProvider } from '@az-charts/series-provider';
 import {
   storybookArgTypes,
   storybookExcludedControlParams,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import { spacing } from '@azublue-ui/tokens';
 
 import { makeLineData } from '../../core/src/testUtils';
 

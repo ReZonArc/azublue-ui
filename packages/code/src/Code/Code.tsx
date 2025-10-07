@@ -2,12 +2,12 @@ import React, { useMemo, useRef, useState } from 'react';
 import ClipboardJS from 'clipboard';
 import debounce from 'lodash/debounce';
 
-import { useIsomorphicLayoutEffect } from '@leafygreen-ui/hooks';
-import ChevronDown from '@leafygreen-ui/icon/dist/ChevronDown';
-import ChevronUp from '@leafygreen-ui/icon/dist/ChevronUp';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { CodeSkeleton } from '@leafygreen-ui/skeleton-loader';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { useIsomorphicLayoutEffect } from '@azublue-ui/hooks';
+import ChevronDown from '@azublue-ui/icon/dist/ChevronDown';
+import ChevronUp from '@azublue-ui/icon/dist/ChevronUp';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { CodeSkeleton } from '@azublue-ui/skeleton-loader';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import CodeContextProvider from '../CodeContext/CodeContext';
 import { numOfCollapsedLinesOfCode } from '../constants';

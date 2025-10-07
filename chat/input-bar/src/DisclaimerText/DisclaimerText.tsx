@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Disclaimer, Link } from '@leafygreen-ui/typography';
+import { Disclaimer, Link } from '@azublue-ui/typography';
 
 import { linkStyles } from './DisclaimerText.styles';
 import { type DisclaimerTextProps } from './DisclaimerText.types';

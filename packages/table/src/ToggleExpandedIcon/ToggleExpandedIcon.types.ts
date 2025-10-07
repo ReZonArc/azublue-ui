@@ -1,7 +1,7 @@
-import { BaseIconButtonProps } from '@leafygreen-ui/icon-button';
+import { BaseIconButtonProps } from '@azublue-ui/icon-button';
 
 import { RowProps } from '../Row/Row.types';
-import { LGRowData } from '../useLeafyGreenTable';
+import { LGRowData } from '../useAzuBlueTable';
 
 /**
  * @internal

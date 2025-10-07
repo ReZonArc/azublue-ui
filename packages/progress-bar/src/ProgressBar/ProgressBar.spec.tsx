@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 
-import { act } from '@leafygreen-ui/testing-lib';
+import { act } from '@azublue-ui/testing-lib';
 
 import { requiredA11yArgs } from '../test.constants';
 import { getTestUtils } from '../testing';

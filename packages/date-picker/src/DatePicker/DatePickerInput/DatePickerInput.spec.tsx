@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
+import { Month, newUTC } from '@azublue-ui/date-utils';
 
 import {
   defaultSharedDatePickerContext,

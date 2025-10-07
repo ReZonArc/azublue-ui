@@ -1,4 +1,4 @@
-import { DateType } from '@leafygreen-ui/date-utils';
+import { DateType } from '@azublue-ui/date-utils';
 
 import { DateSegmentsState } from '../../types';
 import { getValueFormatter } from '../getValueFormatter';

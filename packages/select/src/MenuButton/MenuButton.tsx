@@ -1,10 +1,10 @@
 import React, { useCallback, useContext } from 'react';
 
-import Button, { Size as ButtonSize, Variant } from '@leafygreen-ui/button';
-import { css, cx } from '@leafygreen-ui/emotion';
-import CaretDownIcon from '@leafygreen-ui/icon/dist/CaretDown';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Theme } from '@leafygreen-ui/lib';
+import Button, { Size as ButtonSize, Variant } from '@azublue-ui/button';
+import { css, cx } from '@azublue-ui/emotion';
+import CaretDownIcon from '@azublue-ui/icon/dist/CaretDown';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Theme } from '@azublue-ui/lib';
 
 import { State } from '../Select/Select.types';
 import SelectContext from '../SelectContext';

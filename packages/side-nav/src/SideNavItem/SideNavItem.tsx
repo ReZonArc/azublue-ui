@@ -1,13 +1,13 @@
 import React, { useMemo, useRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { isComponentGlyph } from '@leafygreen-ui/icon';
-import { useUsingKeyboardContext } from '@leafygreen-ui/leafygreen-provider';
-import { AriaCurrentValue, isComponentType } from '@leafygreen-ui/lib';
+import { cx } from '@azublue-ui/emotion';
+import { isComponentGlyph } from '@azublue-ui/icon';
+import { useUsingKeyboardContext } from '@azublue-ui/leafygreen-provider';
+import { AriaCurrentValue, isComponentType } from '@azublue-ui/lib';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { AccessibleGlyph } from '../AccessibleGlyph';
 import {

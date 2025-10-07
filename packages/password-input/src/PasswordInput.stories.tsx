@@ -3,11 +3,11 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { spacing } from '@leafygreen-ui/tokens';
-import { Error } from '@leafygreen-ui/typography';
+import { spacing } from '@azublue-ui/tokens';
+import { Error } from '@azublue-ui/typography';
 
 import {
   NotificationProps,

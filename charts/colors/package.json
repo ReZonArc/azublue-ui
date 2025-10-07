@@ -1,5 +1,5 @@
 {
-  "name": "@lg-charts/colors",
+  "name": "@az-charts/colors",
   "version": "1.0.4",
   "description": "lg-charts colors",
   "main": "./dist/umd/index.js",
@@ -15,16 +15,16 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^"
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "repository": {
     "type": "git",

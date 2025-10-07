@@ -1,7 +1,7 @@
-import { injectGlobal } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { fontWeights } from '@leafygreen-ui/tokens';
+import { injectGlobal } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { fontWeights } from '@azublue-ui/tokens';
 
 interface Base16Palette {
   0: string; // Background

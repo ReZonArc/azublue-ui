@@ -1,7 +1,7 @@
 import React, { forwardRef, ReactElement, Ref, useContext } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import PipelineContext from '../PipelineContext';
 import { Size, StageProps } from '../types';

@@ -1,6 +1,6 @@
 import React, { createContext, PropsWithChildren, useContext } from 'react';
 
-import { useDynamicRefs } from '@leafygreen-ui/hooks';
+import { useDynamicRefs } from '@azublue-ui/hooks';
 
 import { SearchInputProps } from '.';
 

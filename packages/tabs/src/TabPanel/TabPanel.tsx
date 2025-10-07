@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useMemo } from 'react';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
+import { useDescendant } from '@azublue-ui/descendants';
 
 import {
   TabPanelDescendantsContext,

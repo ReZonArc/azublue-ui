@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 
-import { usePrefersReducedMotion } from '@leafygreen-ui/a11y';
-import { useIsomorphicLayoutEffect } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { usePrefersReducedMotion } from '@azublue-ui/a11y';
+import { useIsomorphicLayoutEffect } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 import Popover, {
   Align,
   DismissMode,
   RenderMode,
-} from '@leafygreen-ui/popover';
+} from '@azublue-ui/popover';
 
 import TooltipContent from '../TooltipContent';
 

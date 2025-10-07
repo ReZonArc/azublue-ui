@@ -1,4 +1,4 @@
-import { getLGConfig } from '@lg-tools/meta';
+import { getLGConfig } from '@az-tools/meta';
 import fse from 'fs-extra';
 import path from 'path';
 
@@ -9,7 +9,7 @@ export function getComponentPath(name: string): string | undefined {
 
   if (name.startsWith('@')) {
     // We have scope defined for us, so we can compute the absolute path
-    const [scope, packageName] = name.split('/'); // ['@leafygreen-ui', 'button']
+    const [scope, packageName] = name.split('/'); // ['@azublue-ui', 'button']
     const parentDir: string | undefined = scopes[scope]; // 'packages'
 
     if (fse.existsSync(path.resolve(rootDir, parentDir, packageName))) {

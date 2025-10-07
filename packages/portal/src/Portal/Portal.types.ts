@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { OneOf } from '@leafygreen-ui/lib';
+import { OneOf } from '@azublue-ui/lib';
 
 export type PortalProps = {
   children?: React.ReactNode;

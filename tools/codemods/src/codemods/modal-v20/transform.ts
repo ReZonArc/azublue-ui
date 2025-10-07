@@ -1,7 +1,7 @@
 import type { API, FileInfo, Options } from 'jscodeshift';
 
 import { MigrateOptions } from '../..';
-import { LGPackage } from '../../types';
+import { AzuBluePackage } from '../../types';
 import { getImportSpecifiersForDeclaration } from '../../utils/imports';
 import { getJSXAttributes } from '../../utils/jsx';
 import { insertJSXComment } from '../../utils/jsx';
@@ -10,14 +10,14 @@ import {
   replaceJSXAttributes,
 } from '../../utils/transformations';
 
-const lgPackageComponentMap: Partial<Record<LGPackage, string>> = {
-  [LGPackage.Modal]: 'Modal',
-  [LGPackage.ConfirmationModal]: 'ConfirmationModal',
-  [LGPackage.MarketingModal]: 'MarketingModal',
+const lgPackageComponentMap: Partial<Record<AzuBluePackage, string>> = {
+  [AzuBluePackage.Modal]: 'Modal',
+  [AzuBluePackage.ConfirmationModal]: 'ConfirmationModal',
+  [AzuBluePackage.MarketingModal]: 'MarketingModal',
 };
 
-const defaultPackages: Array<LGPackage> = [
-  ...(Object.keys(lgPackageComponentMap) as Array<LGPackage>),
+const defaultPackages: Array<AzuBluePackage> = [
+  ...(Object.keys(lgPackageComponentMap) as Array<AzuBluePackage>),
 ];
 
 /**
@@ -26,19 +26,19 @@ const defaultPackages: Array<LGPackage> = [
  *
  * It does the following:
  * 1. Renames `className` prop to `backdropClassName` for Modal components in the following packages:
- * - `@leafygreen-ui/modal`
- * - `@leafygreen-ui/confirmation-modal`
- * - `@leafygreen-ui/marketing-modal`
+ * - `@azublue-ui/modal`
+ * - `@azublue-ui/confirmation-modal`
+ * - `@azublue-ui/marketing-modal`
  *
  * 2. Renames `contentClassName` prop to `className` for Modal components in the following packages:
- * - `@leafygreen-ui/modal`
- * - `@leafygreen-ui/confirmation-modal`
- * - `@leafygreen-ui/marketing-modal`
+ * - `@azublue-ui/modal`
+ * - `@azublue-ui/confirmation-modal`
+ * - `@azublue-ui/marketing-modal`
  *
  * 3. Removes `initialFocus` prop and adds guidance comment for Modal components in the following packages:
- * - `@leafygreen-ui/modal`
- * - `@leafygreen-ui/confirmation-modal`
- * - `@leafygreen-ui/marketing-modal`
+ * - `@azublue-ui/modal`
+ * - `@azublue-ui/confirmation-modal`
+ * - `@azublue-ui/marketing-modal`
  *
  * @param file the file to transform
  * @param jscodeshiftOptions an object containing at least a reference to the jscodeshift library
@@ -75,7 +75,7 @@ export default function transformer(
   /**
    * Get all components to transform for each package upfront to avoid repetition
    */
-  const packageComponentsMap = new Map<LGPackage, Array<string>>();
+  const packageComponentsMap = new Map<AzuBluePackage, Array<string>>();
 
   packagesToCheck.forEach(packageName => {
     const componentsToTransform = getImportSpecifiersForDeclaration({

@@ -6,7 +6,7 @@ import { renderPanel } from './Panel.testUtils';
 import { PanelProps } from './Panel.types';
 
 // Mock Modal component to avoid HTMLDialogElement issues
-jest.mock('@leafygreen-ui/modal', () => {
+jest.mock('@azublue-ui/modal', () => {
   return function MockModal({ children, open, ...props }: any) {
     return open ? (
       <div data-testid="mock-modal" {...props}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
 import H1 from './H1';
 import { H1Props } from './H1.types';

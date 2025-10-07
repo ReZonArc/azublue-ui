@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { VisuallyHidden } from '@leafygreen-ui/a11y';
-import { cx } from '@leafygreen-ui/emotion';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
-import ErrorIcon from '@leafygreen-ui/icon/dist/X';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { VisuallyHidden } from '@azublue-ui/a11y';
+import { cx } from '@azublue-ui/emotion';
+import CheckmarkIcon from '@azublue-ui/icon/dist/Checkmark';
+import WarningIcon from '@azublue-ui/icon/dist/Warning';
+import ErrorIcon from '@azublue-ui/icon/dist/X';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { State } from '../PasswordInput/PasswordInput.types';
 

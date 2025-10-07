@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import Portal from '@leafygreen-ui/portal';
+import { cx } from '@azublue-ui/emotion';
+import Portal from '@azublue-ui/portal';
 
 import { useSideNavContext } from '../SideNav';
 

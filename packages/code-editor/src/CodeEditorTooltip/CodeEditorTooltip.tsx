@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Link, useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Link, useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import {
   getTooltipLinksContainerStyles,

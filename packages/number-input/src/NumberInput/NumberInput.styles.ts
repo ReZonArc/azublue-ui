@@ -1,6 +1,6 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { color, spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { color, spacing } from '@azublue-ui/tokens';
 
 import { Size } from './NumberInput.types';
 

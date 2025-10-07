@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
@@ -8,7 +8,7 @@ import {
   shadow,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 const MESSAGE_LINE_HEIGHT = 20;
 

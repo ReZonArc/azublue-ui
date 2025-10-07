@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/button",
+  "name": "@azublue-ui/button",
   "version": "25.0.4",
   "description": "leafyGreen UI Kit Button",
   "main": "./dist/umd/index.js",
@@ -33,22 +33,22 @@
     }
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/polymorphic": "workspace:^",
-    "@leafygreen-ui/ripple": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/polymorphic": "workspace:^",
+    "@azublue-ui/ripple": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "polished": "^4.2.2"
   },
   "devDependencies": {
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/loading-indicator": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/loading-indicator": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "gitHead": "dd71a2d404218ccec2e657df9c0263dc1c15b9e0",
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/button",

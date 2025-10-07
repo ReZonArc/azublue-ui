@@ -1,6 +1,6 @@
 import { transparentize } from 'polished';
 
-import { palette } from '@leafygreen-ui/palette';
+import { palette } from '@azublue-ui/palette';
 
 export const DEFAULT_WIDTH_ANIMATION_DURATION = 300;
 export const WIDTH_ANIMATION_SPEED = 25; // equivalent to 25% per second, balances speed and smoothness

@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { Avatar } from '@lg-chat/avatar';
-import { InputBar } from '@lg-chat/input-bar';
+import { Avatar } from '@az-chat/avatar';
+import { InputBar } from '@az-chat/input-bar';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { Message } from '@lg-chat/message';
-import { MessageFeed } from '@lg-chat/message-feed';
-import { WithMessageRating as MessageFeedbackStory } from '@lg-chat/message-feedback/stories';
-import { MessagePrompt, MessagePrompts } from '@lg-chat/message-prompts';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+} from '@az-chat/leafygreen-chat-provider';
+import { Message } from '@az-chat/message';
+import { MessageFeed } from '@az-chat/message-feed';
+import { WithMessageRating as MessageFeedbackStory } from '@az-chat/message-feedback/stories';
+import { MessagePrompt, MessagePrompts } from '@az-chat/message-prompts';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import baseMessages from './utils/baseMessages';
 import { ChatWindow, ChatWindowProps } from '.';
@@ -41,14 +41,14 @@ const meta: StoryMetaType<typeof ChatWindow> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <LeafyGreenChatProvider
               assistantName={context?.args.assistantName}
               variant={context?.args.variant}
             >
               <Instance />
             </LeafyGreenChatProvider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

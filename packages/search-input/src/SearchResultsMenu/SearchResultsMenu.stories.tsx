@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 import React, { useEffect, useState } from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { State } from '../SearchInput';
 import { SearchInputContextProvider } from '../SearchInputContext';
@@ -39,7 +39,7 @@ const meta: StoryMetaType<typeof SearchResultsMenu, { state: State }> = {
         }, []);
         const divRef = React.useRef<HTMLDivElement>(null);
         return (
-          <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+          <AzuBlueProvider darkMode={ctx?.args.darkMode}>
             <SearchInputContextProvider state={ctx?.args.state}>
               <div
                 ref={divRef}
@@ -56,7 +56,7 @@ const meta: StoryMetaType<typeof SearchResultsMenu, { state: State }> = {
               </div>
               <Instance refEl={divRef} open={open} />
             </SearchInputContextProvider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

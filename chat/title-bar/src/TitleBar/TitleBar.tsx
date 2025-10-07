@@ -1,14 +1,14 @@
 import React, { ForwardedRef, forwardRef } from 'react';
-import { Avatar, Variant as ChatAvatarVariant } from '@lg-chat/avatar';
+import { Avatar, Variant as ChatAvatarVariant } from '@az-chat/avatar';
 
-import Badge from '@leafygreen-ui/badge';
-import { cx } from '@leafygreen-ui/emotion';
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import Badge from '@azublue-ui/badge';
+import { cx } from '@azublue-ui/emotion';
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import {
   baseStyles,
@@ -34,7 +34,7 @@ export const TitleBar = forwardRef(
   ) => {
     const { darkMode, theme } = useDarkMode(darkModeProp);
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           className={cx(baseStyles, themeStyles[theme], className)}
           {...rest}
@@ -57,7 +57,7 @@ export const TitleBar = forwardRef(
             </IconButton>
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

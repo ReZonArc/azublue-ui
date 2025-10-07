@@ -1,6 +1,6 @@
 import React, { forwardRef, ReactElement, Ref, useContext } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import PipelineContext from '../PipelineContext';
 import { SegmentL, SegmentM, SegmentS, SegmentXs } from '../svgs';

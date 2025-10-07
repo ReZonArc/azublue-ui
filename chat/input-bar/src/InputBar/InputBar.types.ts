@@ -1,8 +1,8 @@
 import React, { FormEvent, ReactElement, RefObject } from 'react';
 import { TextareaAutosizeProps } from 'react-textarea-autosize';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { PopoverRenderModeProps } from '@leafygreen-ui/popover';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { PopoverRenderModeProps } from '@azublue-ui/popover';
 
 import { SharedInputBarProps } from '../shared.types';
 

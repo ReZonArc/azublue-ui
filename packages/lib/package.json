@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/lib",
+  "name": "@azublue-ui/lib",
   "version": "15.6.0",
   "description": "leafyGreen UI Kit Internal Library",
   "main": "./dist/umd/index.js",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@emotion/styled": "^11.10.5",
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

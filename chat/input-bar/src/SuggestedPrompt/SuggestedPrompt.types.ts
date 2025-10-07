@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { BaseInputOptionProps } from '@leafygreen-ui/input-option';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { BaseInputOptionProps } from '@azublue-ui/input-option';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export type SuggestedPromptProps = DarkModeProps &
   Omit<BaseInputOptionProps, 'showWedge' | 'active' | 'isInteractive'> & {

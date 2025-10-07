@@ -2,11 +2,11 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import { render, screen } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { Message } from './Message';
 import { MessageProps } from './Message.types';
@@ -14,12 +14,12 @@ import { MessageProps } from './Message.types';
 const MESSAGE_CONTENT =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
 
-jest.mock('@lg-chat/lg-markdown', () => ({
+jest.mock('@az-chat/lg-markdown', () => ({
   LGMarkdown: jest.fn(({ children }) => <div>{children}</div>),
 }));
 
-jest.mock('@leafygreen-ui/lib', () => ({
-  ...jest.requireActual('@leafygreen-ui/lib'),
+jest.mock('@azublue-ui/lib', () => ({
+  ...jest.requireActual('@azublue-ui/lib'),
   consoleOnce: {
     warn: jest.fn(),
   },

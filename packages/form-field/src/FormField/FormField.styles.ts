@@ -1,11 +1,11 @@
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 import {
   BaseFontSize,
   Size,
   spacing,
   typeScales,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { FormFieldState } from './FormField.types';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lg-tools/meta",
+  "name": "@az-tools/meta",
   "version": "0.6.2",
   "description": "Utilities for managing LeafyGreen repositories",
   "main": "./dist/umd/index.js",
@@ -14,7 +14,7 @@
     "tsc": "lg-build tsc"
   },
   "dependencies": {
-    "@lg-tools/build": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@types/cross-spawn": "6.0.2",
     "@types/fs-extra": "11.0.1",
     "chalk": "4.1.2",

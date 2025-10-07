@@ -3,11 +3,11 @@ import {
   ComponentPreview,
   PropCombinations,
   ReactStrictMode,
-} from '@lg-tools/storybook-decorators';
+} from '@az-tools/storybook-decorators';
 import {
   storybookExcludedArgTypes,
   storybookExcludedControlParams,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import {
   Controls,
   Description,
@@ -17,7 +17,7 @@ import {
 } from '@storybook/blocks';
 import type { Preview } from '@storybook/react';
 
-import { type Exists } from '@leafygreen-ui/lib';
+import { type Exists } from '@azublue-ui/lib';
 import {
   Body,
   H1,
@@ -26,7 +26,7 @@ import {
   InlineCode,
   Link,
   Subtitle,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { darkTheme, lightTheme } from '../themes';
 

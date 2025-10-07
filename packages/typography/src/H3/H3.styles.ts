@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { fontWeights } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { fontWeights } from '@azublue-ui/tokens';
 
 export const h3Styles = css`
   font-size: 24px;

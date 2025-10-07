@@ -1,6 +1,6 @@
 import omit from 'lodash/omit';
 
-import { FormFieldState } from '@leafygreen-ui/form-field';
+import { FormFieldState } from '@azublue-ui/form-field';
 
 export const DatePickerState = omit(FormFieldState, 'Valid');
 export type DatePickerState =

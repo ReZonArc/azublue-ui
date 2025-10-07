@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { ButtonProps } from '@leafygreen-ui/button';
-import { FormFieldState } from '@leafygreen-ui/form-field';
-import { DarkModeProps, Either, LgIdProps } from '@leafygreen-ui/lib';
-import { DismissMode, PopoverProps, RenderMode } from '@leafygreen-ui/popover';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { ButtonProps } from '@azublue-ui/button';
+import { FormFieldState } from '@azublue-ui/form-field';
+import { DarkModeProps, Either, LgIdProps } from '@azublue-ui/lib';
+import { DismissMode, PopoverProps, RenderMode } from '@azublue-ui/popover';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export { DismissMode, RenderMode };
 

@@ -1,12 +1,12 @@
 {
-  "extends": "@lg-tools/build/config/package.tsconfig.json",
+  "extends": "@az-tools/build/config/package.tsconfig.json",
   "compilerOptions": {
     "declarationDir": "dist",
     "outDir": "dist",
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
-      "@lg-tools/*": [
+      "@az-tools/*": [
         "../*/src"
       ]
     }

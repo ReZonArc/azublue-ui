@@ -1,5 +1,5 @@
-import { FormFieldState } from '@leafygreen-ui/form-field';
-import { allEqual } from '@leafygreen-ui/lib';
+import { FormFieldState } from '@azublue-ui/form-field';
+import { allEqual } from '@azublue-ui/lib';
 
 import { NotificationProps, State } from './PasswordInput.types';
 

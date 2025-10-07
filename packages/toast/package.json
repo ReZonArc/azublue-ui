@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/toast",
+  "name": "@azublue-ui/toast",
   "version": "8.0.7",
   "description": "leafyGreen UI Kit Toast",
   "main": "./dist/umd/index.js",
@@ -15,26 +15,26 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/portal": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/portal": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
     "lodash": "^4.17.21",
     "polished": "^4.2.2",
     "react-transition-group": "^4.4.5"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.0",
-    "@leafygreen-ui/button": "workspace:^",
-    "@lg-tools/build": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@storybook/types": "^8.5.3",
     "react-test-renderer": "^18.2.0"
   },

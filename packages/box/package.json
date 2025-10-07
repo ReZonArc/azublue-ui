@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/box",
+  "name": "@azublue-ui/box",
   "version": "5.0.2",
   "description": "leafyGreen UI Kit Box",
   "main": "./dist/umd/index.js",
@@ -23,7 +23,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

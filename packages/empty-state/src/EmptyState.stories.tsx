@@ -1,8 +1,8 @@
 import React from 'react';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 import BasicEmptyStateStoryMeta, {
   WithBadgeAndActionsAndLink,

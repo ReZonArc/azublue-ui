@@ -1,13 +1,13 @@
 import React from 'react';
 import defaults from 'lodash/defaults';
 
-import { cx } from '@leafygreen-ui/emotion';
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import { Variant } from '../Toast.types';
 
@@ -83,7 +83,7 @@ export const InternalToast = React.forwardRef<
     const iconThemeStyle = variantIconStyle[variant];
 
     return (
-      <LeafyGreenProvider darkMode={!darkMode}>
+      <AzuBlueProvider darkMode={!darkMode}>
         <div
           id={id}
           ref={forwardedRef}
@@ -141,7 +141,7 @@ export const InternalToast = React.forwardRef<
             <ProgressBar theme={theme} progress={progress} />
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

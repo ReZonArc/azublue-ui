@@ -1,5 +1,5 @@
 {
-  "extends": "@lg-tools/build/config/node.tsconfig.json",
+  "extends": "@az-tools/build/config/node.tsconfig.json",
   "compilerOptions": {},
   "include": [
     "src/**/*"

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { useTableContext } from '../TableContext';
 

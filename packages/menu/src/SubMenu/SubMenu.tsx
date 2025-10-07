@@ -8,15 +8,15 @@ import { Transition } from 'react-transition-group';
 import { EnterHandler, ExitHandler } from 'react-transition-group/Transition';
 import isUndefined from 'lodash/isUndefined';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
-import { css, cx } from '@leafygreen-ui/emotion';
-import ChevronDownIcon from '@leafygreen-ui/icon/dist/ChevronDown';
-import IconButton from '@leafygreen-ui/icon-button';
-import { keyMap } from '@leafygreen-ui/lib';
+import { useDescendant } from '@azublue-ui/descendants';
+import { css, cx } from '@azublue-ui/emotion';
+import ChevronDownIcon from '@azublue-ui/icon/dist/ChevronDown';
+import IconButton from '@azublue-ui/icon-button';
+import { keyMap } from '@azublue-ui/lib';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import {
   MenuDescendantsContext,

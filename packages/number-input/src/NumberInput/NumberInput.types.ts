@@ -4,9 +4,9 @@ import {
   FocusEventHandler,
 } from 'react';
 
-import { AriaLabelPropsWithLabel } from '@leafygreen-ui/a11y';
-import { FormFieldState } from '@leafygreen-ui/form-field';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { AriaLabelPropsWithLabel } from '@azublue-ui/a11y';
+import { FormFieldState } from '@azublue-ui/form-field';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export const Direction = {
   Increment: 'increment',

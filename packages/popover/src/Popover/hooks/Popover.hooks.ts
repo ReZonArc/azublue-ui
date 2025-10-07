@@ -5,12 +5,12 @@ import {
   useIsomorphicLayoutEffect,
   useObjectDependency,
   usePrevious,
-} from '@leafygreen-ui/hooks';
+} from '@azublue-ui/hooks';
 import {
   useMigrationContext,
   usePopoverPortalContainer,
   usePopoverPropsContext,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { getElementDocumentPosition } from '../../utils/positionUtils';
 import {

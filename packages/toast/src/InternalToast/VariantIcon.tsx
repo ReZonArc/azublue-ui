@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CheckmarkWithCircleIcon from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
-import ImportantWithCircleIcon from '@leafygreen-ui/icon/dist/ImportantWithCircle';
-import InfoWithCircle from '@leafygreen-ui/icon/dist/InfoWithCircle';
-import RefreshIcon from '@leafygreen-ui/icon/dist/Refresh';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
+import CheckmarkWithCircleIcon from '@azublue-ui/icon/dist/CheckmarkWithCircle';
+import ImportantWithCircleIcon from '@azublue-ui/icon/dist/ImportantWithCircle';
+import InfoWithCircle from '@azublue-ui/icon/dist/InfoWithCircle';
+import RefreshIcon from '@azublue-ui/icon/dist/Refresh';
+import WarningIcon from '@azublue-ui/icon/dist/Warning';
 
 import { Variant } from '../Toast.types';
 

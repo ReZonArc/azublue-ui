@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { Size, sizeMap } from '@leafygreen-ui/icon';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { Size, sizeMap } from '@azublue-ui/icon';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { getIconSkeletonBaseStyles } from './IconSkeleton.styles';
 import { IconSkeletonProps } from './IconSkeleton.types';

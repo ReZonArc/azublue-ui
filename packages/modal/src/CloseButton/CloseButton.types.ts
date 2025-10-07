@@ -1,4 +1,4 @@
-import { type BaseIconButtonProps } from '@leafygreen-ui/icon-button';
+import { type BaseIconButtonProps } from '@azublue-ui/icon-button';
 
 import { type CloseIconColorProp } from '../shared.types';
 

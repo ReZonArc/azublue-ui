@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FormField, FormFieldInputContainer } from '@leafygreen-ui/form-field';
+import { FormField, FormFieldInputContainer } from '@azublue-ui/form-field';
 
 import { useSharedDatePickerContext } from '../../../context';
 import { DatePickerState } from '../../../types';

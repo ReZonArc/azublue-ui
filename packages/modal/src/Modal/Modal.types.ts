@@ -1,6 +1,6 @@
 import React, { SetStateAction } from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 
 import { CloseIconColorProp } from '../shared.types';
 

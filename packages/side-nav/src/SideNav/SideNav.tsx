@@ -1,15 +1,15 @@
 import React, { ForwardedRef, forwardRef, useRef, useState } from 'react';
 import { Transition } from 'react-transition-group';
 
-import { validateAriaLabelProps } from '@leafygreen-ui/a11y';
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useEventListener, useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { validateAriaLabelProps } from '@azublue-ui/a11y';
+import { css, cx } from '@azublue-ui/emotion';
+import { useEventListener, useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
   useUsingKeyboardContext,
-} from '@leafygreen-ui/leafygreen-provider';
-import { keyMap } from '@leafygreen-ui/lib';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { keyMap } from '@azublue-ui/lib';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { CollapseToggle } from '../CollapseToggle';
 
@@ -145,7 +145,7 @@ const SideNav = forwardRef(
               theme,
             }}
           >
-            <LeafyGreenProvider darkMode={darkMode}>
+            <AzuBlueProvider darkMode={darkMode}>
               <div
                 data-testid="side-nav-container"
                 className={cx(
@@ -237,7 +237,7 @@ const SideNav = forwardRef(
                   />
                 </div>
               </div>
-            </LeafyGreenProvider>
+            </AzuBlueProvider>
           </SideNavProvider>
         )}
       </Transition>

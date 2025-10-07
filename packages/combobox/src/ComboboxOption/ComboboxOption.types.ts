@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef, ReactElement } from 'react';
 
-import { Either } from '@leafygreen-ui/lib';
+import { Either } from '@azublue-ui/lib';
 
 /**
  * Combobox Option Props

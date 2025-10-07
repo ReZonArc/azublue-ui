@@ -2,14 +2,14 @@ import React, { Fragment, useState } from 'react';
 import {
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 import { expect, userEvent, waitFor, within } from '@storybook/test';
 
-import Badge from '@leafygreen-ui/badge';
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
+import Badge from '@azublue-ui/badge';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
 
 import { getTestUtils } from './testing/getTestUtils';
 import { makeKitchenSinkData, Person } from './utils/makeData.testutils';
@@ -29,7 +29,7 @@ import {
   TableBody,
   TableHead,
   TableProps,
-  useLeafyGreenTable,
+  useAzuBlueTable,
 } from '.';
 
 const meta: StoryMetaType<typeof Table> = {
@@ -124,7 +124,7 @@ const Template: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
   });

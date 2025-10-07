@@ -1,14 +1,14 @@
 import React, { useCallback, useState } from 'react';
 
-import { validateAriaLabelProps } from '@leafygreen-ui/a11y';
-import { useInitDescendants } from '@leafygreen-ui/descendants';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { validateAriaLabelProps } from '@azublue-ui/a11y';
+import { useInitDescendants } from '@azublue-ui/descendants';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType, keyMap } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { isComponentType, keyMap } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import {
   TabDescendantsContext,
@@ -200,7 +200,7 @@ const Tabs = <SelectedType extends number | string>(
   });
 
   return (
-    <LeafyGreenProvider
+    <AzuBlueProvider
       baseFontSize={baseFontSize === 16 && size === 'default' ? 16 : 14}
     >
       <TabDescendantsProvider>
@@ -248,7 +248,7 @@ const Tabs = <SelectedType extends number | string>(
           </TabsContext.Provider>
         </TabPanelDescendantProvider>
       </TabDescendantsProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

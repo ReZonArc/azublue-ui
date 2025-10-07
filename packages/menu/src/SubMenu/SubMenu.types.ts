@@ -4,7 +4,7 @@ import { ExitHandler } from 'react-transition-group/Transition';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { MenuItemProps } from '../MenuItem';
 

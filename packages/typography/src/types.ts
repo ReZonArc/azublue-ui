@@ -1,5 +1,5 @@
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export type CommonTypographyProps = DarkModeProps & LgIdProps;
 

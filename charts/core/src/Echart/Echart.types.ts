@@ -10,7 +10,7 @@ import type {
 } from 'echarts/components';
 import type { ComposeOption, EChartsType } from 'echarts/core';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 // Type not exported by echarts.
 // reference: https://github.com/apache/echarts/blob/master/src/coord/axisCommonTypes.ts#L193

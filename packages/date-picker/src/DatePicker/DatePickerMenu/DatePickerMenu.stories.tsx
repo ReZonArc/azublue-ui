@@ -1,20 +1,20 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useRef, useState } from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 import { Decorator, StoryFn, StoryObj } from '@storybook/react';
 import { userEvent, within } from '@storybook/test';
 import last from 'lodash/last';
 import omit from 'lodash/omit';
 import MockDate from 'mockdate';
 
-import { DateType, Month, newUTC } from '@leafygreen-ui/date-utils';
+import { DateType, Month, newUTC } from '@azublue-ui/date-utils';
 import {
   testLocales,
   testTimeZoneLabels,
-} from '@leafygreen-ui/date-utils/testing';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { transitionDuration } from '@leafygreen-ui/tokens';
-import { InlineCode } from '@leafygreen-ui/typography';
+} from '@azublue-ui/date-utils/testing';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { transitionDuration } from '@azublue-ui/tokens';
+import { InlineCode } from '@azublue-ui/typography';
 
 import {
   contextPropNames,
@@ -40,11 +40,11 @@ const MenuDecorator: Decorator = (Story: StoryFn, ctx: any) => {
     getProviderPropsFromStoryContext<DatePickerMenuProps>(ctx.args);
 
   return (
-    <LeafyGreenProvider {...leafyGreenProviderProps}>
+    <AzuBlueProvider {...leafyGreenProviderProps}>
       <SharedDatePickerProvider {...datePickerProviderProps} initialOpen={true}>
         <Story {...storyProps} />
       </SharedDatePickerProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

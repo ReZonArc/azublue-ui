@@ -1,7 +1,7 @@
 import React, { MutableRefObject } from 'react';
 import { createPortal } from 'react-dom';
 
-import { useIsomorphicLayoutEffect } from '@leafygreen-ui/hooks';
+import { useIsomorphicLayoutEffect } from '@azublue-ui/hooks';
 
 import { PortalProps } from './Portal.types';
 

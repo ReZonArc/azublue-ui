@@ -4,12 +4,12 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import { PreviewCard, PreviewCardProps } from '.';
 
@@ -38,11 +38,11 @@ const meta: StoryMetaType<typeof PreviewCard> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <Instance>
               <Body>{fillerText}</Body>
             </Instance>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

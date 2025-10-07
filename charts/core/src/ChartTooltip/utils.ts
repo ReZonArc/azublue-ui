@@ -1,4 +1,4 @@
-import { ChartCardStates } from '@lg-charts/chart-card';
+import { ChartCardStates } from '@az-charts/chart-card';
 
 import { ChartStates } from '../Chart';
 

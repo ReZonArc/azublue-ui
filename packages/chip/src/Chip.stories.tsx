@@ -1,9 +1,9 @@
 import React from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import Icon, { glyphs } from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import Icon, { glyphs } from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { TruncationLocation, Variant } from './Chip/Chip.types';
 import { Chip } from '.';
@@ -34,9 +34,9 @@ const meta: StoryMetaType<typeof Chip> = {
       args: {},
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <Instance />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

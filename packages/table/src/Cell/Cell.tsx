@@ -1,6 +1,6 @@
 import React, { ForwardedRef } from 'react';
 
-import { LGRowData } from '../useLeafyGreenTable';
+import { LGRowData } from '../useAzuBlueTable';
 
 import { CellComponentType } from './Cell.types';
 import InternalCellWithoutRT from './InternalCellWithoutRT';

@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/hooks",
+  "name": "@azublue-ui/hooks",
   "version": "9.1.4",
   "description": "LeafyGreen UI Kit Custom Hooks",
   "main": "./dist/umd/index.js",
@@ -15,8 +15,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
     "lodash": "^4.17.21"
   },
   "gitHead": "dd71a2d404218ccec2e657df9c0263dc1c15b9e0",
@@ -29,9 +29,9 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@lg-tools/build": "workspace:^",
-    "@lg-tools/storybook-utils": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@az-tools/build": "workspace:^",
+    "@az-tools/storybook-utils": "workspace:^",
     "@types/react-test-renderer": "^18.0.0",
     "react-test-renderer": "^18.2.0"
   },

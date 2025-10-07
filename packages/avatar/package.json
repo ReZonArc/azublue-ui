@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/avatar",
+  "name": "@azublue-ui/avatar",
   "version": "3.1.2",
   "description": "LeafyGreen UI Avatar",
   "main": "./dist/umd/index.js",
@@ -15,19 +15,19 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/logo": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/logo": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
     "lodash": "^4.17.21"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

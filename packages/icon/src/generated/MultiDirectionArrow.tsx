@@ -5,7 +5,7 @@
 * @checksum c7cc7e4f42011f561655f1bd43f40695
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface MultiDirectionArrowProps extends LGGlyph.ComponentProps {}

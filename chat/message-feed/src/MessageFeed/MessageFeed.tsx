@@ -10,11 +10,11 @@ import { useInView } from 'react-intersection-observer';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { ScrollToLatestButton } from '../ScrollToLatestButton';
 
@@ -105,7 +105,7 @@ export const MessageFeed = forwardRef(
     }, [children, showScrollButton, scrollToLatest]);
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           {...rest}
           className={getWrapperStyles({
@@ -130,7 +130,7 @@ export const MessageFeed = forwardRef(
             visible={showScrollButton}
           />
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

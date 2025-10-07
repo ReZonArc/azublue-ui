@@ -1,9 +1,9 @@
 import React, { ForwardedRef, PropsWithChildren } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import { useTableContext } from '../../TableContext';
-import { LGRowData } from '../../useLeafyGreenTable';
+import { LGRowData } from '../../useAzuBlueTable';
 
 import SortIcon from './SortIcon/SortIcon';
 import { getHeaderCellState } from './utils/getHeaderCellState';

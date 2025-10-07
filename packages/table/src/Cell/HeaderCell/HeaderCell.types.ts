@@ -8,7 +8,7 @@ import React, {
 } from 'react';
 import { Header } from '@tanstack/react-table';
 
-import { LGRowData } from '../../useLeafyGreenTable';
+import { LGRowData } from '../../useAzuBlueTable';
 
 export const SortState = {
   Asc: 'asc',
@@ -31,7 +31,7 @@ export interface HeaderCellProps<T extends LGRowData>
   align?: React.ComponentPropsWithoutRef<'th'>['align'];
 
   /**
-   * Header object passed from the `useLeafyGreenTable` hook.
+   * Header object passed from the `useAzuBlueTable` hook.
    */
   header?: Header<T, unknown>;
 }

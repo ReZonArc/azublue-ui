@@ -58,7 +58,7 @@ type BoxComponent<TProps = {}, ExtraProps = {}> = Override2<
  * - Custom React component
  * - Default element type
  *
- * @deprecated Prefer using Polymorphic types from `@leafygreen-ui/polymorphic` package.
+ * @deprecated Prefer using Polymorphic types from `@azublue-ui/polymorphic` package.
  * @typeParam Default - The default React element type to render, defaults to 'div'
  * @typeParam ExtraProps - Additional props to extend the component with
  */

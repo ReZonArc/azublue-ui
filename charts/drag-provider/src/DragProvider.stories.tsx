@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChartCard } from '@lg-charts/chart-card';
+import { ChartCard } from '@az-charts/chart-card';
 import {
   Chart,
   ChartGrid,
@@ -8,8 +8,8 @@ import {
   Line,
   XAxis,
   YAxis,
-} from '@lg-charts/core';
-import { storybookArgTypes } from '@lg-tools/storybook-utils';
+} from '@az-charts/core';
+import { storybookArgTypes } from '@az-tools/storybook-utils';
 import type { StoryObj } from '@storybook/react';
 import { expect, fn, userEvent, waitFor, within } from '@storybook/test';
 

@@ -1,0 +1,14 @@
+
+{
+  "extends": "@az-tools/build/config/package.tsconfig.json",
+  "compilerOptions": {},
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../../packages/hooks"
+    },
+    {
+      "path": "../../packages/leafygreen-provider"
+    }
+  ]
+}

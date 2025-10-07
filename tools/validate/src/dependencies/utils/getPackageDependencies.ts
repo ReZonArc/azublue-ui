@@ -1,4 +1,4 @@
-import { getAllPackageNames } from '@lg-tools/meta';
+import { getAllPackageNames } from '@az-tools/meta';
 import { readFileSync } from 'fs-extra';
 import defaults from 'lodash/defaults';
 
@@ -21,8 +21,8 @@ export function getPackageLGDependencies(
     ...(opts.dev ? pkgJson.devDependencies : {}),
     ...(opts.peer ? pkgJson.peerDependencies : {}),
   })
-    .filter(pkg => pkg.includes('@leafygreen-ui'))
-    .map(pkg => pkg.replace(`@leafygreen-ui/`, ''));
+    .filter(pkg => pkg.includes('@azublue-ui'))
+    .map(pkg => pkg.replace(`@azublue-ui/`, ''));
   return dependencies;
 }
 
@@ -34,5 +34,5 @@ export function getPackageDependents(pkg: string) {
       const otherPkgDeps = getPackageLGDependencies(otherPkg);
       return otherPkgDeps.includes(pkg);
     })
-    .map(pkg => pkg.replace(`@leafygreen-ui/`, ''));
+    .map(pkg => pkg.replace(`@azublue-ui/`, ''));
 }

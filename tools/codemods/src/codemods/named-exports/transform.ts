@@ -1,38 +1,38 @@
 import type { API, FileInfo, Options } from 'jscodeshift';
 
 import { MigrateOptions } from '../..';
-import { LGPackage } from '../../types';
+import { AzuBluePackage } from '../../types';
 import { hasNamedImport, mergeImportSpecifiers } from '../../utils/imports';
 
-const lgPackageComponentMap: Partial<Record<LGPackage, string>> = {
-  [LGPackage.Badge]: 'Badge',
-  [LGPackage.Button]: 'Button',
-  [LGPackage.Callout]: 'Callout',
-  [LGPackage.Card]: 'Card',
-  [LGPackage.Checkbox]: 'Checkbox',
-  [LGPackage.Code]: 'Code',
-  [LGPackage.ConfirmationModal]: 'ConfirmationModal',
-  [LGPackage.Copyable]: 'Copyable',
-  [LGPackage.ExpandableCard]: 'ExpandableCard',
-  [LGPackage.FormFooter]: 'FormFooter',
-  [LGPackage.Icon]: 'Icon',
-  [LGPackage.IconButton]: 'IconButton',
-  [LGPackage.InlineDefinition]: 'InlineDefinition',
-  [LGPackage.Logo]: 'Logo',
-  [LGPackage.MarketingModal]: 'MarketingModal',
-  [LGPackage.Modal]: 'Modal',
-  [LGPackage.Pagination]: 'Pagination',
-  [LGPackage.Portal]: 'Portal',
-  [LGPackage.Popover]: 'Popover',
-  [LGPackage.Stepper]: 'Stepper',
-  [LGPackage.TextArea]: 'TextArea',
-  [LGPackage.TextInput]: 'TextInput',
-  [LGPackage.Toggle]: 'Toggle',
-  [LGPackage.Tooltip]: 'Tooltip',
+const lgPackageComponentMap: Partial<Record<AzuBluePackage, string>> = {
+  [AzuBluePackage.Badge]: 'Badge',
+  [AzuBluePackage.Button]: 'Button',
+  [AzuBluePackage.Callout]: 'Callout',
+  [AzuBluePackage.Card]: 'Card',
+  [AzuBluePackage.Checkbox]: 'Checkbox',
+  [AzuBluePackage.Code]: 'Code',
+  [AzuBluePackage.ConfirmationModal]: 'ConfirmationModal',
+  [AzuBluePackage.Copyable]: 'Copyable',
+  [AzuBluePackage.ExpandableCard]: 'ExpandableCard',
+  [AzuBluePackage.FormFooter]: 'FormFooter',
+  [AzuBluePackage.Icon]: 'Icon',
+  [AzuBluePackage.IconButton]: 'IconButton',
+  [AzuBluePackage.InlineDefinition]: 'InlineDefinition',
+  [AzuBluePackage.Logo]: 'Logo',
+  [AzuBluePackage.MarketingModal]: 'MarketingModal',
+  [AzuBluePackage.Modal]: 'Modal',
+  [AzuBluePackage.Pagination]: 'Pagination',
+  [AzuBluePackage.Portal]: 'Portal',
+  [AzuBluePackage.Popover]: 'Popover',
+  [AzuBluePackage.Stepper]: 'Stepper',
+  [AzuBluePackage.TextArea]: 'TextArea',
+  [AzuBluePackage.TextInput]: 'TextInput',
+  [AzuBluePackage.Toggle]: 'Toggle',
+  [AzuBluePackage.Tooltip]: 'Tooltip',
 };
 
-const defaultPackages: Array<LGPackage> = [
-  ...(Object.keys(lgPackageComponentMap) as Array<LGPackage>),
+const defaultPackages: Array<AzuBluePackage> = [
+  ...(Object.keys(lgPackageComponentMap) as Array<AzuBluePackage>),
 ];
 
 /**
@@ -41,16 +41,16 @@ const defaultPackages: Array<LGPackage> = [
  * ### Examples:
  * **Before:**
  * ```tsx
- * import Button, { Size } from '@leafygreen-ui/button';
- * import LGModal from '@leafygreen-ui/modal';
- * import Tooltip from '@leafygreen-ui/tooltip';
+ * import Button, { Size } from '@azublue-ui/button';
+ * import LGModal from '@azublue-ui/modal';
+ * import Tooltip from '@azublue-ui/tooltip';
  * ```
  *
  * **After:**
  * ```tsx
- * import { Button, Size } from '@leafygreen-ui/button';
- * import { Modal as LGModal } from '@leafygreen-ui/modal';
- * import { Tooltip } from '@leafygreen-ui/tooltip';
+ * import { Button, Size } from '@azublue-ui/button';
+ * import { Modal as LGModal } from '@azublue-ui/modal';
+ * import { Tooltip } from '@azublue-ui/tooltip';
  * ```
  *
  * @param file the file to transform
@@ -71,7 +71,7 @@ export default function transformer(
    */
   if (providedPackages) {
     providedPackages.forEach((packageName: string) => {
-      if (!defaultPackages.includes(packageName as LGPackage)) {
+      if (!defaultPackages.includes(packageName as AzuBluePackage)) {
         throw new Error(
           `Cannot run named-exports codemod on package: ${packageName}`,
         );
@@ -88,7 +88,7 @@ export default function transformer(
   /**
    * Process each package to convert default imports to named imports
    */
-  packagesToCheck.forEach((packageName: LGPackage) => {
+  packagesToCheck.forEach((packageName: AzuBluePackage) => {
     const componentName = lgPackageComponentMap[packageName];
     if (!componentName) return;
 

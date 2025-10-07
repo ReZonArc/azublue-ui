@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { Spinner } from '@leafygreen-ui/loading-indicator';
+import { Spinner } from '@azublue-ui/loading-indicator';
 
 import { getTestUtils } from '../testing';
 import { ButtonProps } from '../types';

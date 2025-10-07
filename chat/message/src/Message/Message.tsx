@@ -2,12 +2,12 @@ import React, { forwardRef, useMemo } from 'react';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { consoleOnce } from '@leafygreen-ui/lib';
+} from '@azublue-ui/leafygreen-provider';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { MessageActions } from '../MessageActions';
 import { MessageVerifiedBanner } from '../MessageBanner';
@@ -59,7 +59,7 @@ const BaseMessage = forwardRef<HTMLDivElement, MessageProps>(
         verified)
     ) {
       consoleOnce.warn(
-        `@lg-chat/message: The Message component's props 'align', 'avatar', 'baseFontSize', 'componentOverrides', 'links', 'linksHeading', 'onLinkClick', and 'verified' are only used in the 'spacious' variant. They will not be rendered in the 'compact' variant set by the provider.`,
+        `@az-chat/message: The Message component's props 'align', 'avatar', 'baseFontSize', 'componentOverrides', 'links', 'linksHeading', 'onLinkClick', and 'verified' are only used in the 'spacious' variant. They will not be rendered in the 'compact' variant set by the provider.`,
       );
     }
 
@@ -71,7 +71,7 @@ const BaseMessage = forwardRef<HTMLDivElement, MessageProps>(
     );
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <MessageContext.Provider value={contextValue}>
           {isCompact ? (
             <CompactMessage ref={fwdRef} {...rest}>
@@ -94,7 +94,7 @@ const BaseMessage = forwardRef<HTMLDivElement, MessageProps>(
             </SpaciousMessage>
           )}
         </MessageContext.Provider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

@@ -1,4 +1,4 @@
-import { spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { spacing, transitionDuration } from '@azublue-ui/tokens';
 
 export const WEDGE_WIDTH = 2;
 export const WEDGE_BORDER_RADIUS = 100;

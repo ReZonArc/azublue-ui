@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef } from 'react';
 
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { FALLBACK, PolymorphicAs } from '../../Polymorphic';
 

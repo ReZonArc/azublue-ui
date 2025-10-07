@@ -1,4 +1,4 @@
-import { GetTestUtilsReturnType as GetButtonTestUtilsReturnType } from '@leafygreen-ui/button/testing';
+import { GetTestUtilsReturnType as GetButtonTestUtilsReturnType } from '@azublue-ui/button/testing';
 
 export interface GetTestUtilsReturnType<T extends HTMLElement> {
   /**

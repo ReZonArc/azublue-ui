@@ -5,7 +5,7 @@ import React, {
   useMemo,
 } from 'react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { getLgIds } from '../utils';
 
@@ -43,9 +43,9 @@ const CodeContextProvider = ({
   }, [contents, language, showPanel, isLoading, lgIds]);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <CodeProvider value={CodeProviderData}>{children}</CodeProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

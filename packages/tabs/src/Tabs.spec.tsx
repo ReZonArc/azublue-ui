@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { keyMap } from '@leafygreen-ui/lib';
+import { keyMap } from '@azublue-ui/lib';
 
 import { getTestUtils, TestUtilsReturnType } from './testing';
 import { Tab, Tabs } from '.';

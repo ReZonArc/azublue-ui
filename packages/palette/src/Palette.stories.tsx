@@ -1,9 +1,9 @@
 import React, { MouseEventHandler, useState } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { darken, lighten, readableColor, transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { HTMLElementProps } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { HTMLElementProps } from '@azublue-ui/lib';
 
 import palette from './palette';
 

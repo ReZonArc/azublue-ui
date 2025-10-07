@@ -1,7 +1,7 @@
 import {
   type ExtendedComponentProps,
   type GeneratedStoryConfig,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import entries from 'lodash/entries';
 import has from 'lodash/has';
 import isEqual from 'lodash/isEqual';

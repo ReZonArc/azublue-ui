@@ -5,7 +5,7 @@
 * @checksum 01e3301b68ab1c0849499c3fd52b9c64
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface CheckmarkWithCircleProps extends LGGlyph.ComponentProps {}

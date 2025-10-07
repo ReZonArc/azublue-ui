@@ -3,10 +3,10 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { ContextDrawerButton } from './ContextDrawerButton';
 
@@ -25,9 +25,9 @@ const meta: StoryMetaType<typeof ContextDrawerButton> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <Instance />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

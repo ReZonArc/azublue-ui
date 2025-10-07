@@ -15,7 +15,7 @@ const defaultProps = {
 
 const renderChartHeader = () => render(<ChartHeader {...defaultProps} />);
 
-describe('@lg-charts/core/src/ChartHeader/ChartHeader', () => {
+describe('@az-charts/core/src/ChartHeader/ChartHeader', () => {
   test('does not have basic accessibility issues', async () => {
     const { container } = renderChartHeader();
     const results = await axe(container);

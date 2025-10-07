@@ -1,7 +1,7 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import Error from './Error';
 import { ErrorProps } from './Error.types';

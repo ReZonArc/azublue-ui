@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { AccessibleIconButtonProps } from '@leafygreen-ui/icon-button';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { SelectProps } from '@leafygreen-ui/select';
+import { AccessibleIconButtonProps } from '@azublue-ui/icon-button';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { SelectProps } from '@azublue-ui/select';
 
 interface PaginationProps<T extends number = number>
   extends React.ComponentProps<'div'>,

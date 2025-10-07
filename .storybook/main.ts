@@ -1,5 +1,5 @@
 export default {
-  addons: ['@lg-tools/storybook-addon'],
+  addons: ['@az-tools/storybook-addon'],
   framework: {
     name: '@storybook/react-webpack5',
     options: {

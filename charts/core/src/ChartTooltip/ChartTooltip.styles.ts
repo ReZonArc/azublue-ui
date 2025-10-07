@@ -1,4 +1,4 @@
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
@@ -6,7 +6,7 @@ import {
   fontWeights,
   InteractionState,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 const TOOLTIP_WIDTH = 270;
 

@@ -1,7 +1,7 @@
 {
-  "name": "@lg-tools/build",
+  "name": "@az-tools/build",
   "version": "0.8.3",
-  "description": "Build config for LeafyGreen repositories",
+  "description": "Build config for AzuBlue repositories",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"

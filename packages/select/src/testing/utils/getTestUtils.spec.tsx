@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { render, waitForElementToBeRemoved } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { RenderMode } from '@leafygreen-ui/popover';
+import { RenderMode } from '@azublue-ui/popover';
 
 import { Option, OptionGroup, Select, State } from '../../';
 

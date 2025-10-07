@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
-import useLeafyGreenTable, {
+import useAzuBlueTable, {
   LeafyGreenTable,
   LeafyGreenTableOptions,
   LeafyGreenTableRow,
   LGTableDataType,
-} from '../useLeafyGreenTable';
+} from '../useAzuBlueTable';
 import {
   ColumnDef,
   LeafyGreenVirtualItem,
   SortingState,
-  useLeafyGreenVirtualTable,
+  useAzuBlueVirtualTable,
 } from '..';
 
 import { Person } from './makeData.testutils';
@@ -100,7 +100,7 @@ export interface TestTableWithHookProps {
 }
 
 /**
- * A useLeafyGreenTable hook call utilized across different test suites to simplify test `render`s' markup
+ * A useAzuBlueTable hook call utilized across different test suites to simplify test `render`s' markup
  */
 export const useTestHookCall = ({
   rowProps,
@@ -119,7 +119,7 @@ export const useTestHookCall = ({
   const [sorting, setSorting] = useState<SortingState>([]);
   const [rowSelection, setRowSelection] = React.useState({});
 
-  const table: LeafyGreenTable<Person> = useLeafyGreenTable({
+  const table: LeafyGreenTable<Person> = useAzuBlueTable({
     data,
     columns,
     state: {
@@ -139,7 +139,7 @@ export const useMockTestRowData = (): {
   firstRow: LeafyGreenTableRow<Person>;
   firstVirtualRow: LeafyGreenVirtualItem<Person>;
 } => {
-  const table = useLeafyGreenVirtualTable({
+  const table = useAzuBlueVirtualTable({
     containerRef: React.createRef<HTMLTableRowElement>(),
     data: getDefaultTestData({}),
     columns: getDefaultTestColumns({}),

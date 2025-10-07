@@ -1,1 +1,1 @@
-export { installLeafyGreen } from './installLG';
+export { installAzuBlue } from './installLG';

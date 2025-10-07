@@ -1,6 +1,6 @@
 import React, { createContext, PropsWithChildren, useContext } from 'react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { getLgIds } from '../utils/getLgIds';
 
@@ -28,10 +28,10 @@ export const SectionNavContextProvider = ({
   };
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <SectionNavProvider value={sectionNavProviderData}>
         {children}
       </SectionNavProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };

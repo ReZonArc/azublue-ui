@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { isComponentType } from '@leafygreen-ui/lib';
+import { isComponentType } from '@azublue-ui/lib';
 
 import { OptionObject } from '../ComboboxOption';
 

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import { useTableContext } from '../TableContext';
 

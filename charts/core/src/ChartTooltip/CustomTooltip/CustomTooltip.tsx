@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react';
 
-import CursorIcon from '@leafygreen-ui/icon/dist/Cursor';
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import CursorIcon from '@azublue-ui/icon/dist/Cursor';
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import {
   closeButtonStyles,

@@ -2,7 +2,7 @@ import React, { createRef } from 'react';
 import { act, fireEvent, render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import { getTestUtils } from '@leafygreen-ui/checkbox';
+import { getTestUtils } from '@azublue-ui/checkbox';
 
 import { LegendCheckbox } from './LegendCheckbox';
 

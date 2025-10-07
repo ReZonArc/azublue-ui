@@ -5,7 +5,7 @@
 * @checksum bb43a70c64a4cd58d135bcafa70ad44e
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface HorizontalDragProps extends LGGlyph.ComponentProps {}

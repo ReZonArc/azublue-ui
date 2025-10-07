@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 
 import LeafygreenProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { RichLink } from '..';
 

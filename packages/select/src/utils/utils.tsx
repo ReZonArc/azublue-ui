@@ -5,8 +5,8 @@ import {
   consoleOnce,
   getMobileMediaQuery,
   isComponentType,
-} from '@leafygreen-ui/lib';
-import { breakpoints } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/lib';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import {
   InternalOption,

@@ -5,7 +5,7 @@
 * @checksum badaa5f7f2f1e04267653028daf9a5d4
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface TimeSeriesCollectionProps extends LGGlyph.ComponentProps {}

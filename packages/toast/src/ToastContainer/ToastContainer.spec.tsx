@@ -13,7 +13,7 @@ import userEvent from '@testing-library/user-event';
 import defaults from 'lodash/defaults';
 import range from 'lodash/range';
 
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { TOAST_CONSTANTS } from '../constants';
 import { InternalToastProps } from '../InternalToast';

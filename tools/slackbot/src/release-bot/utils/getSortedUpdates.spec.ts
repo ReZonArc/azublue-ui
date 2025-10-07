@@ -26,11 +26,11 @@ describe('tools/slackbot/release', () => {
         'major',
         expect.arrayContaining([
           expect.objectContaining({
-            name: '@leafygreen-ui/example-major',
+            name: '@azublue-ui/example-major',
             version: '2.0.0',
           }),
           expect.objectContaining({
-            name: '@lg-tools/tool-major',
+            name: '@az-tools/tool-major',
             version: '2.0.0',
           }),
         ]),
@@ -40,11 +40,11 @@ describe('tools/slackbot/release', () => {
         'minor',
         expect.arrayContaining([
           expect.objectContaining({
-            name: '@leafygreen-ui/example-minor',
+            name: '@azublue-ui/example-minor',
             version: '1.2.0',
           }),
           expect.objectContaining({
-            name: '@lg-tools/tool-minor',
+            name: '@az-tools/tool-minor',
             version: '1.2.0',
           }),
         ]),
@@ -54,11 +54,11 @@ describe('tools/slackbot/release', () => {
         'patch',
         expect.arrayContaining([
           expect.objectContaining({
-            name: '@leafygreen-ui/example-patch',
+            name: '@azublue-ui/example-patch',
             version: '1.0.2',
           }),
           expect.objectContaining({
-            name: '@lg-tools/tool-patch',
+            name: '@az-tools/tool-patch',
             version: '1.0.2',
           }),
         ]),

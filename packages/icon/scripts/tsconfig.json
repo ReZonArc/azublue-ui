@@ -1,5 +1,5 @@
 {
-  "extends": "@lg-tools/build/config/script.tsconfig.json",
+  "extends": "@az-tools/build/config/script.tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
   },

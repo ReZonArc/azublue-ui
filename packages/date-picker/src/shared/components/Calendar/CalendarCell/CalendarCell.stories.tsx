@@ -1,8 +1,8 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import {
   SharedDatePickerContextProps,
@@ -35,12 +35,12 @@ const meta: StoryMetaType<typeof CalendarCell, SharedDatePickerContextProps> = {
         } = ctx ?? { args: {} };
 
         return (
-          <LeafyGreenProvider darkMode={darkMode}>
+          <AzuBlueProvider darkMode={darkMode}>
             {/* @ts-expect-error - incomplete context value */}
             <SharedDatePickerProvider value={{ size }}>
               <Instance {...props} />
             </SharedDatePickerProvider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
       args: {
@@ -55,9 +55,9 @@ const meta: StoryMetaType<typeof CalendarCell, SharedDatePickerContextProps> = {
 export default meta;
 
 const Template: StoryFn<typeof CalendarCell> = props => (
-  <LeafyGreenProvider>
+  <AzuBlueProvider>
     <CalendarCell {...props} />
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 
 export const Basic = Template.bind({});

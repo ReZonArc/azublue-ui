@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { LGGlyph } from '@leafygreen-ui/icon';
+import { LGGlyph } from '@azublue-ui/icon';
 
 export type ReactEmpty = null | undefined | false | '';
 

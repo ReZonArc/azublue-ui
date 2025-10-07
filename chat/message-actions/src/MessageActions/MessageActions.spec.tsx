@@ -2,15 +2,15 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { Message } from '@lg-chat/message';
-import { MessageRatingValue } from '@lg-chat/message-rating';
+} from '@az-chat/leafygreen-chat-provider';
+import { Message } from '@az-chat/message';
+import { MessageRatingValue } from '@az-chat/message-rating';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { MessageActions, MessageActionsProps } from '.';
 
-jest.mock('@lg-chat/lg-markdown', () => ({
+jest.mock('@az-chat/lg-markdown', () => ({
   LGMarkdown: jest.fn(({ children }) => <div>{children}</div>),
 }));
 

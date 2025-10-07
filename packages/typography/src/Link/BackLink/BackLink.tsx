@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import ArrowLeftIcon from '@leafygreen-ui/icon/dist/ArrowLeft';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import ArrowLeftIcon from '@azublue-ui/icon/dist/ArrowLeft';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { useUpdatedBaseFontSize } from '../../utils/useUpdatedBaseFontSize';
 import {

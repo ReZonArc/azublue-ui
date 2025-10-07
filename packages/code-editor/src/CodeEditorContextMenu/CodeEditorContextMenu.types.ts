@@ -1,4 +1,4 @@
-import { LgIdProps } from '@leafygreen-ui/lib';
+import { LgIdProps } from '@azublue-ui/lib';
 
 import type { ContextMenuItem, ContextMenuProps } from '../ContextMenu';
 

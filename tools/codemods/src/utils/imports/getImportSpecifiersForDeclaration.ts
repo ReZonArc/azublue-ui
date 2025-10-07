@@ -1,7 +1,7 @@
 import type { Collection } from 'jscodeshift';
 import type core from 'jscodeshift';
 
-import { LGPackage } from '../../types';
+import { AzuBluePackage } from '../../types';
 
 export interface GetImportSpecifiersForDeclarationType {
   /**
@@ -17,12 +17,12 @@ export interface GetImportSpecifiersForDeclarationType {
   /**
    *  The package name to check for specifiers to target
    */
-  packageName: LGPackage;
+  packageName: AzuBluePackage;
 
   /**
    * The map of package name to specifier names to look for
    */
-  packageSpecifiersMap: Partial<Record<LGPackage, string>>;
+  packageSpecifiersMap: Partial<Record<AzuBluePackage, string>>;
 }
 
 /**
@@ -32,14 +32,14 @@ export interface GetImportSpecifiersForDeclarationType {
  * Source file:
  *
  * ```typescript
- * import { Option, Select as LGSelect, Size } from '@leafygreen-ui/select';
+ * import { Option, Select as LGSelect, Size } from '@azublue-ui/select';
  * ```
  *
  * | packageName | packageSpecifiersMap | specifierNames |
  * |-------------|------------------------|-----------------|
- * | '@leafygreen-ui/select' | { '@leafygreen-ui/select': 'Select' } | ['LGSelect'] |
- * | '@leafygreen-ui/select' | { '@leafygreen-ui/select': 'Option' } | ['Option'] |
- * | '@leafygreen-ui/select' | { '@leafygreen-ui/select': 'Size' } | ['Size'] |
+ * | '@azublue-ui/select' | { '@azublue-ui/select': 'Select' } | ['LGSelect'] |
+ * | '@azublue-ui/select' | { '@azublue-ui/select': 'Option' } | ['Option'] |
+ * | '@azublue-ui/select' | { '@azublue-ui/select': 'Size' } | ['Size'] |
  */
 export function getImportSpecifiersForDeclaration({
   j,

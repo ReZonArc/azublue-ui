@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Card from '@leafygreen-ui/card';
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import Card from '@azublue-ui/card';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { ParagraphSkeleton } from '..';
 

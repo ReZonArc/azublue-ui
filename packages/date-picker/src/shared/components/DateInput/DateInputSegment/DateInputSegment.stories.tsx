@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Size } from '@leafygreen-ui/tokens';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Size } from '@azublue-ui/tokens';
 
 import {
   SharedDatePickerContextProps,
@@ -14,11 +14,11 @@ import { DateSegmentValue } from '../../../types';
 import { DateInputSegment } from './DateInputSegment';
 
 const ProviderWrapper = (Story: StoryFn, ctx?: { args: any }) => (
-  <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+  <AzuBlueProvider darkMode={ctx?.args.darkMode}>
     <SharedDatePickerProvider {...ctx?.args}>
       <Story />
     </SharedDatePickerProvider>
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 
 const meta: StoryMetaType<
@@ -66,7 +66,7 @@ const Template: StoryFn<typeof DateInputSegment> = props => {
   const [value, setValue] = useState<DateSegmentValue>('');
 
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <DateInputSegment
         {...props}
         value={value}
@@ -74,7 +74,7 @@ const Template: StoryFn<typeof DateInputSegment> = props => {
           setValue(value);
         }}
       />
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

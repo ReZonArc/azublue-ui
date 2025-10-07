@@ -10,7 +10,7 @@ import {
 import {
   useForwardedRef,
   useIsomorphicLayoutEffect,
-} from '@leafygreen-ui/hooks';
+} from '@azublue-ui/hooks';
 
 import { DescendantContextType } from './DescendantsContext';
 import { findDescendantIndexWithId } from './utils';

@@ -1,6 +1,6 @@
 import { act } from 'react-dom/test-utils';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { useChart } from './useChart';
 

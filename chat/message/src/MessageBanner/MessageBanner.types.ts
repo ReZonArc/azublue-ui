@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Variant } from '@leafygreen-ui/banner';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { Variant } from '@azublue-ui/banner';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export interface MessageBannerProps
   extends React.ComponentPropsWithoutRef<'div'>,

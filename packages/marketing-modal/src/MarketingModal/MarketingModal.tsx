@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Button from '@leafygreen-ui/button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import Modal from '@leafygreen-ui/modal';
-import { CloseIconColor } from '@leafygreen-ui/modal';
-import { Body, Disclaimer, H3, Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import Modal from '@azublue-ui/modal';
+import { CloseIconColor } from '@azublue-ui/modal';
+import { Body, Disclaimer, H3, Link } from '@azublue-ui/typography';
 
 import { Graphic } from '../Graphic/Graphic';
 

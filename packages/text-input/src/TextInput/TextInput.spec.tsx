@@ -3,7 +3,7 @@ import { fireEvent, getByLabelText, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { getTestUtils } from '../testing';
 

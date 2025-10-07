@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/resizable",
+  "name": "@azublue-ui/resizable",
   "version": "0.1.3",
   "description": "LeafyGreen UI Kit Resizable",
   "main": "./dist/umd/index.js",
@@ -15,9 +15,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/resizable",
   "repository": {

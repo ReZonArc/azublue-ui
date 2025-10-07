@@ -1,7 +1,7 @@
 import React from 'react';
-import { type RichLinkProps } from '@lg-chat/rich-links';
+import { type RichLinkProps } from '@az-chat/rich-links';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export interface MessageLinksProps
   extends DarkModeProps,

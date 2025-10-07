@@ -1,5 +1,5 @@
 import React from 'react';
-import { renderAsyncTest } from '@lg-tools/test-harnesses';
+import { renderAsyncTest } from '@az-tools/test-harnesses';
 import { render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
-import { BaseFontSize, FontWeight } from '@leafygreen-ui/tokens';
+import { BaseFontSize, FontWeight } from '@azublue-ui/tokens';
 
 import Body from './Body';
 import { BodyProps } from './Body.types';

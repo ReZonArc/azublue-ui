@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 // note: this cannot import from index file without causing circular dependency
 import { Size } from './SegmentedControl/SegmentedControl.types';

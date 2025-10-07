@@ -1,8 +1,8 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { createUniqueClassName } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { createUniqueClassName } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { spacing } from '@azublue-ui/tokens';
 
 export const richLinkTextClassName = createUniqueClassName('lg-chat-rich-link');
 

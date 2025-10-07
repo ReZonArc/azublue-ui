@@ -2,7 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import VerticalEllipsisIcon from '@leafygreen-ui/icon/dist/VerticalEllipsis';
+import VerticalEllipsisIcon from '@azublue-ui/icon/dist/VerticalEllipsis';
 
 import Banner, { Variant } from '..';
 

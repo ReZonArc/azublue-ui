@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 const PANEL_HEIGHT = 36;
 const MODAL_HEIGHT = 354;

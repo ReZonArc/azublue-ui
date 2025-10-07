@@ -2,7 +2,7 @@ import type { API, FileInfo, Options } from 'jscodeshift';
 
 import { MigrateOptions } from '../..';
 import { MIGRATOR_ERROR } from '../../constants';
-import { LGPackage } from '../../types';
+import { AzuBluePackage } from '../../types';
 import { getImportSpecifiersForDeclaration } from '../../utils/imports';
 import { getJSXAttributes } from '../../utils/jsx';
 import {
@@ -13,45 +13,45 @@ import {
 } from '../../utils/transformations';
 
 const lgPackageComponentForPropConsolidationMap: Partial<
-  Record<LGPackage, string>
+  Record<AzuBluePackage, string>
 > = {
-  [LGPackage.Combobox]: 'Combobox',
-  [LGPackage.Menu]: 'Menu',
-  [LGPackage.Popover]: 'Popover',
-  [LGPackage.Select]: 'Select',
-  [LGPackage.SplitButton]: 'SplitButton',
-  [LGPackage.Tooltip]: 'Tooltip',
+  [AzuBluePackage.Combobox]: 'Combobox',
+  [AzuBluePackage.Menu]: 'Menu',
+  [AzuBluePackage.Popover]: 'Popover',
+  [AzuBluePackage.Select]: 'Select',
+  [AzuBluePackage.SplitButton]: 'SplitButton',
+  [AzuBluePackage.Tooltip]: 'Tooltip',
 };
 
-const lgPackageComponentForPropRemovalMap: Partial<Record<LGPackage, string>> =
+const lgPackageComponentForPropRemovalMap: Partial<Record<AzuBluePackage, string>> =
   {
-    [LGPackage.Code]: 'Code',
-    [LGPackage.Copyable]: 'Copyable',
-    [LGPackage.DatePicker]: 'DatePicker',
-    [LGPackage.GuideCue]: 'GuideCue',
-    [LGPackage.InfoSprinkle]: 'InfoSprinkle',
-    [LGPackage.InlineDefinition]: 'InlineDefinition',
-    [LGPackage.NumberInput]: 'NumberInput',
-    [LGPackage.SearchInput]: 'SearchInput',
+    [AzuBluePackage.Code]: 'Code',
+    [AzuBluePackage.Copyable]: 'Copyable',
+    [AzuBluePackage.DatePicker]: 'DatePicker',
+    [AzuBluePackage.GuideCue]: 'GuideCue',
+    [AzuBluePackage.InfoSprinkle]: 'InfoSprinkle',
+    [AzuBluePackage.InlineDefinition]: 'InlineDefinition',
+    [AzuBluePackage.NumberInput]: 'NumberInput',
+    [AzuBluePackage.SearchInput]: 'SearchInput',
   };
 
 const lgPackageComponentForPropReplacementMap: Partial<
-  Record<LGPackage, string>
+  Record<AzuBluePackage, string>
 > = {
-  [LGPackage.DatePicker]: 'DatePicker',
-  [LGPackage.InfoSprinkle]: 'InfoSprinkle',
-  [LGPackage.InlineDefinition]: 'InlineDefinition',
-  [LGPackage.Menu]: 'Menu',
-  [LGPackage.Popover]: 'Popover',
-  [LGPackage.Tooltip]: 'Tooltip',
+  [AzuBluePackage.DatePicker]: 'DatePicker',
+  [AzuBluePackage.InfoSprinkle]: 'InfoSprinkle',
+  [AzuBluePackage.InlineDefinition]: 'InlineDefinition',
+  [AzuBluePackage.Menu]: 'Menu',
+  [AzuBluePackage.Popover]: 'Popover',
+  [AzuBluePackage.Tooltip]: 'Tooltip',
 };
 
-const defaultPackages: Array<LGPackage> = [
+const defaultPackages: Array<AzuBluePackage> = [
   ...(Object.keys({
     ...lgPackageComponentForPropConsolidationMap,
     ...lgPackageComponentForPropRemovalMap,
     ...lgPackageComponentForPropReplacementMap,
-  }) as Array<LGPackage>),
+  }) as Array<AzuBluePackage>),
 ];
 
 const propNamesToRemove = [
@@ -64,20 +64,20 @@ const propNamesToRemove = [
 ];
 
 const componentPropsToRemoveMap: Record<string, Array<string>> = {
-  [LGPackage.Code]: propNamesToRemove.filter(
+  [AzuBluePackage.Code]: propNamesToRemove.filter(
     propName => propName !== 'portalRef',
   ),
-  [LGPackage.Copyable]: ['shouldTooltipUsePortal'],
-  [LGPackage.DatePicker]: propNamesToRemove.filter(
+  [AzuBluePackage.Copyable]: ['shouldTooltipUsePortal'],
+  [AzuBluePackage.DatePicker]: propNamesToRemove.filter(
     propName => propName !== 'usePortal',
   ),
-  [LGPackage.GuideCue]: propNamesToRemove.filter(
+  [AzuBluePackage.GuideCue]: propNamesToRemove.filter(
     propName => propName !== 'usePortal',
   ),
-  [LGPackage.InfoSprinkle]: propNamesToRemove,
-  [LGPackage.InlineDefinition]: propNamesToRemove,
-  [LGPackage.NumberInput]: propNamesToRemove,
-  [LGPackage.SearchInput]: propNamesToRemove.filter(
+  [AzuBluePackage.InfoSprinkle]: propNamesToRemove,
+  [AzuBluePackage.InlineDefinition]: propNamesToRemove,
+  [AzuBluePackage.NumberInput]: propNamesToRemove,
+  [AzuBluePackage.SearchInput]: propNamesToRemove.filter(
     propName => propName !== 'popoverZIndex',
   ),
 };
@@ -90,39 +90,39 @@ const componentPropsToRemoveMap: Record<string, Array<string>> = {
  * 1. Adds an explicit `usePortal={true}` declaration if left undefined and consolidates
  *    the `usePortal` and `renderMode` props into a single `renderMode` prop for components
  *    in the following packages:
- * - `@leafygreen-ui/combobox`
- * - `@leafygreen-ui/menu`
- * - `@leafygreen-ui/popover`
- * - `@leafygreen-ui/select`
- * - `@leafygreen-ui/split-button`
- * - `@leafygreen-ui/tooltip`
+ * - `@azublue-ui/combobox`
+ * - `@azublue-ui/menu`
+ * - `@azublue-ui/popover`
+ * - `@azublue-ui/select`
+ * - `@azublue-ui/split-button`
+ * - `@azublue-ui/tooltip`
  *
  * 2. Removes `popoverZIndex`, `portalClassName`, `portalContainer`, `portalRef`,
  *    `scrollContainer`, and `usePortal` props from the components in the following packages:
- * - `@leafygreen-ui/info-sprinkle`
- * - `@leafygreen-ui/inline-definition`
- * - `@leafygreen-ui/number-input`
+ * - `@azublue-ui/info-sprinkle`
+ * - `@azublue-ui/inline-definition`
+ * - `@azublue-ui/number-input`
  *
  * 3. Removes `popoverZIndex`, `portalClassName`, `portalContainer`, `portalRef`, and
  *    `scrollContainer` props from components in the following packages:
- * - `@leafygreen-ui/date-picker`
- * - `@leafygreen-ui/guide-cue`
+ * - `@azublue-ui/date-picker`
+ * - `@azublue-ui/guide-cue`
  *
  * 4. Removes `popoverZIndex`, `portalClassName`, `portalContainer`, `scrollContainer`,
- *    and `usePortal` props from `Code` component in the `@leafygreen-ui/code` package
+ *    and `usePortal` props from `Code` component in the `@azublue-ui/code` package
  *
  * 5. Removes `portalClassName`, `portalContainer`, `portalRef`, `scrollContainer`, and
- *    `usePortal` props from `SearchInput` component in the `@leafygreen-ui/search-input` package
+ *    `usePortal` props from `SearchInput` component in the `@azublue-ui/search-input` package
  *
- * 6. Removes `shouldTooltipUsePortal` prop from the `Copyable` component in the `@leafygreen-ui/copyable` package
+ * 6. Removes `shouldTooltipUsePortal` prop from the `Copyable` component in the `@azublue-ui/copyable` package
  *
  * 7. Replaces `justify="fit"` prop value with `justify="middle"` for components in the following packages:
- * - `@leafygreen-ui/date-picker`
- * - `@leafygreen-ui/info-sprinkle`
- * - `@leafygreen-ui/inline-definition`
- * - `@leafygreen-ui/menu`
- * - `@leafygreen-ui/popover`
- * - `@leafygreen-ui/tooltip`
+ * - `@azublue-ui/date-picker`
+ * - `@azublue-ui/info-sprinkle`
+ * - `@azublue-ui/inline-definition`
+ * - `@azublue-ui/menu`
+ * - `@azublue-ui/popover`
+ * - `@azublue-ui/tooltip`
  *
  * @param file the file to transform
  * @param jscodeshiftOptions an object containing at least a reference to the jscodeshift library

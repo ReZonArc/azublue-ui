@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/icon",
+  "name": "@azublue-ui/icon",
   "version": "14.5.1",
   "description": "LeafyGreen UI Kit Icons",
   "main": "./dist/umd/index.js",
@@ -34,15 +34,15 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@lg-tools/build": "workspace:^",
-    "@lg-tools/lint": "workspace:^",
-    "@lg-tools/storybook-utils": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@az-tools/build": "workspace:^",
+    "@az-tools/lint": "workspace:^",
+    "@az-tools/storybook-utils": "workspace:^",
     "@svgr/core": "^5.3.1",
     "@types/xml2json": "^0.11.0",
     "commander": "^11.0.0",

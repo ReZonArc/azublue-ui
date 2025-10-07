@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Avatar } from '@lg-chat/avatar';
-import { InputBar } from '@lg-chat/input-bar';
-import { LeafyGreenChatProvider } from '@lg-chat/leafygreen-chat-provider';
-import { Message } from '@lg-chat/message';
-import { MessageFeed } from '@lg-chat/message-feed';
-import { WithMessageRating as MessageFeedbackStory } from '@lg-chat/message-feedback/stories';
-import { MessagePrompt, MessagePrompts } from '@lg-chat/message-prompts';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+import { Avatar } from '@az-chat/avatar';
+import { InputBar } from '@az-chat/input-bar';
+import { LeafyGreenChatProvider } from '@az-chat/leafygreen-chat-provider';
+import { Message } from '@az-chat/message';
+import { MessageFeed } from '@az-chat/message-feed';
+import { WithMessageRating as MessageFeedbackStory } from '@az-chat/message-feedback/stories';
+import { MessagePrompt, MessagePrompts } from '@az-chat/message-prompts';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 import baseMessages from './utils/baseMessages';
 import { FixedChatWindow } from '.';

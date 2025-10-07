@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import { Direction } from '../NumberInput/NumberInput.types';
 

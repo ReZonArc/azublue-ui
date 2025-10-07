@@ -1,8 +1,8 @@
 import { waitFor, waitForElementToBeRemoved } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
-import { mockTimeZone, testTimeZones } from '@leafygreen-ui/date-utils/testing';
+import { Month, newUTC } from '@azublue-ui/date-utils';
+import { mockTimeZone, testTimeZones } from '@azublue-ui/date-utils/testing';
 
 import { renderDatePicker } from './DatePicker.testutils';
 

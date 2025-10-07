@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { css } from '@leafygreen-ui/emotion';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import EllipsisIcon from '@leafygreen-ui/icon/dist/Ellipsis';
-import { fontWeights } from '@leafygreen-ui/tokens';
-import { Overline } from '@leafygreen-ui/typography';
+import { css } from '@azublue-ui/emotion';
+import CheckmarkIcon from '@azublue-ui/icon/dist/Checkmark';
+import EllipsisIcon from '@azublue-ui/icon/dist/Ellipsis';
+import { fontWeights } from '@azublue-ui/tokens';
+import { Overline } from '@azublue-ui/typography';
 
 import { StepStates } from '../types';
 

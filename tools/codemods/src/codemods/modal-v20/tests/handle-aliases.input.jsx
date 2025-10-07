@@ -1,8 +1,8 @@
 import React from 'react';
 
-import MyModal from '@leafygreen-ui/modal';
-import LGConfirmationModal from '@leafygreen-ui/confirmation-modal';
-import FooModal from '@leafygreen-ui/marketing-modal';
+import MyModal from '@azublue-ui/modal';
+import LGConfirmationModal from '@azublue-ui/confirmation-modal';
+import FooModal from '@azublue-ui/marketing-modal';
 
 export const App = () => {
   const [open, setOpen] = useState(false);

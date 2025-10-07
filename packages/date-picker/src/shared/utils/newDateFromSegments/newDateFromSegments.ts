@@ -1,4 +1,4 @@
-import { DateType, newUTC } from '@leafygreen-ui/date-utils';
+import { DateType, newUTC } from '@azublue-ui/date-utils';
 
 import { DateSegmentsState } from '../../types';
 import { doesSomeSegmentExist } from '../doesSomeSegmentExist';

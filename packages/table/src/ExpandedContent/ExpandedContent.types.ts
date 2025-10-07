@@ -9,12 +9,12 @@ import {
 import { RowData } from '@tanstack/react-table';
 import { VirtualItem } from '@tanstack/react-virtual';
 
-import { LeafyGreenTableRow } from '../useLeafyGreenTable';
+import { LeafyGreenTableRow } from '../useAzuBlueTable';
 export interface ExpandedContentProps<T extends RowData>
   extends ComponentPropsWithRef<'tr'> {
   row: LeafyGreenTableRow<T>;
   /**
-   * Virtual row object passed from the `useLeafyGreenVirtualTable` hook
+   * Virtual row object passed from the `useAzuBlueVirtualTable` hook
    */
   virtualRow?: VirtualItem;
 }

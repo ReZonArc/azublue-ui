@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/select",
+  "name": "@azublue-ui/select",
   "version": "16.1.3",
   "description": "leafyGreen UI Kit Select",
   "main": "./dist/umd/index.js",
@@ -28,26 +28,26 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/form-field": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/input-option": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/popover": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/form-field": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/input-option": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/popover": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "@types/react-is": "^18.0.0",
     "lodash": "^4.17.21",
     "polished": "^4.1.3",
     "react-is": "^18.0.1"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/select",
   "repository": {
@@ -58,7 +58,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "typesVersions": {}
 }

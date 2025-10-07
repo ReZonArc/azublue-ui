@@ -1,10 +1,10 @@
 import { transparentize } from 'polished';
 
-import { prefersReducedMotion } from '@leafygreen-ui/a11y';
-import { css } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { focusRing, spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { prefersReducedMotion } from '@azublue-ui/a11y';
+import { css } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { focusRing, spacing, transitionDuration } from '@azublue-ui/tokens';
 
 export const iconClassName = createUniqueClassName('collapse-menu');
 

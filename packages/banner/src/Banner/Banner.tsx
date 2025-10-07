@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import BannerDismissButton from '../BannerDismissButton';
 import BannerIcon from '../BannerIcon';

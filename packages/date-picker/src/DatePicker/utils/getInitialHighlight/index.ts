@@ -3,7 +3,7 @@ import {
   getSimulatedTZDate,
   isValidDate,
   setToUTCMidnight,
-} from '@leafygreen-ui/date-utils';
+} from '@azublue-ui/date-utils';
 
 /** Returns the initial highlight value when the date picker is opened */
 export const getInitialHighlight = (

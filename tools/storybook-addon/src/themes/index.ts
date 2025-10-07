@@ -1,8 +1,8 @@
 import { create, type ThemeVars } from '@storybook/theming';
 
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, fontFamilies, spacing } from '@leafygreen-ui/tokens';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, fontFamilies, spacing } from '@azublue-ui/tokens';
 
 const createStorybookTheme = (theme: Theme): ThemeVars => {
   return create({

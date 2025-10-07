@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { createGlyphComponent } from '@leafygreen-ui/icon';
-import { getTheme } from '@leafygreen-ui/lib';
+import { createGlyphComponent } from '@azublue-ui/icon';
+import { getTheme } from '@azublue-ui/lib';
 
 import { getDisabledFill } from './AssistantAvatar.styles';
 import { AssistantAvatarProps } from './AssistantAvatar.types';

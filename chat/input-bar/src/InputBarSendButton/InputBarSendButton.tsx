@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 
-import Button from '@leafygreen-ui/button';
-import ArrowUpIcon from '@leafygreen-ui/icon/dist/ArrowUp';
-import StopIcon from '@leafygreen-ui/icon/dist/Stop';
-import IconButton from '@leafygreen-ui/icon-button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import Button from '@azublue-ui/button';
+import ArrowUpIcon from '@azublue-ui/icon/dist/ArrowUp';
+import StopIcon from '@azublue-ui/icon/dist/Stop';
+import IconButton from '@azublue-ui/icon-button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { State } from '../shared.types';
 

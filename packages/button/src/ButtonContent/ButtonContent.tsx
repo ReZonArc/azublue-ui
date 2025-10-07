@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { registerRipple } from '@leafygreen-ui/ripple';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { registerRipple } from '@azublue-ui/ripple';
 
 import {
   buttonContentSizeStyle,

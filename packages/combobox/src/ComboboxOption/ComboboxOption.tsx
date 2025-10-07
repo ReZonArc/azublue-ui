@@ -1,9 +1,9 @@
 import React, { useCallback, useContext, useMemo } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useForwardedRef, useIdAllocator } from '@leafygreen-ui/hooks';
-import { InputOption, InputOptionContent } from '@leafygreen-ui/input-option';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { useForwardedRef, useIdAllocator } from '@azublue-ui/hooks';
+import { InputOption, InputOptionContent } from '@azublue-ui/input-option';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { ComboboxContext } from '../ComboboxContext';
 import { ComboboxSize } from '../types';

@@ -1,4 +1,4 @@
-import { getPackageManager } from '@lg-tools/meta';
+import { getPackageManager } from '@az-tools/meta';
 import chalk from 'chalk';
 import { spawn } from 'cross-spawn';
 import fse from 'fs-extra';

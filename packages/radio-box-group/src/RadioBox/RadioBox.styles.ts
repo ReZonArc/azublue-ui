@@ -1,12 +1,12 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
 import {
   focusRing,
   fontFamilies,
   fontWeights,
   hoverRing,
   transitionDuration,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { Size } from '../types';
 

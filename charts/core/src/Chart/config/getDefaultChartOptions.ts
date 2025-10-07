@@ -1,13 +1,13 @@
-import { colors as chartColors } from '@lg-charts/colors';
+import { colors as chartColors } from '@az-charts/colors';
 
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   color,
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { DEFAULT_TOOLTIP_OPTIONS } from '../../constants';
 import { ChartOptions } from '../Chart.types';

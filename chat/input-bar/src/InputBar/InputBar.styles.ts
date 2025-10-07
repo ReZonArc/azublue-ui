@@ -1,6 +1,6 @@
-import { css, cx, keyframes } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx, keyframes } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   BaseFontSize,
   borderRadius,
@@ -13,7 +13,7 @@ import {
   transitionDuration,
   typeScales,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 /**
  * "adornment" refers to any element added to user interface (UI) primarily for

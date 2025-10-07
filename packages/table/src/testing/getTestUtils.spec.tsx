@@ -9,7 +9,7 @@ import { HeaderRow, Row } from '../Row';
 import Table from '../Table';
 import TableBody from '../TableBody';
 import TableHead from '../TableHead';
-import { LeafyGreenTableCell, LeafyGreenTableRow } from '../useLeafyGreenTable';
+import { LeafyGreenTableCell, LeafyGreenTableRow } from '../useAzuBlueTable';
 import { Person } from '../utils/makeData.testutils';
 import {
   TestTableWithHookProps,

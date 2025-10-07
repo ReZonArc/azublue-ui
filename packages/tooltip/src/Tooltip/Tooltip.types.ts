@@ -7,8 +7,8 @@ import {
   Justify,
   PopoverProps,
   RenderMode,
-} from '@leafygreen-ui/popover';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/popover';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export const TriggerEvent = {
   Hover: 'hover',

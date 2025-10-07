@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChartCard } from '@lg-charts/chart-card';
+import { ChartCard } from '@az-charts/chart-card';
 import {
   Chart,
   ChartGrid,
@@ -8,7 +8,7 @@ import {
   Line,
   XAxis,
   YAxis,
-} from '@lg-charts/core';
+} from '@az-charts/core';
 import { fireEvent, Matcher, render, screen } from '@testing-library/react';
 
 import { DragProvider } from './DragProvider';
@@ -45,7 +45,7 @@ async function clickAndDragByTestId(id: Matcher) {
   fireEvent.mouseUp(header);
 }
 
-describe('@lg-charts/drag-provider', () => {
+describe('@az-charts/drag-provider', () => {
   test('should call `onDragStart` when child `Chart` is dragged ', () => {
     const onDragStart = jest.fn();
 

@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/split-button",
+  "name": "@azublue-ui/split-button",
   "version": "6.1.4",
   "description": "leafyGreen UI Kit Split Button",
   "main": "./dist/umd/index.js",
@@ -23,22 +23,22 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/menu": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/polymorphic": "workspace:^",
-    "@leafygreen-ui/popover": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/menu": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/polymorphic": "workspace:^",
+    "@azublue-ui/popover": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

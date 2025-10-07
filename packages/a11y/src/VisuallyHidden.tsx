@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 
 const visuallyHidden = css`
   clip: rect(0, 0, 0, 0);

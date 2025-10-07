@@ -17,8 +17,8 @@ import {
   isOnOrBefore,
   isSameUTCDay,
   isValidDate,
-} from '@leafygreen-ui/date-utils';
-import { usePrevious } from '@leafygreen-ui/hooks';
+} from '@azublue-ui/date-utils';
+import { usePrevious } from '@azublue-ui/hooks';
 
 import { useSharedDatePickerContext } from '../../shared/context';
 import { getFormattedDateString } from '../../shared/utils';

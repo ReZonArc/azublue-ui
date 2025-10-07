@@ -1,7 +1,7 @@
 import { transparentize } from 'polished';
 
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 const lightModeShadowColor = transparentize(0.75, palette.black);
 

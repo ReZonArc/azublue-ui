@@ -1,9 +1,9 @@
 import { fireEvent, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC, SupportedLocales } from '@leafygreen-ui/date-utils';
-import { getLgIds as getLgFormFieldIds } from '@leafygreen-ui/form-field';
-import { tabNTimes } from '@leafygreen-ui/testing-lib';
+import { Month, newUTC, SupportedLocales } from '@azublue-ui/date-utils';
+import { getLgIds as getLgFormFieldIds } from '@azublue-ui/form-field';
+import { tabNTimes } from '@azublue-ui/testing-lib';
 
 import {
   expectedTabStopLabels,

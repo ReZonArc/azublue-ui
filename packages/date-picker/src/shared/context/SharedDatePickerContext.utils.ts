@@ -8,9 +8,9 @@ import {
   isValidDate,
   SupportedLocales,
   toDate,
-} from '@leafygreen-ui/date-utils';
-import { consoleOnce } from '@leafygreen-ui/lib';
-import { BaseFontSize, Size } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/date-utils';
+import { consoleOnce } from '@azublue-ui/lib';
+import { BaseFontSize, Size } from '@azublue-ui/tokens';
 
 import { MAX_DATE, MIN_DATE } from '../constants';
 import { AutoComplete, BaseDatePickerProps, DatePickerState } from '../types';

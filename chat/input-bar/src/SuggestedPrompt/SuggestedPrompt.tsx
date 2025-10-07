@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { InputOption, InputOptionContent } from '@leafygreen-ui/input-option';
-import { getNodeTextContent } from '@leafygreen-ui/lib';
-import { InferredPolymorphic, PolymorphicAs } from '@leafygreen-ui/polymorphic';
+import { InputOption, InputOptionContent } from '@azublue-ui/input-option';
+import { getNodeTextContent } from '@azublue-ui/lib';
+import { InferredPolymorphic, PolymorphicAs } from '@azublue-ui/polymorphic';
 
 import { SuggestedPromptProps } from './SuggestedPrompt.types';
 

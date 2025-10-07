@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { FormFieldState } from '@leafygreen-ui/form-field';
-import { DarkModeProps, Either, LgIdProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { FormFieldState } from '@azublue-ui/form-field';
+import { DarkModeProps, Either, LgIdProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export const State = FormFieldState;
 export type State = (typeof State)[keyof typeof State];

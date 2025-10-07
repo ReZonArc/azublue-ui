@@ -1,7 +1,7 @@
 import React from 'react';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { SearchResult, type SearchResultProps } from '.';
 
@@ -18,9 +18,9 @@ const meta: StoryMetaType<typeof SearchResult> = {
         highlighted: [false, true],
       },
       decorator: (Instance, ctx) => (
-        <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+        <AzuBlueProvider darkMode={ctx?.args.darkMode}>
           <Instance />
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       ),
     },
   },
@@ -49,9 +49,9 @@ const meta: StoryMetaType<typeof SearchResult> = {
 export default meta;
 
 export const Demo = ({ children, ...rest }: SearchResultProps) => (
-  <LeafyGreenProvider darkMode={rest.darkMode}>
+  <AzuBlueProvider darkMode={rest.darkMode}>
     <SearchResult {...rest}>{children}</SearchResult>
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 Demo.parameters = {
   chromatic: { disableSnapshot: true },

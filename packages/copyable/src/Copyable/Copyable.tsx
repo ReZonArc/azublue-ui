@@ -1,26 +1,26 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ClipboardJS from 'clipboard';
 
-import Button from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import CopyIcon from '@leafygreen-ui/icon/dist/Copy';
+import Button from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import CopyIcon from '@azublue-ui/icon/dist/Copy';
 import {
   useDarkMode,
   usePopoverPortalContainer,
-} from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 import Tooltip, {
   Align,
   Justify,
   RenderMode,
   TriggerEvent,
-} from '@leafygreen-ui/tooltip';
+} from '@azublue-ui/tooltip';
 import {
   Description,
   Label,
   useUpdatedBaseFontSize,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { TOOLTIP_VISIBLE_DURATION } from './constants';
 import {

@@ -5,16 +5,16 @@ import { ruleTester } from './utils/ruleTester.testutils';
 ruleTester.run('no-indirect-imports', noIndirectImportsRule, {
   valid: [
     {
-      code: `import Button from '@leafygreen-ui/button'`,
+      code: `import Button from '@azublue-ui/button'`,
     },
     {
-      code: `import { Combobox } from '@leafygreen-ui/combobox'`,
+      code: `import { Combobox } from '@azublue-ui/combobox'`,
     },
   ],
   invalid: [
     {
       code: `import Button from 'packages/button'`,
-      output: `import Button from '@leafygreen-ui/button'`,
+      output: `import Button from '@azublue-ui/button'`,
       errors: [
         {
           messageId: 'issue:importFromPackages',
@@ -23,7 +23,7 @@ ruleTester.run('no-indirect-imports', noIndirectImportsRule, {
     },
     {
       code: `import Button from '../packages/button'`,
-      output: `import Button from '@leafygreen-ui/button'`,
+      output: `import Button from '@azublue-ui/button'`,
       errors: [
         {
           messageId: 'issue:importFromPackages',

@@ -1,4 +1,4 @@
-import { getPackageJson } from '@lg-tools/meta';
+import { getPackageJson } from '@az-tools/meta';
 import fsx from 'fs-extra';
 import path from 'path';
 

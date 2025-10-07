@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export type OrderedListItemProps = Omit<React.ComponentProps<'li'>, 'title'> &
   DarkModeProps & {

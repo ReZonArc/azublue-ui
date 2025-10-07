@@ -4,15 +4,15 @@ import React from 'react';
 import {
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryContext, StoryObj } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
-  LeafyGreenProviderProps,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
+  AzuBlueProviderProps,
+} from '@azublue-ui/leafygreen-provider';
+import { Link } from '@azublue-ui/typography';
 
 import { Variant } from '../Toast.types';
 
@@ -71,11 +71,11 @@ const meta: StoryMetaType<typeof InternalToast> = {
   decorators: [
     (
       Story,
-      meta: StoryContext<LeafyGreenProviderProps & InternalToastProps>,
+      meta: StoryContext<AzuBlueProviderProps & InternalToastProps>,
     ) => (
-      <LeafyGreenProvider darkMode={!!meta.args.darkMode}>
+      <AzuBlueProvider darkMode={!!meta.args.darkMode}>
         <Story />
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     ),
   ],
   args: {

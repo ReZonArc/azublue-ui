@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { fontWeights } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { fontWeights } from '@azublue-ui/tokens';
 
 export const overlineStyles = css`
   font-size: 12px;

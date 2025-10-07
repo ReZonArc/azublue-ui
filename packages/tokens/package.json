@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/tokens",
+  "name": "@azublue-ui/tokens",
   "version": "3.2.4",
   "description": "leafyGreen UI Kit Tokens",
   "main": "./dist/umd/index.js",
@@ -15,13 +15,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
     "polished": "^4.2.2"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@storybook/test": "^8.6.14",
     "lodash": "^4.17.21"
   },

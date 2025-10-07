@@ -1,6 +1,6 @@
 import has from 'lodash/has';
 
-import { PartialRequired } from '@leafygreen-ui/lib';
+import { PartialRequired } from '@azublue-ui/lib';
 
 import { PolymorphicAs, PolymorphicProps } from '../../Polymorphic';
 

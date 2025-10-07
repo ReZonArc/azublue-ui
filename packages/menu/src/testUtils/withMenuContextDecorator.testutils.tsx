@@ -1,10 +1,10 @@
 /* eslint-disable react/display-name */
 import React from 'react';
-import { InstanceDecorator } from '@lg-tools/storybook-utils';
+import { InstanceDecorator } from '@az-tools/storybook-utils';
 import noop from 'lodash/noop';
 
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 
 import { Menu, MenuVariant } from '../Menu';
 import { MenuContext } from '../MenuContext';

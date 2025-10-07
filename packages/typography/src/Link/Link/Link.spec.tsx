@@ -1,7 +1,7 @@
 import React, { createRef } from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 
-import { PolymorphicAs } from '@leafygreen-ui/polymorphic';
+import { PolymorphicAs } from '@azublue-ui/polymorphic';
 
 import Link from './Link';
 import { LinkProps } from './Link.types';

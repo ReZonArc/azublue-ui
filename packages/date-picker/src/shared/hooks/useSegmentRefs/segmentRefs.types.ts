@@ -1,4 +1,4 @@
-import { DynamicRefGetter } from '@leafygreen-ui/hooks';
+import { DynamicRefGetter } from '@azublue-ui/hooks';
 
 import { DateSegment } from '../../types';
 

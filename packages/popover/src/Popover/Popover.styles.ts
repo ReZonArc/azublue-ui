@@ -1,8 +1,8 @@
 import { TransitionStatus } from 'react-transition-group';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName } from '@leafygreen-ui/lib';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName } from '@azublue-ui/lib';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { ExtendedPlacement, TransformAlign } from './Popover.types';
 

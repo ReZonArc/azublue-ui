@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { palette } from '@leafygreen-ui/palette';
+import { palette } from '@azublue-ui/palette';
 
 const SvgCheck = (props: any) => {
   return (

@@ -79,7 +79,7 @@ const renderCustomTooltip = (props: Partial<CustomTooltipProps> = {}) => {
   return render(<CustomTooltip {...resolvedProps} />);
 };
 
-describe('@lg-charts/core/ChartTooltip/CustomTooltip', () => {
+describe('@az-charts/core/ChartTooltip/CustomTooltip', () => {
   test('should render properly formatted date', () => {
     renderCustomTooltip();
     const dateElement = screen.getByText(

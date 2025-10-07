@@ -1,13 +1,13 @@
 import React, { forwardRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Size } from '@leafygreen-ui/tokens';
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Size } from '@azublue-ui/tokens';
 import {
   Description,
   Label,
   useUpdatedBaseFontSize,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { DEFAULT_MESSAGES } from '../constants';
 import { FormFieldProvider } from '../FormFieldContext';
@@ -76,7 +76,7 @@ export const FormField = forwardRef<HTMLDivElement, FormFieldProps>(
     } as const;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <FormFieldProvider
           value={{ disabled, size, state, inputProps, optional, lgIds }}
         >
@@ -120,7 +120,7 @@ export const FormField = forwardRef<HTMLDivElement, FormFieldProps>(
             <FormFieldFeedback {...formFieldFeedbackProps} />
           </div>
         </FormFieldProvider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

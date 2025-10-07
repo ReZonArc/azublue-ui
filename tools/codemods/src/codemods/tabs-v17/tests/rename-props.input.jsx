@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, Tab } from '@leafygreen-ui/tabs';
+import { Tabs, Tab } from '@azublue-ui/tabs';
 
 function App() {
   return (

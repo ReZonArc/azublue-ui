@@ -5,7 +5,7 @@ import {
   WeakValidationMap,
 } from 'react';
 
-import { PartialRequired } from '@leafygreen-ui/lib';
+import { PartialRequired } from '@azublue-ui/lib';
 
 import { PolymorphicAs } from '../Polymorphic/Polymorphic.types';
 import { NodeUrlLike } from '../utils/Polymorphic.utils';

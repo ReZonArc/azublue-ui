@@ -1,16 +1,16 @@
 import React, { useRef } from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import { Variant } from '@leafygreen-ui/badge';
-import { badgeVariants as variantStyle } from '@leafygreen-ui/badge/src/Badge/styles';
-import { css, cx } from '@leafygreen-ui/emotion';
-import Icon, { glyphs } from '@leafygreen-ui/icon';
-import LeafyGreenProvider, {
+import { Variant } from '@azublue-ui/badge';
+import { badgeVariants as variantStyle } from '@azublue-ui/badge/src/Badge/styles';
+import { css, cx } from '@azublue-ui/emotion';
+import Icon, { glyphs } from '@azublue-ui/icon';
+import AzuBlueProvider, {
   useBaseFontSize,
-} from '@leafygreen-ui/leafygreen-provider';
-import { DarkModeProps, getTheme, HTMLElementProps } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/azublue-provider';
+import { DarkModeProps, getTheme, HTMLElementProps } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 interface DemoProps extends HTMLElementProps<'button'>, DarkModeProps {
   checked: boolean;
@@ -79,9 +79,9 @@ const meta: StoryMetaType<
         // eslint-disable-next-line react-hooks/rules-of-hooks
         const ref = useRef(null);
         return (
-          <LeafyGreenProvider baseFontSize={context?.args.baseFontSize}>
+          <AzuBlueProvider baseFontSize={context?.args.baseFontSize}>
             <InstanceFn ref={ref} />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

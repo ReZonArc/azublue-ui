@@ -8,9 +8,9 @@ import React, {
 } from 'react';
 import { type EditorView, type ViewUpdate } from '@codemirror/view';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { findChild } from '@leafygreen-ui/lib';
-import { Body, useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { findChild } from '@azublue-ui/lib';
+import { Body, useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { CodeEditorContextMenu } from '../CodeEditorContextMenu';
 import { CodeEditorCopyButton } from '../CodeEditorCopyButton';
@@ -103,7 +103,7 @@ const BaseCodeEditor = forwardRef<CodeEditorHandle, CodeEditorProps>(
         extensions: consumerExtensions,
         baseFontSize,
         /**
-         * CodeEditorTooltip in particular renders outside of the LeafyGreenProvider
+         * CodeEditorTooltip in particular renders outside of the AzuBlueProvider
          * so it won't be able to access the theme from the provider. So we must
          * pass the darkMode prop from the parent.
          */

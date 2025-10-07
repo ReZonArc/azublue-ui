@@ -2,7 +2,7 @@ import { EChartOptions } from '../Echart.types';
 
 import { addSeries, removeSeries, updateOptions } from './updateUtils';
 
-describe('@lg-charts/core/Chart/hooks/updateUtils', () => {
+describe('@az-charts/core/Chart/hooks/updateUtils', () => {
   test('addSeries should add a series to the chart options', () => {
     const currentOptions: Partial<EChartOptions> = {
       series: [{ name: 'series1' }],

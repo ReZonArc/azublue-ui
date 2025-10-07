@@ -1,4 +1,4 @@
-import { type GeneratedStoryConfig } from '@lg-tools/storybook-utils';
+import { type GeneratedStoryConfig } from '@az-tools/storybook-utils';
 
 import { shouldExcludePropCombo } from './shouldExcludePropCombo';
 

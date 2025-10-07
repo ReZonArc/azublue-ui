@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { usePrevious } from '@leafygreen-ui/hooks';
-import { isDefined } from '@leafygreen-ui/lib';
+import { usePrevious } from '@azublue-ui/hooks';
+import { isDefined } from '@azublue-ui/lib';
 
 interface TransitionDurationParams {
   /** Desired change in units per second */

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { color, InteractionState, Variant } from '@leafygreen-ui/tokens';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { color, InteractionState, Variant } from '@azublue-ui/tokens';
 
 import { ChartOptions } from '../Chart';
 import { useChartContext } from '../ChartContext';

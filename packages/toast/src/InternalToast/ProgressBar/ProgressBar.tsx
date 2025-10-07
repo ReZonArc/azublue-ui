@@ -1,8 +1,8 @@
 import React from 'react';
 import clamp from 'lodash/clamp';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 
 import {
   progressBarBackgroundStyle,

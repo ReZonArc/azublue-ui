@@ -1,8 +1,8 @@
 import { transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   borderRadius,
   breakpoints,
@@ -12,7 +12,7 @@ import {
   spacing,
   transitionDuration,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { ModalSize } from './Modal.types';
 

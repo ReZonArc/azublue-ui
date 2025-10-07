@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/ripple",
+  "name": "@azublue-ui/ripple",
   "version": "2.0.6",
   "description": "leafyGreen UI Kit Ripple",
   "main": "./dist/umd/index.js",
@@ -15,7 +15,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/tokens": "workspace:^"
+    "@azublue-ui/tokens": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/ripple",
   "repository": {
@@ -26,7 +26,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

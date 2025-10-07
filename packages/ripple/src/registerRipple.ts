@@ -1,4 +1,4 @@
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { getRippleGlobalNamespace } from './getRippleGlobalNamespace';
 import { Options } from './utils';

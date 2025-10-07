@@ -1,4 +1,4 @@
-import { getLGConfig, getRootPackageJson } from '@lg-tools/meta';
+import { getLGConfig, getRootPackageJson } from '@az-tools/meta';
 
 import { ComponentUpdateObject } from '../release-bot.types';
 
@@ -9,7 +9,7 @@ interface OutputStrings {
   fullName: string;
   /** The short name of the package, without scope */
   shortName: string;
-  /** The npm scope of the package. Typically @leafygreen-ui */
+  /** The npm scope of the package. Typically @azublue-ui */
   scope: string;
   /** The version number of the package */
   version: string;

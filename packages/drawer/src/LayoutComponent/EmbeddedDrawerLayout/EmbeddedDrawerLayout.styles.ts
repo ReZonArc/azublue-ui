@@ -1,5 +1,5 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { breakpoints } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import {
   DRAWER_TOOLBAR_WIDTH,

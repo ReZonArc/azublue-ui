@@ -1,7 +1,7 @@
 import React from 'react';
-import { SeriesName } from '@lg-charts/series-provider';
+import { SeriesName } from '@az-charts/series-provider';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export interface LegendProps
   extends DarkModeProps,

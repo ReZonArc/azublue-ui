@@ -1,13 +1,13 @@
 import { type EditorView } from '@codemirror/view';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Theme } from '@leafygreen-ui/lib';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Theme } from '@azublue-ui/lib';
 import {
   color,
   fontWeights,
   InteractionState,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { type CodeEditorProps } from '../../CodeEditor.types';
 import { type CodeEditorModules } from '../moduleLoaders.types';

@@ -1,5 +1,5 @@
-import { FormFieldFeedbackProps } from '@leafygreen-ui/form-field';
-import { LgIdProps } from '@leafygreen-ui/lib';
+import { FormFieldFeedbackProps } from '@azublue-ui/form-field';
+import { LgIdProps } from '@azublue-ui/lib';
 
 import { NotificationProps } from '../PasswordInput/PasswordInput.types';
 

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { useSeriesContext } from '@lg-charts/series-provider';
+import { useSeriesContext } from '@az-charts/series-provider';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { useChartContext } from '../ChartContext';
 

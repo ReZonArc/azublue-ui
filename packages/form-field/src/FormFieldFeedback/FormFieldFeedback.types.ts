@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BaseFontSize, Size } from '@leafygreen-ui/tokens';
+import { BaseFontSize, Size } from '@azublue-ui/tokens';
 
 import { FormFieldState } from '../FormField/FormField.types';
 

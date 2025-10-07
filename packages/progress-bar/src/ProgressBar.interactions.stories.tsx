@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 import { expect, waitFor, within } from '@storybook/test';
 

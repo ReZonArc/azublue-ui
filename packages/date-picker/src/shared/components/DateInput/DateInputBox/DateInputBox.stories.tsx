@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
 import {
@@ -8,9 +8,9 @@ import {
   Month,
   newUTC,
   SupportedLocales,
-} from '@leafygreen-ui/date-utils';
-import { testLocales } from '@leafygreen-ui/date-utils/testing';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/date-utils';
+import { testLocales } from '@azublue-ui/date-utils/testing';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import {
   SharedDatePickerContextProps,
@@ -31,11 +31,11 @@ const ProviderWrapper = (Story: StoryFn, ctx?: { args: any }) => {
     getProviderPropsFromStoryContext(ctx?.args);
 
   return (
-    <LeafyGreenProvider {...leafyGreenProviderProps}>
+    <AzuBlueProvider {...leafyGreenProviderProps}>
       <SharedDatePickerProvider {...datePickerProviderProps}>
         <Story {...storyProps} segmentRefs={segmentRefsMock} />
       </SharedDatePickerProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

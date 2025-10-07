@@ -1,8 +1,8 @@
 /**
  * In this file we create default values for storybook `main.ts` properties
  */
-import { getLGConfig } from '@lg-tools/meta';
-import { findStories } from '@lg-tools/storybook-utils';
+import { getLGConfig } from '@az-tools/meta';
+import { findStories } from '@az-tools/storybook-utils';
 import type { StorybookConfig } from '@storybook/react-webpack5';
 import isRegExp from 'lodash/isRegExp';
 import {
@@ -49,7 +49,7 @@ export const core: StorybookConfig['core'] = {
 
 export const staticDirs: StorybookConfig['staticDirs'] = [
   './static',
-  '../node_modules/@lg-tools/storybook-addon/static',
+  '../node_modules/@az-tools/storybook-addon/static',
 ];
 
 export const webpackFinal: StorybookConfig['webpackFinal'] = config => {

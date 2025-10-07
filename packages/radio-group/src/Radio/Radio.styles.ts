@@ -1,13 +1,13 @@
-import { css } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   focusRing,
   fontWeights,
   hoverRing,
   spacing,
   transitionDuration,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { Size } from '../types';
 

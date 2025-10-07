@@ -8,9 +8,9 @@ import {
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
-import useLeafyGreenTable, { LGTableDataType } from '../../useLeafyGreenTable';
+import useAzuBlueTable, { LGTableDataType } from '../../useAzuBlueTable';
 import { getLgIds } from '../../utils/getLgIds';
 import { Person } from '../../utils/makeData.testutils';
 
@@ -66,7 +66,7 @@ const headerCellTestData: Array<Partial<Person>> = [
 ];
 
 const TestSortableHeaderCell = () => {
-  const table = useLeafyGreenTable({
+  const table = useAzuBlueTable({
     columns: headerCellTestColumns,
     data: headerCellTestData,
   });
@@ -96,7 +96,7 @@ const TestSortableHeaderCell = () => {
 const useMockTestHeaderData = (
   columnDef: ColumnDef<any>,
 ): Header<LGTableDataType<any>, unknown> => {
-  const table = useLeafyGreenTable({
+  const table = useAzuBlueTable({
     data: [],
     columns: [columnDef],
   });

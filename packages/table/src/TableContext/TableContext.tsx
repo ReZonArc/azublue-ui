@@ -5,9 +5,9 @@ import React, {
   useMemo,
 } from 'react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
-import { LGRowData } from '../useLeafyGreenTable';
+import { LGRowData } from '../useAzuBlueTable';
 import { getLgIds } from '../utils';
 
 import { type TableProviderProps } from './TableContext.types';
@@ -62,9 +62,9 @@ const TableContextProvider = <T extends LGRowData>({
   ]);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <TableProvider value={tableProviderData}>{children}</TableProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

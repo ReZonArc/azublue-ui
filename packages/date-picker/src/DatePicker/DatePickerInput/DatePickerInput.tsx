@@ -7,8 +7,8 @@ import React, {
 } from 'react';
 import isNull from 'lodash/isNull';
 
-import { isInvalidDateObject, isSameUTCDay } from '@leafygreen-ui/date-utils';
-import { createSyntheticEvent, keyMap } from '@leafygreen-ui/lib';
+import { isInvalidDateObject, isSameUTCDay } from '@azublue-ui/date-utils';
+import { createSyntheticEvent, keyMap } from '@azublue-ui/lib';
 
 import {
   DateFormField,

@@ -2,16 +2,16 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 import { expect, userEvent, within } from '@storybook/test';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { Message } from '../Message';
 
@@ -44,13 +44,13 @@ const meta: StoryMetaType<typeof MessageActions> = {
   },
   decorators: [
     (Story: StoryFn, context) => (
-      <LeafyGreenProvider darkMode={context?.args.darkMode}>
+      <AzuBlueProvider darkMode={context?.args.darkMode}>
         <LeafyGreenChatProvider variant={Variant.Compact}>
           <Message isSender={false} messageBody={SAMPLE_MESSAGE_BODY}>
             <Story />
           </Message>
         </LeafyGreenChatProvider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     ),
   ],
   parameters: {
@@ -65,13 +65,13 @@ const meta: StoryMetaType<typeof MessageActions> = {
         onRatingChange: [undefined, testOnRatingChange],
       },
       decorator: (StoryFn, context) => (
-        <LeafyGreenProvider darkMode={context?.args.darkMode}>
+        <AzuBlueProvider darkMode={context?.args.darkMode}>
           <LeafyGreenChatProvider variant={Variant.Compact}>
             <Message isSender={false} messageBody={SAMPLE_MESSAGE_BODY}>
               <StoryFn />
             </Message>
           </LeafyGreenChatProvider>
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       ),
     },
   },

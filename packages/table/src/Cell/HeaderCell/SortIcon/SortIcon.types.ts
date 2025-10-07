@@ -1,4 +1,4 @@
-import { AccessibleIconButtonProps } from '@leafygreen-ui/icon-button/';
+import { AccessibleIconButtonProps } from '@azublue-ui/icon-button/';
 
 import { SortState } from '../HeaderCell.types';
 

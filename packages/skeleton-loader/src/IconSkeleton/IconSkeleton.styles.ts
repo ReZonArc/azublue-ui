@@ -1,5 +1,5 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 
 import { getSkeletonBaseStyles, themeStyles } from '../Skeleton';
 

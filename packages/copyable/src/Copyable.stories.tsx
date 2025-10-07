@@ -3,7 +3,7 @@ import {
   storybookArgTypes,
   type StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
 import Copyable from '.';
 
@@ -17,8 +17,8 @@ const meta: StoryMetaType<typeof Copyable> = {
         darkMode: [false, true],
         copyable: [true, false],
         children: [
-          'npm install @leafygreen-ui/copyable',
-          'npm install --dev --global @leafygreen-ui/leafygreen-provider',
+          'npm install @azublue-ui/copyable',
+          'npm install --dev --global @azublue-ui/leafygreen-provider',
         ],
         label: [undefined, 'Label'],
         description: [undefined, 'Description'],
@@ -32,7 +32,7 @@ const meta: StoryMetaType<typeof Copyable> = {
     darkMode: false,
     label: 'Label',
     description: 'Description',
-    children: 'npm install @leafygreen-ui/copyable',
+    children: 'npm install @azublue-ui/copyable',
   },
   argTypes: {
     copyable: { control: 'boolean' },

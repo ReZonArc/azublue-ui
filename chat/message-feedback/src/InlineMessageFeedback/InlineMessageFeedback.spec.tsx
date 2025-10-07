@@ -2,7 +2,7 @@ import React, { createRef } from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import { render, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 

@@ -1,5 +1,5 @@
-import { LGGlyph } from '@leafygreen-ui/icon';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { LGGlyph } from '@azublue-ui/icon';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export type AssistantAvatarProps = LGGlyph.ComponentProps &
   DarkModeProps & {

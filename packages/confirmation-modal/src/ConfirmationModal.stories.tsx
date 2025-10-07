@@ -3,12 +3,12 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { CloseIconColor } from '@leafygreen-ui/modal';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { CloseIconColor } from '@azublue-ui/modal';
 
 import ConfirmationModal, { ConfirmationModalProps, Variant } from '.';
 

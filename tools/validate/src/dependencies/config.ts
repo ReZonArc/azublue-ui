@@ -51,8 +51,8 @@ export const ignoreFilePatterns: Array<RegExp> = [
 export const externalDependencies = [
   '@babel/*',
   '@emotion/*',
-  '@leafygreen-ui/mongo-nav',
-  '@leafygreen-ui/testing-lib',
+  '@azublue-ui/mongo-nav',
+  '@azublue-ui/testing-lib',
   '@rollup/*',
   '@storybook/*',
   '@svgr/*',

@@ -12,13 +12,13 @@ export interface StoryArgType extends InputType {
 export const storybookArgTypes: Record<string, StoryArgType> = {
   baseFontSize: {
     description:
-      'The base font size passed to the LeafyGreenProvider that wraps the component',
+      'The base font size passed to the AzuBlueProvider that wraps the component',
     control: { type: 'radio' },
     options: [14, 16],
   },
   updatedBaseFontSize: {
     description:
-      'The base font size passed to the LeafyGreenProvider that wraps the component. Uses the updated font size values for Euclid Circular A.',
+      'The base font size passed to the AzuBlueProvider that wraps the component. Uses the updated font size values for Euclid Circular A.',
     control: { type: 'radio' },
     options: [13, 16],
   },

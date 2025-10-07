@@ -5,7 +5,7 @@
 * @checksum 7e1173827864fd0acaf7131938be6c0a
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface NavCollapseProps extends LGGlyph.ComponentProps {}

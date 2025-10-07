@@ -1,7 +1,7 @@
 import clamp from 'lodash/clamp';
 
-import { css } from '@leafygreen-ui/emotion';
-import { Align, ElementPosition, Justify } from '@leafygreen-ui/popover';
+import { css } from '@azublue-ui/emotion';
+import { Align, ElementPosition, Justify } from '@azublue-ui/popover';
 
 import { borderRadius, notchHeight, notchWidth } from './tooltipConstants';
 

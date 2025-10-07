@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { ConfigurationParameters, State } from '../shared.types';
 
@@ -49,9 +49,9 @@ const defaultProps: SuggestedActionsProps = {
 function renderSuggestedActions(props: Partial<SuggestedActionsProps> = {}) {
   const allProps = { ...defaultProps, ...props };
   const utils = render(
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <SuggestedActions {...allProps} />
-    </LeafyGreenProvider>,
+    </AzuBlueProvider>,
   );
   return { ...utils, props: allProps };
 }
@@ -473,12 +473,12 @@ describe('chat/suggestions', () => {
       ];
 
       rerender(
-        <LeafyGreenProvider>
+        <AzuBlueProvider>
           <SuggestedActions
             {...defaultProps}
             configurationParameters={multipleParams}
           />
-        </LeafyGreenProvider>,
+        </AzuBlueProvider>,
       );
 
       expect(screen.getAllByRole('columnheader')).toHaveLength(3);
@@ -541,9 +541,9 @@ describe('chat/suggestions', () => {
     test('component forwards ref correctly', () => {
       const ref = React.createRef<HTMLDivElement>();
       render(
-        <LeafyGreenProvider>
+        <AzuBlueProvider>
           <SuggestedActions {...defaultProps} ref={ref} />
-        </LeafyGreenProvider>,
+        </AzuBlueProvider>,
       );
 
       expect(ref.current).toBeInstanceOf(HTMLDivElement);
@@ -559,9 +559,9 @@ describe('chat/suggestions', () => {
       };
 
       const { container } = render(
-        <LeafyGreenProvider>
+        <AzuBlueProvider>
           <SuggestedActions {...minimalProps} />
-        </LeafyGreenProvider>,
+        </AzuBlueProvider>,
       );
 
       expect(container.firstChild).toBeInTheDocument();

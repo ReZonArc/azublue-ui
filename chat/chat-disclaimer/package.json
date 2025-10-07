@@ -1,5 +1,5 @@
 {
-  "name": "@lg-chat/chat-disclaimer",
+  "name": "@az-chat/chat-disclaimer",
   "version": "5.0.1",
   "description": "LeafyGreen UI Kit Chat Disclaimer",
   "main": "./dist/umd/index.js",
@@ -15,19 +15,19 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/marketing-modal": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/marketing-modal": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^"
   },
   "devDependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/modal": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/modal": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/chat-disclaimer",
   "repository": {

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Theme } from '@leafygreen-ui/lib';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Theme } from '@azublue-ui/lib';
 import {
   color,
   fontFamilies,
@@ -9,7 +9,7 @@ import {
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { type ChartOptions } from '../Chart';
 import { useChartContext } from '../ChartContext';

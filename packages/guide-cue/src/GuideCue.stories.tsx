@@ -4,14 +4,14 @@ import {
   storybookExcludedControlParams,
   type StoryMetaType,
   type StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
-import { Align } from '@leafygreen-ui/popover';
-import { Body } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
+import { Align } from '@azublue-ui/popover';
+import { Body } from '@azublue-ui/typography';
 
 import { GuideCue, GuideCueProps, TooltipAlign, TooltipJustify } from '.';
 

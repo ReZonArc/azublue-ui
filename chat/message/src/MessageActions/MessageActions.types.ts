@@ -1,8 +1,8 @@
 import React, { ChangeEvent, FormEvent, MouseEventHandler } from 'react';
-import { InlineMessageFeedbackProps } from '@lg-chat/message-feedback';
-import { MessageRatingValue } from '@lg-chat/message-rating';
+import { InlineMessageFeedbackProps } from '@az-chat/message-feedback';
+import { MessageRatingValue } from '@az-chat/message-rating';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export interface MessageActionsProps
   extends DarkModeProps,

@@ -3,7 +3,7 @@ import { jest } from '@jest/globals';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC, SupportedLocales } from '@leafygreen-ui/date-utils';
+import { Month, newUTC, SupportedLocales } from '@azublue-ui/date-utils';
 
 import {
   SharedDatePickerProvider,

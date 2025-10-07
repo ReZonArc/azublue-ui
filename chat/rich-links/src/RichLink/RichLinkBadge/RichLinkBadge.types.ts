@@ -1,6 +1,6 @@
-import { GlyphName } from '@leafygreen-ui/icon';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { GlyphName } from '@azublue-ui/icon';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export { BaseFontSize };
 

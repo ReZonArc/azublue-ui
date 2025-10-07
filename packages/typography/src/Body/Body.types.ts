@@ -1,5 +1,5 @@
-import { PolymorphicAs, PolymorphicProps } from '@leafygreen-ui/polymorphic';
-import { FontWeight } from '@leafygreen-ui/tokens';
+import { PolymorphicAs, PolymorphicProps } from '@azublue-ui/polymorphic';
+import { FontWeight } from '@azublue-ui/tokens';
 
 import { ResponsiveTypographyProps } from '../types';
 

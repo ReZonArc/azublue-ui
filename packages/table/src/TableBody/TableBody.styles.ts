@@ -1,4 +1,4 @@
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 export const paddingTopStyles = css`
   padding-top: var(--virtual-padding-top, '0px');

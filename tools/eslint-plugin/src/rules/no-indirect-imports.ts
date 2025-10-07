@@ -10,9 +10,9 @@ export const noIndirectImportsRule = createRule({
     },
     messages: {
       'issue:importFromPackages':
-        'Do not import @leafygreen-ui packages from the `packages` directory',
+        'Do not import @azublue-ui packages from the `packages` directory',
       'issue:importFromSrc':
-        "Do not import @leafygreen-ui from a package's `src` directory",
+        "Do not import @azublue-ui from a package's `src` directory",
     },
     schema: [],
   },
@@ -34,7 +34,7 @@ export const noIndirectImportsRule = createRule({
                 node.source,
                 `'${importSource.replace(
                   /(\.+\/)*packages/g,
-                  '@leafygreen-ui',
+                  '@azublue-ui',
                 )}'`,
               ),
           });

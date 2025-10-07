@@ -1,4 +1,4 @@
-import { isReact17, renderHook } from '@leafygreen-ui/testing-lib';
+import { isReact17, renderHook } from '@azublue-ui/testing-lib';
 
 import { getFlatLevelDataToNestedData } from '../getFlatLevelDataToNestedData';
 

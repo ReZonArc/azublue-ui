@@ -1,7 +1,7 @@
 import { MutableRefObject } from 'react';
 import { fireEvent } from '@testing-library/dom';
 
-import { act, renderHook } from '@leafygreen-ui/testing-lib';
+import { act, renderHook } from '@azublue-ui/testing-lib';
 
 import { useResizable } from './useResizable';
 import { KEYBOARD_RESIZE_PIXEL_STEP } from './useResizable.constants';

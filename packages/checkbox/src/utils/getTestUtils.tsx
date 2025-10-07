@@ -1,7 +1,7 @@
-import { getByLgId, queryBySelector } from '@lg-tools/test-harnesses';
+import { getByLgId, queryBySelector } from '@az-tools/test-harnesses';
 
-import { LgIdString } from '@leafygreen-ui/lib';
-import { getLgIds as getLgTypographyLgIds } from '@leafygreen-ui/typography';
+import { LgIdString } from '@azublue-ui/lib';
+import { getLgIds as getLgTypographyLgIds } from '@azublue-ui/typography';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from './getLgIds';
 import { CheckboxTestUtilsReturnType } from './getTestUtils.types';

@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import {
   EChartOptions,

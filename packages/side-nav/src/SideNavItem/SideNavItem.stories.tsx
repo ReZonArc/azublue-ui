@@ -1,8 +1,8 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 
-import { Theme } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { Theme } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import SideNavContext from '../SideNav/SideNavContext';
 

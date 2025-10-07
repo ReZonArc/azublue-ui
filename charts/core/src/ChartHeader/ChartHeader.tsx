@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import { getContainerStyles, titleStyles } from './ChartHeader.styles';
 import { ChartHeaderProps } from './ChartHeader.types';

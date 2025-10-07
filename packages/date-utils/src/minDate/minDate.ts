@@ -1,6 +1,6 @@
 import { min } from 'date-fns';
 
-import { isDefined } from '@leafygreen-ui/lib';
+import { isDefined } from '@azublue-ui/lib';
 
 /**
  * Returns the fist date of an array of dates

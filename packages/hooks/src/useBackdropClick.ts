@@ -1,4 +1,4 @@
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import useEventListener from './useEventListener';
 

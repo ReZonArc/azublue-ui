@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { parseTSDoc } from '@lg-tools/build/src/tsdoc/tsdocParser';
+import { parseTSDoc } from '@az-tools/build/src/tsdoc/tsdocParser';
 import { render } from '@testing-library/react';
 
 import { makeWrapperComponent } from '../utils/Polymorphic.testutils';

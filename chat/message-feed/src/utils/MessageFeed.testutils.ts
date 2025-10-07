@@ -1,6 +1,6 @@
 import { ChangeEvent } from 'react';
-import { MessageSourceType } from '@lg-chat/message';
-import { MessageRatingProps } from '@lg-chat/message-rating';
+import { MessageSourceType } from '@az-chat/message';
+import { MessageRatingProps } from '@az-chat/message-rating';
 
 interface MessageFieldsBase {
   id?: string | number;

@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { typeScales } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { typeScales } from '@azublue-ui/tokens';
 
 import { Size } from '../types';
 

@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { exitWithErrorMessage, getLGConfig } from '@lg-tools/meta';
+import { exitWithErrorMessage, getLGConfig } from '@az-tools/meta';
 import chalk from 'chalk';
 import fse from 'fs-extra';
 import path from 'path';

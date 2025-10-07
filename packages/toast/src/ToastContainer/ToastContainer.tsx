@@ -1,22 +1,22 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Transition, TransitionGroup } from 'react-transition-group';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 import {
   useBackdropClick,
   useDynamicRefs,
   useIdAllocator,
   useMutationObserver,
   useStateRef,
-} from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 import {
   createSyntheticEvent,
   createUniqueClassName,
   keyMap,
-} from '@leafygreen-ui/lib';
-import Portal from '@leafygreen-ui/portal';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/lib';
+import Portal from '@azublue-ui/portal';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { TOAST_CONSTANTS } from '../constants';
 import { InternalToast } from '../InternalToast';

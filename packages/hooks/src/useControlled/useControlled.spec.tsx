@@ -2,7 +2,7 @@ import React, { ChangeEventHandler } from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { act, renderHook } from '@leafygreen-ui/testing-lib';
+import { act, renderHook } from '@azublue-ui/testing-lib';
 
 import { useControlled } from './useControlled';
 

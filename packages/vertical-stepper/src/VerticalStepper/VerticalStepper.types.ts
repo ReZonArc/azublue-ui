@@ -1,6 +1,6 @@
 import React, { ComponentPropsWithRef } from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 
 export interface VerticalStepperProps
   extends DarkModeProps,

@@ -1,10 +1,10 @@
 import { PropsWithChildren } from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import { TableProps } from '../Table/Table.types';
-import { LGRowData } from '../useLeafyGreenTable';
-import { LeafyGreenVirtualTable } from '../useLeafyGreenVirtualTable';
+import { LGRowData } from '../useAzuBlueTable';
+import { LeafyGreenVirtualTable } from '../useAzuBlueVirtualTable';
 import { GetLgIdsReturnType } from '../utils';
 
 interface BaseTableContextValue<T extends LGRowData> {

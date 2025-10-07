@@ -1,4 +1,4 @@
-import { queryFirstFocusableElement } from '@leafygreen-ui/lib';
+import { queryFirstFocusableElement } from '@azublue-ui/lib';
 
 /**
  * Focuses the appropriate element in a modal according to a11y requirements.

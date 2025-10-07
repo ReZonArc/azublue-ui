@@ -1,13 +1,13 @@
 import facepaint from 'facepaint';
 import { transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   createUniqueClassName,
   getMobileMediaQuery,
   Theme,
-} from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+} from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   BaseFontSize,
   breakpoints,
@@ -15,7 +15,7 @@ import {
   fontFamilies,
   spacing,
   transitionDuration,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { variantColors } from '../globalStyles';
 

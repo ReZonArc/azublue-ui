@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { InputOption } from '@leafygreen-ui/input-option';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { validateChildren } from '@leafygreen-ui/lib';
-import { Overline } from '@leafygreen-ui/typography';
+import { InputOption } from '@azublue-ui/input-option';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { validateChildren } from '@azublue-ui/lib';
+import { Overline } from '@azublue-ui/typography';
 
 import {
   searchResultLabelStyle,

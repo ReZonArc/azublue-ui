@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { LgIdProps } from '@leafygreen-ui/lib';
+import { LgIdProps } from '@azublue-ui/lib';
 
 /**
  * A simple menu item configuration with only the essential properties.

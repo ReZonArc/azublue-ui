@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DarkModeProps, Either, LgIdProps } from '@leafygreen-ui/lib';
+import { DarkModeProps, Either, LgIdProps } from '@azublue-ui/lib';
 
 export const Size = {
   Default: 'default',

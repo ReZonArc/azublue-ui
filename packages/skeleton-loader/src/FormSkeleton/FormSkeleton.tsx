@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { Skeleton } from '..';
 
@@ -18,7 +18,7 @@ export function FormSkeleton({
 }: FormSkeletonProps) {
   const { darkMode } = useDarkMode(darkModeProp);
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div className={cx(baseStyles, className)} {...rest} aria-busy>
         <Skeleton
           className={fullWidthStyles}
@@ -32,7 +32,7 @@ export function FormSkeleton({
         />
         <Skeleton enableAnimations={enableAnimations} />
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

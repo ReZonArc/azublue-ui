@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 import React, { useEffect, useState } from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { ComboboxContext } from '../ComboboxContext';
 import { defaultContext } from '../ComboboxContext/ComboboxContext';
@@ -27,7 +27,7 @@ const meta: StoryMetaType<typeof ComboboxMenu> = {
         }, []);
         const divRef = React.useRef<HTMLDivElement>(null);
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <ComboboxContext.Provider
               value={{ ...defaultContext, isOpen: open }}
             >
@@ -46,7 +46,7 @@ const meta: StoryMetaType<typeof ComboboxMenu> = {
               </div>
               <Instance refEl={divRef} />
             </ComboboxContext.Provider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

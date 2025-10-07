@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import { useLeafyGreenChatContext } from '@lg-chat/leafygreen-chat-provider';
+import { useLeafyGreenChatContext } from '@az-chat/leafygreen-chat-provider';
 
-import { AssistantAvatar } from '@leafygreen-ui/avatar';
-import Banner from '@leafygreen-ui/banner';
-import Button from '@leafygreen-ui/button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Body, Error } from '@leafygreen-ui/typography';
+import { AssistantAvatar } from '@azublue-ui/avatar';
+import Banner from '@azublue-ui/banner';
+import Button from '@azublue-ui/button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Body, Error } from '@azublue-ui/typography';
 
 import { State } from '../shared.types';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import Lottie from 'react-lottie-player';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Body, useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Body, useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { lottieRendererSettings } from '../constants';
 import { descriptionThemeColor } from '../LoadingIndicator.styles';

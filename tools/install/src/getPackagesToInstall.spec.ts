@@ -15,8 +15,8 @@ describe('getPackagesToInstall', () => {
     const result = getPackagesToInstall(['button', 'modal'], {});
 
     expect(result).toEqual([
-      '@leafygreen-ui/button@latest',
-      '@leafygreen-ui/modal@latest',
+      '@azublue-ui/button@latest',
+      '@azublue-ui/modal@latest',
     ]);
   });
 
@@ -24,9 +24,9 @@ describe('getPackagesToInstall', () => {
     const result = getPackagesToInstall([], { essentials: true });
 
     expect(result).toEqual([
-      '@leafygreen-ui/leafygreen-provider@latest',
-      '@leafygreen-ui/emotion@latest',
-      '@leafygreen-ui/lib@latest',
+      '@azublue-ui/leafygreen-provider@latest',
+      '@azublue-ui/emotion@latest',
+      '@azublue-ui/lib@latest',
     ]);
   });
 
@@ -35,17 +35,17 @@ describe('getPackagesToInstall', () => {
 
     // Basic packages include essentials plus common components
     expect(result).toEqual([
-      '@leafygreen-ui/leafygreen-provider@latest',
-      '@leafygreen-ui/emotion@latest',
-      '@leafygreen-ui/lib@latest',
-      '@leafygreen-ui/banner@latest',
-      '@leafygreen-ui/button@latest',
-      '@leafygreen-ui/card@latest',
-      '@leafygreen-ui/icon@latest',
-      '@leafygreen-ui/icon-button@latest',
-      '@leafygreen-ui/modal@latest',
-      '@leafygreen-ui/tokens@latest',
-      '@leafygreen-ui/typography@latest',
+      '@azublue-ui/leafygreen-provider@latest',
+      '@azublue-ui/emotion@latest',
+      '@azublue-ui/lib@latest',
+      '@azublue-ui/banner@latest',
+      '@azublue-ui/button@latest',
+      '@azublue-ui/card@latest',
+      '@azublue-ui/icon@latest',
+      '@azublue-ui/icon-button@latest',
+      '@azublue-ui/modal@latest',
+      '@azublue-ui/tokens@latest',
+      '@azublue-ui/typography@latest',
     ]);
   });
 
@@ -54,17 +54,17 @@ describe('getPackagesToInstall', () => {
 
     // Should return basic packages (which include essentials)
     expect(result).toEqual([
-      '@leafygreen-ui/leafygreen-provider@latest',
-      '@leafygreen-ui/emotion@latest',
-      '@leafygreen-ui/lib@latest',
-      '@leafygreen-ui/banner@latest',
-      '@leafygreen-ui/button@latest',
-      '@leafygreen-ui/card@latest',
-      '@leafygreen-ui/icon@latest',
-      '@leafygreen-ui/icon-button@latest',
-      '@leafygreen-ui/modal@latest',
-      '@leafygreen-ui/tokens@latest',
-      '@leafygreen-ui/typography@latest',
+      '@azublue-ui/leafygreen-provider@latest',
+      '@azublue-ui/emotion@latest',
+      '@azublue-ui/lib@latest',
+      '@azublue-ui/banner@latest',
+      '@azublue-ui/button@latest',
+      '@azublue-ui/card@latest',
+      '@azublue-ui/icon@latest',
+      '@azublue-ui/icon-button@latest',
+      '@azublue-ui/modal@latest',
+      '@azublue-ui/tokens@latest',
+      '@azublue-ui/typography@latest',
     ]);
   });
 
@@ -72,7 +72,7 @@ describe('getPackagesToInstall', () => {
     const result = getPackagesToInstall([], { ui: true });
 
     expect(result).toEqual(
-      ALL_PACKAGES.filter(pkg => pkg.startsWith('@leafygreen-ui')).map(
+      ALL_PACKAGES.filter(pkg => pkg.startsWith('@azublue-ui')).map(
         pkg => `${pkg}@latest`,
       ),
     );
@@ -82,7 +82,7 @@ describe('getPackagesToInstall', () => {
     const result = getPackagesToInstall([], { charts: true });
 
     expect(result).toEqual(
-      ALL_PACKAGES.filter(pkg => pkg.startsWith('@lg-charts')).map(
+      ALL_PACKAGES.filter(pkg => pkg.startsWith('@az-charts')).map(
         pkg => `${pkg}@latest`,
       ),
     );
@@ -92,7 +92,7 @@ describe('getPackagesToInstall', () => {
     const result = getPackagesToInstall([], { chat: true });
 
     expect(result).toEqual(
-      ALL_PACKAGES.filter(pkg => pkg.startsWith('@lg-chat')).map(
+      ALL_PACKAGES.filter(pkg => pkg.startsWith('@az-chat')).map(
         pkg => `${pkg}@latest`,
       ),
     );
@@ -106,7 +106,7 @@ describe('getPackagesToInstall', () => {
 
     expect(result).toEqual(
       ALL_PACKAGES.filter(
-        pkg => pkg.startsWith('@leafygreen-ui') || pkg.startsWith('@lg-charts'),
+        pkg => pkg.startsWith('@azublue-ui') || pkg.startsWith('@az-charts'),
       ).map(pkg => `${pkg}@latest`),
     );
   });
@@ -118,10 +118,10 @@ describe('getPackagesToInstall', () => {
     });
 
     const combinedPkgs = [
-      '@leafygreen-ui/leafygreen-provider@latest',
-      '@leafygreen-ui/emotion@latest',
-      '@leafygreen-ui/lib@latest',
-      ...ALL_PACKAGES.filter(pkg => pkg.startsWith('@lg-charts')).map(
+      '@azublue-ui/leafygreen-provider@latest',
+      '@azublue-ui/emotion@latest',
+      '@azublue-ui/lib@latest',
+      ...ALL_PACKAGES.filter(pkg => pkg.startsWith('@az-charts')).map(
         pkg => `${pkg}@latest`,
       ),
     ];

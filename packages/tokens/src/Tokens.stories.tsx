@@ -1,12 +1,12 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { type StoryObj } from '@storybook/react';
 import { within } from '@storybook/test';
 import startCase from 'lodash/startCase';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 import { scrollbarColor } from './scrollbars';
 import {

@@ -2,7 +2,7 @@ import {
   DateType,
   getDaysInUTCMonth,
   isValidDate,
-} from '@leafygreen-ui/date-utils';
+} from '@azublue-ui/date-utils';
 
 import { defaultMax } from '../../constants';
 import { DateSegment } from '../../types';

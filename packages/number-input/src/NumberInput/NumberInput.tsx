@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { DEFAULT_MESSAGES, FormFieldFeedback } from '@leafygreen-ui/form-field';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import { DEFAULT_MESSAGES, FormFieldFeedback } from '@azublue-ui/form-field';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Description, Label, Overline } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Description, Label, Overline } from '@azublue-ui/typography';
 
 import { Input } from '../Input';
 import { UnitSelect } from '../UnitSelect';
@@ -82,7 +82,7 @@ export const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
     } as const;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div className={className}>
           {(label || description) && (
             <div className={labelDescriptionStyles}>
@@ -145,7 +145,7 @@ export const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           </div>
           <FormFieldFeedback {...formFieldFeedbackProps} />
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

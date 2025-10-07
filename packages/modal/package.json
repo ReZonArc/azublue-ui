@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/modal",
+  "name": "@azublue-ui/modal",
   "version": "20.0.3",
   "description": "LeafyGreen UI Kit Modal",
   "main": "./dist/umd/index.js",
@@ -15,28 +15,28 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "polished": "^4.2.2"
   },
   "devDependencies": {
     "@faker-js/faker": "8.0.2",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/code": "workspace:^",
-    "@leafygreen-ui/copyable": "workspace:^",
-    "@leafygreen-ui/select": "workspace:^",
-    "@leafygreen-ui/toast": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/code": "workspace:^",
+    "@azublue-ui/copyable": "workspace:^",
+    "@azublue-ui/select": "workspace:^",
+    "@azublue-ui/toast": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/modal",
   "repository": {

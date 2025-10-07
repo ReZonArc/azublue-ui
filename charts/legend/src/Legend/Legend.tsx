@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useSeriesContext } from '@lg-charts/series-provider';
+import { useSeriesContext } from '@az-charts/series-provider';
 
 import { LegendCheckbox } from '../LegendCheckbox';
 

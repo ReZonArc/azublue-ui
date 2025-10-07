@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { validateAriaLabelProps } from '@leafygreen-ui/a11y';
-import { cx } from '@leafygreen-ui/emotion';
-import { isComponentGlyph } from '@leafygreen-ui/icon';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
+import { validateAriaLabelProps } from '@azublue-ui/a11y';
+import { cx } from '@azublue-ui/emotion';
+import { isComponentGlyph } from '@azublue-ui/icon';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import {
   activeStyle,

@@ -1,10 +1,10 @@
 import { PropsWithChildren, ReactNode } from 'react';
 import { MouseEventHandler } from 'react';
-import { ChatWindowProps } from '@lg-chat/chat-window';
-import { TitleBarProps } from '@lg-chat/title-bar';
+import { ChatWindowProps } from '@az-chat/chat-window';
+import { TitleBarProps } from '@az-chat/title-bar';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { PopoverProps } from '@leafygreen-ui/popover';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { PopoverProps } from '@azublue-ui/popover';
 
 export type FixedChatWindowProps = DarkModeProps &
   ChatWindowProps &

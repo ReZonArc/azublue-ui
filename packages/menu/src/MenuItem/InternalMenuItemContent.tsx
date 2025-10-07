@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { InputOption, InputOptionContent } from '@leafygreen-ui/input-option';
+import { css, cx } from '@azublue-ui/emotion';
+import { InputOption, InputOptionContent } from '@azublue-ui/input-option';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
-import { color } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/polymorphic';
+import { color } from '@azublue-ui/tokens';
 
 import { MenuVariant } from '../Menu/Menu.types';
 import {

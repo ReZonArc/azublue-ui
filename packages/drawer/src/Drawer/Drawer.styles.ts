@@ -1,5 +1,5 @@
-import { css, cx, keyframes } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
+import { css, cx, keyframes } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
 import {
   addOverflowShadow,
   color,
@@ -7,7 +7,7 @@ import {
   Side,
   spacing,
   transitionDuration,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import {
   EMBEDDED_TOOLBAR_OVERFLOW_PADDING,

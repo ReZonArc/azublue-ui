@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { CodeEditorProvider } from '../CodeEditor/CodeEditorContext';
 import { getLgIds, type GetLgIdsReturnType } from '../utils/getLgIds';
@@ -72,11 +72,11 @@ export function renderPanel(config: RenderPanelConfig = {}) {
   };
 
   const { container } = render(
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <CodeEditorProvider value={contextValue}>
         <Panel {...panelProps} />
       </CodeEditorProvider>
-    </LeafyGreenProvider>,
+    </AzuBlueProvider>,
   );
 
   return { container, panel: createPanelUtilities() };

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Size } from '@leafygreen-ui/tokens';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Size } from '@azublue-ui/tokens';
 
 import { getAvatarStyles } from './Avatar.styles';
 import { AvatarProps } from './Avatar.types';

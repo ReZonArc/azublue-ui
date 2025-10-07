@@ -1,8 +1,8 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
-import { Body } from '@leafygreen-ui/typography';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
+import { Body } from '@azublue-ui/typography';
 
 import { MessagePromptsProvider } from '../MessagePromptsContext';
 

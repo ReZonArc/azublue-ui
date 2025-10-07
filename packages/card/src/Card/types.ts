@@ -1,8 +1,8 @@
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 export const ContentStyle = {
   None: 'none',

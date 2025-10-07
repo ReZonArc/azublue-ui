@@ -10,16 +10,16 @@ describe('tools/validate/utils', () => {
   describe('isDependencyUsedInSourceFile', () => {
     test('is used in source file', () => {
       expect(
-        isDependencyUsedInSourceFile('@leafygreen-ui/lib', {
-          '@leafygreen-ui/lib': ['sourceFile.tsx', 'test.spec.tsx'],
+        isDependencyUsedInSourceFile('@azublue-ui/lib', {
+          '@azublue-ui/lib': ['sourceFile.tsx', 'test.spec.tsx'],
         }),
       ).toBeTruthy();
     });
 
     test('is not used in source file', () => {
       expect(
-        isDependencyUsedInSourceFile('@leafygreen-ui/button', {
-          '@leafygreen-ui/button': ['tests.spec.tsx'],
+        isDependencyUsedInSourceFile('@azublue-ui/button', {
+          '@azublue-ui/button': ['tests.spec.tsx'],
         }),
       ).toBeFalsy();
     });
@@ -29,16 +29,16 @@ describe('tools/validate/utils', () => {
   describe('isDependencyOnlyUsedInTestFile', () => {
     test('is used in source file', () => {
       expect(
-        isDependencyOnlyUsedInTestFile('@leafygreen-ui/lib', {
-          '@leafygreen-ui/lib': ['sourceFile.tsx', 'test.spec.tsx'],
+        isDependencyOnlyUsedInTestFile('@azublue-ui/lib', {
+          '@azublue-ui/lib': ['sourceFile.tsx', 'test.spec.tsx'],
         }),
       ).toBeFalsy();
     });
 
     test('is not used in source file', () => {
       expect(
-        isDependencyOnlyUsedInTestFile('@leafygreen-ui/button', {
-          '@leafygreen-ui/button': ['tests.spec.tsx'],
+        isDependencyOnlyUsedInTestFile('@azublue-ui/button', {
+          '@azublue-ui/button': ['tests.spec.tsx'],
         }),
       ).toBeTruthy();
     });
@@ -47,10 +47,10 @@ describe('tools/validate/utils', () => {
   /** */
   describe('sortDependenciesByUsage', () => {
     const depsRecord = {
-      '@leafygreen-ui/lib': ['someFile.ts'],
-      '@leafygreen-ui/palette': ['otherFile.tsx', 'test.spec.ts'],
-      '@leafygreen-ui/typography': ['test.spec.ts'],
-      '@leafygreen-ui/tokens': ['component.stories.tsx'],
+      '@azublue-ui/lib': ['someFile.ts'],
+      '@azublue-ui/palette': ['otherFile.tsx', 'test.spec.ts'],
+      '@azublue-ui/typography': ['test.spec.ts'],
+      '@azublue-ui/tokens': ['component.stories.tsx'],
     };
     const pkgName = 'test-package';
 
@@ -62,15 +62,15 @@ describe('tools/validate/utils', () => {
 
       expect(dependencies).toEqual(
         expect.arrayContaining([
-          '@leafygreen-ui/lib',
-          '@leafygreen-ui/palette',
+          '@azublue-ui/lib',
+          '@azublue-ui/palette',
         ]),
       );
 
       expect(devDependencies).toEqual(
         expect.arrayContaining([
-          '@leafygreen-ui/typography',
-          '@leafygreen-ui/tokens',
+          '@azublue-ui/typography',
+          '@azublue-ui/tokens',
         ]),
       );
     });

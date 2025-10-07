@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { usePrevious } from '@leafygreen-ui/hooks';
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { usePrevious } from '@azublue-ui/hooks';
+import { consoleOnce } from '@azublue-ui/lib';
 
 /**
  * TODO: move this to `packages/hooks`

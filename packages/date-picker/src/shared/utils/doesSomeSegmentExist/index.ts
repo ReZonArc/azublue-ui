@@ -1,4 +1,4 @@
-import { isNotZeroLike } from '@leafygreen-ui/lib';
+import { isNotZeroLike } from '@azublue-ui/lib';
 
 import { DateSegmentsState } from '../../types';
 

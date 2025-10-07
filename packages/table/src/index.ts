@@ -15,14 +15,14 @@ export {
   type LGColumnDef,
   type LGRowData,
   type LGTableDataType,
-  default as useLeafyGreenTable,
-} from './useLeafyGreenTable';
+  default as useAzuBlueTable,
+} from './useAzuBlueTable';
 export {
   type LeafyGreenVirtualItem,
   type LeafyGreenVirtualTable,
   type LeafyGreenVirtualTableOptions,
-  default as useLeafyGreenVirtualTable,
-} from './useLeafyGreenVirtualTable';
+  default as useAzuBlueVirtualTable,
+} from './useAzuBlueVirtualTable';
 export { DEFAULT_LGID_ROOT, getLgIds } from './utils';
 // TODO: Check if some exports might clash with our exports
 export * from '@tanstack/react-table';

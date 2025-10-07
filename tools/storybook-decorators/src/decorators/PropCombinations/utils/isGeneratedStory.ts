@@ -1,4 +1,4 @@
-import { GeneratedStoryConfig } from '@lg-tools/storybook-utils';
+import { GeneratedStoryConfig } from '@az-tools/storybook-utils';
 import { StoryContext } from '@storybook/react';
 import isUndefined from 'lodash/isUndefined';
 import startCase from 'lodash/startCase';

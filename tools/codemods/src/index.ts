@@ -7,14 +7,14 @@ import path from 'path';
 
 import { checkGitStatus } from './utils/checkGitStatus';
 import { getAvailableCodemods } from './utils/getAvailableCodemods';
-import { LGPackage } from './types';
+import { AzuBluePackage } from './types';
 
 export interface MigrateOptions {
   dry?: boolean;
   print?: boolean;
   force?: boolean;
   ignore?: Array<string>;
-  packages?: Array<LGPackage>;
+  packages?: Array<AzuBluePackage>;
   list?: boolean;
 }
 
@@ -112,7 +112,7 @@ export const migrator = async (
     });
 
     console.log(
-      chalk.greenBright('🥬 Thank you for using @lg-tools/codemods!'),
+      chalk.greenBright('🥬 Thank you for using @az-tools/codemods!'),
     );
   } catch (error) {
     console.error(error);

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
-import { AriaLabelPropsWithLabel } from '@leafygreen-ui/a11y';
-import { DateType } from '@leafygreen-ui/date-utils';
+import { AriaLabelPropsWithLabel } from '@azublue-ui/a11y';
+import { DateType } from '@azublue-ui/date-utils';
 
 import { BaseDatePickerProps, DatePickerState } from '../types';
 import { ModifiedPopoverProps } from '../types/BaseDatePickerProps.types';

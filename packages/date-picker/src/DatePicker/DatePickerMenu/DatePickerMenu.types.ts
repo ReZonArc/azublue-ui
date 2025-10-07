@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PopoverProps } from '@leafygreen-ui/popover';
+import { PopoverProps } from '@azublue-ui/popover';
 
 export type DatePickerMenuProps = Omit<
   PopoverProps,

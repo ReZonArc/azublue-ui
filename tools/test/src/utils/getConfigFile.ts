@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { exitWithErrorMessage } from '@lg-tools/meta';
+import { exitWithErrorMessage } from '@az-tools/meta';
 import chalk from 'chalk';
 import fse from 'fs-extra';
 import path from 'path';
@@ -18,11 +18,11 @@ export function getConfigFile(options: TestCommandOptions): string {
   const localConfigFile = path.resolve(rootDir, 'jest.config.js');
   const defaultConfigFile = path.resolve(
     rootDir,
-    'node_modules/@lg-tools/test/config/jest.config.js',
+    'node_modules/@az-tools/test/config/jest.config.js',
   );
   const react17ConfigFile = path.resolve(
     rootDir,
-    'node_modules/@lg-tools/test/config/react17/jest.config.js',
+    'node_modules/@az-tools/test/config/react17/jest.config.js',
   );
 
   if (react17) {

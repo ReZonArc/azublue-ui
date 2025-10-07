@@ -1,8 +1,8 @@
 import { CSS, Transform } from '@dnd-kit/utilities';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { color, InteractionState, Variant } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { color, InteractionState, Variant } from '@azublue-ui/tokens';
 
 import { ChartStates } from './Chart.types';
 

@@ -1,5 +1,5 @@
-import { LGRowData } from '../../useLeafyGreenTable';
-import { LeafyGreenVirtualTable } from '../../useLeafyGreenVirtualTable';
+import { LGRowData } from '../../useAzuBlueTable';
+import { LeafyGreenVirtualTable } from '../../useAzuBlueVirtualTable';
 
 /**
  *  `useVirtualScrollPadding` returns an object with the `paddingTop` and `paddingBottom` values calculated based on the virtualized table's current scroll state, which will be used to create the effect of virtual scrolling. For non-virtualized tables, both values will default to 0.

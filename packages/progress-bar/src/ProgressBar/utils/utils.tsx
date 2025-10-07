@@ -1,11 +1,11 @@
 import React from 'react';
 import omit from 'lodash/omit';
 
-import CheckmarkWithCircleIcon from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
-import ImportantWithCircleIcon from '@leafygreen-ui/icon/dist/ImportantWithCircle';
-import InfoWithCircleIcon from '@leafygreen-ui/icon/dist/InfoWithCircle';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
-import { isDefined } from '@leafygreen-ui/lib';
+import CheckmarkWithCircleIcon from '@azublue-ui/icon/dist/CheckmarkWithCircle';
+import ImportantWithCircleIcon from '@azublue-ui/icon/dist/ImportantWithCircle';
+import InfoWithCircleIcon from '@azublue-ui/icon/dist/InfoWithCircle';
+import WarningIcon from '@azublue-ui/icon/dist/Warning';
+import { isDefined } from '@azublue-ui/lib';
 
 import { DEFAULT_LGID_ROOT } from '../../testing';
 import {

@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/combobox",
+  "name": "@azublue-ui/combobox",
   "version": "12.0.7",
   "description": "leafyGreen UI Kit Combobox",
   "main": "./dist/umd/index.js",
@@ -15,29 +15,29 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/checkbox": "workspace:^",
-    "@leafygreen-ui/chip": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/form-field": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/input-option": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/popover": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
+    "@azublue-ui/checkbox": "workspace:^",
+    "@azublue-ui/chip": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/form-field": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/input-option": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/popover": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
     "chalk": "^4.1.2",
     "lodash": "^4.17.21",
     "polished": "^4.2.2"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/button": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/combobox",
   "repository": {

@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
 import flattenChildren from 'react-keyed-flatten-children';
-import { useLeafyGreenChatContext } from '@lg-chat/leafygreen-chat-provider';
+import { useLeafyGreenChatContext } from '@az-chat/leafygreen-chat-provider';
 
-import { isComponentType } from '@leafygreen-ui/lib';
-import { breakpoints } from '@leafygreen-ui/tokens';
+import { isComponentType } from '@azublue-ui/lib';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import { type MessageFeedProps } from './MessageFeed.types';
 import {

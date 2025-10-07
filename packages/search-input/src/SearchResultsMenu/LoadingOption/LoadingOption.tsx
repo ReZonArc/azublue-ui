@@ -1,9 +1,9 @@
 import React from 'react';
 
-import RefreshIcon from '@leafygreen-ui/icon/dist/Refresh';
-import { InputOption } from '@leafygreen-ui/input-option';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { palette } from '@leafygreen-ui/palette';
+import RefreshIcon from '@azublue-ui/icon/dist/Refresh';
+import { InputOption } from '@azublue-ui/input-option';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { palette } from '@azublue-ui/palette';
 
 import { loadingOptionIcon, loadingOptionStyles } from './LoadingOption.styles';
 

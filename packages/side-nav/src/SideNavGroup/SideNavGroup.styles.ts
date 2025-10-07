@@ -1,7 +1,7 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { spacing } from '@azublue-ui/tokens';
 
 import { getIndentLevelStyle, sideNavItemSidePadding } from '../SideNav';
 

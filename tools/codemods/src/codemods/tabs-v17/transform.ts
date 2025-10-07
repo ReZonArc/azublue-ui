@@ -24,9 +24,9 @@ export default function transformer(
   const tabsComponentNamesToTransform = getImportSpecifiersForDeclaration({
     j,
     source,
-    packageName: '@leafygreen-ui/tabs',
+    packageName: '@azublue-ui/tabs',
     packageSpecifiersMap: {
-      '@leafygreen-ui/tabs': 'Tabs',
+      '@azublue-ui/tabs': 'Tabs',
     },
   });
 

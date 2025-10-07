@@ -3,9 +3,9 @@ import {
   storybookArgTypes,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import LeafygreenProvider from '@leafygreen-ui/leafygreen-provider';
+import LeafygreenProvider from '@azublue-ui/leafygreen-provider';
 
 import TextArea, { State, TextAreaProps } from '.';
 

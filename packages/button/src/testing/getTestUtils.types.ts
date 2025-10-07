@@ -1,4 +1,4 @@
-import { FormUtils } from '@lg-tools/test-harnesses';
+import { FormUtils } from '@az-tools/test-harnesses';
 
 export interface GetTestUtilsReturnType<T extends HTMLElement> {
   findButton: () => Promise<T>;

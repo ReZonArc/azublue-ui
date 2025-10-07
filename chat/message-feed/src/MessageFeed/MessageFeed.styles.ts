@@ -1,7 +1,7 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { addOverflowShadow, Side } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { addOverflowShadow, Side } from '@azublue-ui/tokens';
 
 const DEFAULT_MESSAGE_FEED_HEIGHT = 500;
 

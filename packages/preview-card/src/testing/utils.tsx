@@ -2,7 +2,7 @@ import React from 'react';
 import {
   renderAsyncTest,
   type RenderAsyncTestReturnType,
-} from '@lg-tools/test-harnesses';
+} from '@az-tools/test-harnesses';
 import { render, type RenderResult } from '@testing-library/react';
 
 import { PreviewCard } from '../PreviewCard';

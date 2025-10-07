@@ -1,5 +1,5 @@
-import { GlyphName } from '@leafygreen-ui/icon';
-import { IconButtonProps } from '@leafygreen-ui/icon-button';
+import { GlyphName } from '@azublue-ui/icon';
+import { IconButtonProps } from '@azublue-ui/icon-button';
 
 type ButtonProps = Omit<
   IconButtonProps<'button'>,

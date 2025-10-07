@@ -1,4 +1,4 @@
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import { GetLgIdsReturnType } from '../utils/getLgIds';
 

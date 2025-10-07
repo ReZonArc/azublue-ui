@@ -5,9 +5,9 @@ import React, {
   ReactNode,
 } from 'react';
 
-import { BaseButtonProps } from '@leafygreen-ui/button';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { TextAreaProps } from '@leafygreen-ui/text-area';
+import { BaseButtonProps } from '@azublue-ui/button';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { TextAreaProps } from '@azublue-ui/text-area';
 
 /**
  * Possible states for the feedback form.

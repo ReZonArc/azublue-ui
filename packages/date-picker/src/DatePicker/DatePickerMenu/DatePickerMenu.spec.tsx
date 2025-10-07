@@ -6,7 +6,7 @@ import {
   getISODateTZ,
   Month,
   newUTC,
-} from '@leafygreen-ui/date-utils';
+} from '@azublue-ui/date-utils';
 
 import {
   SharedDatePickerProvider,

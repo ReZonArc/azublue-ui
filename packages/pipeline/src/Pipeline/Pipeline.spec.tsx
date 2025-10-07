@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import { typeIs } from '@leafygreen-ui/lib';
+import { typeIs } from '@azublue-ui/lib';
 
 import { Stage } from '../Stage';
 import { Size } from '../types';

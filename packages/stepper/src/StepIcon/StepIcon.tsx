@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { css, cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { stepIconClassName } from '../constants';
 

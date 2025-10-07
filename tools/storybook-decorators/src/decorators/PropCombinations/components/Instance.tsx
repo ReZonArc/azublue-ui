@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { GeneratedStoryConfig } from '@lg-tools/storybook-utils';
+import { GeneratedStoryConfig } from '@az-tools/storybook-utils';
 import { Args } from '@storybook/react';
 
 import { PropCombination } from '../utils';

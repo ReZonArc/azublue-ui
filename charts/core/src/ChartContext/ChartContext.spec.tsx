@@ -1,7 +1,7 @@
 import React, { PropsWithChildren } from 'react';
 import { render } from '@testing-library/react';
 
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { ChartContext, ChartProvider, useChartContext } from './ChartContext';
 

@@ -1,12 +1,12 @@
 import { waitFor, waitForElementToBeRemoved } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
+import { Month, newUTC } from '@azublue-ui/date-utils';
 import {
   eventContainingTargetValue,
   tabNTimes,
-} from '@leafygreen-ui/testing-lib';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/testing-lib';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { renderDatePicker } from './DatePicker.testutils';
 

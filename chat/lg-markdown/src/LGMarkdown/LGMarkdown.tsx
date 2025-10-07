@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { getTheme } from '@leafygreen-ui/lib';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { getTheme } from '@azublue-ui/lib';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import componentsMap from './componentsMap';
 import { getWrapperStyles } from './LGMarkdown.styles';
@@ -23,7 +23,7 @@ export const LGMarkdown = ({
   const baseFontSize = useUpdatedBaseFontSize(baseFontSizeProp); // get context base font size
   const providerBaseFontSize: 14 | 16 = baseFontSize === 13 ? 14 : 16; // todo: update when LGProvider switches to 13/16
   return (
-    <LeafyGreenProvider darkMode={darkMode} baseFontSize={providerBaseFontSize}>
+    <AzuBlueProvider darkMode={darkMode} baseFontSize={providerBaseFontSize}>
       <div
         className={getWrapperStyles({ className, theme: getTheme(darkMode) })}
       >
@@ -34,7 +34,7 @@ export const LGMarkdown = ({
           {children}
         </ReactMarkdown>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

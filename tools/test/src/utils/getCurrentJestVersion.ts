@@ -1,4 +1,4 @@
-import { exitWithErrorMessage } from '@lg-tools/meta';
+import { exitWithErrorMessage } from '@az-tools/meta';
 import { sync as spawnSync } from 'cross-spawn';
 
 export function getCurrentJestVersion(jestBinary: string): string {

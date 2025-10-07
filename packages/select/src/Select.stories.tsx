@@ -3,15 +3,15 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 import { userEvent, within } from '@storybook/test';
 
-import Button from '@leafygreen-ui/button';
-import { css, cx } from '@leafygreen-ui/emotion';
-import BeakerIcon from '@leafygreen-ui/icon/dist/Beaker';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { RenderMode } from '@leafygreen-ui/popover';
+import Button from '@azublue-ui/button';
+import { css, cx } from '@azublue-ui/emotion';
+import BeakerIcon from '@azublue-ui/icon/dist/Beaker';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { RenderMode } from '@azublue-ui/popover';
 
 import { Option, OptionGroup, Select, type SelectProps, Size, State } from '.';
 
@@ -68,9 +68,9 @@ const meta: StoryMetaType<typeof Select> = {
   component: Select,
   decorators: [
     (StoryFn, _ctx) => (
-      <LeafyGreenProvider darkMode={_ctx?.args?.darkMode}>
+      <AzuBlueProvider darkMode={_ctx?.args?.darkMode}>
         <StoryFn />
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     ),
   ],
   parameters: {
@@ -98,9 +98,9 @@ const meta: StoryMetaType<typeof Select> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <Instance glyph={context?.args.glyph} />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

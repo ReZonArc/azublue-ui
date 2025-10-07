@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { fontFamilies, fontWeights, spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { fontFamilies, fontWeights, spacing } from '@azublue-ui/tokens';
 
 export const containerStyle = css`
   display: grid;

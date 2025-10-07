@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
 
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { HeaderCell } from '../../Cell';
 import { HeaderRow } from '../../Row';
@@ -27,13 +27,13 @@ const meta: StoryMetaType<typeof HeaderRow> = {
       },
       decorator: (Instance, ctx) => {
         return (
-          <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+          <AzuBlueProvider darkMode={ctx?.args.darkMode}>
             <Table>
               <TableHead>
                 <Instance />
               </TableHead>
             </Table>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

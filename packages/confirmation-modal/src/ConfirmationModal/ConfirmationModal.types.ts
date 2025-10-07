@@ -1,5 +1,5 @@
-import { BaseButtonProps } from '@leafygreen-ui/button';
-import { ModalProps } from '@leafygreen-ui/modal';
+import { BaseButtonProps } from '@azublue-ui/button';
+import { ModalProps } from '@azublue-ui/modal';
 
 export const Variant = {
   Default: 'primary',

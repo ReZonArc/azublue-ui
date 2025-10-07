@@ -7,11 +7,11 @@ import React, {
 } from 'react';
 import { Transition } from 'react-transition-group';
 import { TransitionChildren } from 'react-transition-group/Transition';
-import { ChatWindow } from '@lg-chat/chat-window';
+import { ChatWindow } from '@az-chat/chat-window';
 
-import { cx } from '@leafygreen-ui/emotion';
-import ChevronDown from '@leafygreen-ui/icon/dist/ChevronDown';
-import Popover, { Align, Justify, RenderMode } from '@leafygreen-ui/popover';
+import { cx } from '@azublue-ui/emotion';
+import ChevronDown from '@azublue-ui/icon/dist/ChevronDown';
+import Popover, { Align, Justify, RenderMode } from '@azublue-ui/popover';
 
 import { ChatTrigger } from '../ChatTrigger/ChatTrigger';
 

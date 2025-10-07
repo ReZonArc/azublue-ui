@@ -4,17 +4,17 @@ describe('tools/slackbot/release', () => {
   describe('generateOutputStrings', () => {
     test('patch', () => {
       const updateObj = generateOutputStrings({
-        name: '@leafygreen-ui/example-patch',
+        name: '@azublue-ui/example-patch',
         version: '1.0.2',
       });
 
-      expect(updateObj).toHaveProperty('name', '@leafygreen-ui/example-patch');
+      expect(updateObj).toHaveProperty('name', '@azublue-ui/example-patch');
 
       expect(updateObj).toHaveProperty(
         'fullName',
-        '@leafygreen-ui/example-patch@1.0.2',
+        '@azublue-ui/example-patch@1.0.2',
       );
-      expect(updateObj).toHaveProperty('scope', '@leafygreen-ui');
+      expect(updateObj).toHaveProperty('scope', '@azublue-ui');
       expect(updateObj).toHaveProperty('shortName', 'example-patch');
       expect(updateObj).toHaveProperty(
         'changelogUrl',
@@ -25,16 +25,16 @@ describe('tools/slackbot/release', () => {
 
     test('minor', () => {
       const updateObj = generateOutputStrings({
-        name: '@leafygreen-ui/example-minor',
+        name: '@azublue-ui/example-minor',
         version: '1.2.0',
       });
 
-      expect(updateObj).toHaveProperty('name', '@leafygreen-ui/example-minor');
+      expect(updateObj).toHaveProperty('name', '@azublue-ui/example-minor');
       expect(updateObj).toHaveProperty(
         'fullName',
-        '@leafygreen-ui/example-minor@1.2.0',
+        '@azublue-ui/example-minor@1.2.0',
       );
-      expect(updateObj).toHaveProperty('scope', '@leafygreen-ui');
+      expect(updateObj).toHaveProperty('scope', '@azublue-ui');
       expect(updateObj).toHaveProperty('shortName', 'example-minor');
       expect(updateObj).toHaveProperty(
         'changelogUrl',
@@ -45,16 +45,16 @@ describe('tools/slackbot/release', () => {
 
     test('major', () => {
       const updateObj = generateOutputStrings({
-        name: '@leafygreen-ui/example-major',
+        name: '@azublue-ui/example-major',
         version: '2.0.0',
       });
 
-      expect(updateObj).toHaveProperty('name', '@leafygreen-ui/example-major');
+      expect(updateObj).toHaveProperty('name', '@azublue-ui/example-major');
       expect(updateObj).toHaveProperty(
         'fullName',
-        '@leafygreen-ui/example-major@2.0.0',
+        '@azublue-ui/example-major@2.0.0',
       );
-      expect(updateObj).toHaveProperty('scope', '@leafygreen-ui');
+      expect(updateObj).toHaveProperty('scope', '@azublue-ui');
       expect(updateObj).toHaveProperty('shortName', 'example-major');
       expect(updateObj).toHaveProperty(
         'changelogUrl',
@@ -63,18 +63,18 @@ describe('tools/slackbot/release', () => {
       expect(updateObj).toHaveProperty('version', '2.0.0');
     });
 
-    test('@lg-tools', () => {
+    test('@az-tools', () => {
       const updateObj = generateOutputStrings({
-        name: '@lg-tools/example-tool',
+        name: '@az-tools/example-tool',
         version: '1.2.0',
       });
 
-      expect(updateObj).toHaveProperty('name', '@lg-tools/example-tool');
+      expect(updateObj).toHaveProperty('name', '@az-tools/example-tool');
       expect(updateObj).toHaveProperty(
         'fullName',
-        '@lg-tools/example-tool@1.2.0',
+        '@az-tools/example-tool@1.2.0',
       );
-      expect(updateObj).toHaveProperty('scope', '@lg-tools');
+      expect(updateObj).toHaveProperty('scope', '@az-tools');
       expect(updateObj).toHaveProperty('shortName', 'example-tool');
       expect(updateObj).toHaveProperty(
         'changelogUrl',
