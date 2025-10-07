@@ -5,7 +5,7 @@ import {
   DescendantsList,
   getDescendantById,
   getDescendantByIndex,
-} from '@leafygreen-ui/descendants';
+} from '@azublue-ui/descendants';
 
 import { getNextFromDirection } from './utils/getNextFromDirection';
 import { isDescendantsSet } from './utils/isDescendantsSet';

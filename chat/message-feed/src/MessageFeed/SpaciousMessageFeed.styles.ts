@@ -1,7 +1,7 @@
-import { avatarSizes, Size } from '@lg-chat/avatar';
+import { avatarSizes, Size } from '@az-chat/avatar';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { breakpoints, spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { breakpoints, spacing } from '@azublue-ui/tokens';
 
 const baseContainerStyles = css`
   width: 100%;

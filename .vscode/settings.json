@@ -2,7 +2,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "prettier.configPath": "node_modules/@lg-tools/lint/config/prettier.config.js",
+  "prettier.configPath": "node_modules/@az-tools/lint/config/prettier.config.js",
   "eslint.nodePath": "tools/lint/node_modules/eslint",
   "eslint.options": {
     "overrideConfigFile": "./eslint.config.mjs"
@@ -25,22 +25,22 @@
   "githubPullRequests.pullRequestDescription": "Copilot",
   "github.copilot.chat.codeGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/codeGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/codeGeneration.md"
     }
   ],
   "github.copilot.chat.testGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/testGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/testGeneration.md"
     }
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/commitMessageGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/commitMessageGeneration.md"
     }
   ],
   "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/pullRequestDescriptionGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/pullRequestDescriptionGeneration.md"
     }
   ]
 }

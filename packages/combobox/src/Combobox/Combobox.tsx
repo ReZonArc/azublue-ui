@@ -19,28 +19,28 @@ import isNull from 'lodash/isNull';
 import isString from 'lodash/isString';
 import isUndefined from 'lodash/isUndefined';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { DEFAULT_MESSAGES, FormFieldFeedback } from '@leafygreen-ui/form-field';
+import { cx } from '@azublue-ui/emotion';
+import { DEFAULT_MESSAGES, FormFieldFeedback } from '@azublue-ui/form-field';
 import {
   useAutoScroll,
   useBackdropClick,
   useDynamicRefs,
   useIdAllocator,
   usePrevious,
-} from '@leafygreen-ui/hooks';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   PopoverPropsProvider,
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { consoleOnce, isComponentType, keyMap } from '@leafygreen-ui/lib';
+} from '@azublue-ui/leafygreen-provider';
+import { consoleOnce, isComponentType, keyMap } from '@azublue-ui/lib';
 import {
   DismissMode,
   getPopoverRenderModeProps,
   RenderMode,
-} from '@leafygreen-ui/popover';
-import { Description, Label } from '@leafygreen-ui/typography';
+} from '@azublue-ui/popover';
+import { Description, Label } from '@azublue-ui/typography';
 
 import { ComboboxChip } from '../ComboboxChip';
 import { ComboboxContext } from '../ComboboxContext';
@@ -1178,7 +1178,7 @@ export function Combobox<M extends boolean>({
   } as const;
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <ComboboxContext.Provider
         value={{
           multiselect,
@@ -1337,7 +1337,7 @@ export function Combobox<M extends boolean>({
           </PopoverPropsProvider>
         </div>
       </ComboboxContext.Provider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 
   // Closure-dependant utils

@@ -109,7 +109,7 @@ const slackbotCmd = cli.command('slackbot');
  * This is the "Bot User OAuth Token" found at https://api.slack.com/apps/A02H2UGAMDM/oauth, and should start with "xoxb-"
  *
  * To run this automatically, pass in an array of updates (in the format output by \`changeset\`) as the first argument.
- * i.e. \`pnpm slackbot '[{"name": "@leafygreen-ui/sample", "version": "0.1.0"}]' \`
+ * i.e. \`pnpm slackbot '[{"name": "@azublue-ui/sample", "version": "0.1.0"}]' \`
  *
  * Optionally pass in a channel name (defaults to 'leafygreen-ui-releases').
  * Valid channels are: \`${Object.keys(Channels).join('`, `')}\`.
@@ -219,7 +219,7 @@ cli
   )
   .option(
     '--packages <packages...>',
-    'Specific package names to transform. E.g. --packages @leafygreen-ui/button @leafygreen-ui/menu',
+    'Specific package names to transform. E.g. --packages @azublue-ui/button @azublue-ui/menu',
   )
   .action(migrator);
 

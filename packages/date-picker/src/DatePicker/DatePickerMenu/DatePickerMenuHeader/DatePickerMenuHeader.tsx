@@ -1,9 +1,9 @@
 import React, { forwardRef, MouseEventHandler } from 'react';
 
-import { isSameUTCMonth, setUTCMonth } from '@leafygreen-ui/date-utils';
-import { SupportedLocales } from '@leafygreen-ui/date-utils';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
+import { isSameUTCMonth, setUTCMonth } from '@azublue-ui/date-utils';
+import { SupportedLocales } from '@azublue-ui/date-utils';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
 
 import { useSharedDatePickerContext } from '../../../shared/context';
 import { useDatePickerContext } from '../../DatePickerContext';

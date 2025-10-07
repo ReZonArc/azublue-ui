@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useContext } from 'react';
 
-import { Size } from '@leafygreen-ui/tokens';
+import { Size } from '@azublue-ui/tokens';
 
 import { FormFieldState } from '../FormField/FormField.types';
 import { FormFieldInputElementProps } from '../FormField/useFormFieldProps';

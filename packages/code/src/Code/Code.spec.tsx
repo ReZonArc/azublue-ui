@@ -4,9 +4,9 @@ import userEvent from '@testing-library/user-event';
 import ClipboardJS from 'clipboard';
 import { axe } from 'jest-axe';
 
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
-import { Context, jest as Jest } from '@leafygreen-ui/testing-lib';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
+import { Context, jest as Jest } from '@azublue-ui/testing-lib';
 
 import { numOfCollapsedLinesOfCode } from '../constants';
 import { Panel } from '../Panel';

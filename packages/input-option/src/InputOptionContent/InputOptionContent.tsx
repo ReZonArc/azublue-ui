@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Description } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Description } from '@azublue-ui/typography';
 
 import {
   descriptionClassName,

@@ -1,4 +1,4 @@
-import { getAllPackageNames, getLGConfig } from '@lg-tools/meta';
+import { getAllPackageNames, getLGConfig } from '@az-tools/meta';
 import fs from 'fs';
 import path from 'path';
 import * as prettier from 'prettier';
@@ -28,7 +28,7 @@ async function buildTable() {
       const versionMd = `[![version](https://img.shields.io/npm/v/${pkg})](https://www.npmjs.com/package/${pkg})`;
       const downloadsMd = `![downloads](https://img.shields.io/npm/dm/${pkg}?color=white)`;
       const exampleMd =
-        scope !== '@lg-tools'
+        scope !== '@az-tools'
           ? `[Live Example](http://mongodb.design/component/${pkgName}/live-example)`
           : '';
       md +=
@@ -41,7 +41,7 @@ async function buildTable() {
   );
 
   const prettierConfig = await prettier.resolveConfig(
-    '@lg-tools/lint/config/prettier.config.js',
+    '@az-tools/lint/config/prettier.config.js',
   );
   const formattedTable = prettier.format(
     packagesTable,

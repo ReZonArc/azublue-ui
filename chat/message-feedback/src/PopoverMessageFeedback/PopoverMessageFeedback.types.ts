@@ -1,5 +1,5 @@
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { PopoverProps } from '@leafygreen-ui/popover';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { PopoverProps } from '@azublue-ui/popover';
 
 import { InlineMessageFeedbackProps } from '../InlineMessageFeedback';
 

@@ -3,13 +3,13 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { spacing } from '@leafygreen-ui/tokens';
-import { Body, InlineCode } from '@leafygreen-ui/typography';
+import { css } from '@azublue-ui/emotion';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { spacing } from '@azublue-ui/tokens';
+import { Body, InlineCode } from '@azublue-ui/typography';
 
 import { DisplayOption } from './Spinner/Spinner.types';
 import { PageLoader, Spinner } from '.';

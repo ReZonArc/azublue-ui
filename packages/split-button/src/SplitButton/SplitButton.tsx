@@ -1,16 +1,16 @@
 import React from 'react';
 
-import Button, { Size } from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import { useForwardedRef, useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import Button, { Size } from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import { useForwardedRef, useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
-import { RenderMode } from '@leafygreen-ui/popover';
+} from '@azublue-ui/polymorphic';
+import { RenderMode } from '@azublue-ui/popover';
 
 import { Menu } from '../Menu';
 import { getLgIds } from '../utils/getLgIds';
@@ -94,7 +94,7 @@ export const SplitButton = InferredPolymorphic<
         data-testid={lgIds.root}
         data-lgid={lgIds.root}
       >
-        <LeafyGreenProvider darkMode={darkMode}>
+        <AzuBlueProvider darkMode={darkMode}>
           <Button
             as={Component}
             {...sharedButtonProps}
@@ -132,7 +132,7 @@ export const SplitButton = InferredPolymorphic<
             renderDarkMenu={renderDarkMenu}
             lgIds={lgIds}
           />
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       </div>
     );
   },

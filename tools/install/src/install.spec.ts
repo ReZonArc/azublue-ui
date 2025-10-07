@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
-import { getPackageManager } from '@lg-tools/meta';
+import { getPackageManager } from '@az-tools/meta';
 import { spawn } from 'cross-spawn';
 
 import { getPackagesToInstall } from './getPackagesToInstall';
-import { installLeafyGreen } from './installLG';
+import { installAzuBlue } from './installLG';
 import type { InstallCommandOptions } from './types';
 
 // Mock dependencies
@@ -11,7 +11,7 @@ jest.mock('cross-spawn', () => ({
   spawn: jest.fn(),
 }));
 
-jest.mock('@lg-tools/meta', () => ({
+jest.mock('@az-tools/meta', () => ({
   getPackageManager: jest.fn(),
 }));
 
@@ -23,7 +23,7 @@ jest.mock('./getPackagesToInstall', () => ({
 console.log = jest.fn();
 console.error = jest.fn();
 
-describe('installLeafyGreen', () => {
+describe('installAzuBlue', () => {
   const mockSpawn = spawn as jest.MockedFunction<typeof spawn>;
   const mockGetPackageManager = getPackageManager as jest.MockedFunction<
     typeof getPackageManager
@@ -36,15 +36,15 @@ describe('installLeafyGreen', () => {
     jest.clearAllMocks();
     mockGetPackageManager.mockReturnValue('npm');
     mockGetPackagesToInstall.mockReturnValue([
-      '@leafygreen-ui/button@latest',
-      '@leafygreen-ui/modal@latest',
+      '@azublue-ui/button@latest',
+      '@azublue-ui/modal@latest',
     ]);
   });
 
   test('should not call spawn if no packages are available', () => {
     mockGetPackagesToInstall.mockReturnValueOnce([]);
 
-    installLeafyGreen([], {});
+    installAzuBlue([], {});
 
     expect(mockSpawn).not.toHaveBeenCalled();
     expect(console.error).toHaveBeenCalledWith('No packages found to install');
@@ -53,14 +53,14 @@ describe('installLeafyGreen', () => {
   test('should call spawn with correct parameters for npm', () => {
     mockGetPackageManager.mockReturnValueOnce('npm');
 
-    installLeafyGreen([], {});
+    installAzuBlue([], {});
 
     expect(mockSpawn).toHaveBeenCalledWith(
       'npm',
       [
         'install',
-        '@leafygreen-ui/button@latest',
-        '@leafygreen-ui/modal@latest',
+        '@azublue-ui/button@latest',
+        '@azublue-ui/modal@latest',
       ],
       { stdio: 'inherit' },
     );
@@ -69,11 +69,11 @@ describe('installLeafyGreen', () => {
   test('should call spawn with correct parameters for yarn', () => {
     mockGetPackageManager.mockReturnValueOnce('yarn');
 
-    installLeafyGreen([], {});
+    installAzuBlue([], {});
 
     expect(mockSpawn).toHaveBeenCalledWith(
       'yarn',
-      ['add', '@leafygreen-ui/button@latest', '@leafygreen-ui/modal@latest'],
+      ['add', '@azublue-ui/button@latest', '@azublue-ui/modal@latest'],
       { stdio: 'inherit' },
     );
   });
@@ -81,21 +81,21 @@ describe('installLeafyGreen', () => {
   test('should call spawn with correct parameters for pnpm', () => {
     mockGetPackageManager.mockReturnValueOnce('pnpm');
 
-    installLeafyGreen([], {});
+    installAzuBlue([], {});
 
     expect(mockSpawn).toHaveBeenCalledWith(
       'pnpm',
       [
         'install',
-        '@leafygreen-ui/button@latest',
-        '@leafygreen-ui/modal@latest',
+        '@azublue-ui/button@latest',
+        '@azublue-ui/modal@latest',
       ],
       { stdio: 'inherit' },
     );
   });
 
   test('should not call spawn if dry option is true', () => {
-    installLeafyGreen([], { dry: true });
+    installAzuBlue([], { dry: true });
 
     expect(mockSpawn).not.toHaveBeenCalled();
   });
@@ -103,7 +103,7 @@ describe('installLeafyGreen', () => {
   test('should pass explicit packages to getPackagesToInstall', () => {
     const explicitPackages = ['button', 'modal'];
 
-    installLeafyGreen(explicitPackages, {});
+    installAzuBlue(explicitPackages, {});
 
     expect(mockGetPackagesToInstall).toHaveBeenCalledWith(explicitPackages, {});
   });
@@ -118,7 +118,7 @@ describe('installLeafyGreen', () => {
       chat: true,
     };
 
-    installLeafyGreen([], options);
+    installAzuBlue([], options);
 
     expect(mockGetPackagesToInstall).toHaveBeenCalledWith([], options);
   });
@@ -126,7 +126,7 @@ describe('installLeafyGreen', () => {
   test('should pass verbose option to getPackagesToInstall and log extra information', () => {
     const options = { verbose: true };
 
-    installLeafyGreen([], options);
+    installAzuBlue([], options);
 
     expect(mockGetPackagesToInstall).toHaveBeenCalledWith([], options);
     expect(console.log).toHaveBeenCalledWith('Detected package manager: npm');
@@ -135,7 +135,7 @@ describe('installLeafyGreen', () => {
   test('should log extra information in dry run with verbose option', () => {
     const options = { dry: true, verbose: true };
 
-    installLeafyGreen([], options);
+    installAzuBlue([], options);
 
     expect(mockSpawn).not.toHaveBeenCalled();
     expect(console.log).toHaveBeenCalledWith(

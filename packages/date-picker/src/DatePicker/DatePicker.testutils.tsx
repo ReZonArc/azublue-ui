@@ -9,7 +9,7 @@ import {
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { getISODate } from '@leafygreen-ui/date-utils';
+import { getISODate } from '@azublue-ui/date-utils';
 
 import { DateSegment } from '../shared/types';
 

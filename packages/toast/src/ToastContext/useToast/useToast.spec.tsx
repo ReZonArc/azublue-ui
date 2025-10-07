@@ -2,7 +2,7 @@ import React, { PropsWithChildren, useEffect } from 'react';
 import { render } from '@testing-library/react';
 import { cleanup } from '@testing-library/react-hooks';
 
-import { renderHook, waitForState } from '@leafygreen-ui/testing-lib';
+import { renderHook, waitForState } from '@azublue-ui/testing-lib';
 
 import { ToastProps, Variant } from '../../Toast.types';
 import { ToastContext } from '../ToastContext';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
 import {
@@ -8,12 +8,12 @@ import {
   Month,
   newUTC,
   SupportedLocales,
-} from '@leafygreen-ui/date-utils';
+} from '@azublue-ui/date-utils';
 import {
   testLocales,
   testTimeZoneLabels,
-} from '@leafygreen-ui/date-utils/testing';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/date-utils/testing';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import {
   SharedDatePickerContextProps,
@@ -25,11 +25,11 @@ import { CalendarCell } from '../CalendarCell/CalendarCell';
 import { CalendarGrid } from './CalendarGrid';
 
 const ProviderWrapper = (Story: StoryFn, ctx?: { args: any }) => (
-  <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+  <AzuBlueProvider darkMode={ctx?.args.darkMode}>
     <SharedDatePickerProvider {...ctx?.args}>
       <Story />
     </SharedDatePickerProvider>
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 
 const meta: StoryMetaType<typeof CalendarGrid, SharedDatePickerContextProps> = {

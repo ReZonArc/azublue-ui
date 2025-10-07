@@ -2,9 +2,9 @@ import React, { useMemo } from 'react';
 import isEqual from 'react-fast-compare';
 import omit from 'lodash/omit';
 
-import { useMergeRefs } from '@leafygreen-ui/hooks';
+import { useMergeRefs } from '@azublue-ui/hooks';
 
-import { LGRowData } from '../useLeafyGreenTable';
+import { LGRowData } from '../useAzuBlueTable';
 
 import InternalRowBase from './InternalRowBase';
 import { getRowWithRTStyles } from './Row.styles';

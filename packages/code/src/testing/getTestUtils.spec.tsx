@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event';
 import ClipboardJS from 'clipboard';
 
-import { Context, jest as Jest } from '@leafygreen-ui/testing-lib';
+import { Context, jest as Jest } from '@azublue-ui/testing-lib';
 
 import {
   renderCode,

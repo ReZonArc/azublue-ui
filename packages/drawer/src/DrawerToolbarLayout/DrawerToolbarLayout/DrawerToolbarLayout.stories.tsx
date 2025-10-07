@@ -3,13 +3,13 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing } from '@leafygreen-ui/tokens';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
+import { spacing } from '@azublue-ui/tokens';
 
 import { DisplayMode } from '../../Drawer';
 import { Size } from '../../Drawer/Drawer.types';

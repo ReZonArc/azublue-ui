@@ -1,7 +1,7 @@
 import React from 'react';
-import { type StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import Link from './Link';
 import { ArrowAppearance, LinkProps } from './Link.types';

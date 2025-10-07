@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/code",
+  "name": "@azublue-ui/code",
   "version": "20.0.8",
   "description": "leafyGreen UI Kit Code Blocks",
   "main": "./dist/umd/index.js",
@@ -19,9 +19,9 @@
     }
   },
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs",
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs",
     "prepare": "npx ts-node scripts/postinstall.ts"
   },
   "keywords": [],
@@ -30,23 +30,23 @@
     "access": "public"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "dependencies": {
-    "@leafygreen-ui/a11y": "workspace:^",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/select": "workspace:^",
-    "@leafygreen-ui/skeleton-loader": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/tooltip": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/a11y": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/select": "workspace:^",
+    "@azublue-ui/skeleton-loader": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/tooltip": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "@types/facepaint": "^1.2.1",
     "@types/highlight.js": "^10.1.0",
     "clipboard": "^2.0.6",
@@ -57,7 +57,7 @@
     "polished": "^4.2.2"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "gitHead": "dd71a2d404218ccec2e657df9c0263dc1c15b9e0",
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/code",

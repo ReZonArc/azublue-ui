@@ -7,13 +7,13 @@ import React, {
   useState,
 } from 'react';
 
-import Button from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import { useBackdropClick, useEventListener } from '@leafygreen-ui/hooks';
-import Icon from '@leafygreen-ui/icon';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType, keyMap } from '@leafygreen-ui/lib';
-import { Menu as LGMenu } from '@leafygreen-ui/menu';
+import Button from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import { useBackdropClick, useEventListener } from '@azublue-ui/hooks';
+import Icon from '@azublue-ui/icon';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType, keyMap } from '@azublue-ui/lib';
+import { Menu as LGMenu } from '@azublue-ui/menu';
 
 import { MenuItemType } from '../SplitButton';
 

@@ -1,4 +1,4 @@
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import { LanguageOption } from '../Panel/Panel.types';
 import { Language } from '../types';

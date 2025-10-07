@@ -1,4 +1,4 @@
-import { TooltipProps } from '@leafygreen-ui/tooltip';
+import { TooltipProps } from '@azublue-ui/tooltip';
 
 export interface InlineDefinitionProps
   extends Partial<

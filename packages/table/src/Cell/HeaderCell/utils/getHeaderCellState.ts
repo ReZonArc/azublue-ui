@@ -1,5 +1,5 @@
 import { Header } from '../../..';
-import { LGRowData } from '../../../useLeafyGreenTable';
+import { LGRowData } from '../../../useAzuBlueTable';
 import { SortState, SortStates } from '../HeaderCell.types';
 
 const HeaderSortState: SortStates = {

@@ -1,7 +1,7 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, InteractionState, Variant } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, InteractionState, Variant } from '@azublue-ui/tokens';
 
 /**
  * Off-palette value specific to primary button instances
@@ -10,9 +10,9 @@ import { color, InteractionState, Variant } from '@leafygreen-ui/tokens';
  *
  * @remarks This is a temporary duplicate to avoid importing the
  * `PRIMARY_BUTTON_INTERACTIVE_GREEN` constant from
- * `@leafygreen-ui/button/constants`. Consumers are blocked from upgrading
+ * `@azublue-ui/button/constants`. Consumers are blocked from upgrading
  * to the latest version of button package due to type issues from
- * `@leafygreen-ui/button@23.0.0` https://jira.mongodb.org/browse/LG-5462
+ * `@azublue-ui/button@23.0.0` https://jira.mongodb.org/browse/LG-5462
  */
 const PRIMARY_BUTTON_INTERACTIVE_GREEN = '#00593F';
 

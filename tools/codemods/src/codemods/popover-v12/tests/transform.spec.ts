@@ -9,7 +9,7 @@ const tests = [
   {
     name: 'filter-packages',
     options: {
-      packages: ['@leafygreen-ui/popover', '@leafygreen-ui/select'],
+      packages: ['@azublue-ui/popover', '@azublue-ui/select'],
     },
   },
   {

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
-import { useIdAllocator } from '@leafygreen-ui/hooks';
+import { useIdAllocator } from '@azublue-ui/hooks';
 
 import { useEchart } from '../../Echart';
 import { EChartEvents } from '../../Echart';

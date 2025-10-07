@@ -8,7 +8,7 @@ import {
 import userEvent from '@testing-library/user-event';
 import isUndefined from 'lodash/isUndefined';
 
-import { keyMap } from '@leafygreen-ui/lib';
+import { keyMap } from '@azublue-ui/lib';
 
 import {
   defaultOptions,

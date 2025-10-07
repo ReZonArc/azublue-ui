@@ -1,9 +1,9 @@
 import { ComponentProps } from 'react';
 import omit from 'lodash/omit';
 
-import { GlyphName } from '@leafygreen-ui/icon';
-import { DarkModeProps, Theme } from '@leafygreen-ui/lib';
-import { Size } from '@leafygreen-ui/tokens';
+import { GlyphName } from '@azublue-ui/icon';
+import { DarkModeProps, Theme } from '@azublue-ui/lib';
+import { Size } from '@azublue-ui/tokens';
 
 export const Format = {
   /** Renders a MongoDB logo mark */

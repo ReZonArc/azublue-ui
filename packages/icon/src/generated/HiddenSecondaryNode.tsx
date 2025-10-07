@@ -5,7 +5,7 @@
 * @checksum 2aff31aae26b5e933ae67e64e2995aaf
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface HiddenSecondaryNodeProps extends LGGlyph.ComponentProps {}

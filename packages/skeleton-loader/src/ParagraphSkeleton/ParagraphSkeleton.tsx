@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { Size, Skeleton } from '..';
 
@@ -24,7 +24,7 @@ export function ParagraphSkeleton({
 }: ParagraphSkeletonProps) {
   const { darkMode } = useDarkMode(darkModeProp);
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div {...rest} className={cx(rootStyles, className)} aria-busy>
         {withHeader && (
           <Skeleton
@@ -49,7 +49,7 @@ export function ParagraphSkeleton({
           className={lastLineStyles}
         />
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

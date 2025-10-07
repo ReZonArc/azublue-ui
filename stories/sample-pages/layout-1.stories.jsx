@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@leafygreen-ui/button';
+import Button from '@azublue-ui/button';
 
 export default {
   title: 'Sample Pages (WIP)/Layout 1',

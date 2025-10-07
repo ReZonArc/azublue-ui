@@ -1,7 +1,7 @@
 import React from 'react';
 import { StoryFn } from '@storybook/react';
 
-import { Link } from '@leafygreen-ui/typography';
+import { Link } from '@azublue-ui/typography';
 
 import { DisclaimerText } from '.';
 

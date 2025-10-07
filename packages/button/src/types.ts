@@ -1,11 +1,11 @@
 import React, { HTMLProps } from 'react';
 
-import { LgIdProps } from '@leafygreen-ui/lib';
+import { LgIdProps } from '@azublue-ui/lib';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/polymorphic';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export const Variant = {
   Default: 'default',

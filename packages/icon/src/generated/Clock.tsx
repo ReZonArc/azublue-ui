@@ -5,7 +5,7 @@
 * @checksum 0c4caec1c47768a8921a638fb73034dc
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface ClockProps extends LGGlyph.ComponentProps {}

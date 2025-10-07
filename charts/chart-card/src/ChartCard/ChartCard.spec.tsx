@@ -21,7 +21,7 @@ const clickToggleButton = () => {
   userEvent.click(screen.getByLabelText('Toggle button'));
 };
 
-describe('@lg-charts/core/src/ChartCard/ChartCard', () => {
+describe('@az-charts/core/src/ChartCard/ChartCard', () => {
   test('does not have basic accessibility issues', async () => {
     const { container } = renderChartCard();
     const results = await axe(container);

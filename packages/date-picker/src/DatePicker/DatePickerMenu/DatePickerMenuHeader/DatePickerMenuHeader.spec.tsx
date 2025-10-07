@@ -2,8 +2,8 @@ import React, { createRef, PropsWithChildren, useState } from 'react';
 import { render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { Month, newUTC } from '@azublue-ui/date-utils';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import {} from '../../../shared/components';
 import {

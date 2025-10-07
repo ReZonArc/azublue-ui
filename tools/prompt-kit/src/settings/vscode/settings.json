@@ -1,22 +1,22 @@
 {
   "github.copilot.chat.codeGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/codeGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/codeGeneration.md"
     }
   ],
   "github.copilot.chat.testGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/testGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/testGeneration.md"
     }
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/commitMessageGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/commitMessageGeneration.md"
     }
   ],
   "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
     {
-      "file": "node_modules/@lg-tools/prompt-kit/src/prompts/pullRequestDescriptionGeneration.md"
+      "file": "node_modules/@az-tools/prompt-kit/src/prompts/pullRequestDescriptionGeneration.md"
     }
   ]
 }

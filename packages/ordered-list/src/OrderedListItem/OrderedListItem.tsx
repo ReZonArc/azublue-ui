@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Body, Description } from '@leafygreen-ui/typography';
+import { useDescendant } from '@azublue-ui/descendants';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Body, Description } from '@azublue-ui/typography';
 
 import { OrderedListContext } from '../OrderedListContext/OrderedListContext';
 

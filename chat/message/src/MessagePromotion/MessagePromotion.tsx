@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Badge, { Variant } from '@leafygreen-ui/badge';
-import Icon from '@leafygreen-ui/icon';
-import LeafyGreenProvider, {
+import Badge, { Variant } from '@azublue-ui/badge';
+import Icon from '@azublue-ui/icon';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body, Link } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Body, Link } from '@azublue-ui/typography';
 
 import {
   badgeStyles,
@@ -27,7 +27,7 @@ export function MessagePromotion({
 }: MessagePromotionProps) {
   const { darkMode } = useDarkMode(darkModeProp);
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div className={promotionContainerStyles}>
         <div>
           <Badge variant={Variant.Green} className={badgeStyles}>
@@ -44,6 +44,6 @@ export function MessagePromotion({
           </>
         </Body>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }

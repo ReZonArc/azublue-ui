@@ -2,14 +2,14 @@ import React from 'react';
 import { Options } from 'focus-trap';
 import FocusTrap from 'focus-trap-react';
 
-import Button from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import { Theme } from '@leafygreen-ui/lib';
-import Tooltip, { RenderMode } from '@leafygreen-ui/tooltip';
-import { Body, Disclaimer } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import { Theme } from '@azublue-ui/lib';
+import Tooltip, { RenderMode } from '@azublue-ui/tooltip';
+import { Body, Disclaimer } from '@azublue-ui/typography';
 
 import { GuideCueProps } from '../GuideCue/GuideCue.types';
 

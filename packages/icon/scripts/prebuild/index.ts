@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { formatLG } from '@lg-tools/lint';
+import { formatLG } from '@az-tools/lint';
 // @ts-ignore - no types in svgr v5.5 // TODO: update to v8 LG-5484
 import { default as svgr } from '@svgr/core';
 import { Command } from 'commander';

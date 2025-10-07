@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/chip",
+  "name": "@azublue-ui/chip",
   "version": "4.0.6",
   "description": "LeafyGreen UI Kit Chip",
   "main": "./dist/umd/index.js",
@@ -7,23 +7,23 @@
   "types": "./dist/types/index.d.ts",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/inline-definition": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/inline-definition": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/chip",
   "repository": {
@@ -34,7 +34,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

@@ -1,8 +1,8 @@
-import { prefersReducedMotion } from '@leafygreen-ui/a11y';
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { prefersReducedMotion } from '@azublue-ui/a11y';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { spacing, transitionDuration } from '@azublue-ui/tokens';
 
 export const collapsibleBaseStyle = css`
   background-color: transparent;

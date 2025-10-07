@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { buildPackage } from '@lg-tools/build';
+import { buildPackage } from '@az-tools/build';
 import { Command } from 'commander';
 
 import { buildBatch } from './build-batch';

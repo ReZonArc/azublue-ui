@@ -1,18 +1,18 @@
 import React, { ChangeEvent, Fragment, useState } from 'react';
-import { Avatar } from '@lg-chat/avatar';
-import { DisclaimerText } from '@lg-chat/chat-disclaimer';
+import { Avatar } from '@az-chat/avatar';
+import { DisclaimerText } from '@az-chat/chat-disclaimer';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { Message } from '@lg-chat/message';
-import { MessagePrompt, MessagePrompts } from '@lg-chat/message-prompts';
-import { MessageRating } from '@lg-chat/message-rating';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+} from '@az-chat/leafygreen-chat-provider';
+import { Message } from '@az-chat/message';
+import { MessagePrompt, MessagePrompts } from '@az-chat/message-prompts';
+import { MessageRating } from '@az-chat/message-rating';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { Link } from '@leafygreen-ui/typography';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { Link } from '@azublue-ui/typography';
 
 import {
   baseMessages,
@@ -39,11 +39,11 @@ const meta: StoryMetaType<typeof MessageFeed> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <LeafyGreenChatProvider variant={context?.args.variant}>
               <Instance />
             </LeafyGreenChatProvider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

@@ -1,6 +1,6 @@
 import { Reducer } from 'react';
 
-import { ExclusiveUnion, ValuesOf } from '@leafygreen-ui/lib';
+import { ExclusiveUnion, ValuesOf } from '@azublue-ui/lib';
 
 import { Descendant } from '../../Descendants';
 import { Direction, Position } from '../highlight.types';

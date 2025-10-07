@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DarkModeProps, keyMap } from '@leafygreen-ui/lib';
+import { DarkModeProps, keyMap } from '@azublue-ui/lib';
 
 import { DateSegment, DateSegmentValue } from '../../../types';
 

@@ -1,7 +1,7 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 export const iconButtonTransitionStyles = css`
   transition: transform ${transitionDuration.default}ms ease-in-out;

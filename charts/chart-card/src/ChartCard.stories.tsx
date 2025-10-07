@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChartHeaderProps } from '@lg-charts/core';
-import { storybookArgTypes } from '@lg-tools/storybook-utils';
+import { ChartHeaderProps } from '@az-charts/core';
+import { storybookArgTypes } from '@az-tools/storybook-utils';
 import type { StoryObj } from '@storybook/react';
 
 import { ChartCard } from '..';

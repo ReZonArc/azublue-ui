@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import CheckmarkIcon from '@azublue-ui/icon/dist/Checkmark';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import {
   getStepWrapperStyles,

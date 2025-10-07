@@ -7,14 +7,14 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { Size } from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import Icon, { glyphs } from '@leafygreen-ui/icon';
-import { MenuItem } from '@leafygreen-ui/menu';
-import { TestUtils } from '@leafygreen-ui/popover';
+import { Size } from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import Icon, { glyphs } from '@azublue-ui/icon';
+import { MenuItem } from '@azublue-ui/menu';
+import { TestUtils } from '@azublue-ui/popover';
 const { getAlign, getJustify } = TestUtils;
 
 import { Align, Justify, SplitButton, SplitButtonProps, Variant } from '.';

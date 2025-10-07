@@ -1,4 +1,4 @@
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 import { PropertyColorRecord } from './color.types';
 import { darkModeColors } from './darkModeColors';

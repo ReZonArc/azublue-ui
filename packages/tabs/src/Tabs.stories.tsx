@@ -3,20 +3,20 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import Card from '@leafygreen-ui/card';
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import ExportIcon from '@leafygreen-ui/icon/dist/Export';
-import SaveIcon from '@leafygreen-ui/icon/dist/Save';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import Tooltip from '@leafygreen-ui/tooltip';
-import { Body, Subtitle } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import Card from '@azublue-ui/card';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import ExportIcon from '@azublue-ui/icon/dist/Export';
+import SaveIcon from '@azublue-ui/icon/dist/Save';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import Tooltip from '@azublue-ui/tooltip';
+import { Body, Subtitle } from '@azublue-ui/typography';
 
 import { Size, Tab, Tabs, TabsProps } from './';
 
@@ -116,7 +116,7 @@ export const LiveExample: StoryFn<TabsProps<string>> = ({
   baseFontSize,
   ...props
 }: TabsProps<string>) => (
-  <LeafyGreenProvider baseFontSize={baseFontSize === 16 ? 16 : 14}>
+  <AzuBlueProvider baseFontSize={baseFontSize === 16 ? 16 : 14}>
     <Tabs
       className={css`
         max-width: 66vw;
@@ -124,7 +124,7 @@ export const LiveExample: StoryFn<TabsProps<string>> = ({
       aria-label="Tabs to demonstrate usage of Leafygreen UI Tab Components"
       {...props}
     />
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 
 export const Controlled: StoryFn<TabsProps<string>> = (
@@ -192,7 +192,7 @@ export const WithTooltip: StoryFn<TabsProps<string>> = ({
   baseFontSize,
   ...props
 }: TabsProps<string>) => (
-  <LeafyGreenProvider baseFontSize={baseFontSize === 16 ? 16 : 14}>
+  <AzuBlueProvider baseFontSize={baseFontSize === 16 ? 16 : 14}>
     <Tabs
       className={css`
         max-width: 66vw;
@@ -227,7 +227,7 @@ export const WithTooltip: StoryFn<TabsProps<string>> = ({
         </CardWithMargin>
       </Tab>
     </Tabs>
-  </LeafyGreenProvider>
+  </AzuBlueProvider>
 );
 WithTooltip.parameters = {
   chromatic: { disableSnapshot: true },

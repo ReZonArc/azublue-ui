@@ -1,23 +1,23 @@
 {
-  "name": "@leafygreen-ui/logo",
+  "name": "@azublue-ui/logo",
   "version": "11.0.4",
   "description": "LeafyGreen UI Kit Logos",
   "main": "./dist/umd/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs"
   },
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^"
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/logo",
   "repository": {
@@ -28,7 +28,7 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

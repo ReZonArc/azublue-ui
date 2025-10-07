@@ -1,4 +1,4 @@
-import { DateType } from '@leafygreen-ui/date-utils';
+import { DateType } from '@azublue-ui/date-utils';
 
 import { defaultMin } from '../../constants';
 import { DateSegment } from '../../types';

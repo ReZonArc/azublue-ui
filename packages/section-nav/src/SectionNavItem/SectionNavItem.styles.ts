@@ -1,7 +1,7 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, fontWeights, spacing, typeScales } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, fontWeights, spacing, typeScales } from '@azublue-ui/tokens';
 
 import {
   INDENTATION,

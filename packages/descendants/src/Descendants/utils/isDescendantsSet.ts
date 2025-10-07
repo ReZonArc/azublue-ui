@@ -1,4 +1,4 @@
-import { isDefined } from '@leafygreen-ui/lib';
+import { isDefined } from '@azublue-ui/lib';
 
 import { DescendantsList } from '../../Descendants';
 

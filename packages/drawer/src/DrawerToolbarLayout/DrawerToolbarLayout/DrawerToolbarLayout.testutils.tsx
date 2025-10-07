@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { faker } from '@faker-js/faker';
 
-import { css } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+import { css } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import { DrawerToolbarLayoutProps } from './DrawerToolbarLayout.types';
 

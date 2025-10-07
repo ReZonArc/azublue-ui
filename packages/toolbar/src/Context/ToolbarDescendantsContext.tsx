@@ -1,7 +1,7 @@
 import {
   createDescendantsContext,
   useDescendantsContext,
-} from '@leafygreen-ui/descendants';
+} from '@azublue-ui/descendants';
 
 export const ToolbarDescendantsContext =
   createDescendantsContext<HTMLButtonElement>('ToolbarDescendantsContext');

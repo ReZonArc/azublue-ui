@@ -7,10 +7,10 @@ import React, {
 } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useControlledValue, useForwardedRef } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { createSyntheticEvent } from '@leafygreen-ui/lib';
+import { cx } from '@azublue-ui/emotion';
+import { useControlledValue, useForwardedRef } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { createSyntheticEvent } from '@azublue-ui/lib';
 
 import { Arrows } from '../Arrows';
 import { Direction, Size, State } from '../NumberInput/NumberInput.types';

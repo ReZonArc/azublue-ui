@@ -1,5 +1,5 @@
 import React from 'react';
-import { SeriesName } from '@lg-charts/series-provider';
+import { SeriesName } from '@az-charts/series-provider';
 
 import { OptionDataValue } from '../../ChartTooltip.types';
 import { SeriesListItem } from '../SeriesListItem';

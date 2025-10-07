@@ -1,7 +1,7 @@
 import { ReactChild, ReactElement } from 'react';
 
-import { BadgeProps } from '@leafygreen-ui/badge';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { BadgeProps } from '@azublue-ui/badge';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 interface EmptyStateWithCTAProps {
   /**

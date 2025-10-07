@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import { Transition } from 'react-transition-group';
 
-import { usePrefersReducedMotion } from '@leafygreen-ui/a11y';
-import { cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { usePrefersReducedMotion } from '@azublue-ui/a11y';
+import { cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 import { CheckProps } from '../Checkbox/Checkbox.types';
 import { checkAnimationDuration } from '../constants';

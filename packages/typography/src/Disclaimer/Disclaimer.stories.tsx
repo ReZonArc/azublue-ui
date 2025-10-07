@@ -1,5 +1,5 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
 import Disclaimer from './Disclaimer';
 import { DisclaimerProps } from './Disclaimer.types';

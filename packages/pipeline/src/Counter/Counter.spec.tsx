@@ -1,7 +1,7 @@
 import React from 'react';
 import { cleanup, render } from '@testing-library/react';
 
-import { typeIs } from '@leafygreen-ui/lib';
+import { typeIs } from '@azublue-ui/lib';
 
 import Counter from './Counter';
 

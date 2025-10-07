@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FormFieldFeedback } from '@leafygreen-ui/form-field';
+import { FormFieldFeedback } from '@azublue-ui/form-field';
 
 import { StateNotifications } from '../StateNotifications';
 

@@ -1,8 +1,8 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { bodyTypeScaleStyles } from '@leafygreen-ui/typography';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { bodyTypeScaleStyles } from '@azublue-ui/typography';
 
 export const tableClassName = createUniqueClassName('lg-table');
 

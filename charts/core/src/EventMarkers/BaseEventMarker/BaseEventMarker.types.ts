@@ -1,4 +1,4 @@
-import type { Theme } from '@leafygreen-ui/lib';
+import type { Theme } from '@azublue-ui/lib';
 
 export const EventLevel = {
   Warning: 'warning',

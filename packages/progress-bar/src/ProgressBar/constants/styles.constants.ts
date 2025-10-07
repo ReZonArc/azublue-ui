@@ -1,8 +1,8 @@
 import { transparentize } from 'polished';
 
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { borderRadius } from '@leafygreen-ui/tokens';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { borderRadius } from '@azublue-ui/tokens';
 
 import { Size, Variant } from '../ProgressBar.types';
 

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 
-import { Disclaimer, Link } from '@leafygreen-ui/typography';
+import { Disclaimer, Link } from '@azublue-ui/typography';
 
 import { MessageBanner } from '../MessageBanner';
 

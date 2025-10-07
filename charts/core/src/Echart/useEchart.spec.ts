@@ -1,6 +1,6 @@
 import { act } from 'react-dom/test-utils';
 
-import { renderHook, RenderHookResult } from '@leafygreen-ui/testing-lib';
+import { renderHook, RenderHookResult } from '@azublue-ui/testing-lib';
 
 import { type SeriesOption } from '../Chart';
 

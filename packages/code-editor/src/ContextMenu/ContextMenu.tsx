@@ -5,7 +5,7 @@ import {
   MenuItem,
   MenuSeparator,
   MenuVariant,
-} from '@leafygreen-ui/menu';
+} from '@azublue-ui/menu';
 
 import { getLgIds } from '../utils';
 

@@ -7,7 +7,7 @@ type GlobalSpecType = Window &
   typeof globalThis & {
     __LEAFYGREEN_UTILS__?: {
       modules: ModuleType & {
-        '@leafygreen-ui/button': {
+        '@azublue-ui/button': {
           present: boolean;
         };
       };
@@ -27,7 +27,7 @@ describe('getRippleGlobalNamespace', () => {
   describe(`when ${lgNamespace} is already defined`, () => {
     beforeAll(() => {
       (global as unknown as GlobalSpecType)[lgNamespace]!.modules[
-        '@leafygreen-ui/button'
+        '@azublue-ui/button'
       ] = { present: true };
     });
 
@@ -35,14 +35,14 @@ describe('getRippleGlobalNamespace', () => {
       delete (global as unknown as GlobalSpecType)[lgNamespace];
     });
 
-    test('it adds the @leafygreen-ui/ripple module to the namespace', () => {
+    test('it adds the @azublue-ui/ripple module to the namespace', () => {
       getRippleGlobalNamespace();
       expect(
         (global as unknown as GlobalSpecType)[lgNamespace]!.modules,
-      ).toHaveProperty('@leafygreen-ui/ripple');
+      ).toHaveProperty('@azublue-ui/ripple');
     });
 
-    test('it initializes the @leafygreen-ui/ripple module correctly', () => {
+    test('it initializes the @azublue-ui/ripple module correctly', () => {
       const rippleNamespace = getRippleGlobalNamespace();
       expect(rippleNamespace).toStrictEqual({
         setRippleListener: false,
@@ -54,7 +54,7 @@ describe('getRippleGlobalNamespace', () => {
       getRippleGlobalNamespace();
       expect(
         (global as unknown as GlobalSpecType)[lgNamespace]!.modules,
-      ).toHaveProperty('@leafygreen-ui/button');
+      ).toHaveProperty('@azublue-ui/button');
     });
   });
 });

@@ -1,6 +1,6 @@
-import type { DarkColor, LightColor } from '@lg-charts/colors';
+import type { DarkColor, LightColor } from '@az-charts/colors';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 export type SeriesName = string;
 

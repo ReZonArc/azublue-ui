@@ -1,5 +1,5 @@
-import { Theme } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { Theme } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { type BannerProps, Variant } from '../shared.types';
 

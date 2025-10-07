@@ -1,5 +1,5 @@
-import { GetTestUtilsReturnType as GetButtonTestUtilsReturnType } from '@leafygreen-ui/button/testing';
-import { TestUtilsReturnType as ToolbarTestUtilsReturnType } from '@leafygreen-ui/toolbar/testing';
+import { GetTestUtilsReturnType as GetButtonTestUtilsReturnType } from '@azublue-ui/button/testing';
+import { TestUtilsReturnType as ToolbarTestUtilsReturnType } from '@azublue-ui/toolbar/testing';
 
 export interface GetTestUtilsReturnType<T extends HTMLElement> {
   findDrawer: () => Promise<T>;

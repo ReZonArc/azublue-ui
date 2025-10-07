@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DateType } from '@leafygreen-ui/date-utils';
+import { DateType } from '@azublue-ui/date-utils';
 
 import { SegmentRefs } from '../../../hooks';
 import { DateSegmentsState } from '../../../types';

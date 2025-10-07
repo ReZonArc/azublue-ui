@@ -2,12 +2,12 @@ import React, { type ComponentProps } from 'react';
 import { Args } from '@storybook/csf';
 import { StoryFn } from '@storybook/react';
 
-import { type LeafyGreenProviderProps, StoryMetaType } from './StoryMeta.types';
+import { type AzuBlueProviderProps, StoryMetaType } from './StoryMeta.types';
 
 export type ExtendedComponentProps<
   T extends React.ElementType,
   XP extends Record<string, any> = {},
-> = ComponentProps<T> & LeafyGreenProviderProps & XP;
+> = ComponentProps<T> & AzuBlueProviderProps & XP;
 
 interface InstanceContext {
   args: Args;

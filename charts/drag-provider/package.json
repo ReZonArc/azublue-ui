@@ -1,5 +1,5 @@
 {
-  "name": "@lg-charts/drag-provider",
+  "name": "@az-charts/drag-provider",
   "version": "1.0.8",
   "description": "lg-charts DragProvider Component",
   "main": "./dist/umd/index.js",
@@ -7,9 +7,9 @@
   "types": "./dist/types/index.d.ts",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs"
   },
   "publishConfig": {
     "access": "public"
@@ -24,14 +24,14 @@
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
-    "@lg-charts/chart-card": "workspace:^",
-    "@lg-charts/core": "workspace:^"
+    "@az-charts/chart-card": "workspace:^",
+    "@az-charts/core": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@storybook/test": "8.5.3"
   },
   "exports": {

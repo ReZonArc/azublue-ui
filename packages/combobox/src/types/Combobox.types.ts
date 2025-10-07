@@ -1,4 +1,4 @@
-import { FormFieldState } from '@leafygreen-ui/form-field';
+import { FormFieldState } from '@azublue-ui/form-field';
 
 /**
  * Identifier for individual component elements within the Combobox

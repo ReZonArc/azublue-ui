@@ -1,5 +1,5 @@
-import { css, keyframes } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css, keyframes } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
 
 export const loadingOptionStyles = css`
   display: flex;

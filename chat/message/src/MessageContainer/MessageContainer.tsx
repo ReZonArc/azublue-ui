@@ -2,9 +2,9 @@ import React from 'react';
 import {
   useLeafyGreenChatContext,
   Variant as ChatVariant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { getMessageContainerStyles } from './MessageContainer.styles';
 import { MessageContainerProps } from './MessageContainer.types';

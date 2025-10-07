@@ -1,4 +1,4 @@
-import { Month, newUTC, SupportedLocales } from '@leafygreen-ui/date-utils';
+import { Month, newUTC, SupportedLocales } from '@azublue-ui/date-utils';
 
 import { getFormattedDateString } from '.';
 

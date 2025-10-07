@@ -1,11 +1,11 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Transition, TransitionStatus } from 'react-transition-group';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
-import { useUsingKeyboardContext } from '@leafygreen-ui/leafygreen-provider';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import ChevronRight from '@azublue-ui/icon/dist/ChevronRight';
+import { useUsingKeyboardContext } from '@azublue-ui/leafygreen-provider';
+import { palette } from '@azublue-ui/palette';
 
 import { ulStyleOverrides, useSideNavContext } from '../SideNav';
 import {

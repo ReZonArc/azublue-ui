@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from 'react';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css, cx } from '@leafygreen-ui/emotion';
+import Button from '@azublue-ui/button';
+import { css, cx } from '@azublue-ui/emotion';
 
 import {
   Cell,
@@ -18,7 +18,7 @@ import {
   TableBody,
   TableHead,
   type TableProps,
-  useLeafyGreenTable,
+  useAzuBlueTable,
 } from '..';
 
 import { makeKitchenSinkData, Person } from './makeData.testutils';
@@ -64,7 +64,7 @@ export const DynamicDataComponent: StoryFn<StoryTableProps> = args => {
     [showEmoji],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
   });

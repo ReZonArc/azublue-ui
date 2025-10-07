@@ -18,7 +18,7 @@ const tests = [
   {
     name: 'filter-packages',
     options: {
-      packages: ['@leafygreen-ui/button', '@leafygreen-ui/modal'],
+      packages: ['@azublue-ui/button', '@azublue-ui/modal'],
     },
   },
 ];

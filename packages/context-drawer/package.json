@@ -1,5 +1,5 @@
 {
-  "name": "@leafygreen-ui/context-drawer",
+  "name": "@azublue-ui/context-drawer",
   "version": "0.2.4",
   "description": "LeafyGreen UI Kit Context Drawer",
   "main": "./dist/umd/index.js",
@@ -20,32 +20,32 @@
     }
   },
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@lg-tools/test-harnesses": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@az-tools/test-harnesses": "workspace:^",
     "react-intersection-observer": "^8.25.1"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
     "@storybook/test": "8.5.3",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/build": "workspace:^"
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/context-drawer",
   "repository": {

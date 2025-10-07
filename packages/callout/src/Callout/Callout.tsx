@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
 import {
   Body,
   Overline,
   useUpdatedBaseFontSize,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import {
   getBaseStyles,
@@ -35,7 +35,7 @@ function Callout({
   const baseFontSize = useUpdatedBaseFontSize(baseFontSizeProp);
 
   return (
-    <LeafyGreenProvider
+    <AzuBlueProvider
       darkMode={darkMode}
       baseFontSize={
         baseFontSize === BaseFontSize.Body1 ? 14 : BaseFontSize.Body2
@@ -58,7 +58,7 @@ function Callout({
           {contents}
         </Body>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

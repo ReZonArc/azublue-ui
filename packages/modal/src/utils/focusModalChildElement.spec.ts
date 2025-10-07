@@ -1,11 +1,11 @@
 import { focusModalChildElement } from './focusModalChildElement';
 
 // Mock the queryFirstFocusableElement function
-jest.mock('@leafygreen-ui/lib', () => ({
+jest.mock('@azublue-ui/lib', () => ({
   queryFirstFocusableElement: jest.fn(),
 }));
 
-import { queryFirstFocusableElement } from '@leafygreen-ui/lib';
+import { queryFirstFocusableElement } from '@azublue-ui/lib';
 
 const mockQueryFirstFocusableElement =
   queryFirstFocusableElement as jest.MockedFunction<

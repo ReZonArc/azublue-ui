@@ -1,6 +1,6 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { getContainerStyles, labelStyles } from './RadioButton.styles';
 import { RadioButtonProps } from './RadioButton.types';

@@ -1,13 +1,13 @@
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   descriptionClassName,
   inputOptionContentClassName,
   leftGlyphClassName,
   titleClassName,
-} from '@leafygreen-ui/input-option';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, spacing } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/input-option';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, spacing } from '@azublue-ui/tokens';
 
 import { MenuVariant } from '../Menu/Menu.types';
 import { menuColor } from '../styles';

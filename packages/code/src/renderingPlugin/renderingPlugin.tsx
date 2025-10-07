@@ -1,9 +1,9 @@
 import React from 'react';
 import flatMap from 'lodash/flatMap';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
+import { spacing } from '@azublue-ui/tokens';
 
 import {
   LeafyGreenHighlightResult,

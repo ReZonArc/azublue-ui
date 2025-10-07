@@ -1,8 +1,8 @@
-import { AriaCurrentValue } from '@leafygreen-ui/lib';
+import { AriaCurrentValue } from '@azublue-ui/lib';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 export interface BaseSideNavItemProps {
   /**

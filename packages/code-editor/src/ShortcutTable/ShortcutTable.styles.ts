@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { spacing } from '@azublue-ui/tokens';
 
 const TABLE_WIDTH = '282px';
 const ROW_PADDING = spacing[300];

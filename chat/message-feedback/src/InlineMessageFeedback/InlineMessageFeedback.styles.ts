@@ -1,12 +1,12 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 /** match height of the close IconButton which may not render */
 const HEADER_CONTAINER_HEIGHT = 28;

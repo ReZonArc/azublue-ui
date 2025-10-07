@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
-import { ToolbarIconButtonProps } from '@leafygreen-ui/toolbar';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
+import { ToolbarIconButtonProps } from '@azublue-ui/toolbar';
 
 type PickedRequiredToolbarIconButtonProps = Pick<
   ToolbarIconButtonProps,

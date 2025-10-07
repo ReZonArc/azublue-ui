@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { DEFAULT_MESSAGES } from '@leafygreen-ui/form-field';
-import { useControlledValue, useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import { DEFAULT_MESSAGES } from '@azublue-ui/form-field';
+import { useControlledValue, useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Label } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Label } from '@azublue-ui/typography';
 
 import { PasswordInputFeedback } from '../PasswordInputFeedback';
 import { PasswordToggle } from '../PasswordToggle';
@@ -110,7 +110,7 @@ export const PasswordInput = React.forwardRef<
     } as const;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           className={className}
           ref={forwardedRef}
@@ -171,7 +171,7 @@ export const PasswordInput = React.forwardRef<
             data-lgid={lgIds.stateNotifications}
           />
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

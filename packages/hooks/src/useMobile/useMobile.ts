@@ -1,4 +1,4 @@
-import { breakpoints } from '@leafygreen-ui/tokens';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import useViewportSize from '../useViewportSize';
 

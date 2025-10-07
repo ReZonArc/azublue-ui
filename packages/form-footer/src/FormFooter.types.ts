@@ -3,12 +3,12 @@ import React from 'react';
 import {
   BaseButtonProps,
   type Variant as ButtonVariant,
-} from '@leafygreen-ui/button';
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+} from '@azublue-ui/button';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 import {
   type InternalSplitButtonProps,
   type Variant as SplitButtonVariant,
-} from '@leafygreen-ui/split-button';
+} from '@azublue-ui/split-button';
 
 type ButtonPropsOmittingVariant = Omit<BaseButtonProps, 'variant'>;
 type ButtonPropsWithRequiredChildren = Required<

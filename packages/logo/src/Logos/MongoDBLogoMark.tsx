@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 
 import {
   BaseLogoProps,

@@ -1,7 +1,7 @@
 import React, { ComponentPropsWithRef, ReactElement } from 'react';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
-import { cx } from '@leafygreen-ui/emotion';
+import { useDescendant } from '@azublue-ui/descendants';
+import { cx } from '@azublue-ui/emotion';
 
 import { MenuDescendantsContext, useMenuContext } from '../MenuContext';
 

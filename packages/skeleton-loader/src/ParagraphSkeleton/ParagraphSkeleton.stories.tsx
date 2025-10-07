@@ -1,5 +1,5 @@
 import React from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
 import { ParagraphSkeleton } from './ParagraphSkeleton';
 

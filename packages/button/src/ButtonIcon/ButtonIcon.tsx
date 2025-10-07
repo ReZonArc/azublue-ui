@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { getTheme, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { getTheme, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 import { ButtonClassName } from '../styles';
 import { ButtonProps, Size, Variant } from '../types';

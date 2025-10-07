@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   BaseFontSize,
   fontFamilies,
   Size,
   typeScales,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { characterWidth, charsPerSegment } from '../../../constants';
 import { DateSegment } from '../../../types';

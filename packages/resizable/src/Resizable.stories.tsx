@@ -1,5 +1,5 @@
 import React, { ElementType } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
 import { Position } from './useResizable/useResizable.types';

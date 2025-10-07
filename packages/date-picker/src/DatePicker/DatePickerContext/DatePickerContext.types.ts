@@ -1,7 +1,7 @@
 import { SyntheticEvent } from 'react';
 
-import { DateType } from '@leafygreen-ui/date-utils';
-import { DynamicRefGetter } from '@leafygreen-ui/hooks';
+import { DateType } from '@azublue-ui/date-utils';
+import { DynamicRefGetter } from '@azublue-ui/hooks';
 
 import { SegmentRefs } from '../../shared';
 import { DatePickerProps } from '../DatePicker.types';

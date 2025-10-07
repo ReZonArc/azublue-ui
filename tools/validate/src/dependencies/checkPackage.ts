@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { getPackageName } from '@lg-tools/meta';
+import { getPackageName } from '@az-tools/meta';
 import depcheck from 'depcheck';
 
 import { ValidateCommandOptions } from '../validate.types';

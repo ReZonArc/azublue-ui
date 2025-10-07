@@ -13,7 +13,7 @@ build
   .option('-v, --verbose', 'Enable verbose logging', false)
   .option(
     '-d, --direct',
-    'Build package using the lg-build rollup command directly from @lg-tools/build',
+    'Build package using the lg-build rollup command directly from @az-tools/build',
     true,
   )
   .action(buildPackage);

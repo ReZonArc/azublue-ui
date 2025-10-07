@@ -2,11 +2,11 @@ import React, { useRef } from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import { State } from '../shared.types';
 

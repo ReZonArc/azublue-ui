@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { usePrevious } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Option, RenderMode, Select, Size } from '@leafygreen-ui/select';
+import { usePrevious } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Option, RenderMode, Select, Size } from '@azublue-ui/select';
 
 import { useCodeContext } from '../CodeContext/CodeContext';
 import { LanguageOption } from '../Panel/Panel.types';

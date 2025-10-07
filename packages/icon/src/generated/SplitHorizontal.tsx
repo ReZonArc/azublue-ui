@@ -5,7 +5,7 @@
 * @checksum 79804e11ff1c22567752e7be4c9d5f7b
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface SplitHorizontalProps extends LGGlyph.ComponentProps {}

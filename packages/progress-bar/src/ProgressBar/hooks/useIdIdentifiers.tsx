@@ -1,4 +1,4 @@
-import { useIdAllocator } from '@leafygreen-ui/hooks';
+import { useIdAllocator } from '@azublue-ui/hooks';
 
 import { Role } from '../ProgressBar.types';
 

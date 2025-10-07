@@ -1,12 +1,12 @@
 import React, { cloneElement, forwardRef, useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-import { useControlledValue, useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { useControlledValue, useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { queryFirstFocusableElement } from '@leafygreen-ui/lib';
-import { formatCssSize } from '@leafygreen-ui/lib';
+} from '@azublue-ui/leafygreen-provider';
+import { queryFirstFocusableElement } from '@azublue-ui/lib';
+import { formatCssSize } from '@azublue-ui/lib';
 
 import { TRANSITION_DURATION } from '../constants';
 import { DEFAULT_LGID_ROOT, getLgIds } from '../testing';
@@ -108,7 +108,7 @@ export const ContextDrawer = forwardRef<HTMLDivElement, ContextDrawerProps>(
     };
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           className={getOuterContainerStyles({ className })}
           ref={fwdRef}
@@ -148,7 +148,7 @@ export const ContextDrawer = forwardRef<HTMLDivElement, ContextDrawerProps>(
           </div>
           <div className={triggerWrapperStyles}>{renderTrigger()}</div>
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

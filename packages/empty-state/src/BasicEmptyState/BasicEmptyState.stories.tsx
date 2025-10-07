@@ -3,13 +3,13 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { Variant } from '@leafygreen-ui/badge';
-import Button from '@leafygreen-ui/button';
-import { Theme } from '@leafygreen-ui/lib';
-import { Link } from '@leafygreen-ui/typography';
+import { Variant } from '@azublue-ui/badge';
+import Button from '@azublue-ui/button';
+import { Theme } from '@azublue-ui/lib';
+import { Link } from '@azublue-ui/typography';
 
 import DarkModeGraphic from '../example-graphics/DarkModeGraphic.svg';
 import DarkModeSmallGraphic from '../example-graphics/DarkModeSmallGraphic.svg';

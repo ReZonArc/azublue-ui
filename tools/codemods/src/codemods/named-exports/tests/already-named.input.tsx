@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Button } from '@leafygreen-ui/button';
-import { Popover } from '@leafygreen-ui/popover';
+import { Button } from '@azublue-ui/button';
+import { Popover } from '@azublue-ui/popover';
 
 const App = () => {
   return (

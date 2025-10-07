@@ -1,10 +1,10 @@
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   createUniqueClassName,
   RecursiveRecord,
   Theme,
-} from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+} from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 import {
   BaseFontSize,
   color,
@@ -13,7 +13,7 @@ import {
   spacing,
   transitionDuration,
   typeScales,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 import { Variant } from './Chip.types';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Icon from '@leafygreen-ui/icon';
-import { consoleOnce } from '@leafygreen-ui/lib';
-import { MongoDBLogoMark, SupportedColors } from '@leafygreen-ui/logo';
+import Icon from '@azublue-ui/icon';
+import { consoleOnce } from '@azublue-ui/lib';
+import { MongoDBLogoMark, SupportedColors } from '@azublue-ui/logo';
 
 import { AvatarProps, AvatarSize, Format } from '../Avatar.types';
 

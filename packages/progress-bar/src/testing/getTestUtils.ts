@@ -1,7 +1,7 @@
-import { getByLgId, queryByLgId } from '@lg-tools/test-harnesses';
+import { getByLgId, queryByLgId } from '@az-tools/test-harnesses';
 import { within } from '@testing-library/react';
 
-import { getLgIds as getTypographyLgIds } from '@leafygreen-ui/typography';
+import { getLgIds as getTypographyLgIds } from '@azublue-ui/typography';
 
 import { type GetTestUtilsReturnType } from './getTestUtils.types';
 

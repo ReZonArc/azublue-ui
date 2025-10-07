@@ -2,9 +2,9 @@ export const svgWidth = 24;
 export const paddingLeftWithGlyph = 54;
 export const paddingLeftWithoutGlyph = 20;
 
-import { RecursiveRecord, Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, InteractionState, Property } from '@leafygreen-ui/tokens';
+import { RecursiveRecord, Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, InteractionState, Property } from '@azublue-ui/tokens';
 
 /** Enumerates interaction states on a menu item */
 export const MenuInteractionState = {

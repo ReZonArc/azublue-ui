@@ -33,7 +33,7 @@ module.exports = {
   // A map from regular expressions to module names that allow to stub out resources with a single module
   moduleNameMapper: {
     '.(png|jpg|jpeg|gif|woff|woff2|ttf|less|eot)$':
-      '<rootDir>/node_modules/@lg-tools/test/config/mocks/fileMock.js',
+      '<rootDir>/node_modules/@az-tools/test/config/mocks/fileMock.js',
   },
 
   modulePathIgnorePatterns: ['npm-cache', '.npm'],
@@ -51,7 +51,7 @@ module.exports = {
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
     '.svg':
-      '<rootDir>/node_modules/@lg-tools/test/config/mocks/svgTransformer.js',
+      '<rootDir>/node_modules/@az-tools/test/config/mocks/svgTransformer.js',
   },
 
   // Ignore transforming node_modules except for:
@@ -59,11 +59,11 @@ module.exports = {
   transformIgnorePatterns: ['/node_modules/(?!(react-children-utilities)/)'],
 
   setupFiles: [
-    '<rootDir>/node_modules/@lg-tools/test/config/react17/setup.js',
+    '<rootDir>/node_modules/@az-tools/test/config/react17/setup.js',
     'jest-canvas-mock',
   ],
 
   setupFilesAfterEnv: [
-    '<rootDir>/node_modules/@lg-tools/test/config/common.setup.js',
+    '<rootDir>/node_modules/@az-tools/test/config/common.setup.js',
   ],
 };

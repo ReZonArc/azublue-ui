@@ -1,14 +1,14 @@
 {
-  "name": "@leafygreen-ui/guide-cue",
+  "name": "@azublue-ui/guide-cue",
   "version": "8.0.6",
   "description": "leafyGreen UI Kit GuideCue",
   "main": "./dist/umd/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
-    "docs": "lg-build docs"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
+    "docs": "az-build docs"
   },
   "license": "Apache-2.0",
   "homepage": "https://github.com/mongodb/leafygreen-ui/tree/main/packages/guide-cue",
@@ -23,26 +23,26 @@
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/a11y": "workspace:^",
-    "@leafygreen-ui/button": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/popover": "workspace:^",
-    "@leafygreen-ui/tooltip": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
+    "@azublue-ui/a11y": "workspace:^",
+    "@azublue-ui/button": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/popover": "workspace:^",
+    "@azublue-ui/tooltip": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
     "focus-trap": "6.9.4",
     "focus-trap-react": "9.0.2",
     "polished": "^4.2.2"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^"
   },
   "exports": {
     ".": {

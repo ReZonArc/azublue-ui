@@ -1,8 +1,8 @@
 import { transparentize } from 'polished';
 
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { borderRadius, color, spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { borderRadius, color, spacing } from '@azublue-ui/tokens';
 
 export const searchResultsMenuStyles = css`
   box-shadow: 0px 4px 7px ${transparentize(0.75, '#000000')};

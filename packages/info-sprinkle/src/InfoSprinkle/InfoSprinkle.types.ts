@@ -1,6 +1,6 @@
 import { ComponentProps } from 'react';
 
-import { Align, Justify, TooltipProps } from '@leafygreen-ui/tooltip';
+import { Align, Justify, TooltipProps } from '@azublue-ui/tooltip';
 
 export { Align, Justify };
 

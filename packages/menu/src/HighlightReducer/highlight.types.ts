@@ -1,6 +1,6 @@
 import { Reducer } from 'react';
 
-import { Descendant } from '@leafygreen-ui/descendants';
+import { Descendant } from '@azublue-ui/descendants';
 
 export type Index = number | undefined;
 const Direction = {

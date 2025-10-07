@@ -1,10 +1,10 @@
 import React from 'react';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { FontWeight } from '@leafygreen-ui/tokens';
-import { Body, Disclaimer } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { FontWeight } from '@azublue-ui/tokens';
+import { Body, Disclaimer } from '@azublue-ui/typography';
 
 import {
   disclaimerStyles,
@@ -23,7 +23,7 @@ export const DisclaimerText = ({
   const { darkMode, theme } = useDarkMode(darkModeProp);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div className={getContainerStyles(className)} {...rest}>
         {title && (
           <Body weight={FontWeight.SemiBold} className={getTitleStyles(theme)}>
@@ -32,7 +32,7 @@ export const DisclaimerText = ({
         )}
         <Disclaimer className={disclaimerStyles}>{children}</Disclaimer>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

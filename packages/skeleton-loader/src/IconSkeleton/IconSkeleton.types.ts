@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { IconProps } from '@leafygreen-ui/icon';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { IconProps } from '@azublue-ui/icon';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import { SharedSkeletonProps } from '../Skeleton/Skeleton.types';
 

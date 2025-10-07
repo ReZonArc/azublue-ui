@@ -5,11 +5,11 @@ import {
   storybookArgTypes,
   type StoryMetaType,
   type StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import Icon, { glyphs } from '@leafygreen-ui/icon';
-import { Spinner } from '@leafygreen-ui/loading-indicator';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import Icon, { glyphs } from '@azublue-ui/icon';
+import { Spinner } from '@azublue-ui/loading-indicator';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { Size } from './types';
 import Button, { ButtonProps, Variant } from '.';

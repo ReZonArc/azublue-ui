@@ -5,7 +5,7 @@ import React, {
   useMemo,
 } from 'react';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { getLgIds } from '../utils';
 
@@ -45,8 +45,8 @@ export const ToolbarContextProvider = ({
   }, [focusedIndex, shouldFocus, lgIds, handleOnIconButtonClick]);
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <ToolbarProvider value={toolbarProviderData}>{children}</ToolbarProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };

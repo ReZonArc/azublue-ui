@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
-import { useSeriesContext } from '@lg-charts/series-provider';
+import { useSeriesContext } from '@az-charts/series-provider';
 
-import Checkbox from '@leafygreen-ui/checkbox';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import Checkbox from '@azublue-ui/checkbox';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { getLegendCheckboxStyles } from './LegendCheckbox.styles';
 import { LegendCheckboxProps } from './LegendCheckbox.types';

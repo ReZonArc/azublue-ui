@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { fontWeights, spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { fontWeights, spacing } from '@azublue-ui/tokens';
 
 export const optionGroupStyle = css`
   padding: ${spacing[2]}px 0;

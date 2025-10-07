@@ -1,4 +1,4 @@
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 export const notchHeight = 8;
 export const notchWidth = 26;

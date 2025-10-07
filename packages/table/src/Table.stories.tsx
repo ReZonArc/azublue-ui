@@ -2,17 +2,17 @@ import React, { Fragment, useEffect, useMemo, useState } from 'react';
 import {
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import Badge from '@leafygreen-ui/badge';
-import Button from '@leafygreen-ui/button';
-import Checkbox from '@leafygreen-ui/checkbox';
-import { css, cx } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
-import Pagination, { PaginationProps } from '@leafygreen-ui/pagination';
-import Tooltip from '@leafygreen-ui/tooltip';
+import Badge from '@azublue-ui/badge';
+import Button from '@azublue-ui/button';
+import Checkbox from '@azublue-ui/checkbox';
+import { css, cx } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
+import Pagination, { PaginationProps } from '@azublue-ui/pagination';
+import Tooltip from '@azublue-ui/tooltip';
 
 import { VerticalAlignment } from './Table/Table.types';
 import {
@@ -37,7 +37,7 @@ import {
   TableBody,
   TableHead,
   type TableProps,
-  useLeafyGreenTable,
+  useAzuBlueTable,
 } from '.';
 
 type StoryTableProps = TableProps<any>;
@@ -188,7 +188,7 @@ export const LiveExample: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
   });
@@ -325,7 +325,7 @@ export const HundredsOfRows: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
   });
@@ -443,7 +443,7 @@ export const ColumnVisibility: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
     initialState: { columnVisibility: defaultColumnVisibility },
@@ -569,7 +569,7 @@ export const WithButtons: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<any>({
+  const table = useAzuBlueTable<any>({
     data,
     columns,
   });
@@ -696,7 +696,7 @@ export const NestedRows: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
   });
@@ -794,7 +794,7 @@ export const ExpandableContent: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
   });
@@ -897,7 +897,7 @@ export const SortableRows: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
   });
@@ -991,7 +991,7 @@ export const SelectableRows: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
     state: {
@@ -1117,7 +1117,7 @@ export const SelectableRowsNoSelectAll: StoryFn<StoryTableProps> = args => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
     state: {
@@ -1246,7 +1246,7 @@ export const WithPagination: StoryFn<StoryTableProps> = ({
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
     withPagination: true,
@@ -1395,7 +1395,7 @@ export const WithPagination: StoryFn<StoryTableProps> = ({
 //     [],
 //   );
 
-//   const table = useLeafyGreenTable<KitchenSink>({
+//   const table = useAzuBlueTable<KitchenSink>({
 //     data,
 //     columns,
 //   });

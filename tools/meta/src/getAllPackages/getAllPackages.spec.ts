@@ -1,12 +1,12 @@
 import fsx from 'fs-extra';
 
-import { getLGConfig } from '../getLGConfig';
+import { getAzuBlueConfig } from '../getAzuBlueConfig';
 import { getRepositoryRoot } from '../getRepositoryRoot';
 
 import { getAllPackages } from './getAllPackages';
 
-jest.mock('../getLGConfig', () => ({
-  getLGConfig: jest.fn(),
+jest.mock('../getAzuBlueConfig', () => ({
+  getAzuBlueConfig: jest.fn(),
 }));
 
 jest.mock('../getRepositoryRoot', () => ({
@@ -20,8 +20,8 @@ describe('tools/meta/getAllPackages', () => {
 
   beforeEach(() => {
     (getRepositoryRoot as jest.Mock).mockReturnValue('./tmp');
-    // Mock the return value of getLGConfig
-    (getLGConfig as jest.Mock).mockReturnValue({
+    // Mock the return value of getAzuBlueConfig
+    (getAzuBlueConfig as jest.Mock).mockReturnValue({
       scopes: {
         '@lg-test': 'test',
       },
@@ -49,8 +49,8 @@ describe('tools/meta/getAllPackages', () => {
   });
 
   test('returns an array of test packages in all scopes', () => {
-    // Mock the return value of getLGConfig
-    (getLGConfig as jest.Mock).mockReturnValue({
+    // Mock the return value of getAzuBlueConfig
+    (getAzuBlueConfig as jest.Mock).mockReturnValue({
       scopes: {
         '@lg-test': 'test/',
         '@lg-mock': 'mock/',

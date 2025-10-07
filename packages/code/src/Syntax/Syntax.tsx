@@ -3,12 +3,12 @@ import { HLJSOptions, HLJSPlugin } from 'highlight.js';
 import hljs from 'highlight.js/lib/core'; // Skip highlight's auto-registering
 import hljsDefineGraphQL from 'highlightjs-graphql';
 
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import {
   useBaseFontSize,
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { fontFamilies, typeScales } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { fontFamilies, typeScales } from '@azublue-ui/tokens';
 
 import { injectGlobalStyles } from '../globalStyles';
 import { LeafyGreenHighlightResult } from '../highlight';

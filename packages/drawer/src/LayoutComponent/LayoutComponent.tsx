@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { DisplayMode } from '../Drawer';
 import { useDrawerLayoutContext } from '../DrawerLayout';
@@ -31,11 +31,11 @@ export const LayoutComponent = forwardRef<HTMLDivElement, LayoutComponentProps>(
         : EmbeddedDrawerLayout;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <Component ref={forwardRef} {...rest}>
           {children}
         </Component>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

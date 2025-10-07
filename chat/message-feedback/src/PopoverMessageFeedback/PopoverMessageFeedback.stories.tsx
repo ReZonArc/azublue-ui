@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler, useRef, useState } from 'react';
-import { MessageRating, MessageRatingValue } from '@lg-chat/message-rating';
-import { storybookArgTypes, StoryType } from '@lg-tools/storybook-utils';
+import { MessageRating, MessageRatingValue } from '@az-chat/message-rating';
+import { storybookArgTypes, StoryType } from '@az-tools/storybook-utils';
 
 import { PopoverMessageFeedback } from '.';
 

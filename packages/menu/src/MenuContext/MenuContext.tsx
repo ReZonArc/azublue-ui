@@ -1,8 +1,8 @@
 import { createContext, useContext } from 'react';
 import noop from 'lodash/noop';
 
-import { createDescendantsContext } from '@leafygreen-ui/descendants';
-import { Theme } from '@leafygreen-ui/lib';
+import { createDescendantsContext } from '@azublue-ui/descendants';
+import { Theme } from '@azublue-ui/lib';
 
 import { HighlightReducerReturnType } from '../HighlightReducer/highlight.types';
 import { MenuVariant } from '../Menu/Menu.types';

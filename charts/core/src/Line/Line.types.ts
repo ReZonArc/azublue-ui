@@ -1,4 +1,4 @@
-import { SeriesName } from '@lg-charts/series-provider';
+import { SeriesName } from '@az-charts/series-provider';
 
 type XValue = string | number | Date | null | undefined;
 type YValue = string | number | Date | null | undefined;

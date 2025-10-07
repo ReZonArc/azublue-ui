@@ -1,15 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Transition } from 'react-transition-group';
 
-import Card from '@leafygreen-ui/card';
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator, usePrevious } from '@leafygreen-ui/hooks';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import Card from '@azublue-ui/card';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator, usePrevious } from '@azublue-ui/hooks';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { Body, Subtitle } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { Body, Subtitle } from '@azublue-ui/typography';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../testing';
 
@@ -103,7 +103,7 @@ const ExpandableCard = ({
   );
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <Card
         className={cx(cardStyle(darkMode), className)}
         data-lgid={lgIds.root}
@@ -177,7 +177,7 @@ const ExpandableCard = ({
           )}
         </Transition>
       </Card>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Badge from '@leafygreen-ui/badge';
-import { Disclaimer, H3 } from '@leafygreen-ui/typography';
+import Badge from '@azublue-ui/badge';
+import { Disclaimer, H3 } from '@azublue-ui/typography';
 
 import {
   PlusSignStyles,

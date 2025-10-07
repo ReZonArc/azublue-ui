@@ -1,13 +1,13 @@
 import React, { useCallback, useMemo } from 'react';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
-import { getNodeTextContent, Theme } from '@leafygreen-ui/lib';
+import { useDescendant } from '@azublue-ui/descendants';
+import { getNodeTextContent, Theme } from '@azublue-ui/lib';
 import {
   InferredPolymorphic,
   useInferredPolymorphic,
-} from '@leafygreen-ui/polymorphic';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/polymorphic';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import {
   TabDescendantsContext,

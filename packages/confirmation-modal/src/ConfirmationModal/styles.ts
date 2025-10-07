@@ -1,7 +1,7 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { typeScales } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { typeScales } from '@azublue-ui/tokens';
 
 import { Variant } from './ConfirmationModal.types';
 

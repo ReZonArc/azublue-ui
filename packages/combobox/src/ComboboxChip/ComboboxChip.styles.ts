@@ -1,7 +1,7 @@
-import { chipTextClassName } from '@leafygreen-ui/chip';
-import { css } from '@leafygreen-ui/emotion';
-import { createUniqueClassName } from '@leafygreen-ui/lib';
-import { typeScales } from '@leafygreen-ui/tokens';
+import { chipTextClassName } from '@azublue-ui/chip';
+import { css } from '@azublue-ui/emotion';
+import { createUniqueClassName } from '@azublue-ui/lib';
+import { typeScales } from '@azublue-ui/tokens';
 
 import { ComboboxSize } from '../types';
 

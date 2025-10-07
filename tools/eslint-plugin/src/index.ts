@@ -15,19 +15,19 @@ interface Plugin extends Omit<ESLint.Plugin, 'rules'> {
 
 const plugin: Plugin = {
   meta: {
-    name: '@lg-tools/eslint-plugin',
+    name: '@az-tools/eslint-plugin',
     version: '0.0.1',
   },
   rules,
   configs: {
     internal: {
-      plugins: ['@lg-tools'],
+      plugins: ['@az-tools'],
       rules: {
-        '@lg-tools/no-indirect-imports': ['error'],
+        '@az-tools/no-indirect-imports': ['error'],
       },
     },
     external: {
-      plugins: ['@lg-tools'],
+      plugins: ['@az-tools'],
       rules: {},
     },
   },

@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 import React, { useEffect, useState } from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { InternalOption } from '../Option';
 import { SelectContext } from '../SelectContext';
@@ -27,7 +27,7 @@ const meta: StoryMetaType<typeof ListMenu> = {
         }, []);
         const divRef = React.useRef<HTMLDivElement>(null);
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <SelectContext.Provider
               value={{ open: open, size: 'default', disabled: false }}
             >
@@ -49,7 +49,7 @@ const meta: StoryMetaType<typeof ListMenu> = {
                 <InternalOption>Cat</InternalOption>
               </Instance>
             </SelectContext.Provider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

@@ -1,4 +1,4 @@
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 
 import { DRAWER_TOOLBAR_WIDTH, GRID_AREA } from '../../constants';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StoryFn } from '@storybook/react';
 
-import { type StoryMetaType } from '@leafygreen-ui/lib';
+import { type StoryMetaType } from '@azublue-ui/lib';
 
 import { MessageBanner } from '.';
 

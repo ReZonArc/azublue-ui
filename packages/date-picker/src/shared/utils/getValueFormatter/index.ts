@@ -1,6 +1,6 @@
 import padStart from 'lodash/padStart';
 
-import { isZeroLike } from '@leafygreen-ui/lib';
+import { isZeroLike } from '@azublue-ui/lib';
 
 import { charsPerSegment } from '../../constants';
 import { DateSegment } from '../../types';

@@ -1,5 +1,5 @@
 {
-  "name": "@lg-tools/storybook-addon",
+  "name": "@az-tools/storybook-addon",
   "version": "0.6.3",
   "description": "Storybook Addon for LeafyGreen UI Kit",
   "license": "Apache-2.0",
@@ -46,8 +46,8 @@
     "preset.js"
   ],
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
     "upgrade": "npx storybook@latest upgrade --config-dir ."
   },
   "publishConfig": {
@@ -62,14 +62,14 @@
     "url": "https://jira.mongodb.org/projects/PD/summary"
   },
   "dependencies": {
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-tools/build": "workspace:^",
-    "@lg-tools/meta": "workspace:^",
-    "@lg-tools/storybook-decorators": "workspace:^",
-    "@lg-tools/storybook-utils": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-tools/build": "workspace:^",
+    "@az-tools/meta": "workspace:^",
+    "@az-tools/storybook-decorators": "workspace:^",
+    "@az-tools/storybook-utils": "workspace:^",
     "@mdx-js/react": "2.3.0",
     "@storybook/addon-a11y": "8.6.12",
     "@storybook/addon-essentials": "8.6.12",

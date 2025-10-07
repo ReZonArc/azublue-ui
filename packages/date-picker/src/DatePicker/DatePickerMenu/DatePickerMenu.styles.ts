@@ -1,6 +1,6 @@
-import { css } from '@leafygreen-ui/emotion';
-import { contentClassName } from '@leafygreen-ui/popover';
-import { spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { contentClassName } from '@azublue-ui/popover';
+import { spacing } from '@azublue-ui/tokens';
 
 export const menuWrapperStyles = css`
   width: 244px;

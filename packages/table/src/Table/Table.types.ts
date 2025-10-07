@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
-import { LeafyGreenTable, LGRowData } from '../useLeafyGreenTable';
-import { LeafyGreenVirtualTable } from '../useLeafyGreenVirtualTable/useLeafyGreenVirtualTable.types';
+import { LeafyGreenTable, LGRowData } from '../useAzuBlueTable';
+import { LeafyGreenVirtualTable } from '../useAzuBlueVirtualTable/useAzuBlueVirtualTable.types';
 
 export const VerticalAlignment = {
   Top: 'top',
@@ -31,7 +31,7 @@ export interface TableProps<T extends LGRowData>
   baseFontSize?: BaseFontSize;
 
   /**
-   * Object returned from the `useLeafyGreenTable` or `useLeafyGreenVirtualTable` hook
+   * Object returned from the `useAzuBlueTable` or `useAzuBlueVirtualTable` hook
    */
   table?: LeafyGreenTable<T> | LeafyGreenVirtualTable<T>;
 

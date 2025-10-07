@@ -44,7 +44,7 @@ export const findRollupConfigFile = (
   return defaultRollupConfigPath;
 };
 
-// redeclaring `getRepositoryRoot` to avoid circular dependency with `@lg-tools/meta`
+// redeclaring `getRepositoryRoot` to avoid circular dependency with `@az-tools/meta`
 export const getRepositoryRoot = (): string => {
   try {
     const result = spawnSync('git', ['rev-parse', '--show-toplevel'], {

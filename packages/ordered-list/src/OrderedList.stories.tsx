@@ -1,7 +1,7 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
-import { Link } from '@leafygreen-ui/typography';
+import { Link } from '@azublue-ui/typography';
 
 import { OrderedListProps } from '../OrderedList.types';
 

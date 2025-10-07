@@ -5,7 +5,7 @@
 * @checksum ee75535a9d92a7747f49a72adef467a2
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface PauseProps extends LGGlyph.ComponentProps {}

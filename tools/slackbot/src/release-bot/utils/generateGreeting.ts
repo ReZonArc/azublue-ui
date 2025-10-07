@@ -17,7 +17,7 @@ export function generateGreeting(length: number) {
     ':seedling:',
     ':herb:',
     ':leaves:',
-    ':leafy_green:',
+    ':large_blue_circle:',
   ];
 
   const NYCTime = new Date().getUTCHours() - 5;
@@ -33,8 +33,8 @@ export function generateGreeting(length: number) {
   const greeting = sample(GREETINGS);
   const intro =
     length > 1
-      ? 'Some new LeafyGreen updates today'
-      : `Just one LeafyGreen update this ${timeOfDay}`;
+      ? 'Some new AzuBlue updates today'
+      : `Just one AzuBlue update this ${timeOfDay}`;
 
   return `${emoji} ${greeting} ${intro}`;
 }

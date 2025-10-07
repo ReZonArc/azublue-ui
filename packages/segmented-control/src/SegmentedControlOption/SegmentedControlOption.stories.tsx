@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 
-import Icon from '@leafygreen-ui/icon';
+import Icon from '@azublue-ui/icon';
 
 import { Size } from '../SegmentedControl/SegmentedControl.types';
 import { SegmentedControlContext } from '../SegmentedControlContext';

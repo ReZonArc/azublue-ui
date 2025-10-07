@@ -3,10 +3,10 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Tooltip from '@leafygreen-ui/tooltip';
+import Tooltip from '@azublue-ui/tooltip';
 
 import { RadioBox } from './RadioBox';
 import { RadioBoxGroup } from './RadioBoxGroup';

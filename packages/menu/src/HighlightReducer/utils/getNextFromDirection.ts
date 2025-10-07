@@ -2,8 +2,8 @@ import {
   Descendant,
   DescendantsList,
   getDescendantByIndex,
-} from '@leafygreen-ui/descendants';
-import { isDefined } from '@leafygreen-ui/lib';
+} from '@azublue-ui/descendants';
+import { isDefined } from '@azublue-ui/lib';
 
 import { Direction } from '../highlight.types';
 

@@ -3,7 +3,7 @@ import { ReactElement, ReactNode } from 'react';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 const Variant = {
   Default: 'default',

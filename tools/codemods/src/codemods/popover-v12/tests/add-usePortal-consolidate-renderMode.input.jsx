@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Combobox as LGCombobox } from '@leafygreen-ui/combobox';
-import { Menu } from '@leafygreen-ui/menu';
-import Popover from '@leafygreen-ui/popover';
-import { Select } from '@leafygreen-ui/select';
-import { SplitButton } from '@leafygreen-ui/split-button';
-import LeafyGreenTooltip from '@leafygreen-ui/tooltip';
+import { Combobox as LGCombobox } from '@azublue-ui/combobox';
+import { Menu } from '@azublue-ui/menu';
+import Popover from '@azublue-ui/popover';
+import { Select } from '@azublue-ui/select';
+import { SplitButton } from '@azublue-ui/split-button';
+import LeafyGreenTooltip from '@azublue-ui/tooltip';
 
 const Combobox = ({ children, ...props }) => {
   return <div {...props}>{children}</div>;

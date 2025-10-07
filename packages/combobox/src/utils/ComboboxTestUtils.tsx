@@ -13,7 +13,7 @@ import chalk from 'chalk';
 import isArray from 'lodash/isArray';
 import isNull from 'lodash/isNull';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { BaseComboboxProps, ComboboxMultiselectProps } from '../Combobox';
 import { OptionObject } from '../ComboboxOption';
@@ -122,7 +122,7 @@ export const getComboboxJSX = (props?: renderComboboxProps) => {
   const label = props?.label ?? 'Some label';
   const options = props?.options ?? defaultOptions;
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <Combobox
         data-testid="combobox-container"
         label={label}
@@ -131,7 +131,7 @@ export const getComboboxJSX = (props?: renderComboboxProps) => {
       >
         {options.map(renderOption)}
       </Combobox>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

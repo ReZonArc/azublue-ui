@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { getPackageManager } from '@lg-tools/meta';
+import { getPackageManager } from '@az-tools/meta';
 import chalk from 'chalk';
 import { spawn } from 'cross-spawn';
 
@@ -11,7 +11,7 @@ const rootDir = process.cwd();
 /**
  * Installs the defined LeafyGreen packages
  */
-export const installLeafyGreen = (
+export const installAzuBlue = (
   packages: Array<string>,
   options: InstallCommandOptions,
 ) => {

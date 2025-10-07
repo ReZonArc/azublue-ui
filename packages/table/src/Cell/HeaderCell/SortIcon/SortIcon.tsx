@@ -1,10 +1,10 @@
 import React, { MouseEventHandler } from 'react';
 
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
 
 import { SortState } from '../HeaderCell.types';
 

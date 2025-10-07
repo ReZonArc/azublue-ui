@@ -1,4 +1,4 @@
-import { ButtonProps } from '@leafygreen-ui/button';
+import { ButtonProps } from '@azublue-ui/button';
 
 export interface ContextDrawerButtonProps
   extends Pick<ButtonProps, 'children' | 'className' | 'disabled' | 'onClick'> {

@@ -1,6 +1,6 @@
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
-import { breakpoints, typeScales } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
+import { breakpoints, typeScales } from '@azublue-ui/tokens';
 
 export const generatedStoryWrapper = css`
   width: 100vw;

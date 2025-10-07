@@ -9,14 +9,14 @@ import React, {
 import isNull from 'lodash/isNull';
 import once from 'lodash/once';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useDynamicRefs, useIdAllocator } from '@leafygreen-ui/hooks';
+import { css, cx } from '@azublue-ui/emotion';
+import { useDynamicRefs, useIdAllocator } from '@azublue-ui/hooks';
 import {
   useDarkMode,
   useUsingKeyboardContext,
-} from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
-import { Overline } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
+import { Overline } from '@azublue-ui/typography';
 
 import { SegmentedControlContext } from '../SegmentedControlContext';
 import { useEffectOnceOnMount } from '../useEffectOnceOnMount';

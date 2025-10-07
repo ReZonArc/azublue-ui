@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { useAvailableSpace } from '@leafygreen-ui/hooks';
+import { useAvailableSpace } from '@azublue-ui/hooks';
 
 interface MenuHeightArgs {
   refEl: React.RefObject<HTMLElement>;

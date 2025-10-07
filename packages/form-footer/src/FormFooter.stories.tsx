@@ -4,12 +4,12 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import { MenuItem } from '@leafygreen-ui/menu';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import { MenuItem } from '@azublue-ui/menu';
 
 import FormFooter, { FormFooterProps } from '.';
 

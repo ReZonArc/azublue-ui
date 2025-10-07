@@ -1,4 +1,4 @@
-import { useIdAllocator } from '@leafygreen-ui/hooks';
+import { useIdAllocator } from '@azublue-ui/hooks';
 
 /**
  * Hook that returns two sets of props that accessibly associate a label and its respective input element

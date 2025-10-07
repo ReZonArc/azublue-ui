@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 
 /**
  * Options to control how the drawer element is displayed

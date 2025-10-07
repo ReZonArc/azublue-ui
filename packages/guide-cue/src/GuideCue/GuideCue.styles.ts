@@ -1,7 +1,7 @@
 import { transparentize } from 'polished';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
 
 export const timeout1 = 400;
 export const timeout2 = 100;

@@ -1,12 +1,12 @@
 export const tsConfig = (scope: string) => {
   const pathToPackagesRoot =
-    scope === '@leafygreen-ui' ? '..' : '../../packages';
+    scope === '@azublue-ui' ? '..' : '../../packages';
   return `{
-  "extends": "@lg-tools/build/config/package.tsconfig.json",
+  "extends": "@az-tools/build/config/package.tsconfig.json",
    "compilerOptions": {
     "paths": {
-      "@leafygreen-ui/icon/dist/*": ["${pathToPackagesRoot}/icon/src/generated/*"],
-      "@leafygreen-ui/*": ["${pathToPackagesRoot}/*/src"]
+      "@azublue-ui/icon/dist/*": ["${pathToPackagesRoot}/icon/src/generated/*"],
+      "@azublue-ui/*": ["${pathToPackagesRoot}/*/src"]
     }
   },
   "include": ["src/**/*"],

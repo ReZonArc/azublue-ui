@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 
-import Card from '@leafygreen-ui/card';
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { PolymorphicAs } from '@leafygreen-ui/polymorphic';
-import { Body } from '@leafygreen-ui/typography';
+import Card from '@azublue-ui/card';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { PolymorphicAs } from '@azublue-ui/polymorphic';
+import { Body } from '@azublue-ui/typography';
 
 import {
   baseStyles,

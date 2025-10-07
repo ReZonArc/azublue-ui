@@ -8,7 +8,7 @@ import { MergePromptsOptions } from './mergePromptsVSCode.types';
 const vscodeSettingsPaths = {
   root: path.resolve('.vscode/settings.json'),
   promptKit: path.resolve(
-    './node_modules/@lg-tools/prompt-kit/src/settings/vscode/settings.json',
+    './node_modules/@az-tools/prompt-kit/src/settings/vscode/settings.json',
   ),
 } as const;
 

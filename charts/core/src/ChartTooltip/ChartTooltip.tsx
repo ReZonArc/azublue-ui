@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from 'react';
 import { renderToString } from 'react-dom/server';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { useChartContext } from '../ChartContext';
 import { CHART_TOOLTIP_CLASSNAME, DEFAULT_TOOLTIP_OPTIONS } from '../constants';

@@ -2,7 +2,7 @@ import React from 'react';
 import { render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { act } from '@leafygreen-ui/testing-lib';
+import { act } from '@azublue-ui/testing-lib';
 
 import { CodeEditor, CodeEditorProps } from '../CodeEditor';
 

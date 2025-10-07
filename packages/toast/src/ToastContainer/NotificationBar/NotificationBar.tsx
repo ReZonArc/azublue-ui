@@ -1,8 +1,8 @@
 import React from 'react';
 import { MouseEventHandler } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import {
   notificationBarStyles,

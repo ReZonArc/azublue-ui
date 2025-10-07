@@ -5,8 +5,8 @@ import {
   Either,
   LgIdProps,
   Theme,
-} from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export interface InternalCheckboxProps extends React.ComponentProps<'input'> {
   /**

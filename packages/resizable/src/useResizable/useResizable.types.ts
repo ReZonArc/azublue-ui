@@ -1,4 +1,4 @@
-import { keyMap } from '@leafygreen-ui/lib';
+import { keyMap } from '@azublue-ui/lib';
 
 export const Position = {
   Left: 'left',

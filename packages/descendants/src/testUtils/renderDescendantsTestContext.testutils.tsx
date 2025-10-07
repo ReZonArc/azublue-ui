@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { render, RenderResult } from '@testing-library/react';
 
-import { renderHook, RenderHookResult } from '@leafygreen-ui/testing-lib';
+import { renderHook, RenderHookResult } from '@azublue-ui/testing-lib';
 
 import { type InitDescendantsReturnObject } from '../Descendants/useInitDescendants';
 import { useInitDescendants } from '..';

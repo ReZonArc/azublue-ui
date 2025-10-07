@@ -5,16 +5,16 @@ import {
   useIdAllocator,
   useIsomorphicLayoutEffect,
   useMergeRefs,
-} from '@leafygreen-ui/hooks';
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { usePolymorphic } from '@leafygreen-ui/polymorphic';
-import { Position, useResizable } from '@leafygreen-ui/resizable';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { usePolymorphic } from '@azublue-ui/polymorphic';
+import { Position, useResizable } from '@azublue-ui/resizable';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import { DRAWER_TOOLBAR_WIDTH, TRANSITION_DURATION } from '../constants';
 import { useDrawerLayoutContext } from '../DrawerLayout';
@@ -217,7 +217,7 @@ export const Drawer = forwardRef<HTMLDivElement, DrawerProps>(
     const drawerRef = useMergeRefs([fwdRef, ref, resizableRef]);
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <Component
           aria-hidden={!open}
           aria-labelledby={titleId}
@@ -306,7 +306,7 @@ export const Drawer = forwardRef<HTMLDivElement, DrawerProps>(
             </div>
           </div>
         </Component>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

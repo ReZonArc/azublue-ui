@@ -1,8 +1,8 @@
 import React from 'react';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { glyphs } from '@leafygreen-ui/icon';
+import { glyphs } from '@azublue-ui/icon';
 
 import { AvatarProps, AvatarSize, Format } from './Avatar/Avatar.types';
 import { getInitials } from './utils/getInitials';

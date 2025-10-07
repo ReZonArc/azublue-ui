@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Button, { Size as ButtonSize } from '@leafygreen-ui/button';
-import ArrowDownIcon from '@leafygreen-ui/icon/dist/ArrowDown';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import Button, { Size as ButtonSize } from '@azublue-ui/button';
+import ArrowDownIcon from '@azublue-ui/icon/dist/ArrowDown';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import {
   scrollButtonContainerStyles,

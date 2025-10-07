@@ -5,7 +5,7 @@
 * @checksum 1302681cd46d65becd40e8e91b091765
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface MenuProps extends LGGlyph.ComponentProps {}

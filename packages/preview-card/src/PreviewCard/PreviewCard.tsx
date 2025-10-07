@@ -1,12 +1,12 @@
 import React, { forwardRef, useEffect, useMemo, useRef } from 'react';
 
-import Button, { Size } from '@leafygreen-ui/button';
-import { useControlledValue, useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronDown from '@leafygreen-ui/icon/dist/ChevronDown';
-import LeafyGreenProvider, {
+import Button, { Size } from '@azublue-ui/button';
+import { useControlledValue, useIdAllocator } from '@azublue-ui/hooks';
+import ChevronDown from '@azublue-ui/icon/dist/ChevronDown';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { queryFirstFocusableElement } from '@leafygreen-ui/lib';
+} from '@azublue-ui/leafygreen-provider';
+import { queryFirstFocusableElement } from '@azublue-ui/lib';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../testing';
 
@@ -82,7 +82,7 @@ export const PreviewCard = forwardRef<HTMLDivElement, PreviewCardProps>(
     }, [isOpen]);
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           className={getCardStyles({ className, theme })}
           data-lgid={lgIds.root}
@@ -119,7 +119,7 @@ export const PreviewCard = forwardRef<HTMLDivElement, PreviewCardProps>(
             {isOpen ? viewLessText : viewMoreText}
           </Button>
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

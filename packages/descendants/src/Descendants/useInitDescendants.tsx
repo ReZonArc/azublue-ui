@@ -5,7 +5,7 @@ import React, {
   useMemo,
 } from 'react';
 
-import { useStateRef } from '@leafygreen-ui/hooks';
+import { useStateRef } from '@azublue-ui/hooks';
 
 import { DescendantsProvider } from './DescendantProvider';
 import { DescendantsList } from './Descendants.types';

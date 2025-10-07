@@ -1,44 +1,44 @@
 {
-  "name": "@lg-chat/message",
+  "name": "@az-chat/message",
   "version": "8.2.0",
   "description": "lg-chat Message",
   "main": "./dist/umd/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc"
   },
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@leafygreen-ui/avatar": "workspace:^",
-    "@leafygreen-ui/badge": "workspace:^",
-    "@leafygreen-ui/banner": "workspace:^",
-    "@leafygreen-ui/emotion": "workspace:^",
-    "@leafygreen-ui/hooks": "workspace:^",
-    "@leafygreen-ui/icon": "workspace:^",
-    "@leafygreen-ui/icon-button": "workspace:^",
-    "@leafygreen-ui/lib": "workspace:^",
-    "@leafygreen-ui/palette": "workspace:^",
-    "@leafygreen-ui/polymorphic": "workspace:^",
-    "@leafygreen-ui/tokens": "workspace:^",
-    "@leafygreen-ui/typography": "workspace:^",
-    "@lg-chat/lg-markdown": "workspace:^",
-    "@lg-chat/message-feedback": "workspace:^",
-    "@lg-chat/message-rating": "workspace:^",
-    "@lg-chat/rich-links": "workspace:^"
+    "@azublue-ui/avatar": "workspace:^",
+    "@azublue-ui/badge": "workspace:^",
+    "@azublue-ui/banner": "workspace:^",
+    "@azublue-ui/emotion": "workspace:^",
+    "@azublue-ui/hooks": "workspace:^",
+    "@azublue-ui/icon": "workspace:^",
+    "@azublue-ui/icon-button": "workspace:^",
+    "@azublue-ui/lib": "workspace:^",
+    "@azublue-ui/palette": "workspace:^",
+    "@azublue-ui/polymorphic": "workspace:^",
+    "@azublue-ui/tokens": "workspace:^",
+    "@azublue-ui/typography": "workspace:^",
+    "@az-chat/lg-markdown": "workspace:^",
+    "@az-chat/message-feedback": "workspace:^",
+    "@az-chat/message-rating": "workspace:^",
+    "@az-chat/rich-links": "workspace:^"
   },
   "devDependencies": {
     "@emotion/styled": "^11.10.5",
-    "@lg-tools/build": "workspace:^",
+    "@az-tools/build": "workspace:^",
     "@storybook/test": "^8.6.14"
   },
   "peerDependencies": {
-    "@leafygreen-ui/leafygreen-provider": "workspace:^",
-    "@lg-chat/leafygreen-chat-provider": "workspace:^"
+    "@azublue-ui/leafygreen-provider": "workspace:^",
+    "@az-chat/leafygreen-chat-provider": "workspace:^"
   },
   "exports": {
     ".": {

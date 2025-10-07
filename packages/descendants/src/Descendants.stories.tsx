@@ -1,16 +1,16 @@
 /* eslint-disable no-console */
 import React, { ComponentProps, ElementType, useRef, useState } from 'react';
 import { faker } from '@faker-js/faker';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 import random from 'lodash/random';
 import range from 'lodash/range';
 import shuffle from 'lodash/shuffle';
 
-import Button from '@leafygreen-ui/button';
-import { css, cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import Popover from '@leafygreen-ui/popover';
+import Button from '@azublue-ui/button';
+import { css, cx } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import Popover from '@azublue-ui/popover';
 
 import {
   TestDescendant,
@@ -86,7 +86,7 @@ export const Basic = () => {
   const [selected, setSelected] = useState<number | undefined>(0);
 
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <div>
         <Button variant="primary" onClick={addItem}>
           Add Item
@@ -112,7 +112,7 @@ export const Basic = () => {
           </TestSelectionContext.Provider>
         </TestDescendantsProvider>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 
@@ -133,7 +133,7 @@ export const Nested = () => {
   };
 
   return (
-    <LeafyGreenProvider>
+    <AzuBlueProvider>
       <div>
         <Button onClick={toggleCollapse}>
           {isExpanded ? 'Collapse' : 'Expand'} All
@@ -158,7 +158,7 @@ export const Nested = () => {
           </TestSelectionContext.Provider>
         </Provider>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

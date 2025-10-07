@@ -5,7 +5,7 @@
 * @checksum bce97cf1d21ec506245a6e1311775b42
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface ShardedClusterProps extends LGGlyph.ComponentProps {}

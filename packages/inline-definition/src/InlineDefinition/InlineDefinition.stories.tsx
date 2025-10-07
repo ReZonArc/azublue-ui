@@ -3,11 +3,11 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import { Body, H3, Link } from '@leafygreen-ui/typography';
+import { css } from '@azublue-ui/emotion';
+import { Body, H3, Link } from '@azublue-ui/typography';
 
 import InlineDefinition, { InlineDefinitionProps } from '.';
 

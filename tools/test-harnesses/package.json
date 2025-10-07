@@ -1,5 +1,5 @@
 {
-  "name": "@lg-tools/test-harnesses",
+  "name": "@az-tools/test-harnesses",
   "version": "0.3.4",
   "description": "Test harnesses for LeafyGreen repositories",
   "license": "Apache-2.0",
@@ -7,8 +7,8 @@
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc"
   },
   "publishConfig": {
     "access": "public"
@@ -17,7 +17,7 @@
     "@testing-library/dom": "9.3.1"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

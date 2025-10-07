@@ -5,15 +5,15 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryContext, StoryFn } from '@storybook/react';
 import range from 'lodash/range';
 import startCase from 'lodash/startCase';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { InlineCode, Label, Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { InlineCode, Label, Link } from '@azublue-ui/typography';
 
 import { variantIcons } from './InternalToast/VariantIcon';
 import { makeToast, makeToastStack } from './ToastContext/utils/makeToast';

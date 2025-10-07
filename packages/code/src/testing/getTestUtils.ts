@@ -1,8 +1,8 @@
-import { getByLgId, queryBySelector } from '@lg-tools/test-harnesses';
+import { getByLgId, queryBySelector } from '@az-tools/test-harnesses';
 
-import { getTestUtils as getButtonTestUtils } from '@leafygreen-ui/button/testing';
-import { LgIdString } from '@leafygreen-ui/lib';
-import { getTestUtils as getSelectTestUtils } from '@leafygreen-ui/select/testing';
+import { getTestUtils as getButtonTestUtils } from '@azublue-ui/button/testing';
+import { LgIdString } from '@azublue-ui/lib';
+import { getTestUtils as getSelectTestUtils } from '@azublue-ui/select/testing';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../utils/getLgIds';
 

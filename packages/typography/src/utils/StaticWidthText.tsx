@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { getNodeTextContent } from '@leafygreen-ui/lib';
+import { css, cx } from '@azublue-ui/emotion';
+import { getNodeTextContent } from '@azublue-ui/lib';
 import {
   Polymorph,
   PolymorphicAs,
   PolymorphicPropsWithRef,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 interface LocalProps {
   /**

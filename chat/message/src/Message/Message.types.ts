@@ -1,8 +1,8 @@
 import React, { ForwardRefExoticComponent, ReactElement } from 'react';
-import { type RichLinkProps } from '@lg-chat/rich-links';
+import { type RichLinkProps } from '@az-chat/rich-links';
 
-import { type DarkModeProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { type DarkModeProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { type MessageActionsProps } from '../MessageActions';
 import {

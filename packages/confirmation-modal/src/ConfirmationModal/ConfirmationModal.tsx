@@ -1,13 +1,13 @@
 import React, { forwardRef, useMemo, useState } from 'react';
 
-import Button from '@leafygreen-ui/button';
-import { cx } from '@leafygreen-ui/emotion';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import Modal, { Footer } from '@leafygreen-ui/modal';
-import { palette } from '@leafygreen-ui/palette';
-import TextInput from '@leafygreen-ui/text-input';
-import { H3 } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { cx } from '@azublue-ui/emotion';
+import WarningIcon from '@azublue-ui/icon/dist/Warning';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import Modal, { Footer } from '@azublue-ui/modal';
+import { palette } from '@azublue-ui/palette';
+import TextInput from '@azublue-ui/text-input';
+import { H3 } from '@azublue-ui/typography';
 
 import { getLgIds } from '../utils/getLgIds';
 

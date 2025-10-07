@@ -1,4 +1,4 @@
-import { getPackageManager } from '@lg-tools/meta';
+import { getPackageManager } from '@az-tools/meta';
 import child_process, { ChildProcess } from 'child_process';
 
 import { update } from '.';
@@ -9,7 +9,7 @@ const packageMgr = getPackageManager('.');
 
 describe('tools/update', () => {
   const defaultOptions = {
-    scope: '@leafygreen-ui',
+    scope: '@azublue-ui',
     latest: false,
   };
   const baseEnv = expect.objectContaining({ stdio: 'inherit' });
@@ -22,7 +22,7 @@ describe('tools/update', () => {
     update([], defaultOptions);
     expect(spawnSpy).toHaveBeenCalledWith(
       packageMgr,
-      expect.arrayContaining(['upgrade', '--scope', '@leafygreen-ui']),
+      expect.arrayContaining(['upgrade', '--scope', '@azublue-ui']),
       baseEnv,
     );
   });
@@ -34,7 +34,7 @@ describe('tools/update', () => {
       expect.arrayContaining([
         'upgrade',
         '--scope',
-        '@leafygreen-ui',
+        '@azublue-ui',
         '--latest',
       ]),
       baseEnv,
@@ -50,7 +50,7 @@ describe('tools/update', () => {
         'lib',
         'tokens',
         '--scope',
-        '@leafygreen-ui',
+        '@azublue-ui',
       ]),
       baseEnv,
     );

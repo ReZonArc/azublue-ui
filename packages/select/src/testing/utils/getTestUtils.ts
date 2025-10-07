@@ -1,9 +1,9 @@
-import { getByLgId, queryBySelector } from '@lg-tools/test-harnesses';
+import { getByLgId, queryBySelector } from '@az-tools/test-harnesses';
 
-import { getLgIds as getLgFormFieldIds } from '@leafygreen-ui/form-field';
-import { LgIdString } from '@leafygreen-ui/lib';
-import { transitionDuration } from '@leafygreen-ui/tokens';
-import { getLgIds as getLgTypographyLgIds } from '@leafygreen-ui/typography';
+import { getLgIds as getLgFormFieldIds } from '@azublue-ui/form-field';
+import { LgIdString } from '@azublue-ui/lib';
+import { transitionDuration } from '@azublue-ui/tokens';
+import { getLgIds as getLgTypographyLgIds } from '@azublue-ui/typography';
 
 import { DEFAULT_LGID_ROOT, getLgIds } from '../../utils/getLgIds';
 

@@ -2,17 +2,17 @@ import React, { ForwardedRef, forwardRef, useCallback, useRef } from 'react';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
-import { useControlledValue, useIdAllocator } from '@leafygreen-ui/hooks';
-import ThumbsDown from '@leafygreen-ui/icon/dist/ThumbsDown';
-import ThumbsUp from '@leafygreen-ui/icon/dist/ThumbsUp';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import { useControlledValue, useIdAllocator } from '@azublue-ui/hooks';
+import ThumbsDown from '@azublue-ui/icon/dist/ThumbsDown';
+import ThumbsUp from '@azublue-ui/icon/dist/ThumbsUp';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { consoleOnce } from '@leafygreen-ui/lib';
-import { Description } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { consoleOnce } from '@azublue-ui/lib';
+import { Description } from '@azublue-ui/typography';
 
 import { RadioButton } from '../RadioButton/RadioButton';
 
@@ -48,7 +48,7 @@ export const MessageRating = forwardRef(
 
     if (isCompact && description) {
       consoleOnce.warn(
-        `@lg-chat/message-rating: The MessageRating component's prop 'description' is only used in the 'spacious' variant. It will not be rendered in the 'compact' variant set by the provider.`,
+        `@az-chat/message-rating: The MessageRating component's prop 'description' is only used in the 'spacious' variant. It will not be rendered in the 'compact' variant set by the provider.`,
       );
     }
 
@@ -96,7 +96,7 @@ export const MessageRating = forwardRef(
     const isDisliked = value === 'disliked';
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div className={getContainerStyles(className)} {...rest} ref={ref}>
           {!isCompact && <Description>{description}</Description>}
           <div
@@ -172,7 +172,7 @@ export const MessageRating = forwardRef(
             )}
           </div>
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

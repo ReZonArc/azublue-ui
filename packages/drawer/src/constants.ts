@@ -1,5 +1,5 @@
-import { breakpoints, transitionDuration } from '@leafygreen-ui/tokens';
-import { TOOLBAR_WIDTH } from '@leafygreen-ui/toolbar';
+import { breakpoints, transitionDuration } from '@azublue-ui/tokens';
+import { TOOLBAR_WIDTH } from '@azublue-ui/toolbar';
 
 import { Size } from './Drawer/Drawer.types';
 

@@ -3,11 +3,11 @@ import React, { useMemo } from 'react';
 import {
   DescendantsProvider,
   useInitDescendants,
-} from '@leafygreen-ui/descendants';
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+} from '@azublue-ui/descendants';
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { LGIDS_VERTICAL_STEPPER } from '../constants';
 import {
@@ -49,7 +49,7 @@ export const VerticalStepper = React.forwardRef<
     }
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <DescendantsProvider
           context={VerticalStepperDescendantsContext}
           descendants={descendants}
@@ -66,7 +66,7 @@ export const VerticalStepper = React.forwardRef<
             </ol>
           </VerticalStepperProvider>
         </DescendantsProvider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

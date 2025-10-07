@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from 'react';
 
-import { FormFieldProps } from '@leafygreen-ui/form-field';
+import { FormFieldProps } from '@azublue-ui/form-field';
 
 export type DateFormFieldProps = React.ComponentPropsWithoutRef<'div'> & {
   children: FormFieldProps['children'];

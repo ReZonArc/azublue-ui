@@ -1,5 +1,5 @@
 import React from 'react';
-import { LGMarkdown } from '@lg-chat/lg-markdown';
+import { LGMarkdown } from '@az-chat/lg-markdown';
 
 import { MessageContentProps, MessageSourceType } from './MessageContent.types';
 

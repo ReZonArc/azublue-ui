@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 
-import { keyMap } from '@leafygreen-ui/lib';
+import { keyMap } from '@azublue-ui/lib';
 
 import { getNextKeyboardSize } from './utils/getNextKeyboardSize';
 import { SIZE_GROWTH_KEY_MAPPINGS } from './useResizable.constants';

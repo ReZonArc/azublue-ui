@@ -1,10 +1,10 @@
 import React, { forwardRef, useEffect, useMemo, useState } from 'react';
-import { useLeafyGreenChatContext } from '@lg-chat/leafygreen-chat-provider';
+import { useLeafyGreenChatContext } from '@az-chat/leafygreen-chat-provider';
 
-import { useForwardedRef } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Polymorph } from '@leafygreen-ui/polymorphic';
-import { BaseFontSize, breakpoints } from '@leafygreen-ui/tokens';
+import { useForwardedRef } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Polymorph } from '@azublue-ui/polymorphic';
+import { BaseFontSize, breakpoints } from '@azublue-ui/tokens';
 
 import { MessageVerifiedBanner } from '../MessageBanner';
 import {

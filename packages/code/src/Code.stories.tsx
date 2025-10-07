@@ -5,11 +5,11 @@ import {
   storybookExcludedControlParams,
   type StoryMetaType,
   type StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import IconButton from '@leafygreen-ui/icon-button';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import IconButton from '@azublue-ui/icon-button';
 
 import { LanguageSwitcherWithPanelExample } from './LanguageSwitcher/LanguageSwitcherExample';
 import { languageOptions } from './testing/Code.testutils';

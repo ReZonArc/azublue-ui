@@ -1,12 +1,12 @@
 import React, { forwardRef } from 'react';
 
-import Button from '@leafygreen-ui/button';
-import ArrowLeftIcon from '@leafygreen-ui/icon/dist/ArrowLeft';
-import LeafyGreenProvider, {
+import Button from '@azublue-ui/button';
+import ArrowLeftIcon from '@azublue-ui/icon/dist/ArrowLeft';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { FontWeight } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { FontWeight } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import {
   ErrorConfigurationParameter,
@@ -47,7 +47,7 @@ const SuggestedActions = forwardRef<HTMLDivElement, SuggestedActionsProps>(
     ) as Array<ErrorConfigurationParameter>;
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div ref={fwdRef} className={getContainerStyles(className)} {...rest}>
           <div className={getSuggestedActionsWrapperStyles(theme)}>
             {state !== State.Unset && (
@@ -91,7 +91,7 @@ const SuggestedActions = forwardRef<HTMLDivElement, SuggestedActionsProps>(
             />
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

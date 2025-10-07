@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { pickAndOmit } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { pickAndOmit } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import {
   ContextPropKeys,
@@ -58,14 +58,14 @@ export const DatePicker = forwardRef<HTMLDivElement, DatePickerProps>(
           setValue={setValue}
           handleValidation={handleValidation}
         >
-          <LeafyGreenProvider
+          <AzuBlueProvider
             darkMode={darkMode}
             baseFontSize={
               baseFontSize === BaseFontSize.Body1 ? 14 : baseFontSize
             }
           >
             <DatePickerContent ref={fwdRef} {...componentProps} />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         </DatePickerProvider>
       </SharedDatePickerProvider>
     );

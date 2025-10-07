@@ -14,12 +14,12 @@ import {
   type GeneratedStoryConfig,
   type StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { Decorator, StoryContext, StoryFn } from '@storybook/react';
 import entries from 'lodash/entries';
 import isUndefined from 'lodash/isUndefined';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 
 import { Err, PropCombinations } from './components';
 import { PARAM_NAME } from './constants';

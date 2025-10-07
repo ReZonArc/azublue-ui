@@ -1,6 +1,6 @@
 import { isValidElement } from 'react';
 
-import { getNodeTextContent } from '@leafygreen-ui/lib';
+import { getNodeTextContent } from '@azublue-ui/lib';
 
 export const getChildrenLength = (children: any): number => {
   if (typeof children === 'string') {

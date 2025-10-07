@@ -1,9 +1,9 @@
 import React, { ForwardedRef } from 'react';
 import { RowData } from '@tanstack/react-table';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useMergeRefs } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { useMergeRefs } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import InternalRowBase from '../Row/InternalRowBase';
 import { useTableContext } from '../TableContext';

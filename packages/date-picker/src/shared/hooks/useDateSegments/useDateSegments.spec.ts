@@ -1,5 +1,5 @@
-import { DateType, Month, newUTC } from '@leafygreen-ui/date-utils';
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { DateType, Month, newUTC } from '@azublue-ui/date-utils';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { useDateSegments } from './useDateSegments';
 import { OnUpdateCallback } from './useDateSegments.types';

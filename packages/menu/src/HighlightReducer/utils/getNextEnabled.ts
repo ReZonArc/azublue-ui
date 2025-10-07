@@ -2,7 +2,7 @@ import {
   Descendant,
   DescendantsList,
   getDescendantByIndex,
-} from '@leafygreen-ui/descendants';
+} from '@azublue-ui/descendants';
 
 import { Direction, Index } from '../highlight.types';
 

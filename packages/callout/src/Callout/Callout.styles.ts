@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, fontFamilies, spacing } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, fontFamilies, spacing } from '@azublue-ui/tokens';
 import {
   anchorClassName,
   linkModeStyles,
   linkStyles,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { Variant } from './Callout.types';
 

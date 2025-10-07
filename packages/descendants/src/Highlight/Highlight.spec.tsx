@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { render, waitFor } from '@testing-library/react';
 
-import { act, renderHook } from '@leafygreen-ui/testing-lib';
+import { act, renderHook } from '@azublue-ui/testing-lib';
 
 import { Descendant, useInitDescendants } from '../Descendants';
 import {

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { Body } from '@leafygreen-ui/typography';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { Body } from '@azublue-ui/typography';
 
 import { SectionNavContextProvider } from '../Context/SectionNavContext';
 import { getLgIds } from '../utils/getLgIds';

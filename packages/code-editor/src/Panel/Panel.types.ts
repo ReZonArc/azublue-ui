@@ -1,6 +1,6 @@
 import { ReactElement, ReactNode } from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 /**
  * Configuration object for custom secondary buttons that appear in the Panel's secondary menu.

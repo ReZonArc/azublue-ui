@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import range from 'lodash/range';
 
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 import { useAutoScroll, useDynamicRefs } from '..';
 

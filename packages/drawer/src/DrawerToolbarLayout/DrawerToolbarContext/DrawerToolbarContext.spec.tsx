@@ -1,7 +1,7 @@
 import React from 'react';
 import { act, waitFor } from '@testing-library/react';
 
-import { isReact17, renderHook } from '@leafygreen-ui/testing-lib';
+import { isReact17, renderHook } from '@azublue-ui/testing-lib';
 
 import { TRANSITION_DURATION } from '../../constants';
 import { LayoutData } from '../DrawerToolbarLayout/DrawerToolbarLayout.types';

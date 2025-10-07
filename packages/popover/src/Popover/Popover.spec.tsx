@@ -3,8 +3,8 @@ import { act, fireEvent, render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import Button from '@leafygreen-ui/button';
-import { PopoverContext } from '@leafygreen-ui/leafygreen-provider';
+import Button from '@azublue-ui/button';
+import { PopoverContext } from '@azublue-ui/leafygreen-provider';
 
 /**
  * JSDOM does not support the popover API, so we polyfill it

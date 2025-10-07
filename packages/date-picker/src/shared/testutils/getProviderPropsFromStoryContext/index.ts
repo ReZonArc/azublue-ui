@@ -1,5 +1,5 @@
-import { LeafyGreenProviderProps } from '@leafygreen-ui/leafygreen-provider';
-import { pickAndOmit } from '@leafygreen-ui/lib';
+import { AzuBlueProviderProps } from '@azublue-ui/leafygreen-provider';
+import { pickAndOmit } from '@azublue-ui/lib';
 
 import { DatePickerProps } from '../../../DatePicker/DatePicker.types';
 import {
@@ -9,7 +9,7 @@ import {
 } from '../../context';
 
 export interface ProviderPropsObject<T> {
-  leafyGreenProviderProps: LeafyGreenProviderProps;
+  leafyGreenProviderProps: AzuBlueProviderProps;
   datePickerProviderProps: SharedDatePickerProviderProps;
   storyProps: T;
 }

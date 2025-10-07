@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { createGlyphComponent } from '@leafygreen-ui/icon';
+import { createGlyphComponent } from '@azublue-ui/icon';
 
 export const ReturnIcon = createGlyphComponent('Return', props => (
   <svg

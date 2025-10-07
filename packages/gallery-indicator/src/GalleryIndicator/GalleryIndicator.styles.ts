@@ -1,7 +1,7 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { color, spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { color, spacing, transitionDuration } from '@azublue-ui/tokens';
 
 const TRANSITION_DURATION_SLOW = transitionDuration.slower;
 const TRANSITION_DURATION_DEFAULT = transitionDuration.default;

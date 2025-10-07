@@ -1,12 +1,12 @@
 import React from 'react';
 
-import LeafyGreenCode from '@leafygreen-ui/code';
-import { DatePicker } from '@leafygreen-ui/date-picker';
-import { GuideCue } from '@leafygreen-ui/guide-cue';
-import { InfoSprinkle } from '@leafygreen-ui/info-sprinkle';
-import InlineDefinition from '@leafygreen-ui/inline-definition';
-import { NumberInput } from '@leafygreen-ui/number-input';
-import { SearchInput as LGSearchInput } from '@leafygreen-ui/search-input';
+import LeafyGreenCode from '@azublue-ui/code';
+import { DatePicker } from '@azublue-ui/date-picker';
+import { GuideCue } from '@azublue-ui/guide-cue';
+import { InfoSprinkle } from '@azublue-ui/info-sprinkle';
+import InlineDefinition from '@azublue-ui/inline-definition';
+import { NumberInput } from '@azublue-ui/number-input';
+import { SearchInput as LGSearchInput } from '@azublue-ui/search-input';
 
 const Child = (props) => {
   return <div>{props.children}</div>;

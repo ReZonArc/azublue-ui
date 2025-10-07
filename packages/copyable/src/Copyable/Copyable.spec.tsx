@@ -3,7 +3,7 @@ import { act, fireEvent, render, waitFor } from '@testing-library/react';
 import ClipboardJS from 'clipboard';
 import { axe } from 'jest-axe';
 
-import { Context, jest as localJest } from '@leafygreen-ui/testing-lib';
+import { Context, jest as localJest } from '@azublue-ui/testing-lib';
 
 import Copyable from '.';
 

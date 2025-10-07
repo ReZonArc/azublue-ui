@@ -1,7 +1,7 @@
 import {
   InferredPolymorphicPropsWithRef,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 import { ResponsiveTypographyProps } from '../../types';
 

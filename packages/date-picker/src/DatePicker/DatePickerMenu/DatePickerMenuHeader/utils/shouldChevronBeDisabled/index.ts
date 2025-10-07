@@ -1,4 +1,4 @@
-import { isSameUTCMonth } from '@leafygreen-ui/date-utils';
+import { isSameUTCMonth } from '@azublue-ui/date-utils';
 
 /**
  * Checks if chevron should be disabled

@@ -1,6 +1,6 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { color, spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { color, spacing } from '@azublue-ui/tokens';
 
 export const tabContainerClassName = createUniqueClassName('tab-container');
 export const tabListElementClassName = createUniqueClassName('tab-list');

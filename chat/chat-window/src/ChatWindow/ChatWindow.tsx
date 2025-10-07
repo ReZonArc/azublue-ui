@@ -3,14 +3,14 @@ import flattenChildren from 'react-keyed-flatten-children';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { TitleBar } from '@lg-chat/title-bar';
+} from '@az-chat/leafygreen-chat-provider';
+import { TitleBar } from '@az-chat/title-bar';
 
-import LeafyGreenProvider, {
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
-import { breakpoints } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import {
   contentContainerStyles,
@@ -59,7 +59,7 @@ export const ChatWindow = forwardRef<HTMLDivElement, ChatWindowProps>(
     });
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div
           className={getContainerStyles({
             className,
@@ -79,7 +79,7 @@ export const ChatWindow = forwardRef<HTMLDivElement, ChatWindowProps>(
           )}
           <div className={contentContainerStyles}>{renderedChildren}</div>
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

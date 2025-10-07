@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
+import { cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
 
 import { MenuContext } from '../MenuContext';
 

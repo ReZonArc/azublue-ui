@@ -1,6 +1,6 @@
 import { ChangeEventHandler, MutableRefObject } from 'react';
 
-import { createSyntheticEvent } from '@leafygreen-ui/lib';
+import { createSyntheticEvent } from '@azublue-ui/lib';
 
 import { useControlled } from '../useControlled';
 

@@ -1,4 +1,4 @@
-import { GeneratedStoryConfig } from '@lg-tools/storybook-utils';
+import { GeneratedStoryConfig } from '@az-tools/storybook-utils';
 import keys from 'lodash/keys';
 
 import { PropCombination, PropName } from './types';

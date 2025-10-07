@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import Button from '@leafygreen-ui/button';
-import { Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { Link } from '@azublue-ui/typography';
 
 import { LGIDS_VERTICAL_STEPPER } from '../constants';
 import { VerticalStep } from '../VerticalStep/VerticalStep';

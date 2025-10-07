@@ -1,6 +1,6 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { Theme } from '@leafygreen-ui/lib';
-import { color, spacing } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { Theme } from '@azublue-ui/lib';
+import { color, spacing } from '@azublue-ui/tokens';
 
 export const rootStyles = css`
   padding: ${spacing[1000]}px;

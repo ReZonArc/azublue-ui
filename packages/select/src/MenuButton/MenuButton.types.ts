@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { State } from '../Select/Select.types';
 

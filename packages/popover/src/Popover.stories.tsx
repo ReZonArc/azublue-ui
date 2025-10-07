@@ -2,13 +2,13 @@ import React, { useRef, useState } from 'react';
 import {
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
-import { color } from '@leafygreen-ui/tokens';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
+import { color } from '@azublue-ui/tokens';
 
 import { getPopoverRenderModeProps } from './utils/getPopoverRenderModeProps';
 import {

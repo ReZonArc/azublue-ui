@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { type SeriesName } from '@lg-charts/series-provider';
+import { type SeriesName } from '@az-charts/series-provider';
 import { type CallbackDataParams } from 'echarts/types/dist/shared';
 
 /**

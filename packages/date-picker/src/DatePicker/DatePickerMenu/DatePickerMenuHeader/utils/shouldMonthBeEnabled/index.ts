@@ -1,6 +1,6 @@
 import isNull from 'lodash/isNull';
 
-import { DateType, getMonthIndex } from '@leafygreen-ui/date-utils';
+import { DateType, getMonthIndex } from '@azublue-ui/date-utils';
 
 export const shouldMonthBeEnabled = (
   monthName: string,

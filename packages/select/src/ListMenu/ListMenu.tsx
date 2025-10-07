@@ -1,10 +1,10 @@
 import React, { useCallback, useContext } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useAvailableSpace } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import Popover, { Align, Justify } from '@leafygreen-ui/popover';
+import { css, cx } from '@azublue-ui/emotion';
+import { useAvailableSpace } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import Popover, { Align, Justify } from '@azublue-ui/popover';
 
 import { DropdownWidthBasis } from '../Select/Select.types';
 import SelectContext from '../SelectContext';

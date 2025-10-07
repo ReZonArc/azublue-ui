@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import ChevronLeft from '@leafygreen-ui/icon/dist/ChevronLeft';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
-import Tooltip, { Align, Justify, RenderMode } from '@leafygreen-ui/tooltip';
-import { InlineKeyCode } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import ChevronLeft from '@azublue-ui/icon/dist/ChevronLeft';
+import ChevronRight from '@azublue-ui/icon/dist/ChevronRight';
+import Tooltip, { Align, Justify, RenderMode } from '@azublue-ui/tooltip';
+import { InlineKeyCode } from '@azublue-ui/typography';
 
 import { useSideNavContext } from '../SideNav/SideNavContext';
 

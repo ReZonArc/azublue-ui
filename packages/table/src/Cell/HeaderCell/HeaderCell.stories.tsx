@@ -1,7 +1,7 @@
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import InternalRowBase from '../../Row/InternalRowBase';
 import Table from '../../Table';
@@ -24,7 +24,7 @@ const meta: StoryMetaType<typeof HeaderCell> = {
       },
       decorator: (Instance, ctx) => {
         return (
-          <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+          <AzuBlueProvider darkMode={ctx?.args.darkMode}>
             <Table>
               <TableHead>
                 <InternalRowBase>
@@ -32,7 +32,7 @@ const meta: StoryMetaType<typeof HeaderCell> = {
                 </InternalRowBase>
               </TableHead>
             </Table>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

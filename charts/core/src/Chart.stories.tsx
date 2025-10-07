@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { storybookArgTypes } from '@lg-tools/storybook-utils';
+import { storybookArgTypes } from '@az-tools/storybook-utils';
 import type { StoryObj } from '@storybook/react';
 
 import { ChartProps } from './Chart/Chart.types';

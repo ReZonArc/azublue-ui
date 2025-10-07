@@ -7,11 +7,11 @@ import React, {
   useState,
 } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useMutationObserver } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { isComponentType } from '@leafygreen-ui/lib';
-import Tooltip, { Align, Justify, RenderMode } from '@leafygreen-ui/tooltip';
+import { cx } from '@azublue-ui/emotion';
+import { useMutationObserver } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { isComponentType } from '@azublue-ui/lib';
+import Tooltip, { Align, Justify, RenderMode } from '@azublue-ui/tooltip';
 
 import { Counter } from '../Counter';
 import { PipelineContext } from '../PipelineContext';

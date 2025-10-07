@@ -9,7 +9,7 @@ import {
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
-import { H2 } from '@leafygreen-ui/typography';
+import { H2 } from '@azublue-ui/typography';
 
 import InlineDefinition from '.';
 

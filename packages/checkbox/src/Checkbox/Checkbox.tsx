@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { css, cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { fontWeights } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import { fontWeights } from '@azublue-ui/tokens';
 import {
   Description,
   Label,
   useUpdatedBaseFontSize,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { Check } from '../Check';
 import { getLgIds } from '../utils/getLgIds';
@@ -114,7 +114,7 @@ const Checkbox = React.forwardRef(
     };
 
     return (
-      <LeafyGreenProvider
+      <AzuBlueProvider
         baseFontSize={baseFontSize === 16 ? baseFontSize : 14}
         darkMode={darkMode}
       >
@@ -193,7 +193,7 @@ const Checkbox = React.forwardRef(
             </Description>
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

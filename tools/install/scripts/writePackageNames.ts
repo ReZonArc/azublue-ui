@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import { formatLG } from '@lg-tools/lint';
-import { getAllPackageNames } from '@lg-tools/meta';
+import { formatLG } from '@az-tools/lint';
+import { getAllPackageNames } from '@az-tools/meta';
 import fse from 'fs-extra';
 import path from 'path';
 

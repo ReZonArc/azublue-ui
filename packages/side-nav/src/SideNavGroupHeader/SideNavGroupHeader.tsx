@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { Overline } from '@leafygreen-ui/typography';
+import { cx } from '@azublue-ui/emotion';
+import { Overline } from '@azublue-ui/typography';
 
 import { AccessibleGlyph } from '../AccessibleGlyph';
 import { useSideNavContext } from '../SideNav';

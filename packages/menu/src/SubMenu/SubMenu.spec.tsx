@@ -2,7 +2,7 @@ import React from 'react';
 import { render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { waitForTransition } from '@leafygreen-ui/testing-lib';
+import { waitForTransition } from '@azublue-ui/testing-lib';
 
 import { getLgIds } from '../utils';
 import { MenuItem, SubMenu, SubMenuProps } from '..';

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { useDynamicRefs } from '@leafygreen-ui/hooks';
+import { useDynamicRefs } from '@azublue-ui/hooks';
 
 import { SegmentRefs } from './segmentRefs.types';
 

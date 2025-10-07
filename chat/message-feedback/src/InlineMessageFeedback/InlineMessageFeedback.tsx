@@ -10,22 +10,22 @@ import React, {
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
 import Button, {
   Size as ButtonSize,
   Variant as ButtonVariant,
-} from '@leafygreen-ui/button';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
+} from '@azublue-ui/button';
+import { useIdAllocator } from '@azublue-ui/hooks';
 // @ts-ignore LG icons don't currently support TS
-import XIcon from '@leafygreen-ui/icon/dist/X';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import XIcon from '@azublue-ui/icon/dist/X';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { consoleOnce } from '@leafygreen-ui/lib';
-import TextArea, { State as TextAreaState } from '@leafygreen-ui/text-area';
-import { Label } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { consoleOnce } from '@azublue-ui/lib';
+import TextArea, { State as TextAreaState } from '@azublue-ui/text-area';
+import { Label } from '@azublue-ui/typography';
 
 import { SubmittedState } from './SubmittedState/SubmittedState';
 import {
@@ -65,7 +65,7 @@ export const InlineMessageFeedback = forwardRef(
 
     if (isCompact && (cancelButtonProps || cancelButtonText || onCancel)) {
       consoleOnce.warn(
-        `@lg-chat/message-rating: The MessageRating component's props 'cancelButtonProps', 'cancelButtonText', and 'onCancel' are only used in the 'spacious' variant. It will not be rendered in the 'compact' variant set by the provider.`,
+        `@az-chat/message-rating: The MessageRating component's props 'cancelButtonProps', 'cancelButtonText', and 'onCancel' are only used in the 'spacious' variant. It will not be rendered in the 'compact' variant set by the provider.`,
       );
     }
 
@@ -105,7 +105,7 @@ export const InlineMessageFeedback = forwardRef(
     const isError = state === 'error';
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <div className={className} ref={forwardedRef} {...rest}>
           {isSubmitted ? (
             <SubmittedState submittedMessage={submittedMessage} />
@@ -180,7 +180,7 @@ export const InlineMessageFeedback = forwardRef(
             </form>
           )}
         </div>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

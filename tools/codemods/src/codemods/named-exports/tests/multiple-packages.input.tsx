@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Button from '@leafygreen-ui/button';
-import Checkbox from '@leafygreen-ui/checkbox';
-import Modal from '@leafygreen-ui/modal';
-import Tooltip from '@leafygreen-ui/tooltip';
+import Button from '@azublue-ui/button';
+import Checkbox from '@azublue-ui/checkbox';
+import Modal from '@azublue-ui/modal';
+import Tooltip from '@azublue-ui/tooltip';
 
 const App = () => {
   return (

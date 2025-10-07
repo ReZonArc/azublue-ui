@@ -2,11 +2,11 @@ import React from 'react';
 import {
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
 
 import { GlyphName } from './glyphs';
 import Icon, { glyphs, IconProps, Size } from '.';

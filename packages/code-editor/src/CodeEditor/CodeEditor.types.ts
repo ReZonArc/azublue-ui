@@ -2,8 +2,8 @@ import { ForwardRefExoticComponent, PropsWithChildren } from 'react';
 import { type EditorState, type Extension } from '@codemirror/state';
 import { type EditorView } from '@codemirror/view';
 
-import { type DarkModeProps, type LgIdProps } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { type DarkModeProps, type LgIdProps } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import { CodeEditorTooltipProps } from '../CodeEditorTooltip';
 import { type ContextMenuItem } from '../ContextMenu';

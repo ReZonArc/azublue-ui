@@ -1,12 +1,12 @@
-import { css } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
 import {
   color,
   spacing,
   State,
   transitionDuration,
   Variant,
-} from '@leafygreen-ui/tokens';
+} from '@azublue-ui/tokens';
 
 export const inputOptionContentClassName = createUniqueClassName(
   'input_option-content',

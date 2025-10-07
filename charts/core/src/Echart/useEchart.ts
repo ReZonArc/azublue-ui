@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { colors } from '@lg-charts/colors';
+import { colors } from '@az-charts/colors';
 import type { EChartsType } from 'echarts/core';
 import isEqual from 'lodash/isEqual';
 
-import { usePrevious } from '@leafygreen-ui/hooks';
+import { usePrevious } from '@azublue-ui/hooks';
 
 import {
   EChartEvents,

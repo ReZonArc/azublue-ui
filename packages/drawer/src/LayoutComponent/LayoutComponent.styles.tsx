@@ -1,4 +1,4 @@
-import { css } from '@leafygreen-ui/emotion';
+import { css } from '@azublue-ui/emotion';
 
 import { GRID_AREA } from '../constants';
 

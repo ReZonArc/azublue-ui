@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Either } from '@leafygreen-ui/lib';
+import { Either } from '@azublue-ui/lib';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 
 export const Size = {
   Default: 'default',

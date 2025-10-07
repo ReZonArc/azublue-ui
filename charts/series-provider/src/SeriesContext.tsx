@@ -7,9 +7,9 @@ import React, {
   useMemo,
   useState,
 } from 'react';
-import { colors as defaultColors } from '@lg-charts/colors';
+import { colors as defaultColors } from '@az-charts/colors';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 import {
   SeriesContextType,

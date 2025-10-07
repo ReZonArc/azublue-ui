@@ -1,7 +1,7 @@
 import React from 'react';
-import { LGMarkdownProps } from '@lg-chat/lg-markdown';
+import { LGMarkdownProps } from '@az-chat/lg-markdown';
 
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 export const MessageSourceType = {
   Markdown: 'markdown',

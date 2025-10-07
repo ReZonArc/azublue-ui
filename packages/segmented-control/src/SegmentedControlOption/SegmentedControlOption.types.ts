@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import { PolymorphicAs, PolymorphicProps } from '@leafygreen-ui/polymorphic';
+import { PolymorphicAs, PolymorphicProps } from '@azublue-ui/polymorphic';
 
 export interface BaseSegmentedControlOptionProps
   extends React.ComponentProps<'div'> {

@@ -2,8 +2,8 @@ import React, { ChangeEventHandler, useState } from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { storybookArgTypes, StoryMetaType } from '@lg-tools/storybook-utils';
+} from '@az-chat/leafygreen-chat-provider';
+import { storybookArgTypes, StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
 import {

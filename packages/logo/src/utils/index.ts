@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { palette } from '@leafygreen-ui/palette';
+import { css } from '@azublue-ui/emotion';
+import { palette } from '@azublue-ui/palette';
 
 export const getAccessibleProps = ({
   role,

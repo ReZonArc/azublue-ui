@@ -1,5 +1,5 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { spacing, transitionDuration } from '@azublue-ui/tokens';
 
 /**
  * The length of the box shadow for the RichLink component that

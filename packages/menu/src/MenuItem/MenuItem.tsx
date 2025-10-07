@@ -1,8 +1,8 @@
 import React, { MouseEventHandler } from 'react';
 
-import { useDescendant } from '@leafygreen-ui/descendants';
-import { cx } from '@leafygreen-ui/emotion';
-import { InferredPolymorphic } from '@leafygreen-ui/polymorphic';
+import { useDescendant } from '@azublue-ui/descendants';
+import { cx } from '@azublue-ui/emotion';
+import { InferredPolymorphic } from '@azublue-ui/polymorphic';
 
 import { MenuDescendantsContext, useMenuContext } from '../MenuContext';
 

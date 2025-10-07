@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
-import { BaseFontSize, Size } from '@leafygreen-ui/tokens';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
+import { BaseFontSize, Size } from '@azublue-ui/tokens';
 
 export const FormFieldState = {
   None: 'none',

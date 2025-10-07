@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Banner from '@leafygreen-ui/banner';
-import { css } from '@leafygreen-ui/emotion';
+import Banner from '@azublue-ui/banner';
+import { css } from '@azublue-ui/emotion';
 
 /**
  * Renders an error message, and logs an error

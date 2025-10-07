@@ -1,5 +1,5 @@
-import { css } from '@leafygreen-ui/emotion';
-import { spacing, typeScales } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { spacing, typeScales } from '@azublue-ui/tokens';
 
 export const labelDescriptionContainerStyle = css`
   display: flex;

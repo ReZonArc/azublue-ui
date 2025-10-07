@@ -1,6 +1,6 @@
 export { exitWithErrorMessage } from './exitWithErrorMessage';
 export { getAllPackageNames, getAllPackages } from './getAllPackages';
-export { getLGConfig, type LGConfig } from './getLGConfig';
+export { getAzuBlueConfig, type LGConfig } from './getAzuBlueConfig';
 export { getPackageJson } from './getPackageJson';
 export {
   getPackageManager,

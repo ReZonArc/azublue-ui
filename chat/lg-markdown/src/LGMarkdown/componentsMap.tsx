@@ -1,15 +1,15 @@
 import React, { Children, ComponentPropsWithoutRef, ReactElement } from 'react';
 import { Components as ReactMarkdownComponents } from 'react-markdown';
 
-import Code, { Language } from '@leafygreen-ui/code';
-import { BaseFontSize, FontWeight } from '@leafygreen-ui/tokens';
+import Code, { Language } from '@azublue-ui/code';
+import { BaseFontSize, FontWeight } from '@azublue-ui/tokens';
 import {
   Body,
   H3,
   InlineCode,
   Link,
   Subtitle,
-} from '@leafygreen-ui/typography';
+} from '@azublue-ui/typography';
 
 import { ExtraProps } from './LGMarkdown.types';
 

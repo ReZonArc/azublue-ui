@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
 
-import { type ChipProps } from '@leafygreen-ui/chip';
-import { Either } from '@leafygreen-ui/lib';
-import { PopoverProps } from '@leafygreen-ui/popover';
+import { type ChipProps } from '@azublue-ui/chip';
+import { Either } from '@azublue-ui/lib';
+import { PopoverProps } from '@azublue-ui/popover';
 
 import {
   ComboboxSize,

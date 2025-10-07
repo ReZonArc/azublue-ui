@@ -4,20 +4,20 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { DarkModeProps, getTheme } from '@leafygreen-ui/lib';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { DarkModeProps, getTheme } from '@azublue-ui/lib';
 import {
   borderRadius,
   color,
   InteractionState,
   spacing,
   Variant,
-} from '@leafygreen-ui/tokens';
-import { Body, Subtitle } from '@leafygreen-ui/typography';
+} from '@azublue-ui/tokens';
+import { Body, Subtitle } from '@azublue-ui/typography';
 
 import { ContextDrawerProps } from './ContextDrawer/ContextDrawer.types';
 import { ContextDrawer } from './ContextDrawer';
@@ -49,7 +49,7 @@ const meta: StoryMetaType<typeof ContextDrawer> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <Instance
               reference={<MockReference darkMode={context?.args.darkMode} />}
               content={<MockContent />}
@@ -57,7 +57,7 @@ const meta: StoryMetaType<typeof ContextDrawer> = {
                 <ContextDrawerButton isOpen={isOpen} />
               )}
             />
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },

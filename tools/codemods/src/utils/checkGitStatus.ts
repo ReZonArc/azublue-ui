@@ -26,7 +26,7 @@ export function checkGitStatus(force?: boolean) {
       );
     } else {
       console.log(
-        chalk.greenBright('🥬 Thank you for using @lg-tools/codemods!'),
+        chalk.greenBright('🥬 Thank you for using @az-tools/codemods!'),
       );
       console.log(
         chalk.yellow(

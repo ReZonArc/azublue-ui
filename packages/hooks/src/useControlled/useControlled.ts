@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 import { ControlledReturnObject } from './useControlled.types';
 

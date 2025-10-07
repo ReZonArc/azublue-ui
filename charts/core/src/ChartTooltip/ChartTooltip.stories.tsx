@@ -1,10 +1,10 @@
 import React from 'react';
-import { storybookArgTypes } from '@lg-tools/storybook-utils';
+import { storybookArgTypes } from '@az-tools/storybook-utils';
 import type { StoryFn, StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { css } from '@azublue-ui/emotion';
+import Icon from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { getRootStylesText } from './ChartTooltip.styles';
 import {
@@ -19,11 +19,11 @@ const TooltipRoot = (Story: StoryFn, ctx: any) => {
   `;
 
   return (
-    <LeafyGreenProvider darkMode={!!ctx.args.darkMode}>
+    <AzuBlueProvider darkMode={!!ctx.args.darkMode}>
       <div className={rootClassName}>
         <Story />
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

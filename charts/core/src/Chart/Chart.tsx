@@ -8,12 +8,12 @@
 import React from 'react';
 import { useSortable } from '@dnd-kit/sortable';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import { ChartProvider } from '../ChartContext';
 
@@ -58,7 +58,7 @@ export function Chart({
   const isDraggable = !!(items.length && dragId);
 
   return (
-    <LeafyGreenProvider darkMode={darkModeProp}>
+    <AzuBlueProvider darkMode={darkModeProp}>
       <ChartProvider chart={chart}>
         <div
           ref={isDraggable ? setNodeRef : null}
@@ -112,7 +112,7 @@ export function Chart({
           </div>
         </div>
       </ChartProvider>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

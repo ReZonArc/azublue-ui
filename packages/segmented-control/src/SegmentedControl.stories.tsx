@@ -4,9 +4,9 @@ import {
   storybookExcludedControlParams,
   StoryMetaType,
   StoryType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 
-import { transitionDuration } from '@leafygreen-ui/tokens';
+import { transitionDuration } from '@azublue-ui/tokens';
 
 import {
   SegmentedControl,

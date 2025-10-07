@@ -32,12 +32,12 @@ describe('registerRipple', () => {
 
     expect(
       (global as unknown as Global)[lgNamespace].modules[
-        '@leafygreen-ui/ripple'
+        '@azublue-ui/ripple'
       ].registeredRippleElements.has(button),
     ).toBe(true);
     expect(
       (global as unknown as Global)[lgNamespace].modules[
-        '@leafygreen-ui/ripple'
+        '@azublue-ui/ripple'
       ].registeredRippleElements.get(button),
     ).toBe(buttonOptions);
   });
@@ -49,7 +49,7 @@ describe('registerRipple', () => {
 
     expect(
       (global as unknown as Global)[lgNamespace].modules[
-        '@leafygreen-ui/ripple'
+        '@azublue-ui/ripple'
       ].setRippleListener,
     ).toBe(true);
   });
@@ -59,14 +59,14 @@ describe('registerRipple', () => {
     const button = screen.getByText(buttonText);
     expect(
       (global as unknown as Global)[lgNamespace].modules[
-        '@leafygreen-ui/ripple'
+        '@azublue-ui/ripple'
       ].registeredRippleElements.has(button),
     ).toBe(true);
 
     unmount();
     expect(
       (global as unknown as Global)[lgNamespace].modules[
-        '@leafygreen-ui/ripple'
+        '@azublue-ui/ripple'
       ].registeredRippleElements.has(button),
     ).toBe(false);
   });

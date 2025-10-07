@@ -1,6 +1,6 @@
-import { css, cx } from '@leafygreen-ui/emotion';
-import { createUniqueClassName, Theme } from '@leafygreen-ui/lib';
-import { spacing, transitionDuration } from '@leafygreen-ui/tokens';
+import { css, cx } from '@azublue-ui/emotion';
+import { createUniqueClassName, Theme } from '@azublue-ui/lib';
+import { spacing, transitionDuration } from '@azublue-ui/tokens';
 
 import { menuItemContainerStyles } from '../MenuItem/MenuItem.styles';
 import { menuColor } from '../styles';

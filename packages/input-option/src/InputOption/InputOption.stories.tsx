@@ -3,10 +3,10 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn, StoryObj } from '@storybook/react';
 
-import Icon, { glyphs } from '@leafygreen-ui/icon';
+import Icon, { glyphs } from '@azublue-ui/icon';
 
 import {
   InputOptionContent,

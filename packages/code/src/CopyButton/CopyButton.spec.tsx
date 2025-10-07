@@ -3,7 +3,7 @@ import { fireEvent, render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import ClipboardJS from 'clipboard';
 
-import { keyMap } from '@leafygreen-ui/lib';
+import { keyMap } from '@azublue-ui/lib';
 
 import CodeContextProvider from '../CodeContext/CodeContext';
 import { getLgIds } from '../utils';

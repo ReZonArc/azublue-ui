@@ -1,8 +1,8 @@
 import React from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import Icon from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import Icon from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import { ComboboxContext, defaultContext } from '../ComboboxContext';
 
@@ -24,13 +24,13 @@ const meta: StoryMetaType<typeof InternalComboboxOption> = {
       },
       decorator: (Instance, context) => {
         return (
-          <LeafyGreenProvider darkMode={context?.args.darkMode}>
+          <AzuBlueProvider darkMode={context?.args.darkMode}>
             <ComboboxContext.Provider
               value={{ ...defaultContext, withIcons: context?.args.withIcons }}
             >
               <Instance glyph={context?.args.glyph} />
             </ComboboxContext.Provider>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },
@@ -74,7 +74,7 @@ WithoutIconsAndMultiStep.parameters = {
   generate: {
     decorator: (Instance, context) => {
       return (
-        <LeafyGreenProvider darkMode={context?.args.darkMode}>
+        <AzuBlueProvider darkMode={context?.args.darkMode}>
           <ComboboxContext.Provider
             value={{
               ...defaultContext,
@@ -84,7 +84,7 @@ WithoutIconsAndMultiStep.parameters = {
           >
             <Instance glyph={context?.args.glyph} />
           </ComboboxContext.Provider>
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       );
     },
     args: {

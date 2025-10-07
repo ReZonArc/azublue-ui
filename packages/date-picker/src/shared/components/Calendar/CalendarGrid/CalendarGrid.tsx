@@ -6,9 +6,9 @@ import {
   daysPerWeek,
   getLocaleWeekdays,
   getWeeksArray,
-} from '@leafygreen-ui/date-utils';
-import { cx } from '@leafygreen-ui/emotion';
-import { Disclaimer } from '@leafygreen-ui/typography';
+} from '@azublue-ui/date-utils';
+import { cx } from '@azublue-ui/emotion';
+import { Disclaimer } from '@azublue-ui/typography';
 
 import { useSharedDatePickerContext } from '../../../context';
 

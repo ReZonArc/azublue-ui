@@ -2,7 +2,7 @@
  * Returns a _very_ rough approximation of a regex pattern,
  * given a glob pattern.
  *
- * e.g. `globToRegex('@leafygreen-ui/*') // /@leafygreen-ui\/.+/`
+ * e.g. `globToRegex('@azublue-ui/*') // /@azublue-ui\/.+/`
  *
  * @internal
  */

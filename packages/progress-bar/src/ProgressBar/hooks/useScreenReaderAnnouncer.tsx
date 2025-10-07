@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-import { isDefined } from '@leafygreen-ui/lib';
+import { isDefined } from '@azublue-ui/lib';
 
 import { Role, Variant } from '../ProgressBar.types';
 import { getPercentage } from '../utils';

@@ -2,10 +2,10 @@ import React from 'react';
 import {
   renderAsyncTest,
   type RenderAsyncTestReturnType,
-} from '@lg-tools/test-harnesses';
+} from '@az-tools/test-harnesses';
 import { render, type RenderResult } from '@testing-library/react';
 
-import { LgIdString } from '@leafygreen-ui/lib';
+import { LgIdString } from '@azublue-ui/lib';
 
 import { ContextDrawer, type ContextDrawerProps } from '../ContextDrawer';
 import { ContextDrawerButton } from '../ContextDrawerButton';

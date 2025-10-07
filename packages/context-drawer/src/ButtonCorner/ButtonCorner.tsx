@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { getFill, getWrapperStyles } from './ButtonCorner.styles';
 import { Side } from './ButtonCorner.types';

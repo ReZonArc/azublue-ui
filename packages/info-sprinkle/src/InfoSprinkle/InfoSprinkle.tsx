@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import InfoWithCircleIcon from '@leafygreen-ui/icon/dist/InfoWithCircle';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import Tooltip, { RenderMode } from '@leafygreen-ui/tooltip';
+import { cx } from '@azublue-ui/emotion';
+import InfoWithCircleIcon from '@azublue-ui/icon/dist/InfoWithCircle';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import Tooltip, { RenderMode } from '@azublue-ui/tooltip';
 
 import { iconBaseStyles, iconThemeStyles } from './InfoSprinkle.styles';
 import { InfoSprinkleProps } from './InfoSprinkle.types';

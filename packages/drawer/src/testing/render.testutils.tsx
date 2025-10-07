@@ -3,7 +3,7 @@ import React from 'react';
 import {
   renderAsyncTest,
   RenderAsyncTestReturnType,
-} from '@lg-tools/test-harnesses';
+} from '@az-tools/test-harnesses';
 import { render, RenderResult } from '@testing-library/react';
 
 import { Drawer } from '../Drawer';

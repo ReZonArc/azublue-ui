@@ -1,4 +1,4 @@
-import { isInvalidDateObject, Month, newUTC } from '@leafygreen-ui/date-utils';
+import { isInvalidDateObject, Month, newUTC } from '@azublue-ui/date-utils';
 
 import { newDateFromSegments } from '.';
 

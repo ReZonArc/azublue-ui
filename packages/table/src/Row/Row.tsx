@@ -1,10 +1,10 @@
 import React, { ForwardedRef } from 'react';
 
-import { useForwardedRef } from '@leafygreen-ui/hooks';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { useForwardedRef } from '@azublue-ui/hooks';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import { useTableContext } from '../TableContext';
-import { LGRowData } from '../useLeafyGreenTable';
+import { LGRowData } from '../useAzuBlueTable';
 
 import InternalRowWithoutRT from './InternalRowWithoutRT';
 import { MemoizedInternalRowWithRT } from './InternalRowWithRT';

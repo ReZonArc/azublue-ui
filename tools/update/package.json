@@ -1,5 +1,5 @@
 {
-  "name": "@lg-tools/update",
+  "name": "@az-tools/update",
   "version": "0.1.19",
   "description": "Updates all LeafyGreen UI packages to the latest version",
   "main": "./dist/umd/index.js",
@@ -10,12 +10,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc"
+    "build": "az-build bundle",
+    "tsc": "az-build tsc"
   },
   "dependencies": {
-    "@lg-tools/build": "workspace:^",
-    "@lg-tools/meta": "workspace:^",
+    "@az-tools/build": "workspace:^",
+    "@az-tools/meta": "workspace:^",
     "@types/cross-spawn": "6.0.2",
     "@types/fs-extra": "11.0.1",
     "chalk": "4.1.2",

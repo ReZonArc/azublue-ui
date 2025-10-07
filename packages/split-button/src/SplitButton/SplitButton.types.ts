@@ -3,20 +3,20 @@ import { MouseEventHandler, ReactElement } from 'react';
 import {
   type BaseButtonProps,
   Variant as ButtonVariants,
-} from '@leafygreen-ui/button';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+} from '@azublue-ui/button';
+import { DarkModeProps } from '@azublue-ui/lib';
 import {
   MenuItemProps,
   type MenuProps as ImportedMenuProps,
-} from '@leafygreen-ui/menu';
+} from '@azublue-ui/menu';
 import {
   InferredPolymorphicProps,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
+} from '@azublue-ui/polymorphic';
 import {
   Align as ImportedAlign,
   Justify as ImportedJustify,
-} from '@leafygreen-ui/popover';
+} from '@azublue-ui/popover';
 
 export type MenuItemType = ReactElement<
   InferredPolymorphicProps<PolymorphicAs, MenuItemProps>

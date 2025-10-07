@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import { useLeafyGreenChatContext } from '@lg-chat/leafygreen-chat-provider';
+import { useLeafyGreenChatContext } from '@az-chat/leafygreen-chat-provider';
 
-import { AssistantAvatar } from '@leafygreen-ui/avatar';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { filterChildren, findChild } from '@leafygreen-ui/lib';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body } from '@leafygreen-ui/typography';
+import { AssistantAvatar } from '@azublue-ui/avatar';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { filterChildren, findChild } from '@azublue-ui/lib';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body } from '@azublue-ui/typography';
 
 import {
   MessageContainer,

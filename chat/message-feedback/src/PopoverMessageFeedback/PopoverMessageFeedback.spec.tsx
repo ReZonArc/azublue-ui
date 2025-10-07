@@ -2,7 +2,7 @@ import React from 'react';
 import {
   LeafyGreenChatProvider,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 import { render, screen } from '@testing-library/react';
 
 import { PopoverMessageFeedback } from '.';

@@ -3,12 +3,12 @@ import chalk from 'chalk';
 import fse from 'fs-extra';
 import trim from 'lodash/trim';
 
-import { getLGConfig, type LGConfig } from '../getLGConfig';
+import { getAzuBlueConfig, type LGConfig } from '../getAzuBlueConfig';
 
 /**
  * Returns the full name of a package at a given directory
  *
- * e.g. `getPackageName('packages/button)` => `@leafygreen-ui/button`
+ * e.g. `getPackageName('packages/button)` => `@azublue-ui/button`
  */
 export function getPackageName(dir: string) {
   if (!fse.existsSync(dir)) {
@@ -16,7 +16,7 @@ export function getPackageName(dir: string) {
     return;
   }
 
-  const { scopes } = getLGConfig();
+  const { scopes } = getAzuBlueConfig();
   const splitPath = dir.split('/');
 
   const pkgName = splitPath[splitPath.length - 1];

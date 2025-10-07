@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 
-import Button, { Size } from '@leafygreen-ui/button';
-import ChevronDown from '@leafygreen-ui/icon/dist/ChevronDown';
-import LeafyGreenProvider, {
+import Button, { Size } from '@azublue-ui/button';
+import ChevronDown from '@azublue-ui/icon/dist/ChevronDown';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { ButtonCorner, Side } from '../ButtonCorner';
 
@@ -20,7 +20,7 @@ export const ContextDrawerButton = forwardRef<
   const label = children ?? (isOpen ? 'Hide' : 'View more');
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <Button
         ref={ref}
         rightGlyph={<ChevronDown />}
@@ -32,7 +32,7 @@ export const ContextDrawerButton = forwardRef<
         {label}
         <ButtonCorner side={Side.Right} />
       </Button>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 });
 

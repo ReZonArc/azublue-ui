@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 export interface RadioButtonProps
   extends React.ComponentProps<'input'>,

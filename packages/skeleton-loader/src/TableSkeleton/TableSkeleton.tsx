@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
-import { Body, useUpdatedBaseFontSize } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { BaseFontSize } from '@azublue-ui/tokens';
+import { Body, useUpdatedBaseFontSize } from '@azublue-ui/typography';
 
 import { Skeleton } from '..';
 
@@ -32,7 +32,7 @@ export function TableSkeleton({
   const { darkMode, theme } = useDarkMode(darkModeProp);
   const baseFontSize = useUpdatedBaseFontSize(baseFontSizeProp);
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <table {...rest} className={cx(baseStyles, className)} aria-busy>
         <thead className={tableHeadStyles[theme]}>
           <tr>
@@ -68,7 +68,7 @@ export function TableSkeleton({
           ))}
         </tbody>
       </table>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

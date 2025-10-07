@@ -1,4 +1,4 @@
-import { LgIdString } from '@leafygreen-ui/lib';
+import { LgIdString } from '@azublue-ui/lib';
 
 export const DEFAULT_LGID_ROOT = 'lg-code_editor';
 

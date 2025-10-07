@@ -2,14 +2,14 @@ import React, { ForwardedRef, forwardRef } from 'react';
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
+} from '@az-chat/leafygreen-chat-provider';
 
-import { cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import Popover from '@leafygreen-ui/popover';
-import { spacing } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/leafygreen-provider';
+import Popover from '@azublue-ui/popover';
+import { spacing } from '@azublue-ui/tokens';
 
 import { InlineMessageFeedback } from '../InlineMessageFeedback';
 
@@ -46,7 +46,7 @@ export const PopoverMessageFeedback = forwardRef(
     }
 
     return (
-      <LeafyGreenProvider darkMode={true}>
+      <AzuBlueProvider darkMode={true}>
         {/* @ts-ignore usePortal should not be an issue since popoverProps are being passed directly */}
         <Popover
           ref={forwardedRef}
@@ -68,7 +68,7 @@ export const PopoverMessageFeedback = forwardRef(
             />
           </div>
         </Popover>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

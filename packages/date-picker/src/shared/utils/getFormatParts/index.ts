@@ -1,4 +1,4 @@
-import { isValidLocale, SupportedLocales } from '@leafygreen-ui/date-utils';
+import { isValidLocale, SupportedLocales } from '@azublue-ui/date-utils';
 
 const now = new Date();
 const IsoFormatParts: Array<Intl.DateTimeFormatPart> = [

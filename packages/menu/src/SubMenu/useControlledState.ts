@@ -1,7 +1,7 @@
 import { type Dispatch, type SetStateAction, useEffect, useState } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { consoleOnce, isDefined } from '@leafygreen-ui/lib';
+import { consoleOnce, isDefined } from '@azublue-ui/lib';
 
 export const useControlledState = <T extends any>(
   initialState: T,

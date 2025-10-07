@@ -2,7 +2,7 @@ import { waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { addDays } from 'date-fns';
 
-import { Month, newUTC } from '@leafygreen-ui/date-utils';
+import { Month, newUTC } from '@azublue-ui/date-utils';
 
 import { renderDatePicker, RenderMenuResult } from './DatePicker.testutils';
 

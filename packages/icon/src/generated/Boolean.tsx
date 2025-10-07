@@ -5,7 +5,7 @@
 * @checksum 224d52aa04474618343045cb91eb024b
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface BooleanProps extends LGGlyph.ComponentProps {}

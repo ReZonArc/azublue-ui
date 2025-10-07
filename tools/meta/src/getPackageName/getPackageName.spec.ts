@@ -1,11 +1,11 @@
 import fsx from 'fs-extra';
 
-import { getLGConfig } from '../getLGConfig';
+import { getAzuBlueConfig } from '../getAzuBlueConfig';
 
 import { getPackageName } from './getPackageName';
 
-jest.mock('../getLGConfig', () => ({
-  getLGConfig: jest.fn(),
+jest.mock('../getAzuBlueConfig', () => ({
+  getAzuBlueConfig: jest.fn(),
 }));
 
 // eslint-disable-next-line no-console
@@ -14,11 +14,11 @@ console.log = jest.fn();
 describe('tools/meta/getPackageName', () => {
   beforeAll(() => {
     fsx.ensureDirSync('./tmp/');
-    // Mock the getLGConfig function
+    // Mock the getAzuBlueConfig function
   });
   beforeEach(() => {
-    // Mock the return value of getLGConfig
-    (getLGConfig as jest.Mock).mockReturnValue({
+    // Mock the return value of getAzuBlueConfig
+    (getAzuBlueConfig as jest.Mock).mockReturnValue({
       scopes: {
         '@lg-test': 'test',
       },

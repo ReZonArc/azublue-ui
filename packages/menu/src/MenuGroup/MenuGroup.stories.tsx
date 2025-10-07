@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
-import { StoryMetaType } from '@lg-tools/storybook-utils';
+import { StoryMetaType } from '@az-tools/storybook-utils';
 import { StoryObj } from '@storybook/react';
 
-import { css } from '@leafygreen-ui/emotion';
-import Icon, { glyphs } from '@leafygreen-ui/icon';
+import { css } from '@azublue-ui/emotion';
+import Icon, { glyphs } from '@azublue-ui/icon';
 
 import { MenuItem } from '../MenuItem';
 import { SubMenu } from '../SubMenu';

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { usePrevious } from '@leafygreen-ui/hooks';
-import LeafyGreenProvider, {
+import { cx } from '@azublue-ui/emotion';
+import { usePrevious } from '@azublue-ui/hooks';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
-import { isDefined } from '@leafygreen-ui/lib';
-import { Body, Description, Label } from '@leafygreen-ui/typography';
+} from '@azublue-ui/leafygreen-provider';
+import { isDefined } from '@azublue-ui/lib';
+import { Body, Description, Label } from '@azublue-ui/typography';
 
 import { getLgIds } from '../testing';
 
@@ -136,7 +136,7 @@ export function ProgressBar(props: ProgressBarProps) {
   };
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div
         data-lgid={lgIds.root}
         aria-disabled={disabled}
@@ -229,7 +229,7 @@ export function ProgressBar(props: ProgressBarProps) {
           </div>
         )}
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

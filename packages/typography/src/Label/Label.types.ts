@@ -1,4 +1,4 @@
-import { PolymorphicAs, PolymorphicProps } from '@leafygreen-ui/polymorphic';
+import { PolymorphicAs, PolymorphicProps } from '@azublue-ui/polymorphic';
 
 import { ResponsiveTypographyProps } from '../types';
 

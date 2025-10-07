@@ -13,27 +13,27 @@ import React, {
 } from 'react';
 import isUndefined from 'lodash/isUndefined';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 import {
   useAutoScroll,
   useBackdropClick,
   useControlledValue,
   useDynamicRefs,
   useForwardedRef,
-} from '@leafygreen-ui/hooks';
-import MagnifyingGlass from '@leafygreen-ui/icon/dist/MagnifyingGlass';
-import XIcon from '@leafygreen-ui/icon/dist/XWithCircle';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+} from '@azublue-ui/hooks';
+import MagnifyingGlass from '@azublue-ui/icon/dist/MagnifyingGlass';
+import XIcon from '@azublue-ui/icon/dist/XWithCircle';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 import {
   createSyntheticEvent,
   getNodeTextContent,
   isComponentType,
   keyMap,
-} from '@leafygreen-ui/lib';
-import { Size } from '@leafygreen-ui/tokens';
+} from '@azublue-ui/lib';
+import { Size } from '@azublue-ui/tokens';
 
 import { SearchInputContextProvider } from '../SearchInputContext';
 import { SearchResultProps } from '../SearchResult';
@@ -364,7 +364,7 @@ export const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>(
     });
 
     return (
-      <LeafyGreenProvider darkMode={darkMode}>
+      <AzuBlueProvider darkMode={darkMode}>
         <SearchInputContextProvider
           state={state}
           highlight={highlightIndex}
@@ -442,7 +442,7 @@ export const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>(
             )}
           </form>
         </SearchInputContextProvider>
-      </LeafyGreenProvider>
+      </AzuBlueProvider>
     );
   },
 );

@@ -1,5 +1,5 @@
 {
-  "name": "@lg-tools/eslint-plugin",
+  "name": "@az-tools/eslint-plugin",
   "version": "0.1.0",
   "description": "ESLint Rules for LeafyGreen",
   "keywords": [
@@ -24,8 +24,8 @@
   },
   "scripts": {
     "prebuild": "npx ts-node ./scripts/buildRulesIndex.ts",
-    "build": "lg-build bundle",
-    "tsc": "lg-build tsc",
+    "build": "az-build bundle",
+    "tsc": "az-build tsc",
     "docs": "eslint-doc-generator",
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
@@ -40,8 +40,8 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^",
-    "@lg-tools/test": "workspace:^",
+    "@az-tools/build": "workspace:^",
+    "@az-tools/test": "workspace:^",
     "@types/eslint": "9.6.1",
     "@typescript-eslint/rule-tester": "8.44.0",
     "commander": "^11.0.0",

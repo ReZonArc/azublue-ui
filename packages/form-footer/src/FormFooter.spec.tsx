@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
-import Icon from '@leafygreen-ui/icon';
-import XIcon from '@leafygreen-ui/icon/dist/X';
+import Icon from '@azublue-ui/icon';
+import XIcon from '@azublue-ui/icon/dist/X';
 
 import FormFooter from './FormFooter';
 import { FormFooterProps } from './FormFooter.types';

@@ -9,10 +9,10 @@ import {
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import Button from '@leafygreen-ui/button';
-import { Optional } from '@leafygreen-ui/lib';
-import { RenderMode } from '@leafygreen-ui/popover';
-import { waitForTransition } from '@leafygreen-ui/testing-lib';
+import Button from '@azublue-ui/button';
+import { Optional } from '@azublue-ui/lib';
+import { RenderMode } from '@azublue-ui/popover';
+import { waitForTransition } from '@azublue-ui/testing-lib';
 
 import { MenuProps } from './Menu';
 import { getLgIds } from './utils';

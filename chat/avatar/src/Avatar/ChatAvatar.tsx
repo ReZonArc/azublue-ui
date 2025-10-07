@@ -1,10 +1,10 @@
 import React, { ForwardedRef, forwardRef } from 'react';
-import { useLeafyGreenChatContext } from '@lg-chat/leafygreen-chat-provider';
+import { useLeafyGreenChatContext } from '@az-chat/leafygreen-chat-provider';
 
-import { Avatar, Format, getInitials } from '@leafygreen-ui/avatar';
-import { cx } from '@leafygreen-ui/emotion';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { breakpoints } from '@leafygreen-ui/tokens';
+import { Avatar, Format, getInitials } from '@azublue-ui/avatar';
+import { cx } from '@azublue-ui/emotion';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { breakpoints } from '@azublue-ui/tokens';
 
 import {
   iconAvatarStyleOverrides,
@@ -46,7 +46,7 @@ export const getFormat = (
 };
 
 /**
- * @deprecated Use `Avatar` from `@leafygreen-ui/avatar` instead.
+ * @deprecated Use `Avatar` from `@azublue-ui/avatar` instead.
  */
 export const ChatAvatar = forwardRef(
   (

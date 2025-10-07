@@ -12,8 +12,8 @@ import { axe } from 'jest-axe';
 import flatten from 'lodash/flatten';
 import isUndefined from 'lodash/isUndefined';
 
-import { RenderMode } from '@leafygreen-ui/popover';
-import { eventContainingTargetValue } from '@leafygreen-ui/testing-lib';
+import { RenderMode } from '@azublue-ui/popover';
+import { eventContainingTargetValue } from '@azublue-ui/testing-lib';
 
 import { OptionObject } from '../ComboboxOption/ComboboxOption.types';
 import {

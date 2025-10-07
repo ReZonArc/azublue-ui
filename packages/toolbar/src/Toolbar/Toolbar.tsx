@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import {
   DescendantsProvider,
   useInitDescendants,
-} from '@leafygreen-ui/descendants';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import { keyMap } from '@leafygreen-ui/lib';
+} from '@azublue-ui/descendants';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import { keyMap } from '@azublue-ui/lib';
 
 import { ToolbarContextProvider, ToolbarDescendantsContext } from '../Context';
 import { DEFAULT_LGID_ROOT, getLgIds } from '../utils';

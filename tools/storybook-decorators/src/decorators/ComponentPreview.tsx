@@ -1,9 +1,9 @@
 import React from 'react';
 import { Decorator, StoryContext, StoryFn } from '@storybook/react';
 
-import { css, cx } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { palette } from '@leafygreen-ui/palette';
+import { css, cx } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { palette } from '@azublue-ui/palette';
 
 import { isGeneratedStory } from './PropCombinations';
 
@@ -23,7 +23,7 @@ const decorator: Decorator = (StoryFn: StoryFn, context: StoryContext<any>) => {
   const { darkMode, baseFontSize } = context.args;
 
   return (
-    <LeafyGreenProvider darkMode={darkMode} baseFontSize={baseFontSize}>
+    <AzuBlueProvider darkMode={darkMode} baseFontSize={baseFontSize}>
       <div
         className={cx(
           {
@@ -35,7 +35,7 @@ const decorator: Decorator = (StoryFn: StoryFn, context: StoryContext<any>) => {
       >
         <StoryFn darkMode={darkMode} {...context} />
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 };
 

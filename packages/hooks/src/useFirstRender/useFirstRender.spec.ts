@@ -1,4 +1,4 @@
-import { renderHook } from '@leafygreen-ui/testing-lib';
+import { renderHook } from '@azublue-ui/testing-lib';
 
 import { useFirstRender } from '.';
 

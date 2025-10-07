@@ -3,23 +3,23 @@ import {
   storybookArgTypes,
   storybookExcludedControlParams,
   StoryMetaType,
-} from '@lg-tools/storybook-utils';
+} from '@az-tools/storybook-utils';
 import { StoryFn } from '@storybook/react';
 
-import Button from '@leafygreen-ui/button';
-import { css } from '@leafygreen-ui/emotion';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
-import { DarkModeProps } from '@leafygreen-ui/lib';
+import Button from '@azublue-ui/button';
+import { css } from '@azublue-ui/emotion';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
+import { DarkModeProps } from '@azublue-ui/lib';
 
 import { Cell, HeaderCell } from '../Cell';
 import { HeaderRow, Row } from '../Row';
 import Table from '../Table/Table';
 import TableBody from '../TableBody/TableBody';
 import TableHead from '../TableHead/TableHead';
-import useLeafyGreenTable, {
+import useAzuBlueTable, {
   LeafyGreenTableCell,
   LeafyGreenTableRow,
-} from '../useLeafyGreenTable';
+} from '../useAzuBlueTable';
 import { makeData, Person } from '../utils/makeData.testutils';
 import { AnyDict } from '../utils/types';
 import {
@@ -97,7 +97,7 @@ const meta: StoryMetaType<typeof Row> = {
       ],
       decorator: (Instance, ctx) => {
         return (
-          <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+          <AzuBlueProvider darkMode={ctx?.args.darkMode}>
             <Table
               shouldTruncate={ctx?.args.shouldTruncate}
               verticalAlignment={ctx?.args.verticalAlignment}
@@ -109,7 +109,7 @@ const meta: StoryMetaType<typeof Row> = {
                 ))}
               </TableBody>
             </Table>
-          </LeafyGreenProvider>
+          </AzuBlueProvider>
         );
       },
     },
@@ -193,7 +193,7 @@ export const DisabledNestedRows: StoryFn<typeof Row> = ({ row, ...rest }) => {
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
     state: {
@@ -319,7 +319,7 @@ export const DisabledSelectableRows: StoryFn<
     [],
   );
 
-  const table = useLeafyGreenTable<Person>({
+  const table = useAzuBlueTable<Person>({
     data,
     columns,
     state: {

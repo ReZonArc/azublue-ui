@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 
-import { BaseFontSize, Chip, Variant } from '@leafygreen-ui/chip';
-import { cx } from '@leafygreen-ui/emotion';
-import { useForwardedRef } from '@leafygreen-ui/hooks';
-import { keyMap } from '@leafygreen-ui/lib';
+import { BaseFontSize, Chip, Variant } from '@azublue-ui/chip';
+import { cx } from '@azublue-ui/emotion';
+import { useForwardedRef } from '@azublue-ui/hooks';
+import { keyMap } from '@azublue-ui/lib';
 
 import { ComboboxContext } from '../ComboboxContext';
 import { Overflow, TruncationLocation } from '../types';

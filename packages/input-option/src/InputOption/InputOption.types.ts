@@ -1,6 +1,6 @@
-import { AriaLabelPropsWithChildren } from '@leafygreen-ui/a11y';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { PolymorphicAs, PolymorphicProps } from '@leafygreen-ui/polymorphic';
+import { AriaLabelPropsWithChildren } from '@azublue-ui/a11y';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { PolymorphicAs, PolymorphicProps } from '@azublue-ui/polymorphic';
 
 /**
  * TERMINOLOGY

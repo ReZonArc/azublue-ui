@@ -1,15 +1,15 @@
 import React, { forwardRef } from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
+import { cx } from '@azublue-ui/emotion';
 import {
   PopoverProvider,
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 import Popover, {
   DismissMode,
   PopoverProps,
   RenderMode,
-} from '@leafygreen-ui/popover';
+} from '@azublue-ui/popover';
 
 import { menuStyles } from './MenuWrapper.styles';
 

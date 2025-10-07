@@ -5,7 +5,7 @@
 * @checksum 60b361f5d943c43ba4d2a55de4f99347
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface MagnifyingGlassProps extends LGGlyph.ComponentProps {}

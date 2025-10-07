@@ -1,11 +1,11 @@
 import { ReactElement, ReactNode } from 'react';
 
-import { LgIdProps } from '@leafygreen-ui/lib';
+import { LgIdProps } from '@azublue-ui/lib';
 import {
   InferredPolymorphicPropsWithRef,
   PolymorphicAs,
-} from '@leafygreen-ui/polymorphic';
-import { PopoverProps } from '@leafygreen-ui/popover';
+} from '@azublue-ui/polymorphic';
+import { PopoverProps } from '@azublue-ui/popover';
 
 import { type SubMenuProps } from '../SubMenu/';
 

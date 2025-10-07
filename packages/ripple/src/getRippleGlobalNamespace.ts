@@ -1,7 +1,7 @@
 import { Options } from './utils';
 
 export interface ModuleType {
-  '@leafygreen-ui/ripple': {
+  '@azublue-ui/ripple': {
     registeredRippleElements: WeakMap<HTMLElement, Options>;
     setRippleListener: boolean;
   };
@@ -34,10 +34,10 @@ export function getRippleGlobalNamespace() {
 
   (window as SetWindow).__LEAFYGREEN_UTILS__ ??= { modules: {} };
 
-  (window as LGWindow).__LEAFYGREEN_UTILS__.modules['@leafygreen-ui/ripple'] =
+  (window as LGWindow).__LEAFYGREEN_UTILS__.modules['@azublue-ui/ripple'] =
     defaultRippleParams;
 
   return (window as LGWindow).__LEAFYGREEN_UTILS__.modules[
-    '@leafygreen-ui/ripple'
+    '@azublue-ui/ripple'
   ];
 }

@@ -1,6 +1,6 @@
 import last from 'lodash/last';
 
-import { truncateStart } from '@leafygreen-ui/lib';
+import { truncateStart } from '@azublue-ui/lib';
 
 import { charsPerSegment } from '../../../../../constants';
 import { DateSegment, DateSegmentValue } from '../../../../../types';

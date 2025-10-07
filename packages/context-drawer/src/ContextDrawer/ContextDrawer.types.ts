@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler, ReactElement } from 'react';
 
-import { DarkModeProps, LgIdProps } from '@leafygreen-ui/lib';
+import { DarkModeProps, LgIdProps } from '@azublue-ui/lib';
 
 export interface ContextDrawerProps
   extends DarkModeProps,

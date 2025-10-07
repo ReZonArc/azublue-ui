@@ -1,8 +1,8 @@
 import React from 'react';
-import { type StoryMetaType } from '@lg-tools/storybook-utils';
+import { type StoryMetaType } from '@az-tools/storybook-utils';
 
-import { css } from '@leafygreen-ui/emotion';
-import { BaseFontSize } from '@leafygreen-ui/tokens';
+import { css } from '@azublue-ui/emotion';
+import { BaseFontSize } from '@azublue-ui/tokens';
 
 import InlineKeyCode from './InlineKeyCode';
 import { InlineKeyCodeProps } from './InlineKeyCode.types';

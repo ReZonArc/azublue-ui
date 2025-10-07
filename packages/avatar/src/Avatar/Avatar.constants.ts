@@ -1,6 +1,6 @@
-import { Theme } from '@leafygreen-ui/lib';
-import { palette } from '@leafygreen-ui/palette';
-import { spacing, Type as ColorType } from '@leafygreen-ui/tokens';
+import { Theme } from '@azublue-ui/lib';
+import { palette } from '@azublue-ui/palette';
+import { spacing, Type as ColorType } from '@azublue-ui/tokens';
 
 import { AvatarSize } from './Avatar.types';
 

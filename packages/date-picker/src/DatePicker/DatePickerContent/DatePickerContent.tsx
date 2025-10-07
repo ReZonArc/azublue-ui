@@ -6,13 +6,13 @@ import React, {
 } from 'react';
 import isEqual from 'lodash/isEqual';
 
-import { isSameUTCDay } from '@leafygreen-ui/date-utils';
+import { isSameUTCDay } from '@azublue-ui/date-utils';
 import {
   useBackdropClick,
   useForwardedRef,
   usePrevious,
-} from '@leafygreen-ui/hooks';
-import { keyMap, pickAndOmit } from '@leafygreen-ui/lib';
+} from '@azublue-ui/hooks';
+import { keyMap, pickAndOmit } from '@azublue-ui/lib';
 
 import {
   ModifiedPopoverPropkeys,

@@ -1,8 +1,8 @@
-import { AriaLabelPropsWithLabel } from '@leafygreen-ui/a11y';
-import { LocaleString } from '@leafygreen-ui/date-utils';
-import { DarkModeProps } from '@leafygreen-ui/lib';
-import { PopoverProps } from '@leafygreen-ui/popover';
-import { BaseFontSize, Size } from '@leafygreen-ui/tokens';
+import { AriaLabelPropsWithLabel } from '@azublue-ui/a11y';
+import { LocaleString } from '@azublue-ui/date-utils';
+import { DarkModeProps } from '@azublue-ui/lib';
+import { PopoverProps } from '@azublue-ui/popover';
+import { BaseFontSize, Size } from '@azublue-ui/tokens';
 
 import { AutoComplete, DatePickerState } from './types';
 
@@ -64,7 +64,7 @@ export type BaseDatePickerProps = {
   max?: Date;
 
   /**
-   * The base font size of the input. Inherits from the nearest LeafyGreenProvider
+   * The base font size of the input. Inherits from the nearest AzuBlueProvider
    */
   baseFontSize?: BaseFontSize;
 

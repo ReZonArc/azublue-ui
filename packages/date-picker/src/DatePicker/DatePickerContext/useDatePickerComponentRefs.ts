@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import { useDynamicRefs } from '@leafygreen-ui/hooks';
+import { useDynamicRefs } from '@azublue-ui/hooks';
 
 import { useSegmentRefs } from '../../shared/hooks';
 

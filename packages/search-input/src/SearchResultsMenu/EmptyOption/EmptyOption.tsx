@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { InputOption } from '@leafygreen-ui/input-option';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { InputOption } from '@azublue-ui/input-option';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
 
 import {
   emptyOptionStyles,

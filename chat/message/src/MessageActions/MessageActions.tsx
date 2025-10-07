@@ -9,17 +9,17 @@ import React, {
 import {
   useLeafyGreenChatContext,
   Variant,
-} from '@lg-chat/leafygreen-chat-provider';
-import { FormState, InlineMessageFeedback } from '@lg-chat/message-feedback';
-import { MessageRating, MessageRatingValue } from '@lg-chat/message-rating';
+} from '@az-chat/leafygreen-chat-provider';
+import { FormState, InlineMessageFeedback } from '@az-chat/message-feedback';
+import { MessageRating, MessageRatingValue } from '@az-chat/message-rating';
 
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import CopyIcon from '@leafygreen-ui/icon/dist/Copy';
-import RefreshIcon from '@leafygreen-ui/icon/dist/Refresh';
-import IconButton from '@leafygreen-ui/icon-button';
-import LeafyGreenProvider, {
+import CheckmarkIcon from '@azublue-ui/icon/dist/Checkmark';
+import CopyIcon from '@azublue-ui/icon/dist/Copy';
+import RefreshIcon from '@azublue-ui/icon/dist/Refresh';
+import IconButton from '@azublue-ui/icon-button';
+import AzuBlueProvider, {
   useDarkMode,
-} from '@leafygreen-ui/leafygreen-provider';
+} from '@azublue-ui/leafygreen-provider';
 
 import { useMessageContext } from '../MessageContext';
 
@@ -181,7 +181,7 @@ export function MessageActions({
   }
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div
         className={getContainerStyles({
           className,
@@ -234,7 +234,7 @@ export function MessageActions({
           />
         )}
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

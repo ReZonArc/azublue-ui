@@ -1,20 +1,20 @@
 import React from 'react';
 import range from 'lodash/range';
 
-import { cx } from '@leafygreen-ui/emotion';
-import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronLeft from '@leafygreen-ui/icon/dist/ChevronLeft';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
-import IconButton from '@leafygreen-ui/icon-button';
-import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import { cx } from '@azublue-ui/emotion';
+import { useIdAllocator } from '@azublue-ui/hooks';
+import ChevronLeft from '@azublue-ui/icon/dist/ChevronLeft';
+import ChevronRight from '@azublue-ui/icon/dist/ChevronRight';
+import IconButton from '@azublue-ui/icon-button';
+import { useDarkMode } from '@azublue-ui/leafygreen-provider';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 import {
   DropdownWidthBasis,
   Option,
   RenderMode,
   Select,
-} from '@leafygreen-ui/select';
-import { Body } from '@leafygreen-ui/typography';
+} from '@azublue-ui/select';
+import { Body } from '@azublue-ui/typography';
 
 import { baseStyles, flexSectionStyles } from './Pagination.styles';
 import { PaginationProps } from './Pagination.types';
@@ -79,7 +79,7 @@ function Pagination<T extends number>({
   }
 
   return (
-    <LeafyGreenProvider darkMode={darkMode}>
+    <AzuBlueProvider darkMode={darkMode}>
       <div className={cx(baseStyles, className)} {...rest}>
         <div className={flexSectionStyles}>
           {onItemsPerPageOptionChange !== undefined && (
@@ -168,7 +168,7 @@ function Pagination<T extends number>({
           </IconButton>
         </div>
       </div>
-    </LeafyGreenProvider>
+    </AzuBlueProvider>
   );
 }
 

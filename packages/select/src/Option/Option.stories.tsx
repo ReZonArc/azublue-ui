@@ -1,8 +1,8 @@
 import React from 'react';
-import { StoryMetaType, StoryType } from '@lg-tools/storybook-utils';
+import { StoryMetaType, StoryType } from '@az-tools/storybook-utils';
 
-import Icon from '@leafygreen-ui/icon';
-import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
+import Icon from '@azublue-ui/icon';
+import AzuBlueProvider from '@azublue-ui/leafygreen-provider';
 
 import SelectContext from '../SelectContext';
 
@@ -25,7 +25,7 @@ const meta: StoryMetaType<typeof InternalOption> = {
         children: 'Option',
       },
       decorator: (Instance, ctx) => (
-        <LeafyGreenProvider darkMode={ctx?.args.darkMode}>
+        <AzuBlueProvider darkMode={ctx?.args.darkMode}>
           <SelectContext.Provider
             value={{
               size: ctx?.args.size,
@@ -35,7 +35,7 @@ const meta: StoryMetaType<typeof InternalOption> = {
           >
             <Instance />
           </SelectContext.Provider>
-        </LeafyGreenProvider>
+        </AzuBlueProvider>
       ),
     },
   },

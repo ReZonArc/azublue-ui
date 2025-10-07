@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import Button from '@leafygreen-ui/button';
-import { Theme } from '@leafygreen-ui/lib';
-import { Link } from '@leafygreen-ui/typography';
+import Button from '@azublue-ui/button';
+import { Theme } from '@azublue-ui/lib';
+import { Link } from '@azublue-ui/typography';
 
 import { graphics } from '../example-graphics';
 

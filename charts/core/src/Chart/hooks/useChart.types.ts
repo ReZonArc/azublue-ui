@@ -1,6 +1,6 @@
 import { RefCallback } from 'react';
 
-import { Theme } from '@leafygreen-ui/lib';
+import { Theme } from '@azublue-ui/lib';
 
 import type { EChartsInstance, EChartZoomSelectionEvent } from '../../Echart';
 import { ChartStates } from '../Chart.types';

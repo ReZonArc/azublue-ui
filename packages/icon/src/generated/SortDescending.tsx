@@ -5,7 +5,7 @@
 * @checksum 77ca38381a8dfb3d248f686f85aae34c
 */
 import * as React from "react";
-import { css, cx } from '@leafygreen-ui/emotion';
+import { css, cx } from '@azublue-ui/emotion';
 import { generateAccessibleProps, sizeMap } from '../glyphCommon';
 import { LGGlyph } from '../types';
 export interface SortDescendingProps extends LGGlyph.ComponentProps {}

@@ -4,7 +4,7 @@
 
 import * as React from 'react';
 
-import { consoleOnce } from '@leafygreen-ui/lib';
+import { consoleOnce } from '@azublue-ui/lib';
 
 export interface UseDynamicRefsArgs {
   prefix?: string;
