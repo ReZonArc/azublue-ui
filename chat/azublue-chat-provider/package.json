@@ -1,7 +1,7 @@
 {
-  "name": "@lg-chat/leafygreen-chat-provider",
+  "name": "@az-chat/azublue-chat-provider",
   "version": "5.0.2",
-  "description": "lg-chat LeafyGreen Chat Context",
+  "description": "az-chat AzuBlue Chat Context",
   "main": "./dist/umd/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -17,7 +17,7 @@
     "use-resize-observer": "^9.1.0"
   },
   "devDependencies": {
-    "@lg-tools/build": "workspace:^"
+    "@az-tools/build": "workspace:^"
   },
   "exports": {
     ".": {

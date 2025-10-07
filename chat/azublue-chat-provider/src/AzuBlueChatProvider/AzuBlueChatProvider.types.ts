@@ -15,7 +15,7 @@ export const Variant = {
 } as const;
 export type Variant = (typeof Variant)[keyof typeof Variant];
 
-export interface LeafyGreenChatContextProps {
+export interface AzuBlueChatContextProps {
   /**
    * The name of the AI assistant that will be displayed when AI sends messages to users
    */
@@ -38,6 +38,6 @@ export interface LeafyGreenChatContextProps {
   variant: Variant;
 }
 
-export type LeafyGreenChatProviderProps = PropsWithChildren<
-  Partial<Pick<LeafyGreenChatContextProps, 'assistantName' | 'variant'>>
+export type AzuBlueChatProviderProps = PropsWithChildren<
+  Partial<Pick<AzuBlueChatContextProps, 'assistantName' | 'variant'>>
 >;

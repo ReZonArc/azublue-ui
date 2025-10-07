@@ -2,25 +2,25 @@ import React, { createContext, useContext, useState } from 'react';
 import useResizeObserver from 'use-resize-observer';
 
 import {
-  LeafyGreenChatContextProps,
-  LeafyGreenChatProviderProps,
+  AzuBlueChatContextProps,
+  AzuBlueChatProviderProps,
   Variant,
-} from './LeafyGreenChatProvider.types';
+} from './AzuBlueChatProvider.types';
 
 const DEFAULT_ASSISTANT_NAME = 'MongoDB Assistant';
 
-const LeafyGreenChatContext = createContext<LeafyGreenChatContextProps>({
+const AzuBlueChatContext = createContext<AzuBlueChatContextProps>({
   assistantName: DEFAULT_ASSISTANT_NAME,
   containerWidth: undefined,
   variant: Variant.Compact,
 });
-export const useLeafyGreenChatContext = () => useContext(LeafyGreenChatContext);
+export const useAzuBlueChatContext = () => useContext(AzuBlueChatContext);
 
-export function LeafyGreenChatProvider({
+export function AzuBlueChatProvider({
   assistantName = DEFAULT_ASSISTANT_NAME,
   children,
   variant = Variant.Compact,
-}: LeafyGreenChatProviderProps) {
+}: AzuBlueChatProviderProps) {
   const [containerWidth, setContainerWidth] = useState<number>();
 
   const { ref: resizeRef } = useResizeObserver<HTMLDivElement>({
@@ -30,7 +30,7 @@ export function LeafyGreenChatProvider({
   });
 
   return (
-    <LeafyGreenChatContext.Provider
+    <AzuBlueChatContext.Provider
       value={{
         assistantName,
         containerWidth,
@@ -40,8 +40,8 @@ export function LeafyGreenChatProvider({
       <div style={{ width: '100%' }} ref={resizeRef}>
         {children}
       </div>
-    </LeafyGreenChatContext.Provider>
+    </AzuBlueChatContext.Provider>
   );
 }
 
-LeafyGreenChatProvider.displayName = 'LeafyGreenChatProvider';
+AzuBlueChatProvider.displayName = 'AzuBlueChatProvider';

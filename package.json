@@ -1,7 +1,7 @@
 {
-  "name": "leafygreen-ui",
+  "name": "azublue-ui",
   "version": "0.0.0",
-  "description": "leafyGreen UI Kit",
+  "description": "AzuBlue UI Kit",
   "license": "Apache-2.0",
   "private": true,
   "engines": {
@@ -86,10 +86,10 @@
   },
   "lg": {
     "scopes": {
-      "@leafygreen-ui": "packages",
-      "@lg-charts": "charts",
-      "@lg-chat": "chat",
-      "@lg-tools": "tools"
+      "@azublue-ui": "packages",
+      "@az-charts": "charts",
+      "@az-chat": "chat",
+      "@az-tools": "tools"
     }
   },
   "keywords": [
@@ -99,14 +99,14 @@
     "components",
     "react",
     "uikit",
-    "leafygreen"
+    "azublue"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mongodb/leafygreen-ui.git"
+    "url": "https://github.com/ReZonArc/azublue-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/mongodb/leafygreen-ui/issues"
+    "url": "https://github.com/ReZonArc/azublue-ui/issues"
   },
   "packageManager": "pnpm@9.15.0",
   "typesVersions": {}

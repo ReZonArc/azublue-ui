@@ -2,13 +2,13 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 
 import {
-  LeafyGreenChatProvider,
-  useLeafyGreenChatContext,
-} from './LeafyGreenChatProvider';
-import { Variant } from './LeafyGreenChatProvider.types';
+  AzuBlueChatProvider,
+  useAzuBlueChatContext,
+} from './AzuBlueChatProvider';
+import { Variant } from './AzuBlueChatProvider.types';
 
 const TestComponent = () => {
-  const { variant, assistantName } = useLeafyGreenChatContext();
+  const { variant, assistantName } = useAzuBlueChatContext();
   return (
     <div>
       <div data-testid="test-variant">{variant}</div>
@@ -17,7 +17,7 @@ const TestComponent = () => {
   );
 };
 
-describe('LeafyGreenChatProvider', () => {
+describe('AzuBlueChatProvider', () => {
   beforeAll(() => {
     global.ResizeObserver = jest.fn().mockImplementation(() => ({
       observe: jest.fn(),
@@ -28,9 +28,9 @@ describe('LeafyGreenChatProvider', () => {
 
   test('provides the default variant and assistantName to the context', () => {
     render(
-      <LeafyGreenChatProvider>
+      <AzuBlueChatProvider>
         <TestComponent />
-      </LeafyGreenChatProvider>,
+      </AzuBlueChatProvider>,
     );
 
     const testVariant = screen.getByTestId('test-variant');
@@ -41,12 +41,12 @@ describe('LeafyGreenChatProvider', () => {
 
   test('provides the specified variant and assistantName to the context', () => {
     render(
-      <LeafyGreenChatProvider
+      <AzuBlueChatProvider
         variant={Variant.Spacious}
         assistantName="Custom Assistant"
       >
         <TestComponent />
-      </LeafyGreenChatProvider>,
+      </AzuBlueChatProvider>,
     );
 
     const testVariant = screen.getByTestId('test-variant');
@@ -57,9 +57,9 @@ describe('LeafyGreenChatProvider', () => {
 
   test('allows overriding only the assistantName', () => {
     render(
-      <LeafyGreenChatProvider assistantName="Custom Assistant">
+      <AzuBlueChatProvider assistantName="Custom Assistant">
         <TestComponent />
-      </LeafyGreenChatProvider>,
+      </AzuBlueChatProvider>,
     );
 
     const testVariant = screen.getByTestId('test-variant');
