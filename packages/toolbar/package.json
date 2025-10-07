@@ -19,9 +19,9 @@
     }
   },
   "scripts": {
-    "build": "az-build bundle",
-    "tsc": "az-build tsc",
-    "docs": "az-build docs"
+    "build": "lg-build bundle",
+    "tsc": "lg-build tsc",
+    "docs": "lg-build docs"
   },
   "license": "Apache-2.0",
   "publishConfig": {

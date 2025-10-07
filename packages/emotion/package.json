@@ -7,9 +7,9 @@
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "prebuild": "ts-node scripts/prebuild.ts",
-    "build": "az-build bundle",
-    "tsc": "az-build tsc",
-    "docs": "az-build docs"
+    "build": "lg-build bundle",
+    "tsc": "lg-build tsc",
+    "docs": "lg-build docs"
   },
   "keywords": [],
   "license": "Apache-2.0",

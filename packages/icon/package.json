@@ -26,8 +26,8 @@
   "scripts": {
     "prebuild": "ts-node ./scripts/prebuild/index.ts",
     "build": "ts-node ./scripts/build/build.ts",
-    "tsc": "az-build tsc",
-    "docs": "az-build docs"
+    "tsc": "lg-build tsc",
+    "docs": "lg-build docs"
   },
   "license": "Apache-2.0",
   "publishConfig": {

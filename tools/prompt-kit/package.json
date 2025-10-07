@@ -6,8 +6,8 @@
   "module": "./dist/esm/index.js",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "az-build bundle",
-    "tsc": "az-build tsc"
+    "build": "lg-build bundle",
+    "tsc": "lg-build tsc"
   },
   "publishConfig": {
     "access": "public"

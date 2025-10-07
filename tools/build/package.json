@@ -1,14 +1,14 @@
 {
   "name": "@az-tools/build",
   "version": "0.8.3",
-  "description": "Build config for LeafyGreen repositories",
+  "description": "Build config for AzuBlue repositories",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
   "bin": {
     "lg-internal-build-package": "./bin/build-package.js",
-    "az-build": "./bin/build.js",
+    "lg-build": "./bin/build.js",
     "lg-ts-downlevel": "./bin/ts-downlevel.js"
   },
   "main": "./dist/umd/index.js",

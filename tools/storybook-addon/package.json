@@ -46,8 +46,8 @@
     "preset.js"
   ],
   "scripts": {
-    "build": "az-build bundle",
-    "tsc": "az-build tsc",
+    "build": "lg-build bundle",
+    "tsc": "lg-build tsc",
     "upgrade": "npx storybook@latest upgrade --config-dir ."
   },
   "publishConfig": {

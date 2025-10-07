@@ -13,8 +13,8 @@
     "az": "./bin/index.js"
   },
   "scripts": {
-    "build": "az-build bundle",
-    "tsc": "az-build tsc"
+    "build": "lg-build bundle",
+    "tsc": "lg-build tsc"
   },
   "dependencies": {
     "@az-tools/build": "workspace:^",
